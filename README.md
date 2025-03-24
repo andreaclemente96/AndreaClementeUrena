@@ -146,7 +146,71 @@
       </ul>
     </div>
   </section>
+<section>
+  <h2>🎓 Formación académica</h2>
+  <ul>
+    <li>📘 **Doctorado en Automática y Robótica** (2024 - actualidad) - Universidad Politécnica de Madrid – INIA-CSIC</li>
+    <li>📊 **Máster en Bioinformática y Bioestadística** (2022 - 2024) - Universitat Oberta de Catalunya / Universitat de Barcelona</li>
+    <li>🧬 **Grado en Biología** (2016 - 2021) - Universidad Autónoma de Madrid</li>
+    <li>🔬 **Técnico Superior en Anatomía Patológica y Citología** (2014 - 2016) - CESUR II</li>
+  </ul>
+</section>
 
+<section>
+  <h2>🛠️ Tecnologías y herramientas</h2>
+  <table>
+    <tr>
+      <td><strong>Lenguajes</strong></td>
+      <td>Python • R • SQL • BASH • HTML/CSS</td>
+    </tr>
+    <tr>
+      <td><strong>Ciencia & Bioinfo</strong></td>
+      <td>Bioconductor • SPSS • Galaxy • Novopath • Inferencia estadística</td>
+    </tr>
+    <tr>
+      <td><strong>IA / Visión</strong></td>
+      <td>OpenCV • PyTorch • TensorFlow • Scikit-learn • Visión 3D</td>
+    </tr>
+    <tr>
+      <td><strong>Robótica</strong></td>
+      <td>Sensores RGB • Sensores Multiespectrales • Sensores LiDAR/ToF • HoloLens 2</td>
+    </tr>
+    <tr>
+      <td><strong>Entornos</strong></td>
+      <td>Linux • VS Code • Git • Office</td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>📚 Experiencia profesional</h2>
+  <ul>
+    <li>🔬 **Investigadora Predoctoral** | INIA-CSIC (2024 - actualidad)  
+      Fenotipado automatizado de cultivos con robótica y visión computacional. Diseño experimental y análisis de datos fenotípicos.</li>
+    <li>🧫 **Técnico de Anatomía Patológica** | HM Hospitales (2016)  
+      Procesamiento y análisis de muestras biológicas y técnicas histológicas.</li>
+    <li>📞 **Teleoperadora Comercial** | My Assessor Total (2021)  
+      Primer contacto con el mundo laboral. Aprender como funciona el empleo fuera del ámbito científico.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>🌐 Idiomas</h2>
+  <ul>
+    <li>🇪🇸 Español: Nativo</li>
+    <li>🇬🇧 Inglés: Nivel C (APTIS - British Council)</li>
+    <li>🇫🇷 Francés: Nivel A2 (DELF)</li>
+  </ul>
+</section>
+
+<section>
+  <h2>📫 Contacto</h2>
+  <ul>
+    <li>✉️ Email: <a href="mailto:andeande.ac@gmail.com">andeande.ac@gmail.com</a></li>
+    <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/andreaclementeure%C3%B1a/" target="_blank">https://www.linkedin.com/in/andreaclementeure%C3%B1a/</a></li>
+    <li>💻 GitHub: <a href="https://github.com/andyacment" target="_blank">https://github.com/andyacment</a></li>
+  </ul>
+</section>
   <footer>
     <p>_"La IA no es el enemigo, es la lupa que amplifica lo que la ciencia aún no alcanza."_ 🤖🔬🌍</p>
   </footer>
