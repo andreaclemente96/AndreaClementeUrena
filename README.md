@@ -105,5 +105,5 @@ Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desa
 - 💻 GitHub: https://github.com/andreaclemente96
 
 ---
-## <p align="center">  _"La IA no es el enemigo, es la lupa que amplifica lo que la ciencia aún no alcanza. "_ 🤖🔬🌍 </p>
+##  _"La IA no es el enemigo, es la lupa que amplifica lo que la ciencia aún no alcanza. "_ 🤖🔬🌍
 Andrea Clemente Ureña
