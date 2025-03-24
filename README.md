@@ -87,7 +87,8 @@ Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desa
   - Procesamiento y análisis de muestras biológicas y técnicas histológicas.
 
 - 📞 **Teleoperadora Comercial** | My Assessor Total (2021)
-  - Primer contacto con el mundo laboral, me ayudó a comprender otros ámbitos no relacionados con la ciencia.
+  - Primer contacto con el mundo laboral. Aprender como funciona el empleo fuera del ámbito científico.
+
 ---
 
 ## 🌐 Idiomas
