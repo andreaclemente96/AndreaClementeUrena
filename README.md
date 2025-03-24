@@ -79,14 +79,14 @@ Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desa
 
 ## 📚 Experiencia profesional
 
-- 🔬 **Investigadora Predoctoral | INIA-CSIC (2024 - actualidad)**
+- 🔬 **Investigadora Predoctoral** | INIA-CSIC (2024 - actualidad)
   - Fenotipado automatizado de cultivos con robótica y visión computacional.
   - Diseño experimental y análisis de datos fenotípicos.
 
-- 🧫 **Técnico de Anatomía Patológica | HM Hospitales (2016)**
+- 🧫 **Técnico de Anatomía Patológica** | HM Hospitales (2016)
   - Procesamiento y análisis de muestras biológicas y técnicas histológicas.
 
-- 📞 **Teleoperadora Comercial | My Assessor Total (2021)**
+- 📞 **Teleoperadora Comercial** | My Assessor Total (2021)
   - Primer contacto con el mundo laboral, me ayudó a comprender otros ámbitos no relacionados con la ciencia.
 ---
 
