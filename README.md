@@ -1,174 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Andrea Clemente-Ureña</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
-        section {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px;
-        }
-        .section {
-            width: 100%;
-            margin: 10px;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        .section img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-        .section h2 {
-            font-size: 24px;
-            margin-top: 10px;
-        }
-        .section p {
-            font-size: 16px;
-            color: #333;
-        }
-        .collapse {
-            display: none;
-            padding-top: 10px;
-            font-size: 16px;
-            color: #555;
-        }
-        .section-button {
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            width: 100%;
-            cursor: pointer;
-            text-align: center;
-            border-radius: 8px;
-        }
-        .section-button:hover {
-            background-color: #45a049;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Andrea Clemente-Ureña - Portfolio</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.6;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin: 1rem 0;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .grid img {
+      max-width: 45%;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    td, th {
+      padding: 0.5rem;
+    }
+    tr:nth-child(even) {
+      background-color: #eaf0f7;
+    }
+    .center-img {
+      display: block;
+      margin: 1rem auto;
+      max-width: 400px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-style: italic;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>👩‍🔬 Andrea Clemente-Ureña</h1>
-        <p>¡Bienvenid@ a mi portfolio! Este espacio reúne mi trayectoria en biología, bioinformática, robótica y visión computacional 3D. Actualmente desarrollo herramientas avanzadas para el fenotipado de cultivos y la caracterización de estructuras vegetales, aplicando aprendizaje automático y análisis de datos.</p>
-        <p>📍 Investigadora predoctoral en la Universidad Politécnica de Madrid (UPM) y el Centro de Recursos Fitogenéticos (CRF-INIA-CSIC), dentro del proyecto **Transformación digital de las actividades de conservación y mejora vegetal**.</p>
-    </header>
 
-    <section>
-        <div class="section">
-            <button class="section-button" onclick="toggleSection('section1')">💡 Mi primer contacto con la investigación</button>
-            <div id="section1" class="collapse">
-                <p>Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la síntesis de bioplásticos a partir de la leche de vaca en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el Finde Científico, formando parte de un equipo que realizaba experimentos de química visual (cambio de color gracias a las reacciones) para la divulgación científica, diseñados para acercar la ciencia a estudiantes, niños y familias en general.</p>
-            </div>
-        </div>
+  <header>
+    <h1>👩‍🔬 Andrea Clemente-Ureña</h1>
+    <p>Bienvenid@ a mi portfolio. Aquí comparto mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>.</p>
+    <p><strong>Investigadora predoctoral</strong> en UPM y CRF-INIA-CSIC | Proyecto: Transformación digital de la conservación y mejora vegetal</p>
+  </header>
 
-        <div class="section">
-            <button class="section-button" onclick="toggleSection('section2')">🚀 Proyectos destacados</button>
-            <div id="section2" class="collapse">
-                <h2>🌱 Fenotipado de alto rendimiento</h2>
-                <p>Integración de sensores RGB, multiespectrales y LiDAR en robots autónomos. Procesamiento de datos 3D y modelos de IA para el análisis de cultivos.</p>
-                <img src="image1.jpg" alt="Fenotipado de alto rendimiento">
-                
-                <h2>🧬 Bioinformática y análisis ómico</h2>
-                <p>TFM: Identificación y caracterización de tRFs sobreexpresados en enfermedad de Huntington. DOI: 10.13140/RG.2.2.33680.32001</p>
-                <img src="image2.jpg" alt="Bioinformática y análisis ómico">
-                
-                <h2>🧪 Genética molecular y citología</h2>
-                <p>TFG: Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania. DOI: 10.13140/RG.2.2.10192.21767</p>
-                <img src="image3.jpg" alt="Genética molecular y citología">
-                
-                <h2>🧫 Histología e inmunohistoquímica</h2>
-                <p>Proyecto sobre detección inmunohistoquímica de BRCA en cáncer de mama durante el FPII.</p>
-                <img src="image4.jpg" alt="Histología e inmunohistoquímica">
-            </div>
-        </div>
+  <h2>💡 Mi primer contacto con la investigación</h2>
+  <p>En 1º de Bachillerato desarrollé un proyecto sobre la <strong>síntesis de bioplásticos a partir de leche de vaca en las asignaturas de biología y técnicas experimentales en ciencias</strong> y participé en el <strong>Finde Científico</strong> realizando experimentos de química visual para divulgación.</p>
+  
+<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+  <a href="https://github.com/user-attachments/assets/2507bf89-76fb-4903-b5fb-6aea3606fc46" target="_blank">
+    <img src="https://github.com/user-attachments/assets/2507bf89-76fb-4903-b5fb-6aea3606fc46" alt="Imagen 1" width="300">
+  </a>
+  <a href="https://github.com/user-attachments/assets/fda0a450-37c9-4553-8ba1-94f0d26d670c" target="_blank">
+    <img src="https://github.com/user-attachments/assets/fda0a450-37c9-4553-8ba1-94f0d26d670c" alt="Imagen 2" width="300">
+  </a>
+</div>
 
-        <div class="section">
-            <button class="section-button" onclick="toggleSection('section3')">🥽 Exploración con tecnologías inmersivas</button>
-            <div id="section3" class="collapse">
-                <p>Actualmente colaboro con el Centro de Automática y Robótica (CAR-CSIC-UPM), donde estoy comenzando a desarrollar soluciones con Microsoft HoloLens2, centradas en aplicaciones innovadoras dentro del entorno agrícola. (Proyecto en fase inicial)</p>
-                <img src="hololens.jpg" alt="Exploración con tecnologías inmersivas">
-            </div>
-        </div>
+  <hr>
 
-        <div class="section">
-            <button class="section-button" onclick="toggleSection('section4')">🎓 Formación académica</button>
-            <div id="section4" class="collapse">
-                <p><strong>📘 Doctorado en Automática y Robótica</strong><br>Universidad Politécnica de Madrid – INIA-CSIC (2024 - actualidad)</p>
-                <p><strong>📊 Máster en Bioinformática y Bioestadística</strong><br>Universitat Oberta de Catalunya / Universitat de Barcelona (2022 - 2024)</p>
-                <p><strong>🧬 Grado en Biología</strong><br>Universidad Autónoma de Madrid (2016 - 2021)</p>
-                <p><strong>🔬 Técnico Superior en Anatomía Patológica y Citología</strong><br>CESUR II (2014 - 2016)</p>
-            </div>
-        </div>
+  <h2>🚀 Proyectos destacados</h2>
 
-        <div class="section">
-            <button class="section-button" onclick="toggleSection('section5')">🛠️ Tecnologías y herramientas</button>
-            <div id="section5" class="collapse">
-                <ul>
-                    <li>Lenguajes: Python, R, SQL, BASH, HTML/CSS</li>
-                    <li>Ciencia & Bioinfo: Bioconductor, SPSS, Galaxy, Novopath, Inferencia estadística</li>
-                    <li>IA / Visión: OpenCV, PyTorch, TensorFlow, Scikit-learn, Visión 3D</li>
-                    <li>Robótica: Sensores RGB, Sensores Multiespectrales, Sensores LiDAR/ToF, HoloLens 2</li>
-                    <li>Entornos: Linux, VS Code, Git, Office</li>
-                </ul>
-            </div>
-        </div>
+  <h3>🌱 Fenotipado de alto rendimiento</h3>
+  <ul>
+    <li>Integración de sensores RGB, multiespectrales y LiDAR en robots autónomos.</li>
+    <li>Procesamiento de datos 3D y modelos de IA para el análisis de cultivos.</li>
+  </ul>
+  <img src="img/fenotipado.jpg" alt="Robot agrícola">
 
-        <div class="section">
-            <button class="section-button" onclick="toggleSection('section6')">📚 Experiencia profesional</button>
-            <div id="section6" class="collapse">
-                <p><strong>🔬 Investigadora Predoctoral:</strong> INIA-CSIC (2024 - actualidad)</p>
-                <p><strong>🧫 Técnico de Anatomía Patológica:</strong> HM Hospitales (2016)</p>
-                <p><strong>📞 Teleoperadora Comercial:</strong> My Assessor Total (2021)</p>
-            </div>
-        </div>
+  <h3>🧬 Bioinformática y análisis ómico</h3>
+  <p>TFM: <em>Identificación y caracterización de tRFs sobreexpresados en enfermedad de Huntington</em><br>
+    📄 DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001">10.13140/RG.2.2.33680.32001</a>
+  </p>
+  <img src="img/huntington_bioinfo.jpg" alt="Análisis ómico" class="center-img">
 
-        <div class="section">
-            <button class="section-button" onclick="toggleSection('section7')">🌐 Idiomas</button>
-            <div id="section7" class="collapse">
-                <p>🇪🇸 Español: Nativo</p>
-                <p>🇬🇧 Inglés: Nivel C (APTIS - British Council)</p>
-                <p>🇫🇷 Francés: Nivel A2 (DELF)</p>
-            </div>
-        </div>
+  <h3>🧪 Genética molecular y citología</h3>
+  <p>TFG: <em>Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania</em><br>
+    📄 DOI: <a href="https://doi.org/10.13140/RG.2.2.10192.21767">10.13140/RG.2.2.10192.21767</a><br>
+    📰 Mencionada en el <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf">Informe Científico CBMSO-CSIC 2021–2022</a>
+  </p>
+  <img src="img/leishmania.jpg" alt="Leishmania" class="center-img">
 
-        <div class="section">
-            <button class="section-button" onclick="toggleSection('section8')">📫 Contacto</button>
-            <div id="section8" class="collapse">
-                <p><strong>Email:</strong> andeande.ac@gmail.com</p>
-                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/andreaclementeure%C3%B1a/">Andrea Clemente Ureña</a></p>
-                <p><strong>GitHub:</strong> <a href="https://github.com/andreaclemente96">GitHub</a></p>
-            </div>
-        </div>
-    </section>
+  <h3>🧫 Histología e inmunohistoquímica</h3>
+  <p>Proyecto sobre detección de BRCA en cáncer de mama durante el FPII.</p>
+  <img src="img/histo_brca.jpg" alt="Histología BRCA">
 
-    <script>
-        function toggleSection(sectionId) {
-            const section = document.getElementById(sectionId);
-            section.style.display = section.style.display === "block" ? "none" : "block";
-        }
-    </script>
-</body>
-</html>
+  <h3>🥽 Tecnologías inmersivas</h3>
+  <p>Colaboración con el <strong>Centro de Automática y Robótica (CAR-CSIC-UPM)</strong> en desarrollo de aplicaciones con <strong>Microsoft HoloLens 2</strong> para agricultura. (Proyecto en fase inicial)</p>
 
----
-##  _"La IA no es el enemigo, es la lupa que amplifica lo que la ciencia aún no alcanza. "_ 🤖🔬🌍
-Andrea Clemente Ureña
+  <hr>
+
+  <h2>🎓 Formación académica</h2>
+  <ul>
+    <li><strong>Doctorado en Automática y Robótica</strong><br> UPM – INIA-CSIC (2024 - actualidad)</li>
+    <li><strong>Máster en Bioinformática y Bioestadística</strong><br> UOC / UB (2022 - 2024)</li>
+    <li><strong>Grado en Biología</strong><br> Universidad Autónoma de Madrid (2016 - 2021)</li>
+    <li><strong>Técnico Superior en Anatomía Patológica y Citología</strong><br> CESUR II (2014 - 2016)</li>
+  </ul>
+
+  <h2>🛠️ Tecnologías y herramientas</h2>
+  <table>
+    <tr><th>Lenguajes</th><td>Python • R • SQL • BASH • HTML/CSS</td></tr>
+    <tr><th>Ciencia & Bioinfo</th><td>Bioconductor • SPSS • Galaxy • Novopath • Inferencia estadística</td></tr>
+    <tr><th>IA / Visión</th><td>OpenCV • PyTorch • TensorFlow • Scikit-learn • Visión 3D</td></tr>
+    <tr><th>Robótica</th><td>RGB • Multiespectrales • LiDAR/ToF • HoloLens 2</td></tr>
+    <tr><th>Entornos</th><td>Linux • VS Code • Git • Office</td></tr>
+  </table>
+
+  <h2>📚 Experiencia profesional</h2>
+  <ul>
+    <li><strong>Investigadora Predoctoral</strong> | INIA-CSIC (2024 - actualidad)<br>
+      Fenotipado automatizado de cultivos con robótica y visión computacional. Análisis de datos fenotípicos.</li>
+    <li><strong>Técnico en Anatomía Patológica</strong> | HM Hospitales (2016)<br>
+      Procesamiento y análisis histológico de muestras biológicas.</li>
+    <li><strong>Teleoperadora Comercial</strong> | My Assessor Total (2021)<br>
+      Primer empleo fuera del mundo científico. Desarrollo de habilidades interpersonales y de comunicación.</li>
+  </ul>
+
+  <h2>🌐 Idiomas</h2>
+  <ul>
+    <li>🇪🇸 Español: Nativo</li>
+    <li>🇬🇧 Inglés: Nivel C (APTIS – British Council)</li>
+    <li>🇫🇷 Francés: Nivel A2 (DELF)</li>
+  </ul>
+
+  <h2>📫 Contacto</h2>
+  <ul>
+    <li>✉️ Email: <a href="mailto:andeande.ac@gmail.com">andeande.ac@gmail.com</a></li>
+    <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/andreaclementeure%C3%B1a/">Perfil</a></li>
+    <li>💻 GitHub: <a href="https://github.com/andreaclemente96">andreaclemente96</a></li>
+  </ul>
+
+  <footer>
+    <p>_"La IA no es el enemigo, es la lupa que amplifica lo que la ciencia aún no alcanza."_ 🤖🔬🌍</p
