@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -6,13 +5,13 @@
   <title>Andrea Clemente-Ureña - Portfolio</title>
   <style>
     :root {
-      --primary: #6C5B7B;
-      --secondary: #C06C84;
-      --accent: #F67280;
-      --light: #F8B195;
-      --text: #355C7D;
-      --bg: #F9F5F0;
-      --card: #FFFFFF;
+      --primary: #2E7D32;  /* Verde principal */
+      --secondary: #388E3C; /* Verde secundario */
+      --accent: #43A047;    /* Verde acento */
+      --light: #C8E6C9;    /* Verde claro */
+      --text: #1B5E20;     /* Verde oscuro para texto */
+      --bg: #F1F8E9;       /* Fondo verde claro */
+      --card: #FFFFFF;     /* Tarjetas blancas */
     }
     
     body {
@@ -325,8 +324,8 @@
     <span class="lang-en">Andrea Clemente-Ureña</span>
   </h1>
   <p>
-    <span class="lang-es">Bióloga | Bioinformática | Visión Computacional</span>
-    <span class="lang-en">Biologist | Bioinformatics | Computer Vision</span>
+    <span class="lang-es">Bióloga | Bioinformática | Visión Computacional | IA</span>
+    <span class="lang-en">Biologist | Bioinformatics | Computer Vision | AI</span>
   </p>
   <p>
     <span class="lang-es">Investigadora predoctoral en UPM y CRF-INIA-CSIC</span>
@@ -338,8 +337,8 @@
 <section id="bienvenida" class="direct-section">
   <img class="section-img" src="beautiful-landscape-with-rainbow-plants.jpg" alt="Bienvenida" style="width: 100%; max-width: 900px; margin: 0 auto 2rem; border-radius: 15px;">
   <p style="text-align: center; font-size: 1.4rem;">
-    <span class="lang-es">Bienvenid@ a mi portfolio científico interdisciplinar</span>
-    <span class="lang-en">Welcome to my interdisciplinary scientific portfolio</span>
+    <span class="lang-es">Bienvenid@ a mi portfolio científico</span>
+    <span class="lang-en">Welcome to my scientific portfolio</span>
   </p>
   <p>
     <span class="lang-es">Soy una investigadora apasionada por la intersección entre la biología y la tecnología. Mi trabajo se centra en desarrollar herramientas innovadoras para el fenotipado de cultivos y la caracterización de estructuras vegetales mediante visión por computador 3D y aprendizaje automático.</span>
@@ -702,17 +701,17 @@
   function toggleLanguage() {
     const esElements = document.querySelectorAll('.lang-es');
     const enElements = document.querySelectorAll('.lang-en');
-    if (document.documentElement.lang === 'es') {
-      esElements.forEach(el => el.style.display = 'none');
-      enElements.forEach(el => el.style.display = 'inline');
-      document.documentElement.lang = 'en';
-      document.getElementById("language-toggle").innerText = "Español";
-    } else {
-      enElements.forEach(el => el.style.display = 'none');
-      esElements.forEach(el => el.style.display = 'inline');
-      document.documentElement.lang = 'es';
-      document.getElementById("language-toggle").innerText = "English";
-    }
+    const isSpanish = document.documentElement.lang === 'es';
+    
+    esElements.forEach(el => el.style.display = isSpanish ? 'none' : 'block');
+    enElements.forEach(el => el.style.display = isSpanish ? 'block' : 'none');
+    document.documentElement.lang = isSpanish ? 'en' : 'es';
+    document.getElementById("language-toggle").innerText = isSpanish ? "Español" : "English";
+  }
+
+  // Ocultar inglés al cargar
+  window.onload = () => {
+    document.querySelectorAll('.lang-en').forEach(el => el.style.display = 'none');
   }
 </script>
 
