@@ -117,7 +117,8 @@
 
 <header>
   <h1 data-es="👩‍🔬 Andrea Clemente-Ureña" data-en="👩‍🔬 Andrea Clemente-Ureña">👩‍🔬 Andrea Clemente-Ureña</h1>
-  <p data-es="Bienvenid@ a mi portfolio. Aquí comparto mi trayectoria en biología, bioinformática, robótica y visión computacional 3D." data-en="Welcome to my portfolio. Here I share my journey in biology, bioinformatics, robotics, and 3D computer vision.">
+  <p data-es="Bienvenid@ a mi portfolio. Aquí comparto mi trayectoria en biología, bioinformática, robótica y visión computacional 3D." 
+     data-en="Welcome to my portfolio. Here I share my journey in biology, bioinformatics, robotics, and 3D computer vision.">
     Bienvenid@ a mi portfolio. Aquí comparto mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>.
   </p>
   <p data-es="<strong>Investigadora predoctoral</strong> en UPM y CRF-INIA-CSIC | Proyecto: Transformación digital de la conservación y mejora vegetal" 
@@ -126,12 +127,10 @@
   </p>
 </header>
 
-<!-- Sección: Intro -->
+<!-- Sección: Intro (esta sección se muestra siempre) -->
 <section>
-  <h2 class="section-header" onclick="toggleContent('intro')">Contenidos</h2>
-  <!-- Imagen para activar la sección -->
-  <img src="https://via.placeholder.com/400x200?text=Intro" alt="Imagen Intro" onclick="toggleContent('intro')">
-  <div id="intro" class="content">
+  <h2 data-es="¡Bienvenid@ a mi portfolio!" data-en="Welcome to my portfolio!">¡Bienvenid@ a mi portfolio!</h2>
+  <div>
     <p data-es="Este espacio reúne mi trayectoria en biología, bioinformática, robótica y visión computacional 3D. Actualmente desarrollo herramientas avanzadas para el fenotipado de cultivos y la caracterización de estructuras vegetales, aplicando aprendizaje automático y análisis de datos." 
        data-en="This space brings together my journey in biology, bioinformatics, robotics, and 3D computer vision. I currently develop advanced tools for crop phenotyping and plant structure characterization using machine learning and data analysis.">
       Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de cultivos</strong> y la <strong>caracterización de estructuras vegetales</strong>, aplicando aprendizaje automático y análisis de datos.
@@ -145,11 +144,17 @@
 
 <!-- Sección: Mi primer contacto con la investigación -->
 <section>
-  <h2 class="section-header" onclick="toggleContent('primer_contacto')">💡 Mi primer contacto con la investigación</h2>
-  <img src="https://www.freepik.es/foto-gratis/lapices-compuestos-pizarra_1313812.htm#fromView=search&page=1&position=23&uuid=97d30adc-a007-43ec-8748-2167fedcf065&query=primeros+pasos+ciencias" alt="Imagen Primer Contacto" onclick="toggleContent('primer_contacto')">
+  <h2 class="section-header" 
+      data-es="💡 Mi primer contacto con la investigación" 
+      data-en="💡 My first encounter with research" 
+      onclick="toggleContent('primer_contacto')">
+    💡 Mi primer contacto con la investigación
+  </h2>
+  <!-- Actualizamos la imagen según lo solicitado -->
+  <img src="https://img.freepik.com/foto-gratis/lapices-compuestos-pizarra_1313812.jpg" alt="Mi primer contacto con la investigación" onclick="toggleContent('primer_contacto')">
   <div id="primer_contacto" class="content">
     <p data-es="Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la síntesis de bioplásticos a partir de la leche de vaca en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el Finde Científico, formando parte de un equipo que realizaba experimentos de química visual (cambio de color gracias a las reacciones) para la divulgación científica, diseñados para acercar la ciencia a estudiantes, niños y familias en general." 
-       data-en="My first contact with research was in 1st year of high school when I developed a project on synthesizing bioplastics from cow's milk in Biology and Experimental Techniques in Science. That same year, I participated in Finde Científico, as part of a team performing visual chemistry experiments (color change due to reactions) to bring science closer to students, children, and families.">
+       data-en="My first encounter with research was in the first year of high school when I developed a project on synthesizing bioplastics from cow's milk in Biology and Experimental Techniques in Science classes. That same year, I participated in Finde Científico, as part of a team performing visual chemistry experiments (color change due to reactions) to bring science closer to students, children, and families.">
       Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la <strong>síntesis de bioplásticos a partir de la leche de vaca</strong> en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el <strong>Finde Científico</strong>, formando parte de un equipo que realizaba experimentos de química visual (cambio de color gracias a las reacciones) para la divulgación científica, diseñados para acercar la ciencia a estudiantes, niños y familias en general.
     </p>
     <div style="display: flex; justify-content: center; gap: 20px;">
@@ -161,7 +166,12 @@
 
 <!-- Sección: Proyectos destacados -->
 <section>
-  <h2 class="section-header" onclick="toggleContent('proyectos')">🚀 Proyectos destacados</h2>
+  <h2 class="section-header" 
+      data-es="🚀 Proyectos destacados" 
+      data-en="🚀 Featured Projects" 
+      onclick="toggleContent('proyectos')">
+    🚀 Proyectos destacados
+  </h2>
   <img src="https://via.placeholder.com/400x200?text=Proyectos" alt="Imagen Proyectos" onclick="toggleContent('proyectos')">
   <div id="proyectos" class="content">
     <ul>
@@ -212,7 +222,12 @@
 
 <!-- Sección: Formación académica -->
 <section>
-  <h2 class="section-header" onclick="toggleContent('formacion')">🎓 Formación académica</h2>
+  <h2 class="section-header" 
+      data-es="🎓 Formación académica" 
+      data-en="🎓 Academic Background" 
+      onclick="toggleContent('formacion')">
+    🎓 Formación académica
+  </h2>
   <img src="https://via.placeholder.com/400x200?text=Formaci%C3%B3n" alt="Imagen Formación" onclick="toggleContent('formacion')">
   <div id="formacion" class="content">
     <ul>
@@ -226,7 +241,12 @@
 
 <!-- Sección: Tecnologías y herramientas -->
 <section>
-  <h2 class="section-header" onclick="toggleContent('tecnologias')">🛠️ Tecnologías y herramientas</h2>
+  <h2 class="section-header" 
+      data-es="🛠️ Tecnologías y herramientas" 
+      data-en="🛠️ Technologies & Tools" 
+      onclick="toggleContent('tecnologias')">
+    🛠️ Tecnologías y herramientas
+  </h2>
   <img src="https://via.placeholder.com/400x200?text=Tecnolog%C3%ADas" alt="Imagen Tecnologías" onclick="toggleContent('tecnologias')">
   <div id="tecnologias" class="content">
     <table>
@@ -256,7 +276,12 @@
 
 <!-- Sección: Experiencia profesional -->
 <section>
-  <h2 class="section-header" onclick="toggleContent('experiencia')">📚 Experiencia profesional</h2>
+  <h2 class="section-header" 
+      data-es="📚 Experiencia profesional" 
+      data-en="📚 Professional Experience" 
+      onclick="toggleContent('experiencia')">
+    📚 Experiencia profesional
+  </h2>
   <img src="https://via.placeholder.com/400x200?text=Experiencia" alt="Imagen Experiencia" onclick="toggleContent('experiencia')">
   <div id="experiencia" class="content">
     <ul>
@@ -272,7 +297,12 @@
 
 <!-- Sección: Idiomas -->
 <section>
-  <h2 class="section-header" onclick="toggleContent('idiomas')">🌐 Idiomas</h2>
+  <h2 class="section-header" 
+      data-es="🌐 Idiomas" 
+      data-en="🌐 Languages" 
+      onclick="toggleContent('idiomas')">
+    🌐 Idiomas
+  </h2>
   <img src="https://via.placeholder.com/400x200?text=Idiomas" alt="Imagen Idiomas" onclick="toggleContent('idiomas')">
   <div id="idiomas" class="content">
     <ul>
@@ -285,13 +315,18 @@
 
 <!-- Sección: Contacto (datos) -->
 <section>
-  <h2 class="section-header" onclick="toggleContent('contacto')">📫 Contacto</h2>
+  <h2 class="section-header" 
+      data-es="📫 Contacto" 
+      data-en="📫 Contact" 
+      onclick="toggleContent('contacto')">
+    📫 Contacto
+  </h2>
   <img src="https://via.placeholder.com/400x200?text=Contacto" alt="Imagen Contacto" onclick="toggleContent('contacto')">
   <div id="contacto" class="content">
     <ul>
-      <li>✉️ ResearchGate: <a href="https://www.researchgate.net/profile/Andrea-Clemente-Urena-2" target="_blank">www.researchgate.net/profile/Andrea-Clemente-Urena-2</a></li>
-      <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/andreaclementeure%C3%B1a/" target="_blank">https://www.linkedin.com/in/andreaclementeureña/</a></li>
-      <li>💻 GitHub: <a href="https://github.com/andreaclemente96" target="_blank">https://github.com/andreaclemente96</a></li>
+      <li>✉️ Email: <a href="mailto:andeande.ac@gmail.com">andeande.ac@gmail.com</a></li>
+      <li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/andreaclementeure%C3%B1a/" target="_blank">https://www.linkedin.com/in/andreaclementeure%C3%B1a/</a></li>
+      <li>💻 GitHub: <a href="https://github.com/andyacment" target="_blank">https://github.com/andyacment</a></li>
     </ul>
   </div>
 </section>
@@ -309,7 +344,8 @@
 </form>
 
 <footer>
-  <p data-es="_&quot;La IA no es el enemigo, es la lupa que amplifica lo que la ciencia aún no alcanza.&quot; 🤖🔬🌍" data-en="_&quot;AI is not the enemy, it is the magnifying glass that amplifies what science has not yet reached.&quot; 🤖🔬🌍">
+  <p data-es="_&quot;La IA no es el enemigo, es la lupa que amplifica lo que la ciencia aún no alcanza.&quot; 🤖🔬🌍" 
+     data-en="_&quot;AI is not the enemy; it is the magnifying glass that amplifies what science has not yet reached.&quot; 🤖🔬🌍">
     _"La IA no es el enemigo, es la lupa que amplifica lo que la ciencia aún no alcanza."_ 🤖🔬🌍
   </p>
 </footer>
@@ -339,6 +375,11 @@
     alert("Formulario enviado. Gracias por tu mensaje.");
     this.reset();
   });
+</script>
+
+</body>
+</html>
+
 </script>
 
 </body>
