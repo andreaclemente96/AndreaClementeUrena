@@ -124,7 +124,7 @@
 
 <!-- Sección: Bienvenida (siempre visible) -->
 <section id="bienvenida">
-  <img class="section-img" src="https://via.placeholder.com/300?text=Bienvenida" alt="Bienvenida" title="¡Bienvenid@ a mi portfolio!">
+  <img class="section-img" src="beautiful-landscape-with-rainbow-plants.jpg" alt="Bienvenida" title="¡Bienvenid@ a mi portfolio!">
   <div class="content" style="display: block;"> 
     <p>
       <span class="lang-es">Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de cultivos</strong> y la <strong>caracterización de estructuras vegetales</strong>, aplicando aprendizaje automático y análisis de datos.</span>
@@ -146,8 +146,8 @@
       <span class="lang-en">My first encounter with research was in the first year of high school when I developed a project on the <em>synthesis of bioplastics from cow's milk</em> in Biology and Experimental Techniques classes. That same year, I participated in Finde Científico, as part of a team performing visual chemistry experiments to bring science closer to the public.</span>
     </p>
     <div style="display: flex; justify-content: center; gap: 20px;">
-      <img src="https://github.com/user-attachments/assets/2507bf89-76fb-4903-b5fb-6aea3606fc46" alt="Síntesis de bioplásticos" width="300" title="Síntesis de bioplásticos">
-      <img src="https://github.com/user-attachments/assets/fda0a450-37c9-4553-8ba1-94f0d26d670c" alt="Finde Científico" width="300" title="Finde Científico">
+      <img src="laboratory-samples-arrangement.jpg" alt="Síntesis de bioplásticos" width="300" title="Síntesis de bioplásticos">
+      <img src="lab-glassware-with-colored-liquids-assortment.jpg" alt="Finde Científico" width="300" title="Finde Científico">
     </div>
   </div>
 </section>
@@ -160,7 +160,7 @@
     <!-- Miniaturas de cada proyecto -->
     <div class="project-thumbnails">
       <div class="thumbnail" title="Fenotipado de alto rendimiento" onclick="toggleContent('proyecto1')">
-        <img src="https://via.placeholder.com/100?text=Img+1" alt="Miniatura 1">
+        <img src="3461225.jpg" alt="Miniatura 1">
       </div>
       <div class="thumbnail" title="Bioinformática y análisis ómico" onclick="toggleContent('proyecto2')">
         <img src="https://github.com/user-attachments/assets/8dfa2628-f892-4078-bde3-3915150bed34" alt="Miniatura 2">
@@ -172,7 +172,7 @@
         <img src="https://github.com/user-attachments/assets/73e74b49-a323-40f3-b055-1f3bfaf9750c" alt="Miniatura 4">
       </div>
       <div class="thumbnail" title="Exploración con tecnologías inmersivas" onclick="toggleContent('proyecto5')">
-        <img src="https://via.placeholder.com/100?text=Img+5" alt="Miniatura 5">
+        <img src="3162813.jpg" alt="Miniatura 5">
       </div>
     </div>
     <!-- Detalles de cada proyecto -->
