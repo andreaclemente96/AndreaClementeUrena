@@ -110,6 +110,21 @@
     }
     /* Traducción: inicialmente mostramos el español y ocultamos el inglés */
     .lang-en { display: none; }
+
+    /* Nueva sección: miniaturas para imágenes de cada proyecto */
+    .project-thumbnails {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    .thumbnail img {
+      width: 100px;  /* Tamaño aproximado de un post-it */
+      height: auto;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
   </style>
 </head>
 <body>
@@ -123,7 +138,7 @@
     <span class="lang-en">👩‍🔬 Andrea Clemente-Ureña</span>
   </h1>
   <p>
-    <span class="lang-es"> Aquí comparto mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>.</span>
+    <span class="lang-es">Aquí comparto mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>.</span>
     <span class="lang-en">Here I share my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong> and <strong>3D computer vision</strong>.</span>
   </p>
   <p>
@@ -141,7 +156,7 @@
   <div>
     <p>
       <span class="lang-es">Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de cultivos</strong> y la <strong>caracterización de estructuras vegetales</strong>, aplicando aprendizaje automático y análisis de datos.</span>
-      <span class="lang-en">This space brings together my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong>, and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>crop phenotyping</strong> and <strong>plant structure characterization</strong> using machine learning and data analysis.</span>
+      <span class="lang-en">This space brings together my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong> and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>crop phenotyping</strong> and <strong>plant structure characterization</strong> using machine learning and data analysis.</span>
     </p>
     <p>
       <span class="lang-es">📍 Investigadora predoctoral en la Universidad Politécnica de Madrid (UPM) y el Centro de Recursos Fitogenéticos (CRF-INIA-CSIC), dentro del proyecto <strong>Transformación digital de las actividades de conservación y mejora vegetal</strong>.</span>
@@ -156,16 +171,16 @@
     <span class="lang-es">💡 Mi primer contacto con la investigación</span>
     <span class="lang-en">💡 My First Encounter with Research</span>
   </h2>
-  <!-- Imagen actualizada; si no se muestra, revisa la URL en el navegador -->
-  <img src="https://github.com/user-attachments/assets/fda0a450-37c9-4553-8ba1-94f0d26d670c" alt="Mi primer contacto con la investigación" onclick="toggleContent('primer_contacto')">
+  <!-- Usamos la URL que prefieras; aquí he dejado un ejemplo (puedes sustituirlo) -->
+  <img src="https://img.freepik.com/foto-gratis/lapices-compuestos-pizarra_1313812.jpg" alt="Mi primer contacto con la investigación" onclick="toggleContent('primer_contacto')" title="Mi primer contacto con la investigación">
   <div id="primer_contacto" class="content">
     <p>
       <span class="lang-es">Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la <em>síntesis de bioplásticos a partir de la leche de vaca</em> en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el <strong>Finde Científico</strong>, formando parte de un equipo que realizaba experimentos de química visual (cambio de color gracias a las reacciones) para la divulgación científica, diseñados para acercar la ciencia a estudiantes, niños y familias en general.</span>
       <span class="lang-en">My first encounter with research was in the first year of high school when I developed a project on the <em>synthesis of bioplastics from cow's milk</em> in Biology and Experimental Techniques classes. That same year, I participated in Finde Científico, as part of a team performing visual chemistry experiments (color changes due to reactions) to bring science closer to students, children, and families.</span>
     </p>
     <div style="display: flex; justify-content: center; gap: 20px;">
-      <img src="https://github.com/user-attachments/assets/2507bf89-76fb-4903-b5fb-6aea3606fc46" alt="Síntesis de bioplásticos a partir de la leche de vaca" width="300">
-      <img src="https://github.com/user-attachments/assets/fda0a450-37c9-4553-8ba1-94f0d26d670c" alt="Finde Científico: Experimentos de química visual" width="300">
+      <img src="https://github.com/user-attachments/assets/2507bf89-76fb-4903-b5fb-6aea3606fc46" alt="Síntesis de bioplásticos a partir de la leche de vaca" width="300" title="Síntesis de bioplásticos">
+      <img src="https://github.com/user-attachments/assets/fda0a450-37c9-4553-8ba1-94f0d26d670c" alt="Finde Científico: Experimentos de química visual" width="300" title="Finde Científico">
     </div>
   </div>
 </section>
@@ -176,7 +191,7 @@
     <span class="lang-es">🚀 Proyectos destacados</span>
     <span class="lang-en">🚀 Featured Projects</span>
   </h2>
-  <img src="https://via.placeholder.com/400x200?text=Proyectos" alt="Imagen Proyectos" onclick="toggleContent('proyectos')">
+  <img src="https://via.placeholder.com/400x200?text=Proyectos" alt="Imagen Proyectos" onclick="toggleContent('proyectos')" title="Proyectos Destacados">
   <div id="proyectos" class="content">
     <ul>
       <li>
@@ -194,9 +209,16 @@
             <span class="lang-en">3D data processing and AI models for crop analysis.</span>
           </li>
         </ul>
-        <p align="center">
-          <img src="https://github.com/user-attachments/assets/9905699f-ddda-4b6a-970a-08e2fbd359aa" alt="Fenotipado de alto rendimiento" width="400">
-        </p>
+        <!-- Contenedor para las miniaturas de imágenes relacionadas -->
+        <div class="project-thumbnails">
+          <div class="thumbnail" title="Fenotipado - Imagen 1">
+            <img src="https://via.placeholder.com/100?text=Img+1" alt="Img 1">
+          </div>
+          <div class="thumbnail" title="Fenotipado - Imagen 2">
+            <img src="https://via.placeholder.com/100?text=Img+2" alt="Img 2">
+          </div>
+          <!-- Puedes agregar más miniaturas según necesites -->
+        </div>
       </li>
       <li>
         <strong>
@@ -210,9 +232,14 @@
           </li>
           <li>📄 DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></li>
         </ul>
-        <p align="center">
-          <img src="https://github.com/user-attachments/assets/8dfa2628-f892-4078-bde3-3915150bed34" alt="Bioinformática y análisis ómico" width="400">
-        </p>
+        <div class="project-thumbnails">
+          <div class="thumbnail" title="Bioinformática - Imagen 1">
+            <img src="https://via.placeholder.com/100?text=Img+1" alt="Img 1">
+          </div>
+          <div class="thumbnail" title="Bioinformática - Imagen 2">
+            <img src="https://via.placeholder.com/100?text=Img+2" alt="Img 2">
+          </div>
+        </div>
       </li>
       <li>
         <strong>
@@ -230,9 +257,14 @@
             <span class="lang-en">📰 Participation mentioned in the <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">CBMSO-CSIC Scientific Report 2021–2022</a></span>
           </li>
         </ul>
-        <p align="center">
-          <img src="https://github.com/user-attachments/assets/b740f460-1160-4a35-90c6-b3b2e5861f23" alt="Genética molecular y citología" width="400">
-        </p>
+        <div class="project-thumbnails">
+          <div class="thumbnail" title="Genética - Imagen 1">
+            <img src="https://via.placeholder.com/100?text=Img+1" alt="Img 1">
+          </div>
+          <div class="thumbnail" title="Genética - Imagen 2">
+            <img src="https://via.placeholder.com/100?text=Img+2" alt="Img 2">
+          </div>
+        </div>
       </li>
       <li>
         <strong>
@@ -245,9 +277,14 @@
             <span class="lang-en">Project on immunohistochemical detection of BRCA in breast cancer during FPII.</span>
           </li>
         </ul>
-        <p align="center">
-          <img src="https://github.com/user-attachments/assets/73e74b49-a323-40f3-b055-1f3bfaf9750c" alt="Histología e inmunohistoquímica" width="400">
-        </p>
+        <div class="project-thumbnails">
+          <div class="thumbnail" title="Histología - Imagen 1">
+            <img src="https://via.placeholder.com/100?text=Img+1" alt="Img 1">
+          </div>
+          <div class="thumbnail" title="Histología - Imagen 2">
+            <img src="https://via.placeholder.com/100?text=Img+2" alt="Img 2">
+          </div>
+        </div>
       </li>
       <li>
         <strong>
@@ -260,6 +297,14 @@
             <span class="lang-en">Collaboration with the <strong>Center for Automation and Robotics (CAR-CSIC-UPM)</strong> to develop solutions with <strong>Microsoft HoloLens2</strong> in agricultural applications. <em>(Initial project)</em></span>
           </li>
         </ul>
+        <div class="project-thumbnails">
+          <div class="thumbnail" title="Tecnologías inmersivas - Imagen 1">
+            <img src="https://via.placeholder.com/100?text=Img+1" alt="Img 1">
+          </div>
+          <div class="thumbnail" title="Tecnologías inmersivas - Imagen 2">
+            <img src="https://via.placeholder.com/100?text=Img+2" alt="Img 2">
+          </div>
+        </div>
       </li>
     </ul>
   </div>
@@ -271,7 +316,7 @@
     <span class="lang-es">🎓 Formación académica</span>
     <span class="lang-en">🎓 Academic Background</span>
   </h2>
-  <img src="https://via.placeholder.com/400x200?text=Formaci%C3%B3n" alt="Imagen Formación" onclick="toggleContent('formacion')">
+  <img src="https://via.placeholder.com/400x200?text=Formaci%C3%B3n" alt="Imagen Formación" onclick="toggleContent('formacion')" title="Formación Académica">
   <div id="formacion" class="content">
     <ul>
       <li>
@@ -300,7 +345,7 @@
     <span class="lang-es">🛠️ Tecnologías y herramientas</span>
     <span class="lang-en">🛠️ Technologies &amp; Tools</span>
   </h2>
-  <img src="https://via.placeholder.com/400x200?text=Tecnolog%C3%ADas" alt="Imagen Tecnologías" onclick="toggleContent('tecnologias')">
+  <img src="https://via.placeholder.com/400x200?text=Tecnolog%C3%ADas" alt="Imagen Tecnologías" onclick="toggleContent('tecnologias')" title="Tecnologías y herramientas">
   <div id="tecnologias" class="content">
     <table>
       <tr>
@@ -348,7 +393,7 @@
     <span class="lang-es">📚 Experiencia profesional</span>
     <span class="lang-en">📚 Professional Experience</span>
   </h2>
-  <img src="https://via.placeholder.com/400x200?text=Experiencia" alt="Imagen Experiencia" onclick="toggleContent('experiencia')">
+  <img src="https://via.placeholder.com/400x200?text=Experiencia" alt="Imagen Experiencia" onclick="toggleContent('experiencia')" title="Experiencia Profesional">
   <div id="experiencia" class="content">
     <ul>
       <li>
@@ -379,7 +424,7 @@
     <span class="lang-es">🌐 Idiomas</span>
     <span class="lang-en">🌐 Languages</span>
   </h2>
-  <img src="https://via.placeholder.com/400x200?text=Idiomas" alt="Imagen Idiomas" onclick="toggleContent('idiomas')">
+  <img src="https://via.placeholder.com/400x200?text=Idiomas" alt="Imagen Idiomas" onclick="toggleContent('idiomas')" title="Idiomas">
   <div id="idiomas" class="content">
     <ul>
       <li><span class="lang-es">🇪🇸 Español: Nativo</span><span class="lang-en">🇪🇸 Spanish: Native</span></li>
@@ -395,7 +440,7 @@
     <span class="lang-es">📫 Contacto</span>
     <span class="lang-en">📫 Contact</span>
   </h2>
-  <img src="https://via.placeholder.com/400x200?text=Contacto" alt="Imagen Contacto" onclick="toggleContent('contacto')">
+  <img src="https://via.placeholder.com/400x200?text=Contacto" alt="Imagen Contacto" onclick="toggleContent('contacto')" title="Contacto">
   <div id="contacto" class="content">
     <ul>
       <li><span class="lang-es">✉️ Email:</span><span class="lang-en">✉️ Email:</span> <a href="mailto:andeande.ac@gmail.com">andeande.ac@gmail.com</a></li>
