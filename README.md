@@ -123,8 +123,8 @@
     <span class="lang-en">👩‍🔬 Andrea Clemente-Ureña</span>
   </h1>
   <p>
-    <span class="lang-es">Bienvenid@ a mi portfolio. Aquí comparto mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>.</span>
-    <span class="lang-en">Welcome to my portfolio. Here I share my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong> and <strong>3D computer vision</strong>.</span>
+    <span class="lang-es"> Aquí comparto mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>.</span>
+    <span class="lang-en">Here I share my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong> and <strong>3D computer vision</strong>.</span>
   </p>
   <p>
     <span class="lang-es"><strong>Investigadora predoctoral</strong> en UPM y CRF-INIA-CSIC | Proyecto: Transformación digital de la conservación y mejora vegetal</span>
@@ -157,7 +157,7 @@
     <span class="lang-en">💡 My First Encounter with Research</span>
   </h2>
   <!-- Imagen actualizada; si no se muestra, revisa la URL en el navegador -->
-  <img src="https://img.freepik.com/foto-gratis/lapices-compuestos-pizarra_1313812.jpg" alt="Mi primer contacto con la investigación" onclick="toggleContent('primer_contacto')">
+  <img src="https://img.freepik.com/foto-gratis/2147654639.jpg" alt="Mi primer contacto con la investigación" onclick="toggleContent('primer_contacto')">
   <div id="primer_contacto" class="content">
     <p>
       <span class="lang-es">Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la <em>síntesis de bioplásticos a partir de la leche de vaca</em> en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el <strong>Finde Científico</strong>, formando parte de un equipo que realizaba experimentos de química visual (cambio de color gracias a las reacciones) para la divulgación científica, diseñados para acercar la ciencia a estudiantes, niños y familias en general.</span>
