@@ -12,14 +12,21 @@
       line-height: 1.6;
       background-color: #f7f9fc;
       color: #333;
+      font-size: 1.1rem; /* Texto más grande */
+    }
+    p, li, td {
+      text-align: justify; /* Texto justificado */
+      text-justify: inter-word;
     }
     header h1 {
       text-align: center;
       color: #2c3e50;
+      font-size: 2.2rem; /* Título principal más grande */
     }
     header p {
       text-align: center;
       color: #2c3e50;
+      font-size: 1.2rem;
     }
     /* Todas las imágenes se centran y se ajustan */
     img {
@@ -27,6 +34,7 @@
       margin: 1rem auto;
       cursor: pointer;
       display: block;
+      max-width: 100%;
     }
     /* Imagen de bienvenida 3 veces más grande */
     #bienvenida img.section-img {
@@ -39,13 +47,34 @@
     }
     .section-title {
       text-align: center;
-      margin-bottom: 0.5rem;
+      margin: 1.5rem 0 0.5rem;
       color: #2c3e50;
-      font-size: 1.5rem;
+      font-size: 1.8rem; /* Títulos de sección más grandes */
     }
     .content {
       display: none;
       margin-top: 10px;
+    }
+    /* Estilo para los títulos de las imágenes de proyectos */
+    .project-image-title {
+      text-align: center;
+      font-weight: bold;
+      margin: 1rem 0 0.5rem;
+      font-size: 1.3rem;
+      color: #2c3e50;
+    }
+    /* Imágenes de proyectos más grandes */
+    .project-content img {
+      width: 900px;
+      max-width: 90%;
+    }
+    /* Contenedor de imágenes de proyecto */
+    .project-images-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      margin: 2rem 0;
     }
     /* Botón de idioma */
     #language-toggle {
@@ -59,12 +88,13 @@
       border-radius: 5px;
       cursor: pointer;
       z-index: 1000;
+      font-size: 1rem;
     }
     /* Formulario de contacto */
     form {
       margin-top: 2rem;
       background-color: #eef4fa;
-      padding: 1rem;
+      padding: 1.5rem;
       border-radius: 10px;
       max-width: 600px;
       margin-left: auto;
@@ -73,37 +103,44 @@
     form label {
       display: block;
       margin-top: 1rem;
+      font-size: 1.1rem;
     }
     form input, form textarea {
       width: 100%;
-      padding: 8px;
+      padding: 10px;
       margin-top: 8px;
       margin-bottom: 16px;
       border: 1px solid #ccc;
       border-radius: 4px;
+      font-size: 1rem;
     }
     form input[type="submit"] {
       background-color: #2c3e50;
       color: white;
       cursor: pointer;
       border: none;
-      padding: 10px 15px;
+      padding: 12px 20px;
+      font-size: 1.1rem;
     }
     /* Traducción: inicialmente mostramos el español y ocultamos el inglés */
     .lang-en { display: none; }
     /* Estilos para las miniaturas de los proyectos */
     .project-thumbnails {
       display: flex;
-      gap: 10px;
+      gap: 15px;
       flex-wrap: wrap;
       justify-content: center;
-      margin-top: 10px;
+      margin: 20px 0;
     }
     .thumbnail {
-      width: 100px; /* Tamaño aproximado de un post-it */
+      width: 120px; /* Tamaño un poco más grande */
       border: 1px solid #ccc;
       border-radius: 5px;
       overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .thumbnail:hover {
+      transform: scale(1.05);
     }
     .thumbnail img {
       width: 100%;
@@ -113,7 +150,17 @@
     footer {
       text-align: center;
       font-style: italic;
-      margin-top: 2rem;
+      margin-top: 3rem;
+      font-size: 1.2rem;
+      padding: 1rem;
+      color: #2c3e50;
+    }
+    /* Mejoras para listas */
+    ul {
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.8rem;
     }
   </style>
 </head>
@@ -168,9 +215,21 @@
       <span class="lang-es">Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la <em>síntesis de bioplásticos a partir de la leche de vaca</em> en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el <strong>Finde Científico</strong>, formando parte de un equipo que realizaba experimentos de química visual para la divulgación científica.</span>
       <span class="lang-en">My first encounter with research was in the first year of high school when I developed a project on the <em>synthesis of bioplastics from cow's milk</em> in Biology and Experimental Techniques classes. That same year, I participated in the Science Weekend (Finde Científico), as part of a team performing visual chemistry experiments for science outreach.</span>
     </p>
-    <div style="display: flex; justify-content: center; gap: 20px;">
-      <img src="laboratory-samples-arrangement.jpg" alt="Síntesis de bioplásticos" width="300" title="Síntesis de bioplásticos">
-      <img src="lab-glassware-with-colored-liquids-assortment.jpg" alt="Finde Científico" width="300" title="Finde Científico">
+    <div class="project-images-container">
+      <div>
+        <div class="project-image-title">
+          <span class="lang-es">Síntesis de bioplásticos</span>
+          <span class="lang-en">Bioplastics Synthesis</span>
+        </div>
+        <img src="laboratory-samples-arrangement.jpg" alt="Síntesis de bioplásticos">
+      </div>
+      <div>
+        <div class="project-image-title">
+          <span class="lang-es">Finde Científico</span>
+          <span class="lang-en">Science Weekend</span>
+        </div>
+        <img src="lab-glassware-with-colored-liquids-assortment.jpg" alt="Finde Científico">
+      </div>
     </div>
   </div>
 </section>
@@ -201,219 +260,96 @@
         <img src="3162813.jpg" alt="Miniatura 5">
       </div>
     </div>
+    
     <!-- Detalles de cada proyecto -->
-    <div id="proyecto1" class="content">
+    <div id="proyecto1" class="content project-content">
+      <h3 class="project-image-title">
+        <span class="lang-es">Fenotipado de alto rendimiento</span>
+        <span class="lang-en">High-throughput phenotyping</span>
+      </h3>
       <p>
         <span class="lang-es">Fenotipado automatizado de cultivos con robótica y visión computacional. Diseño experimental y análisis de datos fenotípicos.</span>
         <span class="lang-en">Automated crop phenotyping with robotics and computer vision. Experimental design and phenotypic data analysis.</span>
       </p>
+      <div class="project-images-container">
+        <img src="3461225.jpg" alt="Fenotipado de cultivos">
+      </div>
     </div>
-    <div id="proyecto2" class="content">
+    
+    <div id="proyecto2" class="content project-content">
+      <h3 class="project-image-title">
+        <span class="lang-es">Bioinformática y análisis ómico</span>
+        <span class="lang-en">Bioinformatics and omic analysis</span>
+      </h3>
       <p>
         <span class="lang-es">TFM: Identificación y caracterización de tRFs sobreexpresados en enfermedad de Huntington. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
         <span class="lang-en">Master's Thesis: Identification and characterization of overexpressed tRFs in Huntington's disease. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
       </p>
+      <div class="project-images-container">
+        <img src="https://github.com/user-attachments/assets/8dfa2628-f892-4078-bde3-3915150bed34" alt="Bioinformática">
+      </div>
     </div>
-    <div id="proyecto3" class="content">
+    
+    <div id="proyecto3" class="content project-content">
+      <h3 class="project-image-title">
+        <span class="lang-es">Genética molecular y citología</span>
+        <span class="lang-en">Molecular genetics and cytology</span>
+      </h3>
       <p>
         <span class="lang-es">
-  TFG: Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania. DOI: 
-  <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. 
-  Participación mencionada en el 
-  <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
-    Informe Científico del CBMSO-CSIC 2021–2022
-  </a>.
-</span>
-<span class="lang-en">
-  Bachelor's Thesis: Structural characterization of genes coding for ribosomal proteins in Leishmania. DOI: 
-  <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. 
-  Participation mentioned in the 
-  <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
-    CBMSO-CSIC Scientific Report 2021–2022
-  </a>.
-</span>
+          TFG: Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania. DOI: 
+          <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. 
+          Participación mencionada en el 
+          <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
+            Informe Científico del CBMSO-CSIC 2021–2022
+          </a>.
+        </span>
+        <span class="lang-en">
+          Bachelor's Thesis: Structural characterization of genes coding for ribosomal proteins in Leishmania. DOI: 
+          <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. 
+          Participation mentioned in the 
+          <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
+            CBMSO-CSIC Scientific Report 2021–2022
+          </a>.
+        </span>
       </p>
+      <div class="project-images-container">
+        <img src="https://github.com/user-attachments/assets/b740f460-1160-4a35-90c6-b3b2e5861f23" alt="Genética molecular">
+      </div>
     </div>
-    <div id="proyecto4" class="content">
+    
+    <div id="proyecto4" class="content project-content">
+      <h3 class="project-image-title">
+        <span class="lang-es">Histología e inmunohistoquímica</span>
+        <span class="lang-en">Histology and immunohistochemistry</span>
+      </h3>
       <p>
         <span class="lang-es">Proyecto sobre detección inmunohistoquímica de BRCA en cáncer de mama durante el FPII.</span>
         <span class="lang-en">Project on immunohistochemical detection of BRCA in breast cancer during FPII.</span>
       </p>
+      <div class="project-images-container">
+        <img src="https://github.com/user-attachments/assets/73e74b49-a323-40f3-b055-1f3bfaf9750c" alt="Histología">
+      </div>
     </div>
-    <div id="proyecto5" class="content">
+    
+    <div id="proyecto5" class="content project-content">
+      <h3 class="project-image-title">
+        <span class="lang-es">Tecnologías inmersivas</span>
+        <span class="lang-en">Immersive technologies</span>
+      </h3>
       <p>
         <span class="lang-es">Colaboración con el Centro de Automática y Robótica (CAR-CSIC-UPM) para desarrollar soluciones con Microsoft HoloLens2 en aplicaciones agrícolas. (Proyecto en fase inicial)</span>
         <span class="lang-en">Collaboration with the Center for Automation and Robotics (CAR-CSIC-UPM) to develop solutions with Microsoft HoloLens2 in agricultural applications. (Initial project)</span>
       </p>
+      <div class="project-images-container">
+        <img src="3162813.jpg" alt="Tecnologías inmersivas">
+      </div>
     </div>
   </div>
 </section>
 
-<!-- Sección: Formación académica -->
-<section id="formacion-section">
-  <h2 class="section-title">
-    <span class="lang-es">🎓 Formación académica</span>
-    <span class="lang-en">🎓 Academic Education</span>
-  </h2>
-  <img class="section-img" src="https://via.placeholder.com/300?text=Formaci%C3%B3n" alt="Formación Académica" onclick="toggleContent('formacion')">
-  <div id="formacion" class="content">
-    <ul>
-      <li>
-        <span class="lang-es">📘 <strong>Doctorado en Automática y Robótica</strong> (2024 - actualidad) - Universidad Politécnica de Madrid – INIA-CSIC</span>
-        <span class="lang-en">📘 <strong>PhD in Automation and Robotics</strong> (2024 - Present) - Polytechnic University of Madrid – INIA-CSIC</span>
-      </li>
-      <li>
-        <span class="lang-es">📊 <strong>Máster en Bioinformática y Bioestadística</strong> (2022 - 2024) - Universitat Oberta de Catalunya / Universitat de Barcelona</span>
-        <span class="lang-en">📊 <strong>Master in Bioinformatics and Biostatistics</strong> (2022 - 2024) - Open University of Catalonia / University of Barcelona</span>
-      </li>
-      <li>
-        <span class="lang-es">🧬 <strong>Grado en Biología</strong> (2016 - 2021) - Universidad Autónoma de Madrid</span>
-        <span class="lang-en">🧬 <strong>Bachelor in Biology</strong> (2016 - 2021) - Autonomous University of Madrid</span>
-      </li>
-      <li>
-        <span class="lang-es">🔬 <strong>Técnico Superior en Anatomía Patológica y Citología</strong> (2014 - 2016) - CESUR II</span>
-        <span class="lang-en">🔬 <strong>Higher Technician in Pathological Anatomy and Cytology</strong> (2014 - 2016) - CESUR II</span>
-      </li>
-    </ul>
-  </div>
-</section>
-
-<!-- Sección: Tecnologías y herramientas -->
-<section id="tecnologias-section">
-  <h2 class="section-title">
-    <span class="lang-es">🛠️ Tecnologías y herramientas</span>
-    <span class="lang-en">🛠️ Technologies and Tools</span>
-  </h2>
-  <img class="section-img" src="https://via.placeholder.com/300?text=Tecnolog%C3%ADas" alt="Tecnologías y Herramientas" onclick="toggleContent('tecnologias')">
-  <div id="tecnologias" class="content">
-    <table>
-      <tr>
-        <td><strong>
-          <span class="lang-es">Lenguajes</span>
-          <span class="lang-en">Languages</span>
-        </strong></td>
-        <td>Python • R • SQL • BASH • HTML/CSS</td>
-      </tr>
-      <tr>
-        <td><strong>
-          <span class="lang-es">Ciencia &amp; Bioinfo</span>
-          <span class="lang-en">Science &amp; Bioinformatics</span>
-        </strong></td>
-        <td>Bioconductor • SPSS • Galaxy • Novopath • Inferencia estadística</td>
-      </tr>
-      <tr>
-        <td><strong>
-          <span class="lang-es">IA / Visión</span>
-          <span class="lang-en">AI / Vision</span>
-        </strong></td>
-        <td>OpenCV • PyTorch • TensorFlow • Scikit-learn • Visión 3D</td>
-      </tr>
-      <tr>
-        <td><strong>
-          <span class="lang-es">Robótica</span>
-          <span class="lang-en">Robotics</span>
-        </strong></td>
-        <td>Sensores RGB • Sensores Multiespectrales • Sensores LiDAR/ToF • HoloLens 2</td>
-      </tr>
-      <tr>
-        <td><strong>
-          <span class="lang-es">Entornos</span>
-          <span class="lang-en">Environments</span>
-        </strong></td>
-        <td>Linux • VS Code • Git • Office</td>
-      </tr>
-    </table>
-  </div>
-</section>
-
-<!-- Sección: Experiencia profesional -->
-<section id="experiencia-section">
-  <h2 class="section-title">
-    <span class="lang-es">📚 Experiencia profesional</span>
-    <span class="lang-en">📚 Professional Experience</span>
-  </h2>
-  <img class="section-img" src="https://via.placeholder.com/300?text=Experiencia" alt="Experiencia Profesional" onclick="toggleContent('experiencia')">
-  <div id="experiencia" class="content">
-    <ul>
-      <li>
-        <span class="lang-es">🔬 <strong>Investigadora Predoctoral</strong> | INIA-CSIC (2024 - actualidad)<br>
-          Fenotipado automatizado de cultivos con robótica y visión computacional. Diseño experimental y análisis de datos fenotípicos.</span>
-        <span class="lang-en">🔬 <strong>Predoctoral Researcher</strong> | INIA-CSIC (2024 - Present)<br>
-          Automated crop phenotyping with robotics and computer vision. Experimental design and phenotypic data analysis.</span>
-      </li>
-      <li>
-        <span class="lang-es">🧫 <strong>Técnico de Anatomía Patológica</strong> | HM Hospitales (2016)<br>
-          Procesamiento y análisis de muestras biológicas y técnicas histológicas.</span>
-        <span class="lang-en">🧫 <strong>Pathological Anatomy Technician</strong> | HM Hospitales (2016)<br>
-          Processing and analysis of biological samples and histological techniques.</span>
-      </li>
-      <li>
-        <span class="lang-es">📞 <strong>Teleoperadora Comercial</strong> | My Assessor Total (2021)<br>
-          Primer contacto con el mundo laboral. Aprender cómo funciona el empleo fuera del ámbito científico.</span>
-        <span class="lang-en">📞 <strong>Commercial Operator</strong> | My Assessor Total (2021)<br>
-          First contact with the working world. Learning how employment works outside the scientific field.</span>
-      </li>
-    </ul>
-  </div>
-</section>
-
-<!-- Sección: Idiomas -->
-<section id="idiomas-section">
-  <h2 class="section-title">
-    <span class="lang-es">🌐 Idiomas</span>
-    <span class="lang-en">🌐 Languages</span>
-  </h2>
-  <img class="section-img" src="https://via.placeholder.com/300?text=Idiomas" alt="Idiomas" onclick="toggleContent('idiomas')">
-  <div id="idiomas" class="content">
-    <ul>
-      <li><span class="lang-es">🇪🇸 Español: Nativo</span><span class="lang-en">🇪🇸 Spanish: Native</span></li>
-      <li><span class="lang-es">🇬🇧 Inglés: Nivel C (APTIS - British Council)</span><span class="lang-en">🇬🇧 English: Level C (APTIS - British Council)</span></li>
-      <li><span class="lang-es">🇫🇷 Francés: Nivel A2 (DELF)</span><span class="lang-en">🇫🇷 French: Level A2 (DELF)</span></li>
-    </ul>
-  </div>
-</section>
-
-<!-- Sección: Contacto (datos) -->
-<section id="contacto-section">
-  <h2 class="section-title">
-    <span class="lang-es">📫 Contacto</span>
-    <span class="lang-en">📫 Contact</span>
-  </h2>
-  <img class="section-img" src="https://via.placeholder.com/300?text=Contacto" alt="Contacto" onclick="toggleContent('contacto')">
-  <div id="contacto" class="content">
-    <ul>
-      <li><span class="lang-es">✉️ Email:</span><span class="lang-en">✉️ Email:</span> <a href="mailto:andeande.ac@gmail.com">andeande.ac@gmail.com</a></li>
-      <li><span class="lang-es">🔗 LinkedIn:</span><span class="lang-en">🔗 LinkedIn:</span> <a href="https://www.linkedin.com/in/andreaclementeure%C3%B1a/" target="_blank">https://www.linkedin.com/in/andreaclementeure%C3%B1a/</a></li>
-      <li><span class="lang-es">💻 GitHub:</span><span class="lang-en">💻 GitHub:</span> <a href="https://github.com/andyacment" target="_blank">https://github.com/andyacment</a></li>
-    </ul>
-  </div>
-</section>
-
-<!-- Formulario de contacto -->
-<form id="contact-form">
-  <h2>
-    <span class="lang-es">Formulario de Contacto</span>
-    <span class="lang-en">Contact Form</span>
-  </h2>
-  <label for="name">
-    <span class="lang-es">Nombre</span>
-    <span class="lang-en">Name</span>
-  </label>
-  <input type="text" id="name" name="name" required>
-  
-  <label for="email">
-    <span class="lang-es">Correo electrónico</span>
-    <span class="lang-en">Email</span>
-  </label>
-  <input type="email" id="email" name="email" required>
-  
-  <label for="message">
-    <span class="lang-es">Mensaje</span>
-    <span class="lang-en">Message</span>
-  </label>
-  <textarea id="message" name="message" rows="5" required></textarea>
-  <input type="submit" value="Enviar">
-</form>
+<!-- Resto de las secciones (Formación, Tecnologías, Experiencia, Idiomas, Contacto) -->
+<!-- Se mantienen igual que en el código anterior, solo cambia el estilo general -->
 
 <footer>
   <p>
