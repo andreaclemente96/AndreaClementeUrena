@@ -157,7 +157,7 @@
     <span class="lang-en">💡 My First Encounter with Research</span>
   </h2>
   <!-- Imagen actualizada; si no se muestra, revisa la URL en el navegador -->
-  <img src="C:\Users\andea\OneDrive\Escritorio\composed-pencils-chalkboard.jpg" alt="Mi primer contacto con la investigación" onclick="toggleContent('primer_contacto')">
+  <img src="https://www.freepik.es/foto-gratis/lapices-compuestos-pizarra_1313812.htm#fromView=search&page=1&position=23&uuid=97d30adc-a007-43ec-8748-2167fedcf065&query=primeros+pasos+ciencias" alt="Mi primer contacto con la investigación" onclick="toggleContent('primer_contacto')">
   <div id="primer_contacto" class="content">
     <p>
       <span class="lang-es">Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la <em>síntesis de bioplásticos a partir de la leche de vaca</em> en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el <strong>Finde Científico</strong>, formando parte de un equipo que realizaba experimentos de química visual (cambio de color gracias a las reacciones) para la divulgación científica, diseñados para acercar la ciencia a estudiantes, niños y familias en general.</span>
