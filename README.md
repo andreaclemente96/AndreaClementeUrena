@@ -13,7 +13,7 @@
       background-color: #f7f9fc;
       color: #333;
     }
-    /* Ocultamos los títulos de sección (los h2) para que no se muestren */
+    /* Ocultamos los títulos de sección para que no se muestren */
     h2 { display: none; }
     header h1 {
       text-align: center;
@@ -23,17 +23,16 @@
       text-align: center;
       color: #2c3e50;
     }
+    /* Todas las imágenes se centran y se ajustan */
     img {
       border-radius: 10px;
-      margin: 1rem 0;
+      margin: 1rem auto;
       cursor: pointer;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
     }
-    /* Ajustamos las imágenes principales de cada sección para que sean de un tamaño adecuado */
+    /* Imagenes principales de sección: tamaño aproximado */
     .section-img {
-      width: 300px; /* Puedes ajustar este valor */
+      width: 300px;
     }
     .content {
       display: none;
@@ -92,7 +91,7 @@
       margin-top: 10px;
     }
     .thumbnail {
-      width: 100px; /* Tamaño similar a un post-it */
+      width: 100px; /* Tamaño aproximado de un post-it */
       border: 1px solid #ccc;
       border-radius: 5px;
       overflow: hidden;
@@ -125,10 +124,8 @@
 
 <!-- Sección: Bienvenida (siempre visible) -->
 <section id="bienvenida">
-  <!-- Solo imagen con tooltip; al pasar el ratón se verá el título -->
   <img class="section-img" src="https://via.placeholder.com/300?text=Bienvenida" alt="Bienvenida" title="¡Bienvenid@ a mi portfolio!">
   <div class="content" style="display: block;"> 
-    <!-- Contenido de bienvenida (si lo deseas mostrar al hacer clic, aquí lo dejamos visible por defecto) -->
     <p>
       <span class="lang-es">Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de cultivos</strong> y la <strong>caracterización de estructuras vegetales</strong>, aplicando aprendizaje automático y análisis de datos.</span>
       <span class="lang-en">This space brings together my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong> and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>crop phenotyping</strong> and <strong>plant structure characterization</strong> using machine learning and data analysis.</span>
@@ -142,7 +139,6 @@
 
 <!-- Sección: Mi primer contacto con la investigación -->
 <section id="primer-contacto-section">
-  <!-- Solo imagen con tooltip; la imagen es visible -->
   <img class="section-img" src="https://img.freepik.com/foto-gratis/lapices-compuestos-pizarra_1313812.jpg" alt="Mi primer contacto con la investigación" title="💡 Mi primer contacto con la investigación" onclick="toggleContent('primer_contacto')">
   <div id="primer_contacto" class="content">
     <p>
@@ -158,10 +154,10 @@
 
 <!-- Sección: Proyectos destacados -->
 <section id="proyectos-section">
-  <!-- Solo imagen principal; al hacer clic se despliegan las miniaturas -->
+  <!-- Imagen principal: solo se muestra la imagen, con tooltip -->
   <img class="section-img" src="https://via.placeholder.com/300?text=Proyectos" alt="Proyectos Destacados" title="🚀 Proyectos destacados" onclick="toggleContent('proyectos-thumbnails')">
   <div id="proyectos-thumbnails" class="content">
-    <!-- Aquí se muestran solo las miniaturas (sin texto) -->
+    <!-- Miniaturas de cada proyecto -->
     <div class="project-thumbnails">
       <div class="thumbnail" title="Fenotipado de alto rendimiento" onclick="toggleContent('proyecto1')">
         <img src="https://via.placeholder.com/100?text=Img+1" alt="Miniatura 1">
@@ -179,36 +175,35 @@
         <img src="https://via.placeholder.com/100?text=Img+5" alt="Miniatura 5">
       </div>
     </div>
-    <!-- Detalles de cada proyecto (se muestran al hacer clic en la miniatura correspondiente) -->
+    <!-- Detalles de cada proyecto -->
     <div id="proyecto1" class="content">
-      <!-- Aquí colocas los detalles de "Fenotipado de alto rendimiento" -->
       <p>
-        <span class="lang-es">Detalles del proyecto de fenotipado de alto rendimiento...</span>
-        <span class="lang-en">Details of the high-performance phenotyping project...</span>
+        <span class="lang-es">Fenotipado automatizado de cultivos con robótica y visión computacional. Diseño experimental y análisis de datos fenotípicos.</span>
+        <span class="lang-en">Automated crop phenotyping with robotics and computer vision. Experimental design and phenotypic data analysis.</span>
       </p>
     </div>
     <div id="proyecto2" class="content">
       <p>
-        <span class="lang-es">Detalles del proyecto de bioinformática y análisis ómico...</span>
-        <span class="lang-en">Details of the bioinformatics and omics analysis project...</span>
+        <span class="lang-es">TFM: Identificación y caracterización de tRFs sobreexpresados en enfermedad de Huntington. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
+        <span class="lang-en">Master's Thesis: Identification and characterization of overexpressed tRFs in Huntington’s disease. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
       </p>
     </div>
     <div id="proyecto3" class="content">
       <p>
-        <span class="lang-es">Detalles del proyecto de genética molecular y citología...</span>
-        <span class="lang-en">Details of the molecular genetics and cytology project...</span>
+        <span class="lang-es">TFG: Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania. DOI: <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. Participación mencionada en el Informe Científico del CBMSO-CSIC 2021–2022.</span>
+        <span class="lang-en">Bachelor's Thesis: Structural characterization of genes coding for ribosomal proteins in Leishmania. DOI: <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. Participation mentioned in the CBMSO-CSIC Scientific Report 2021–2022.</span>
       </p>
     </div>
     <div id="proyecto4" class="content">
       <p>
-        <span class="lang-es">Detalles del proyecto de histología e inmunohistoquímica...</span>
-        <span class="lang-en">Details of the histology and immunohistochemistry project...</span>
+        <span class="lang-es">Proyecto sobre detección inmunohistoquímica de BRCA en cáncer de mama durante el FPII.</span>
+        <span class="lang-en">Project on immunohistochemical detection of BRCA in breast cancer during FPII.</span>
       </p>
     </div>
     <div id="proyecto5" class="content">
       <p>
-        <span class="lang-es">Detalles del proyecto de exploración con tecnologías inmersivas...</span>
-        <span class="lang-en">Details of the exploration with immersive technologies project...</span>
+        <span class="lang-es">Colaboración con el Centro de Automática y Robótica (CAR-CSIC-UPM) para desarrollar soluciones con Microsoft HoloLens2 en aplicaciones agrícolas. (Proyecto en fase inicial)</span>
+        <span class="lang-en">Collaboration with the Center for Automation and Robotics (CAR-CSIC-UPM) to develop solutions with Microsoft HoloLens2 in agricultural applications. (Initial project)</span>
       </p>
     </div>
   </div>
