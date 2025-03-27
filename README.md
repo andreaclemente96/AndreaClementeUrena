@@ -128,7 +128,7 @@
 
 <!-- Sección: Intro -->
 <section>
-  <h2 class="section-header" onclick="toggleContent('intro')">¡Bienvenid@ a mi portfolio!</h2>
+  <h2 class="section-header" onclick="toggleContent('intro')">Contenidos</h2>
   <!-- Imagen para activar la sección -->
   <img src="https://via.placeholder.com/400x200?text=Intro" alt="Imagen Intro" onclick="toggleContent('intro')">
   <div id="intro" class="content">
@@ -146,7 +146,7 @@
 <!-- Sección: Mi primer contacto con la investigación -->
 <section>
   <h2 class="section-header" onclick="toggleContent('primer_contacto')">💡 Mi primer contacto con la investigación</h2>
-  <img src="https://via.placeholder.com/400x200?text=Investigaci%C3%B3n" alt="Imagen Primer Contacto" onclick="toggleContent('primer_contacto')">
+  <img src="https://www.freepik.es/foto-gratis/lapices-compuestos-pizarra_1313812.htm#fromView=search&page=1&position=23&uuid=97d30adc-a007-43ec-8748-2167fedcf065&query=primeros+pasos+ciencias" alt="Imagen Primer Contacto" onclick="toggleContent('primer_contacto')">
   <div id="primer_contacto" class="content">
     <p data-es="Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la síntesis de bioplásticos a partir de la leche de vaca en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el Finde Científico, formando parte de un equipo que realizaba experimentos de química visual (cambio de color gracias a las reacciones) para la divulgación científica, diseñados para acercar la ciencia a estudiantes, niños y familias en general." 
        data-en="My first contact with research was in 1st year of high school when I developed a project on synthesizing bioplastics from cow's milk in Biology and Experimental Techniques in Science. That same year, I participated in Finde Científico, as part of a team performing visual chemistry experiments (color change due to reactions) to bring science closer to students, children, and families.">
