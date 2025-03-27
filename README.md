@@ -139,7 +139,7 @@
 
 <!-- Sección: Mi primer contacto con la investigación -->
 <section id="primer-contacto-section">
-  <img class="section-img" src="https://img.freepik.com/foto-gratis/lapices-compuestos-pizarra_1313812.jpg" alt="Mi primer contacto con la investigación" title="💡 Mi primer contacto con la investigación" onclick="toggleContent('primer_contacto')">
+  <img class="section-img" src="composed-pencils-chalkboard.jpg" alt="Mi primer contacto con la investigación" title="💡 Mi primer contacto con la investigación" onclick="toggleContent('primer_contacto')">
   <div id="primer_contacto" class="content">
     <p>
       <span class="lang-es">Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la <em>síntesis de bioplásticos a partir de la leche de vaca</em> en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el <strong>Finde Científico</strong>, formando parte de un equipo que realizaba experimentos de química visual para la divulgación científica.</span>
@@ -163,13 +163,13 @@
         <img src="https://via.placeholder.com/100?text=Img+1" alt="Miniatura 1">
       </div>
       <div class="thumbnail" title="Bioinformática y análisis ómico" onclick="toggleContent('proyecto2')">
-        <img src="https://via.placeholder.com/100?text=Img+2" alt="Miniatura 2">
+        <img src="https://github.com/user-attachments/assets/8dfa2628-f892-4078-bde3-3915150bed34" alt="Miniatura 2">
       </div>
       <div class="thumbnail" title="Genética molecular y citología" onclick="toggleContent('proyecto3')">
-        <img src="https://via.placeholder.com/100?text=Img+3" alt="Miniatura 3">
+        <img src="https://github.com/user-attachments/assets/b740f460-1160-4a35-90c6-b3b2e5861f23" alt="Miniatura 3">
       </div>
       <div class="thumbnail" title="Histología e inmunohistoquímica" onclick="toggleContent('proyecto4')">
-        <img src="https://via.placeholder.com/100?text=Img+4" alt="Miniatura 4">
+        <img src="https://github.com/user-attachments/assets/73e74b49-a323-40f3-b055-1f3bfaf9750c" alt="Miniatura 4">
       </div>
       <div class="thumbnail" title="Exploración con tecnologías inmersivas" onclick="toggleContent('proyecto5')">
         <img src="https://via.placeholder.com/100?text=Img+5" alt="Miniatura 5">
@@ -190,8 +190,8 @@
     </div>
     <div id="proyecto3" class="content">
       <p>
-        <span class="lang-es">TFG: Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania. DOI: <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. Participación mencionada en el Informe Científico del CBMSO-CSIC 2021–2022.</span>
-        <span class="lang-en">Bachelor's Thesis: Structural characterization of genes coding for ribosomal proteins in Leishmania. DOI: <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. Participation mentioned in the CBMSO-CSIC Scientific Report 2021–2022.</span>
+        <span class="lang-es">TFG: Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania. DOI: <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. Participación mencionada en el <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">Informe Científico del CBMSO-CSIC 2021–2022.</span>
+        <span class="lang-en">Bachelor's Thesis: Structural characterization of genes coding for ribosomal proteins in Leishmania. DOI: <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. Participation mentioned in the <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">CBMSO-CSIC Scientific Report 2021–2022.</span>
       </p>
     </div>
     <div id="proyecto4" class="content">
