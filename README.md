@@ -13,8 +13,6 @@
       background-color: #f7f9fc;
       color: #333;
     }
-    /* Ocultamos los títulos de sección para que no se muestren */
-    h2 { display: none; }
     header h1 {
       text-align: center;
       color: #2c3e50;
@@ -30,9 +28,20 @@
       cursor: pointer;
       display: block;
     }
+    /* Imagen de bienvenida 3 veces más grande */
+    #bienvenida img.section-img {
+      width: 900px;
+      max-width: 90%;
+    }
     /* Imagenes principales de sección: tamaño aproximado */
     .section-img {
       width: 300px;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 0.5rem;
+      color: #2c3e50;
+      font-size: 1.5rem;
     }
     .content {
       display: none;
@@ -100,6 +109,12 @@
       width: 100%;
       display: block;
     }
+    /* Footer en cursiva y centrado */
+    footer {
+      text-align: center;
+      font-style: italic;
+      margin-top: 2rem;
+    }
   </style>
 </head>
 <body>
@@ -124,26 +139,34 @@
 
 <!-- Sección: Bienvenida (siempre visible) -->
 <section id="bienvenida">
-  <img class="section-img" src="beautiful-landscape-with-rainbow-plants.jpg" alt="Bienvenida" title="¡Bienvenid@ a mi portfolio!">
+  <h2 class="section-title">
+    <span class="lang-es">¡Bienvenid@ a mi portfolio!</span>
+    <span class="lang-en">Welcome to my portfolio!</span>
+  </h2>
+  <img class="section-img" src="beautiful-landscape-with-rainbow-plants.jpg" alt="Bienvenida">
   <div class="content" style="display: block;"> 
     <p>
-      <span class="lang-es">Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de cultivos</strong> y la <strong>caracterización de estructuras vegetales</strong>, aplicando aprendizaje automático y análisis de datos.</span>
-      <span class="lang-en">This space brings together my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong> and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>crop phenotyping</strong> and <strong>plant structure characterization</strong> using machine learning and data analysis.</span>
+      <span class="lang-es">Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de cultivos</strong> y la <strong>caracterización de estructuras vegetales</strong>, aplicando aprendizaje automático y análisis de datos. <strong>Si te interesa mi trabajo, ¡Haz click en las siguientes imágenes!</strong> </span>
+      <span class="lang-en">This space brings together my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong> and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>crop phenotyping</strong> and <strong>plant structure characterization</strong> using machine learning and data analysis. <strong>If you're interested in my work, click on the following images!</strong></span>
     </p>
     <p>
       <span class="lang-es">📍 Investigadora predoctoral en la Universidad Politécnica de Madrid (UPM) y el Centro de Recursos Fitogenéticos (CRF-INIA-CSIC), dentro del proyecto <strong>Transformación digital de las actividades de conservación y mejora vegetal</strong>.</span>
-      <span class="lang-en">📍 Predoctoral researcher at the Polytechnic University of Madrid (UPM) and the Fitogenetic Resources Center (CRF-INIA-CSIC), in the project <strong>Digital Transformation of Plant Conservation and Improvement</strong>.</span>
+      <span class="lang-en">📍 Predoctoral researcher at the Polytechnic University of Madrid (UPM) and the Plant Genetic Resources Center (CRF-INIA-CSIC), within the project <strong>Digital Transformation of Plant Conservation and Improvement</strong>.</span>
     </p>
   </div>
 </section>
 
 <!-- Sección: Mi primer contacto con la investigación -->
 <section id="primer-contacto-section">
-  <img class="section-img" src="composed-pencils-chalkboard.jpg" alt="Mi primer contacto con la investigación" title="💡 Mi primer contacto con la investigación" onclick="toggleContent('primer_contacto')">
+  <h2 class="section-title">
+    <span class="lang-es">💡 Mi primer contacto con la investigación</span>
+    <span class="lang-en">💡 My first encounter with research</span>
+  </h2>
+  <img class="section-img" src="composed-pencils-chalkboard.jpg" alt="Mi primer contacto con la investigación" onclick="toggleContent('primer_contacto')">
   <div id="primer_contacto" class="content">
     <p>
       <span class="lang-es">Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la <em>síntesis de bioplásticos a partir de la leche de vaca</em> en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el <strong>Finde Científico</strong>, formando parte de un equipo que realizaba experimentos de química visual para la divulgación científica.</span>
-      <span class="lang-en">My first encounter with research was in the first year of high school when I developed a project on the <em>synthesis of bioplastics from cow's milk</em> in Biology and Experimental Techniques classes. That same year, I participated in Finde Científico, as part of a team performing visual chemistry experiments to bring science closer to the public.</span>
+      <span class="lang-en">My first encounter with research was in the first year of high school when I developed a project on the <em>synthesis of bioplastics from cow's milk</em> in Biology and Experimental Techniques classes. That same year, I participated in the Science Weekend (Finde Científico), as part of a team performing visual chemistry experiments for science outreach.</span>
     </p>
     <div style="display: flex; justify-content: center; gap: 20px;">
       <img src="laboratory-samples-arrangement.jpg" alt="Síntesis de bioplásticos" width="300" title="Síntesis de bioplásticos">
@@ -154,8 +177,11 @@
 
 <!-- Sección: Proyectos destacados -->
 <section id="proyectos-section">
-  <!-- Imagen principal: solo se muestra la imagen, con tooltip -->
-  <img class="section-img" src="https://via.placeholder.com/300?text=Proyectos" alt="Proyectos Destacados" title="🚀 Proyectos destacados" onclick="toggleContent('proyectos-thumbnails')">
+  <h2 class="section-title">
+    <span class="lang-es">🚀 Proyectos destacados</span>
+    <span class="lang-en">🚀 Featured Projects</span>
+  </h2>
+  <img class="section-img" src="https://via.placeholder.com/300?text=Proyectos" alt="Proyectos Destacados" onclick="toggleContent('proyectos-thumbnails')">
   <div id="proyectos-thumbnails" class="content">
     <!-- Miniaturas de cada proyecto -->
     <div class="project-thumbnails">
@@ -185,13 +211,27 @@
     <div id="proyecto2" class="content">
       <p>
         <span class="lang-es">TFM: Identificación y caracterización de tRFs sobreexpresados en enfermedad de Huntington. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
-        <span class="lang-en">Master's Thesis: Identification and characterization of overexpressed tRFs in Huntington’s disease. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
+        <span class="lang-en">Master's Thesis: Identification and characterization of overexpressed tRFs in Huntington's disease. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
       </p>
     </div>
     <div id="proyecto3" class="content">
       <p>
-        <span class="lang-es">TFG: Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania. DOI: <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. Participación mencionada en el <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">Informe Científico del CBMSO-CSIC 2021–2022.</span>
-        <span class="lang-en">Bachelor's Thesis: Structural characterization of genes coding for ribosomal proteins in Leishmania. DOI: <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. Participation mentioned in the <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">CBMSO-CSIC Scientific Report 2021–2022.</span>
+        <span class="lang-es">
+  TFG: Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania. DOI: 
+  <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. 
+  Participación mencionada en el 
+  <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
+    Informe Científico del CBMSO-CSIC 2021–2022
+  </a>.
+</span>
+<span class="lang-en">
+  Bachelor's Thesis: Structural characterization of genes coding for ribosomal proteins in Leishmania. DOI: 
+  <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. 
+  Participation mentioned in the 
+  <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
+    CBMSO-CSIC Scientific Report 2021–2022
+  </a>.
+</span>
       </p>
     </div>
     <div id="proyecto4" class="content">
@@ -211,7 +251,11 @@
 
 <!-- Sección: Formación académica -->
 <section id="formacion-section">
-  <img class="section-img" src="https://via.placeholder.com/300?text=Formaci%C3%B3n" alt="Formación Académica" title="🎓 Formación académica" onclick="toggleContent('formacion')">
+  <h2 class="section-title">
+    <span class="lang-es">🎓 Formación académica</span>
+    <span class="lang-en">🎓 Academic Education</span>
+  </h2>
+  <img class="section-img" src="https://via.placeholder.com/300?text=Formaci%C3%B3n" alt="Formación Académica" onclick="toggleContent('formacion')">
   <div id="formacion" class="content">
     <ul>
       <li>
@@ -236,7 +280,11 @@
 
 <!-- Sección: Tecnologías y herramientas -->
 <section id="tecnologias-section">
-  <img class="section-img" src="https://via.placeholder.com/300?text=Tecnolog%C3%ADas" alt="Tecnologías y Herramientas" title="🛠️ Tecnologías y herramientas" onclick="toggleContent('tecnologias')">
+  <h2 class="section-title">
+    <span class="lang-es">🛠️ Tecnologías y herramientas</span>
+    <span class="lang-en">🛠️ Technologies and Tools</span>
+  </h2>
+  <img class="section-img" src="https://via.placeholder.com/300?text=Tecnolog%C3%ADas" alt="Tecnologías y Herramientas" onclick="toggleContent('tecnologias')">
   <div id="tecnologias" class="content">
     <table>
       <tr>
@@ -280,7 +328,11 @@
 
 <!-- Sección: Experiencia profesional -->
 <section id="experiencia-section">
-  <img class="section-img" src="https://via.placeholder.com/300?text=Experiencia" alt="Experiencia Profesional" title="📚 Experiencia profesional" onclick="toggleContent('experiencia')">
+  <h2 class="section-title">
+    <span class="lang-es">📚 Experiencia profesional</span>
+    <span class="lang-en">📚 Professional Experience</span>
+  </h2>
+  <img class="section-img" src="https://via.placeholder.com/300?text=Experiencia" alt="Experiencia Profesional" onclick="toggleContent('experiencia')">
   <div id="experiencia" class="content">
     <ul>
       <li>
@@ -307,7 +359,11 @@
 
 <!-- Sección: Idiomas -->
 <section id="idiomas-section">
-  <img class="section-img" src="https://via.placeholder.com/300?text=Idiomas" alt="Idiomas" title="🌐 Idiomas" onclick="toggleContent('idiomas')">
+  <h2 class="section-title">
+    <span class="lang-es">🌐 Idiomas</span>
+    <span class="lang-en">🌐 Languages</span>
+  </h2>
+  <img class="section-img" src="https://via.placeholder.com/300?text=Idiomas" alt="Idiomas" onclick="toggleContent('idiomas')">
   <div id="idiomas" class="content">
     <ul>
       <li><span class="lang-es">🇪🇸 Español: Nativo</span><span class="lang-en">🇪🇸 Spanish: Native</span></li>
@@ -319,7 +375,11 @@
 
 <!-- Sección: Contacto (datos) -->
 <section id="contacto-section">
-  <img class="section-img" src="https://via.placeholder.com/300?text=Contacto" alt="Contacto" title="📫 Contacto" onclick="toggleContent('contacto')">
+  <h2 class="section-title">
+    <span class="lang-es">📫 Contacto</span>
+    <span class="lang-en">📫 Contact</span>
+  </h2>
+  <img class="section-img" src="https://via.placeholder.com/300?text=Contacto" alt="Contacto" onclick="toggleContent('contacto')">
   <div id="contacto" class="content">
     <ul>
       <li><span class="lang-es">✉️ Email:</span><span class="lang-en">✉️ Email:</span> <a href="mailto:andeande.ac@gmail.com">andeande.ac@gmail.com</a></li>
@@ -357,8 +417,8 @@
 
 <footer>
   <p>
-    <span class="lang-es">_"La IA no es el enemigo, es la lupa que amplifica lo que la ciencia aún no alcanza."_ 🤖🔬🌍</span>
-    <span class="lang-en">_"AI is not the enemy; it is the magnifying glass that amplifies what science has not yet reached."_ 🤖🔬🌍</span>
+    <span class="lang-es">"La IA no es el enemigo, es la lupa que amplifica lo que la ciencia aún no alcanza." 🤖🔬🌍</span>
+    <span class="lang-en">"AI is not the enemy; it is the magnifying glass that amplifies what science has not yet reached." 🤖🔬🌍</span>
   </p>
 </footer>
 
@@ -386,11 +446,14 @@
 
   document.getElementById("contact-form").addEventListener("submit", function(e) {
     e.preventDefault();
-    alert("Formulario enviado. Gracias por tu mensaje.");
+    alert(
+      document.documentElement.lang === 'es' 
+        ? "Formulario enviado. Gracias por tu mensaje." 
+        : "Form submitted. Thank you for your message."
+    );
     this.reset();
   });
 </script>
 
 </body>
 </html>
-
