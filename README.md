@@ -13,58 +13,31 @@
       background-color: #f7f9fc;
       color: #333;
     }
-    h1, h2, h3 {
+    /* Ocultamos los títulos de sección (los h2) para que no se muestren */
+    h2 { display: none; }
+    header h1 {
+      text-align: center;
       color: #2c3e50;
     }
-    header {
+    header p {
       text-align: center;
-      margin-bottom: 2rem;
+      color: #2c3e50;
     }
     img {
-      max-width: 100%;
-      height: auto;
       border-radius: 10px;
       margin: 1rem 0;
       cursor: pointer;
-    }
-    .grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      justify-content: center;
-    }
-    .grid img {
-      max-width: 45%;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1rem 0;
-    }
-    td, th {
-      padding: 0.5rem;
-    }
-    tr:nth-child(even) {
-      background-color: #eaf0f7;
-    }
-    .center-img {
       display: block;
-      margin: 1rem auto;
-      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
     }
-    footer {
-      text-align: center;
-      margin-top: 2rem;
-      font-style: italic;
-      color: #555;
+    /* Ajustamos las imágenes principales de cada sección para que sean de un tamaño adecuado */
+    .section-img {
+      width: 300px; /* Puedes ajustar este valor */
     }
     .content {
       display: none;
       margin-top: 10px;
-    }
-    .section-header {
-      cursor: pointer;
-      margin-top: 20px;
     }
     /* Botón de idioma */
     #language-toggle {
@@ -79,7 +52,7 @@
       cursor: pointer;
       z-index: 1000;
     }
-    /* Estilos para el formulario de contacto */
+    /* Formulario de contacto */
     form {
       margin-top: 2rem;
       background-color: #eef4fa;
@@ -110,26 +83,29 @@
     }
     /* Traducción: inicialmente mostramos el español y ocultamos el inglés */
     .lang-en { display: none; }
-
-    /* Nueva sección: miniaturas para imágenes de cada proyecto */
+    /* Estilos para las miniaturas de los proyectos */
     .project-thumbnails {
       display: flex;
       gap: 10px;
       flex-wrap: wrap;
+      justify-content: center;
       margin-top: 10px;
     }
-    .thumbnail img {
-      width: 100px;  /* Tamaño aproximado de un post-it */
-      height: auto;
-      cursor: pointer;
+    .thumbnail {
+      width: 100px; /* Tamaño similar a un post-it */
       border: 1px solid #ccc;
       border-radius: 5px;
+      overflow: hidden;
+    }
+    .thumbnail img {
+      width: 100%;
+      display: block;
     }
   </style>
 </head>
 <body>
 
-<!-- Botón para alternar el idioma -->
+<!-- Botón para alternar idioma -->
 <button id="language-toggle" onclick="toggleLanguage()">English</button>
 
 <header>
@@ -148,12 +124,11 @@
 </header>
 
 <!-- Sección: Bienvenida (siempre visible) -->
-<section>
-  <h2>
-    <span class="lang-es">¡Bienvenid@ a mi portfolio!</span>
-    <span class="lang-en">Welcome to my portfolio!</span>
-  </h2>
-  <div>
+<section id="bienvenida">
+  <!-- Solo imagen con tooltip; al pasar el ratón se verá el título -->
+  <img class="section-img" src="https://via.placeholder.com/300?text=Bienvenida" alt="Bienvenida" title="¡Bienvenid@ a mi portfolio!">
+  <div class="content" style="display: block;"> 
+    <!-- Contenido de bienvenida (si lo deseas mostrar al hacer clic, aquí lo dejamos visible por defecto) -->
     <p>
       <span class="lang-es">Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de cultivos</strong> y la <strong>caracterización de estructuras vegetales</strong>, aplicando aprendizaje automático y análisis de datos.</span>
       <span class="lang-en">This space brings together my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong> and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>crop phenotyping</strong> and <strong>plant structure characterization</strong> using machine learning and data analysis.</span>
@@ -166,157 +141,82 @@
 </section>
 
 <!-- Sección: Mi primer contacto con la investigación -->
-<section>
-  <h2 class="section-header" onclick="toggleContent('primer_contacto')">
-    <span class="lang-es">💡 Mi primer contacto con la investigación</span>
-    <span class="lang-en">💡 My First Encounter with Research</span>
-  </h2>
-  <!-- Usamos la URL que prefieras; aquí he dejado un ejemplo (puedes sustituirlo) -->
-  <img src="https://img.freepik.com/foto-gratis/lapices-compuestos-pizarra_1313812.jpg" alt="Mi primer contacto con la investigación" onclick="toggleContent('primer_contacto')" title="Mi primer contacto con la investigación">
+<section id="primer-contacto-section">
+  <!-- Solo imagen con tooltip; la imagen es visible -->
+  <img class="section-img" src="https://img.freepik.com/foto-gratis/lapices-compuestos-pizarra_1313812.jpg" alt="Mi primer contacto con la investigación" title="💡 Mi primer contacto con la investigación" onclick="toggleContent('primer_contacto')">
   <div id="primer_contacto" class="content">
     <p>
-      <span class="lang-es">Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la <em>síntesis de bioplásticos a partir de la leche de vaca</em> en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el <strong>Finde Científico</strong>, formando parte de un equipo que realizaba experimentos de química visual (cambio de color gracias a las reacciones) para la divulgación científica, diseñados para acercar la ciencia a estudiantes, niños y familias en general.</span>
-      <span class="lang-en">My first encounter with research was in the first year of high school when I developed a project on the <em>synthesis of bioplastics from cow's milk</em> in Biology and Experimental Techniques classes. That same year, I participated in Finde Científico, as part of a team performing visual chemistry experiments (color changes due to reactions) to bring science closer to students, children, and families.</span>
+      <span class="lang-es">Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la <em>síntesis de bioplásticos a partir de la leche de vaca</em> en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el <strong>Finde Científico</strong>, formando parte de un equipo que realizaba experimentos de química visual para la divulgación científica.</span>
+      <span class="lang-en">My first encounter with research was in the first year of high school when I developed a project on the <em>synthesis of bioplastics from cow's milk</em> in Biology and Experimental Techniques classes. That same year, I participated in Finde Científico, as part of a team performing visual chemistry experiments to bring science closer to the public.</span>
     </p>
     <div style="display: flex; justify-content: center; gap: 20px;">
-      <img src="https://github.com/user-attachments/assets/2507bf89-76fb-4903-b5fb-6aea3606fc46" alt="Síntesis de bioplásticos a partir de la leche de vaca" width="300" title="Síntesis de bioplásticos">
-      <img src="https://github.com/user-attachments/assets/fda0a450-37c9-4553-8ba1-94f0d26d670c" alt="Finde Científico: Experimentos de química visual" width="300" title="Finde Científico">
+      <img src="https://github.com/user-attachments/assets/2507bf89-76fb-4903-b5fb-6aea3606fc46" alt="Síntesis de bioplásticos" width="300" title="Síntesis de bioplásticos">
+      <img src="https://github.com/user-attachments/assets/fda0a450-37c9-4553-8ba1-94f0d26d670c" alt="Finde Científico" width="300" title="Finde Científico">
     </div>
   </div>
 </section>
 
 <!-- Sección: Proyectos destacados -->
-<section>
-  <h2 class="section-header" onclick="toggleContent('proyectos')">
-    <span class="lang-es">🚀 Proyectos destacados</span>
-    <span class="lang-en">🚀 Featured Projects</span>
-  </h2>
-  <img src="https://via.placeholder.com/400x200?text=Proyectos" alt="Imagen Proyectos" onclick="toggleContent('proyectos')" title="Proyectos Destacados">
-  <div id="proyectos" class="content">
-    <ul>
-      <li>
-        <strong>
-          <span class="lang-es">Fenotipado de alto rendimiento</span>
-          <span class="lang-en">High-performance Phenotyping</span>
-        </strong>
-        <ul>
-          <li>
-            <span class="lang-es">Integración de sensores RGB, multiespectrales y LiDAR en robots autónomos.</span>
-            <span class="lang-en">Integration of RGB, multispectral, and LiDAR sensors on autonomous robots.</span>
-          </li>
-          <li>
-            <span class="lang-es">Procesamiento de datos 3D y modelos de IA para el análisis de cultivos.</span>
-            <span class="lang-en">3D data processing and AI models for crop analysis.</span>
-          </li>
-        </ul>
-        <!-- Contenedor para las miniaturas de imágenes relacionadas -->
-        <div class="project-thumbnails">
-          <div class="thumbnail" title="Fenotipado - Imagen 1">
-            <img src="https://via.placeholder.com/100?text=Img+1" alt="Img 1">
-          </div>
-          <div class="thumbnail" title="Fenotipado - Imagen 2">
-            <img src="https://via.placeholder.com/100?text=Img+2" alt="Img 2">
-          </div>
-          <!-- Puedes agregar más miniaturas según necesites -->
-        </div>
-      </li>
-      <li>
-        <strong>
-          <span class="lang-es">Bioinformática y análisis ómico</span>
-          <span class="lang-en">Bioinformatics and Omics Analysis</span>
-        </strong>
-        <ul>
-          <li>
-            <span class="lang-es">TFM: <em>Identificación y caracterización de tRFs sobreexpresados en enfermedad de Huntington</em>.</span>
-            <span class="lang-en">Master's Thesis: <em>Identification and characterization of overexpressed tRFs in Huntington’s disease</em>.</span>
-          </li>
-          <li>📄 DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></li>
-        </ul>
-        <div class="project-thumbnails">
-          <div class="thumbnail" title="Bioinformática - Imagen 1">
-            <img src="https://via.placeholder.com/100?text=Img+1" alt="Img 1">
-          </div>
-          <div class="thumbnail" title="Bioinformática - Imagen 2">
-            <img src="https://via.placeholder.com/100?text=Img+2" alt="Img 2">
-          </div>
-        </div>
-      </li>
-      <li>
-        <strong>
-          <span class="lang-es">Genética molecular y citología</span>
-          <span class="lang-en">Molecular Genetics and Cytology</span>
-        </strong>
-        <ul>
-          <li>
-            <span class="lang-es">TFG: <em>Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania</em>.</span>
-            <span class="lang-en">Bachelor’s Thesis: <em>Structural characterization of genes coding for ribosomal proteins in Leishmania</em>.</span>
-          </li>
-          <li>📄 DOI: <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a></li>
-          <li>
-            <span class="lang-es">📰 Participación mencionada en el <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">Informe Científico del CBMSO-CSIC 2021–2022</a></span>
-            <span class="lang-en">📰 Participation mentioned in the <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">CBMSO-CSIC Scientific Report 2021–2022</a></span>
-          </li>
-        </ul>
-        <div class="project-thumbnails">
-          <div class="thumbnail" title="Genética - Imagen 1">
-            <img src="https://via.placeholder.com/100?text=Img+1" alt="Img 1">
-          </div>
-          <div class="thumbnail" title="Genética - Imagen 2">
-            <img src="https://via.placeholder.com/100?text=Img+2" alt="Img 2">
-          </div>
-        </div>
-      </li>
-      <li>
-        <strong>
-          <span class="lang-es">Histología e inmunohistoquímica</span>
-          <span class="lang-en">Histology and Immunohistochemistry</span>
-        </strong>
-        <ul>
-          <li>
-            <span class="lang-es">Proyecto sobre detección inmunohistoquímica de BRCA en cáncer de mama durante el FPII.</span>
-            <span class="lang-en">Project on immunohistochemical detection of BRCA in breast cancer during FPII.</span>
-          </li>
-        </ul>
-        <div class="project-thumbnails">
-          <div class="thumbnail" title="Histología - Imagen 1">
-            <img src="https://via.placeholder.com/100?text=Img+1" alt="Img 1">
-          </div>
-          <div class="thumbnail" title="Histología - Imagen 2">
-            <img src="https://via.placeholder.com/100?text=Img+2" alt="Img 2">
-          </div>
-        </div>
-      </li>
-      <li>
-        <strong>
-          <span class="lang-es">Exploración con tecnologías inmersivas</span>
-          <span class="lang-en">Exploration with Immersive Technologies</span>
-        </strong>
-        <ul>
-          <li>
-            <span class="lang-es">Colaboración con el <strong>Centro de Automática y Robótica (CAR-CSIC-UPM)</strong> para desarrollar soluciones con <strong>Microsoft HoloLens2</strong> en aplicaciones agrícolas. <em>(Proyecto en fase inicial)</em></span>
-            <span class="lang-en">Collaboration with the <strong>Center for Automation and Robotics (CAR-CSIC-UPM)</strong> to develop solutions with <strong>Microsoft HoloLens2</strong> in agricultural applications. <em>(Initial project)</em></span>
-          </li>
-        </ul>
-        <div class="project-thumbnails">
-          <div class="thumbnail" title="Tecnologías inmersivas - Imagen 1">
-            <img src="https://via.placeholder.com/100?text=Img+1" alt="Img 1">
-          </div>
-          <div class="thumbnail" title="Tecnologías inmersivas - Imagen 2">
-            <img src="https://via.placeholder.com/100?text=Img+2" alt="Img 2">
-          </div>
-        </div>
-      </li>
-    </ul>
+<section id="proyectos-section">
+  <!-- Solo imagen principal; al hacer clic se despliegan las miniaturas -->
+  <img class="section-img" src="https://via.placeholder.com/300?text=Proyectos" alt="Proyectos Destacados" title="🚀 Proyectos destacados" onclick="toggleContent('proyectos-thumbnails')">
+  <div id="proyectos-thumbnails" class="content">
+    <!-- Aquí se muestran solo las miniaturas (sin texto) -->
+    <div class="project-thumbnails">
+      <div class="thumbnail" title="Fenotipado de alto rendimiento" onclick="toggleContent('proyecto1')">
+        <img src="https://via.placeholder.com/100?text=Img+1" alt="Miniatura 1">
+      </div>
+      <div class="thumbnail" title="Bioinformática y análisis ómico" onclick="toggleContent('proyecto2')">
+        <img src="https://via.placeholder.com/100?text=Img+2" alt="Miniatura 2">
+      </div>
+      <div class="thumbnail" title="Genética molecular y citología" onclick="toggleContent('proyecto3')">
+        <img src="https://via.placeholder.com/100?text=Img+3" alt="Miniatura 3">
+      </div>
+      <div class="thumbnail" title="Histología e inmunohistoquímica" onclick="toggleContent('proyecto4')">
+        <img src="https://via.placeholder.com/100?text=Img+4" alt="Miniatura 4">
+      </div>
+      <div class="thumbnail" title="Exploración con tecnologías inmersivas" onclick="toggleContent('proyecto5')">
+        <img src="https://via.placeholder.com/100?text=Img+5" alt="Miniatura 5">
+      </div>
+    </div>
+    <!-- Detalles de cada proyecto (se muestran al hacer clic en la miniatura correspondiente) -->
+    <div id="proyecto1" class="content">
+      <!-- Aquí colocas los detalles de "Fenotipado de alto rendimiento" -->
+      <p>
+        <span class="lang-es">Detalles del proyecto de fenotipado de alto rendimiento...</span>
+        <span class="lang-en">Details of the high-performance phenotyping project...</span>
+      </p>
+    </div>
+    <div id="proyecto2" class="content">
+      <p>
+        <span class="lang-es">Detalles del proyecto de bioinformática y análisis ómico...</span>
+        <span class="lang-en">Details of the bioinformatics and omics analysis project...</span>
+      </p>
+    </div>
+    <div id="proyecto3" class="content">
+      <p>
+        <span class="lang-es">Detalles del proyecto de genética molecular y citología...</span>
+        <span class="lang-en">Details of the molecular genetics and cytology project...</span>
+      </p>
+    </div>
+    <div id="proyecto4" class="content">
+      <p>
+        <span class="lang-es">Detalles del proyecto de histología e inmunohistoquímica...</span>
+        <span class="lang-en">Details of the histology and immunohistochemistry project...</span>
+      </p>
+    </div>
+    <div id="proyecto5" class="content">
+      <p>
+        <span class="lang-es">Detalles del proyecto de exploración con tecnologías inmersivas...</span>
+        <span class="lang-en">Details of the exploration with immersive technologies project...</span>
+      </p>
+    </div>
   </div>
 </section>
 
 <!-- Sección: Formación académica -->
-<section>
-  <h2 class="section-header" onclick="toggleContent('formacion')">
-    <span class="lang-es">🎓 Formación académica</span>
-    <span class="lang-en">🎓 Academic Background</span>
-  </h2>
-  <img src="https://via.placeholder.com/400x200?text=Formaci%C3%B3n" alt="Imagen Formación" onclick="toggleContent('formacion')" title="Formación Académica">
+<section id="formacion-section">
+  <img class="section-img" src="https://via.placeholder.com/300?text=Formaci%C3%B3n" alt="Formación Académica" title="🎓 Formación académica" onclick="toggleContent('formacion')">
   <div id="formacion" class="content">
     <ul>
       <li>
@@ -340,12 +240,8 @@
 </section>
 
 <!-- Sección: Tecnologías y herramientas -->
-<section>
-  <h2 class="section-header" onclick="toggleContent('tecnologias')">
-    <span class="lang-es">🛠️ Tecnologías y herramientas</span>
-    <span class="lang-en">🛠️ Technologies &amp; Tools</span>
-  </h2>
-  <img src="https://via.placeholder.com/400x200?text=Tecnolog%C3%ADas" alt="Imagen Tecnologías" onclick="toggleContent('tecnologias')" title="Tecnologías y herramientas">
+<section id="tecnologias-section">
+  <img class="section-img" src="https://via.placeholder.com/300?text=Tecnolog%C3%ADas" alt="Tecnologías y Herramientas" title="🛠️ Tecnologías y herramientas" onclick="toggleContent('tecnologias')">
   <div id="tecnologias" class="content">
     <table>
       <tr>
@@ -388,12 +284,8 @@
 </section>
 
 <!-- Sección: Experiencia profesional -->
-<section>
-  <h2 class="section-header" onclick="toggleContent('experiencia')">
-    <span class="lang-es">📚 Experiencia profesional</span>
-    <span class="lang-en">📚 Professional Experience</span>
-  </h2>
-  <img src="https://via.placeholder.com/400x200?text=Experiencia" alt="Imagen Experiencia" onclick="toggleContent('experiencia')" title="Experiencia Profesional">
+<section id="experiencia-section">
+  <img class="section-img" src="https://via.placeholder.com/300?text=Experiencia" alt="Experiencia Profesional" title="📚 Experiencia profesional" onclick="toggleContent('experiencia')">
   <div id="experiencia" class="content">
     <ul>
       <li>
@@ -419,12 +311,8 @@
 </section>
 
 <!-- Sección: Idiomas -->
-<section>
-  <h2 class="section-header" onclick="toggleContent('idiomas')">
-    <span class="lang-es">🌐 Idiomas</span>
-    <span class="lang-en">🌐 Languages</span>
-  </h2>
-  <img src="https://via.placeholder.com/400x200?text=Idiomas" alt="Imagen Idiomas" onclick="toggleContent('idiomas')" title="Idiomas">
+<section id="idiomas-section">
+  <img class="section-img" src="https://via.placeholder.com/300?text=Idiomas" alt="Idiomas" title="🌐 Idiomas" onclick="toggleContent('idiomas')">
   <div id="idiomas" class="content">
     <ul>
       <li><span class="lang-es">🇪🇸 Español: Nativo</span><span class="lang-en">🇪🇸 Spanish: Native</span></li>
@@ -435,12 +323,8 @@
 </section>
 
 <!-- Sección: Contacto (datos) -->
-<section>
-  <h2 class="section-header" onclick="toggleContent('contacto')">
-    <span class="lang-es">📫 Contacto</span>
-    <span class="lang-en">📫 Contact</span>
-  </h2>
-  <img src="https://via.placeholder.com/400x200?text=Contacto" alt="Imagen Contacto" onclick="toggleContent('contacto')" title="Contacto">
+<section id="contacto-section">
+  <img class="section-img" src="https://via.placeholder.com/300?text=Contacto" alt="Contacto" title="📫 Contacto" onclick="toggleContent('contacto')">
   <div id="contacto" class="content">
     <ul>
       <li><span class="lang-es">✉️ Email:</span><span class="lang-en">✉️ Email:</span> <a href="mailto:andeande.ac@gmail.com">andeande.ac@gmail.com</a></li>
@@ -486,11 +370,10 @@
 <script>
   function toggleContent(id) {
     var content = document.getElementById(id);
-    content.style.display = content.style.display === "block" ? "none" : "block";
+    content.style.display = (content.style.display === "block") ? "none" : "block";
   }
 
   function toggleLanguage() {
-    // Si el idioma actual es español, ocultamos los elementos lang-es y mostramos lang-en, y viceversa.
     const esElements = document.querySelectorAll('.lang-es');
     const enElements = document.querySelectorAll('.lang-en');
     if (document.documentElement.lang === 'es') {
@@ -506,7 +389,6 @@
     }
   }
 
-  // Manejador del envío del formulario (solo front-end)
   document.getElementById("contact-form").addEventListener("submit", function(e) {
     e.preventDefault();
     alert("Formulario enviado. Gracias por tu mensaje.");
@@ -516,3 +398,4 @@
 
 </body>
 </html>
+
