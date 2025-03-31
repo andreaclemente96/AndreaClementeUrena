@@ -268,7 +268,7 @@
   <div class="lang-en">
     <p>This space brings together my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong>, and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>crop phenotyping</strong> and <strong>plant structure characterization</strong> using machine learning and data analysis.</p>
     <p class="centrado"><strong>To see my projects, click on the images!</strong></p>
-    <p>📍 Predoctoral researcher at the Polytechnic University of Madrid (UPM) and the Plant Genetic Resources Center (CRF-INIA-CSIC), within the project <strong>Digital Transformation of Plant Conservation and Improvement</strong>.</p>
+    <p>📍 Predoctoral researcher at the Polytechnic University of Madrid (UPM) and the Plant Genetic Resources Center (CRF-INIA-CSIC), within the project <strong>Digital Transformation of Plant Conservation and Breeding</strong>.</p>
   </div>
 
 </section>
@@ -279,7 +279,7 @@
       <td>
         <a href="#primer-contacto-section">
           <span class="lang-es">Mi primer contacto con la investigación</span>
-          <span class="lang-en">My First Encounter with Research</span>
+          <span class="lang-en">My initial experience with research</span>
         </a>
       </td>
       <td>
@@ -330,7 +330,7 @@
   </h2>
   <p>
     <span class="lang-es">Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la <em>síntesis de bioplásticos a partir de la leche de vaca</em> en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el <strong>Finde Científico</strong>, formando parte de un equipo que realizaba experimentos de química visual para la divulgación científica.</span>
-    <span class="lang-en">My first encounter with research was in the first year of high school when I developed a project on the <em>synthesis of bioplastics from cow's milk</em> in Biology and Experimental Techniques classes. That same year, I participated in the Science Weekend (Finde Científico), as part of a team performing visual chemistry experiments for science outreach.</span>
+    <span class="lang-en">My initial experience with research was in the first year of high school when I developed a project on the <em>synthesis of bioplastics from cow's milk</em> in Biology and Experimental Techniques classes. That same year, I participated in the Science Weekend (Finde Científico), as part of a team performing visual chemistry experiments for science outreach.</span>
   </p>
   
   <div class="project-container">
@@ -654,6 +654,11 @@
     <span class="lang-es">"La IA no es el enemigo, es la lupa que amplifica lo que la ciencia aún no alcanza." 🤖🔬🌍</span>
     <span class="lang-en">"AI is not the enemy; it is the magnifying glass that amplifies what science has not yet reached." 🤖🔬🌍</span>
   </p>
+  <div class="footer-text" id="image-credits">
+    <span class="lang-es">Imágenes utilizadas: Propias o de <a href="https://www.freepik.es/imagenes" target="_blank">Freepik</a> bajo licencia de uso libre.</span>
+    <span class="lang-en">Images used: Owned or from <a href="https://www.freepik.es/imagenes" target="_blank">Freepik</a> under a free-use license. </span>
+  </div>
+  
 </footer>
 
 <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
