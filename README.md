@@ -276,10 +276,10 @@
     <p class="centrado"><strong>To see my projects, click on the images!</strong></p>
     <p>📍 Predoctoral researcher at the Polytechnic University of Madrid (UPM) and the Plant Genetic Resources Center (CRF-INIA-CSIC), within the project <strong>Digital Transformation of Plant Conservation and Breeding</strong>.</p>
   </div>
-<p>
-    <a href="#autorreflexion-section" class="lang-es">🧠 Leer sobre mi autorreflexión</a> | 
+<p class="centered-link">
+    <a href="#autorreflexion-section" class="lang-es">🧠 Leer sobre mi autorreflexión</a>  
     <a href="#autorreflexion-section" class="lang-en">🧠 Read about my self-reflection</a>
-</p>
+  </p>
 </section>
 
 <section class="direct-section">
