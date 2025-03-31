@@ -1,18 +1,23 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Andrea Clemente-Ureña - Portfolio</title>
   <style>
+    :root {
+      --primary-color: #2e7d32;  /* Verde principal */
+      --secondary-color: #388e3c;  /* Verde secundario */
+      --accent-color: #a5d6a7;  /* Verde claro */
+      --background: #f0f4f3;  /* Fondo verde claro */
+    }
     body {
       font-family: "Segoe UI", sans-serif;
       margin: 0;
       padding: 2rem;
-      line-height: 1.7; /* Más espacio entre líneas */
-      background-color: #f7f9fc;
-      color: #333;
-      font-size: 1.2rem; /* Texto más grande */
+      line-height: 1.7;
+      background-color: var(--background);
+      color: #2d3436;
+      font-size: 1.2rem;
     }
     p, li, td {
       text-align: justify;
@@ -21,13 +26,13 @@
     }
     header h1 {
       text-align: center;
-      color: #2c3e50;
+      color: var(--primary-color);
       font-size: 2.5rem; /* Título principal más grande */
       margin-bottom: 1rem;
     }
     header p {
       text-align: center;
-      color: #2c3e50;
+      color: var(--primary-color);
       font-size: 1.4rem;
       margin-bottom: 1.5rem;
     }
@@ -46,13 +51,14 @@
     .section-title {
       text-align: center;
       margin: 3rem 0 1.5rem;
-      color: #2c3e50;
+      color: var(--primary-color);
       font-size: 2rem; /* Títulos de sección más grandes */
       font-weight: bold;
     }
     /* Estilo para secciones que se muestran directamente */
     .direct-section {
-      background-color: white;
+      background: linear-gradient(145deg, #ffffff 0%, #f0f4f3 100%);
+      border: 1px solid var(--accent-color);
       padding: 2rem;
       border-radius: 10px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -66,7 +72,7 @@
       text-align: center;
       font-size: 1.8rem;
       font-weight: bold;
-      color: #2c3e50;
+      color: var(--secondary-color);
       margin-bottom: 1.5rem;
     }
     .project-image {
@@ -74,14 +80,26 @@
       max-width: 95%;
       margin: 0 auto 2rem;
     }
-    .project-image img {
-      width: 100%;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    .project-image img:not(.section-img) {
+      width: 300px;
+      max-width: 100%;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .project-image img:hover:not(.section-img) {
+      transform: scale(1.05);
     }
     .project-description {
-      max-width: 900px;
-      margin: 0 auto;
-      font-size: 1.2rem;
+      display: none;
+      padding: 1rem;
+      background-color: rgba(165, 214, 167, 0.2);
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    .project-description.active {
+      display: block;
+      animation: fadeIn 0.3s ease-in;
     }
     /* Botón de idioma */
     #language-toggle {
@@ -89,7 +107,7 @@
       top: 15px;
       right: 15px;
       padding: 10px 15px;
-      background: #2c3e50;
+      background: var(--secondary-color);
       color: white;
       border: none;
       border-radius: 5px;
@@ -125,7 +143,7 @@
       font-size: 1.1rem;
     }
     form input[type="submit"] {
-      background-color: #2c3e50;
+      background-color: var(--secondary-color);
       color: white;
       cursor: pointer;
       border: none;
@@ -135,7 +153,7 @@
       transition: background-color 0.3s;
     }
     form input[type="submit"]:hover {
-      background-color: #1a252f;
+      background-color: #1b5e20;
     }
     /* Listas */
     ul {
@@ -174,6 +192,10 @@
     }
     /* Ocultar elementos inglés inicialmente */
     .lang-en { display: none; }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
   </style>
 </head>
 <body>
@@ -503,8 +525,15 @@
 </footer>
 
 <script>
-  function toggleLanguage() {
-    const esElements = document.querySelectorAll('.lang-es');
+  // JavaScript para mostrar/ocultar descripciones
+  document.querySelectorAll('.project-image').forEach(project => {
+    project.addEventListener('click', () => {
+      const description = project.closest('.project-container').querySelector('.project-description');
+      description.classList.toggle('active');
+    });
+  });
+
+  const esElements = document.querySelectorAll('.lang-es');
     const enElements = document.querySelectorAll('.lang-en');
     if (document.documentElement.lang === 'es') {
       esElements.forEach(el => el.style.display = 'none');
@@ -517,7 +546,7 @@
       document.documentElement.lang = 'es';
       document.getElementById("language-toggle").innerText = "English";
     }
-  }
+  
 
   document.getElementById("contact-form").addEventListener("submit", function(e) {
     e.preventDefault();
