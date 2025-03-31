@@ -403,7 +403,7 @@
       </p>
     </div>
   
-  <!-- Proyecto 3 -->
+ ** <!-- Proyecto 3 -->
   <div class="project-container">
     <div class="project-title">
       <span class="lang-es">Genética molecular y citología</span>
@@ -434,7 +434,7 @@
         </span>
       
     </div>
-  </div>
+  </div>**
   
   <!-- Proyecto 4 -->
   <div class="project-container">
