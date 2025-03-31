@@ -658,39 +658,37 @@
 
 <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script>
-  // Espera a que se cargue el DOM
+  //  DOM
   document.addEventListener('DOMContentLoaded', function() {
     // Inicializa EmailJS con tu User ID
     emailjs.init('c-V5Vr4aJmeXBnuYI'); 
 
     // Evento del formulario
-   document.getElementById("contact-form").addEventListener("submit", function(e) {
-  e.preventDefault();
-  console.log("Submit del formulario detectado");
-  
-  const formData = new FormData(this);
-  console.log("Datos del formulario:", formData);
-  
-  emailjs.sendForm('Andrea_gmail', 'template_9te72ls', formData)
-    .then(function(response) {
-      console.log("Respuesta de EmailJS:", response);
-      alert(
-        document.documentElement.lang === 'es' 
-          ? "Formulario enviado. Gracias por tu mensaje." 
-          : "Form submitted. Thank you for your message."
-      );
-      document.getElementById("contact-form").reset();
-    }, function(error) {
-      console.error("Error en EmailJS:", error);
-      alert(
-        document.documentElement.lang === 'es' 
-          ? "Hubo un error al enviar el mensaje. Intenta de nuevo."
-          : "There was an error sending the message. Please try again."
-      );
+    document.getElementById("contact-form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      console.log("Submit del formulario detectado");
+      
+      // Enviar el formulario usando EmailJS
+      emailjs.sendForm('Andrea_gmail', 'template_9te72ls', this)
+        .then(function(response) {
+          console.log("Respuesta de EmailJS:", response);
+          alert(
+            document.documentElement.lang === 'es' 
+              ? "Formulario enviado. Gracias por tu mensaje." 
+              : "Form submitted. Thank you for your message."
+          );
+          document.getElementById("contact-form").reset();
+        }, function(error) {
+          console.error("Error en EmailJS:", error);
+          alert(
+            document.documentElement.lang === 'es' 
+              ? "Hubo un error al enviar el mensaje. Intenta de nuevo."
+              : "There was an error sending the message. Please try again."
+          );
+        });
     });
-});
 
-    // Detectar el idioma del navegador y establecer el idioma por defecto
+    // Detectar el idioma del navegador 
     const browserLanguage = navigator.language || navigator.userLanguage;
     const html = document.documentElement;
     if (browserLanguage.startsWith('es')) {
@@ -730,13 +728,13 @@
       enElements.forEach(el => el.style.display = 'inline');
     }
   }
-  document.querySelectorAll('.project-image').forEach(project => {
-  project.addEventListener('click', () => {
-    const description = project.closest('.project-container').querySelector('.project-description');
-    description.classList.toggle('active');
-  });
-});
 
+  document.querySelectorAll('.project-image').forEach(project => {
+    project.addEventListener('click', () => {
+      const description = project.closest('.project-container').querySelector('.project-description');
+      description.classList.toggle('active');
+    });
+  });
 </script>
 </body>
 </html>
