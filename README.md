@@ -664,29 +664,31 @@
     emailjs.init('c-V5Vr4aJmeXBnuYI'); 
 
     // Evento del formulario
-    document.getElementById("contact-form").addEventListener("submit", function(e) {
-      e.preventDefault();
-      
-      // Recoge los datos del formulario
-      const formData = new FormData(this);
-
-      // Envía el formulario a través de EmailJS
-      emailjs.sendForm('Andrea_gmail', 'template_9te72ls', formData)
-        .then(function(response) {
-          alert(
-            document.documentElement.lang === 'es' 
-              ? "Formulario enviado. Gracias por tu mensaje." 
-              : "Form submitted. Thank you for your message."
-          );
-          document.getElementById("contact-form").reset();
-        }, function(error) {
-          alert(
-            document.documentElement.lang === 'es' 
-              ? "Hubo un error al enviar el mensaje. Intenta de nuevo."
-              : "There was an error sending the message. Please try again."
-          );
-        });
+   document.getElementById("contact-form").addEventListener("submit", function(e) {
+  e.preventDefault();
+  console.log("Submit del formulario detectado");
+  
+  const formData = new FormData(this);
+  console.log("Datos del formulario:", formData);
+  
+  emailjs.sendForm('Andrea_gmail', 'template_9te72ls', formData)
+    .then(function(response) {
+      console.log("Respuesta de EmailJS:", response);
+      alert(
+        document.documentElement.lang === 'es' 
+          ? "Formulario enviado. Gracias por tu mensaje." 
+          : "Form submitted. Thank you for your message."
+      );
+      document.getElementById("contact-form").reset();
+    }, function(error) {
+      console.error("Error en EmailJS:", error);
+      alert(
+        document.documentElement.lang === 'es' 
+          ? "Hubo un error al enviar el mensaje. Intenta de nuevo."
+          : "There was an error sending the message. Please try again."
+      );
     });
+});
 
     // Detectar el idioma del navegador y establecer el idioma por defecto
     const browserLanguage = navigator.language || navigator.userLanguage;
