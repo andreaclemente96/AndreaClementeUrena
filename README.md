@@ -656,56 +656,73 @@
   </p>
 </footer>
 
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 <script>
-  // JavaScript para mostrar/ocultar descripciones
-  document.querySelectorAll('.project-image').forEach(project => {
-    project.addEventListener('click', () => {
-      const description = project.closest('.project-container').querySelector('.project-description');
-      description.classList.toggle('active');
-    });
-  });
+  // Inicializa EmailJS con tu user_id
+  emailjs.init('c-V5Vr4aJmeXBnuYI'); 
 
-  const esElements = document.querySelectorAll('.lang-es');
-    const enElements = document.querySelectorAll('.lang-en');
-    if (document.documentElement.lang === 'es') {
-      esElements.forEach(el => el.style.display = 'none');
-      enElements.forEach(el => el.style.display = 'inline');
-      document.documentElement.lang = 'en';
-      document.getElementById("language-toggle").innerText = "Español";
-    } else {
-      enElements.forEach(el => el.style.display = 'none');
-      esElements.forEach(el => el.style.display = 'inline');
-      document.documentElement.lang = 'es';
-      document.getElementById("language-toggle").innerText = "English";
-    }
-  
-
+  // Evento del formulario
   document.getElementById("contact-form").addEventListener("submit", function(e) {
     e.preventDefault();
-    alert(
-      document.documentElement.lang === 'es' 
-        ? "Formulario enviado. Gracias por tu mensaje." 
-        : "Form submitted. Thank you for your message."
-    );
-    this.reset();
+    
+    // Recoge los datos del formulario
+    const formData = new FormData(this);
+
+    // Envía el formulario a través de EmailJS
+    emailjs.sendForm('Andrea_gmail', 'template_9te72ls', formData)
+      .then(function(response) {
+        // Mensaje de confirmación
+        alert(
+          document.documentElement.lang === 'es' 
+            ? "Formulario enviado. Gracias por tu mensaje." 
+            : "Form submitted. Thank you for your message."
+        );
+        // Resetea el formulario
+        document.getElementById("contact-form").reset();
+      }, function(error) {
+        // Si hay un error, muestra un mensaje
+        alert(
+          document.documentElement.lang === 'es' 
+            ? "Hubo un error al enviar el mensaje. Intenta de nuevo."
+            : "There was an error sending the message. Please try again."
+        );
+      });
   });
 
-function toggleLanguage() {
-  const html = document.documentElement;
-  const isEnglish = html.lang === 'en';
-  html.lang = isEnglish ? 'es' : 'en';
-  document.getElementById("language-toggle").innerText = isEnglish ? "English" : "Español";
-}
+  // Función para cambiar de idioma
+  function toggleLanguage() {
+    const html = document.documentElement;
+    const isEnglish = html.lang === 'en';
+    html.lang = isEnglish ? 'es' : 'en';
+    document.getElementById("language-toggle").innerText = isEnglish ? "English" : "Español";
+    
+    // Mostrar/ocultar elementos de acuerdo al idioma
+    const esElements = document.querySelectorAll('.lang-es');
+    const enElements = document.querySelectorAll('.lang-en');
+    
+    if (document.documentElement.lang === 'es') {
+      esElements.forEach(el => el.style.display = 'inline');
+      enElements.forEach(el => el.style.display = 'none');
+    } else {
+      enElements.forEach(el => el.style.display = 'inline');
+      esElements.forEach(el => el.style.display = 'none');
+    }
+  }
 
-// Smooth scroll para la tabla de navegación
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
-});
+  // Evento de cambio de idioma (al cargar la página)
+  const esElements = document.querySelectorAll('.lang-es');
+  const enElements = document.querySelectorAll('.lang-en');
+  if (document.documentElement.lang === 'es') {
+    esElements.forEach(el => el.style.display = 'inline');
+    enElements.forEach(el => el.style.display = 'none');
+    document.getElementById("language-toggle").innerText = "English";
+  } else {
+    enElements.forEach(el => el.style.display = 'inline');
+    esElements.forEach(el => el.style.display = 'none');
+    document.getElementById("language-toggle").innerText = "Español";
+  }
+
 </script>
 </body>
 </html>
