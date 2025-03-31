@@ -115,6 +115,12 @@
       z-index: 1000;
       font-size: 1.1rem;
     }
+    #image-credits {
+      font-size: 0.8rem; 
+      text-align: right; /* Alineación a la derecha */
+      margin-top: 10px; 
+}
+
     /* Formulario de contacto */
     form {
       margin: 3rem auto;
@@ -617,7 +623,7 @@
     <span class="lang-en">📫 Contact</span>
   </h2>
   <ul>
-    <li><span class="lang-es">📖 ResearchGate:</span><span class="lang-en">✉️ ResearchGate:</span> <a href="https://www.researchgate.net/profile/Andrea-Clemente-Urena-2">Andrea-Clemente-Urena-2</a></li>
+    <li><span class="lang-es">📖 ResearchGate:</span><span class="lang-en">📖 ResearchGate:</span> <a href="https://www.researchgate.net/profile/Andrea-Clemente-Urena-2">Andrea-Clemente-Urena-2</a></li>
     <li><span class="lang-es">🔗 LinkedIn:</span><span class="lang-en">🔗 LinkedIn:</span> <a href="https://www.linkedin.com/in/andreaclementeure%C3%B1a/" target="_blank">linkedin.com/in/andreaclementeureña</a></li>
     <li><span class="lang-es">💻 GitHub:</span><span class="lang-en">💻 GitHub:</span> <a href="https://github.com/andreaclemente96" target="_blank">andreaclemente96</a></li>
   </ul>
