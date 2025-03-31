@@ -101,6 +101,10 @@
       display: block;
       animation: fadeIn 0.3s ease-in;
     }
+    .centered-link {
+      text-align: center;
+      display: block;
+    }
     /* Botón de idioma */
     #language-toggle {
       position: fixed;
