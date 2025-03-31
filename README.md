@@ -607,9 +607,9 @@
     <span class="lang-en">📫 Contact</span>
   </h2>
   <ul>
-    <li><span class="lang-es">✉️ Email:</span><span class="lang-en">✉️ Email:</span> <a href="mailto:andeande.ac@gmail.com">andeande.ac@gmail.com</a></li>
+    <li><span class="lang-es">✉️ ResearchGate:</span><span class="lang-en">✉️ ResearchGate:</span> <a href="https://www.researchgate.net/profile/Andrea-Clemente-Urena-2">Andrea-Clemente-Urena-2</a></li>
     <li><span class="lang-es">🔗 LinkedIn:</span><span class="lang-en">🔗 LinkedIn:</span> <a href="https://www.linkedin.com/in/andreaclementeure%C3%B1a/" target="_blank">linkedin.com/in/andreaclementeureña</a></li>
-    <li><span class="lang-es">💻 GitHub:</span><span class="lang-en">💻 GitHub:</span> <a href="https://github.com/andyacment" target="_blank">github.com/andyacment</a></li>
+    <li><span class="lang-es">💻 GitHub:</span><span class="lang-en">💻 GitHub:</span> <a href="https://github.com/andreaclemente96" target="_blank">andreaclemente96</a></li>
   </ul>
 </section>
 
