@@ -196,6 +196,35 @@
       from { opacity: 0; }
       to { opacity: 1; }
     }
+
+    /* Fix para toggle de idioma */
+    .lang-en { display: none !important; }
+    [lang="en"] .lang-en { display: inline !important; }
+    [lang="en"] .lang-es { display: none !important; }
+
+    /* Tabla de navegación */
+    .nav-table {
+      width: 100%;
+      margin: 2rem 0;
+      border-collapse: collapse;
+    }
+    .nav-table td {
+      padding: 1rem;
+      text-align: center;
+      border: 2px solid var(--accent-color);
+      transition: all 0.3s;
+    }
+    .nav-table td:hover {
+      background-color: var(--accent-color);
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+    .nav-table a {
+      text-decoration: none;
+      color: var(--primary-color);
+      font-weight: bold;
+      display: block;
+    }
   </style>
 </head>
 <body>
@@ -216,7 +245,61 @@
     <span class="lang-en"><strong>Predoctoral Researcher</strong> at UPM and CRF-INIA-CSIC | Project: Digital Transformation of Plant Conservation and Improvement</span>
   </p>
 </header>
-
+<section class="direct-section">
+  <table class="nav-table">
+    <tr>
+      <td>
+        <a href="#primer-contacto-investigacion">
+          <span class="lang-es">Mi primer contacto con la investigación</span>
+          <span class="lang-en">My First Encounter with Research</span>
+        </a>
+      </td>
+      <td>
+        <a href="#proyectos-destacados">
+          <span class="lang-es">Proyectos destacados</span>
+          <span class="lang-en">Featured Projects</span>
+        </a>
+      </td>
+      <td>
+        <a href="#formacion-academica">
+          <span class="lang-es">Formación académica</span>
+          <span class="lang-en">Academic Background</span>
+        </a>
+      </td>
+      <td>
+        <a href="#tecnologias-herramientas">
+          <span class="lang-es">Tecnologías y herramientas</span>
+          <span class="lang-en">Technologies &amp; Tools</span>
+        </a>
+      </td>
+      <td>
+        <a href="#experiencia-profesional">
+          <span class="lang-es">Experiencia Profesional</span>
+          <span class="lang-en">Professional Experience</span>
+        </a>
+      </td>
+      <td>
+        <a href="#idiomas">
+          <span class="lang-es">Idiomas</span>
+          <span class="lang-en">Languages</span>
+        </a>
+      </td>
+      <td>
+        <a href="#contacto">
+          <span class="lang-es">Contacto</span>
+          <span class="lang-en">Contact</span>
+        </a>
+      </td>
+      <td>
+        <a href="#formulario-contacto">
+          <span class="lang-es">Formulario de contacto</span>
+          <span class="lang-en">Contact Form</span>
+        </a>
+      </td>
+    </tr>
+    
+  </table>
+</section>
 <!-- Sección: Bienvenida -->
 <section id="bienvenida" class="direct-section">
   <h2 class="section-title">
@@ -557,7 +640,23 @@
     );
     this.reset();
   });
-</script>
 
+function toggleLanguage() {
+  const html = document.documentElement;
+  const isEnglish = html.lang === 'en';
+  html.lang = isEnglish ? 'es' : 'en';
+  document.getElementById("language-toggle").innerText = isEnglish ? "English" : "Español";
+}
+
+// Smooth scroll para la tabla de navegación
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+</script>
 </body>
 </html>
