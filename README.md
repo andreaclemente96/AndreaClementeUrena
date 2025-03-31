@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -245,61 +246,7 @@
     <span class="lang-en"><strong>Predoctoral Researcher</strong> at UPM and CRF-INIA-CSIC | Project: Digital Transformation of Plant Conservation and Improvement</span>
   </p>
 </header>
-<section class="direct-section">
-  <table class="nav-table">
-    <tr>
-      <td>
-        <a href="#primer-contacto-investigacion">
-          <span class="lang-es">Mi primer contacto con la investigación</span>
-          <span class="lang-en">My First Encounter with Research</span>
-        </a>
-      </td>
-      <td>
-        <a href="#proyectos-destacados">
-          <span class="lang-es">Proyectos destacados</span>
-          <span class="lang-en">Featured Projects</span>
-        </a>
-      </td>
-      <td>
-        <a href="#formacion-academica">
-          <span class="lang-es">Formación académica</span>
-          <span class="lang-en">Academic Background</span>
-        </a>
-      </td>
-      <td>
-        <a href="#tecnologias-herramientas">
-          <span class="lang-es">Tecnologías y herramientas</span>
-          <span class="lang-en">Technologies &amp; Tools</span>
-        </a>
-      </td>
-      <td>
-        <a href="#experiencia-profesional">
-          <span class="lang-es">Experiencia Profesional</span>
-          <span class="lang-en">Professional Experience</span>
-        </a>
-      </td>
-      <td>
-        <a href="#idiomas">
-          <span class="lang-es">Idiomas</span>
-          <span class="lang-en">Languages</span>
-        </a>
-      </td>
-      <td>
-        <a href="#contacto">
-          <span class="lang-es">Contacto</span>
-          <span class="lang-en">Contact</span>
-        </a>
-      </td>
-      <td>
-        <a href="#formulario-contacto">
-          <span class="lang-es">Formulario de contacto</span>
-          <span class="lang-en">Contact Form</span>
-        </a>
-      </td>
-    </tr>
-    
-  </table>
-</section>
+
 <!-- Sección: Bienvenida -->
 <section id="bienvenida" class="direct-section">
   <h2 class="section-title">
@@ -316,7 +263,61 @@
     <span class="lang-en">📍 Predoctoral researcher at the Polytechnic University of Madrid (UPM) and the Plant Genetic Resources Center (CRF-INIA-CSIC), within the project <strong>Digital Transformation of Plant Conservation and Improvement</strong>.</span>
   </p>
 </section>
-
+<section class="direct-section">
+  <table class="nav-table">
+    <tr>
+      <td>
+        <a href="https://andreaclemente96.github.io/AndreaClementeUrena/#%F0%9F%92%A1-mi-primer-contacto-con-la-investigaci%C3%B3n%F0%9F%92%A1-my-first-encounte">
+          <span class="lang-es">Mi primer contacto con la investigación</span>
+          <span class="lang-en">My First Encounter with Research</span>
+        </a>
+      </td>
+      <td>
+        <a href="https://andreaclemente96.github.io/AndreaClementeUrena/#%F0%9F%9A%80-proyectos-destacados%F0%9F%9A%80-featured-projects">
+          <span class="lang-es">Proyectos destacados</span>
+          <span class="lang-en">Featured Projects</span>
+        </a>
+      </td>
+      <td>
+        <a href="https://andreaclemente96.github.io/AndreaClementeUrena/#%F0%9F%8E%93-formaci%C3%B3n-acad%C3%A9mica%F0%9F%8E%93-academic-education">
+          <span class="lang-es">Formación académica</span>
+          <span class="lang-en">Academic Background</span>
+        </a>
+      </td>
+      <td>
+        <a href="https://andreaclemente96.github.io/AndreaClementeUrena/#%F0%9F%9B%A0%EF%B8%8F-tecnolog%C3%ADas-y-herramientas%F0%9F%9B%A0%EF%B8%8F-technologies-and-tools">
+          <span class="lang-es">Tecnologías y herramientas</span>
+          <span class="lang-en">Technologies &amp; Tools</span>
+        </a>
+      </td>
+      <td>
+        <a href="https://andreaclemente96.github.io/AndreaClementeUrena/#%F0%9F%93%9A-experiencia-profesional%F0%9F%93%9A-professional-experience">
+          <span class="lang-es">Experiencia Profesional</span>
+          <span class="lang-en">Professional Experience</span>
+        </a>
+      </td>
+      <td>
+        <a href="https://andreaclemente96.github.io/AndreaClementeUrena/#%F0%9F%8C%90-idiomas%F0%9F%8C%90-languages">
+          <span class="lang-es">Idiomas</span>
+          <span class="lang-en">Languages</span>
+        </a>
+      </td>
+      <td>
+        <a href="https://andreaclemente96.github.io/AndreaClementeUrena/#%F0%9F%93%AB-contacto%F0%9F%93%AB-contact">
+          <span class="lang-es">Contacto</span>
+          <span class="lang-en">Contact</span>
+        </a>
+      </td>
+      <td>
+        <a href="https://andreaclemente96.github.io/AndreaClementeUrena/#formulario-de-contactocontact-form">
+          <span class="lang-es">Formulario de contacto</span>
+          <span class="lang-en">Contact Form</span>
+        </a>
+      </td>
+    </tr>
+    
+  </table>
+</section>
 <!-- Sección: Mi primer contacto con la investigación -->
 <section id="primer-contacto-section" class="direct-section">
   <h2 class="section-title">
