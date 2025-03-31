@@ -403,38 +403,52 @@
       </p>
     </div>
   
- ** <!-- Proyecto 3 -->
-  <div class="project-container">
-    <div class="project-title">
-      <span class="lang-es">Genética molecular y citología</span>
-      <span class="lang-en">Molecular genetics and cytology</span>
-    </div>
-    <div class="project-image">
-      <img src="https://github.com/user-attachments/assets/b740f460-1160-4a35-90c6-b3b2e5861f23" alt="Genética molecular">
-    </div>
-    <div class="project-description">
+<!-- Proyecto 3 -->
+<div class="project-container">
+  <div class="project-title">
+    <span class="lang-es">Genética molecular y citología</span>
+    <span class="lang-en">Molecular genetics and cytology</span>
+  </div>
+  <div class="project-image">
+    <img src="https://github.com/user-attachments/assets/b740f460-1160-4a35-90c6-b3b2e5861f23" alt="Genética molecular">
+  </div>
+  <div class="project-description">
+    <!-- Versión en español -->
+    <div class="lang-es">
       <p>
-        <span class="lang-es">
-          He adquirido una sólida base en genética molecular y citología, con conocimientos en estructura y función de los genomas, biología celular, embriología y técnicas avanzadas de laboratorio. Además, tengo experiencia en la caracterización estructural de genes, análisis genético en protistas y aplicación de métodos de laboratorio en anatomía patológica y citología.</p>
-          <p>TFG: Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania. DOI: 
-          <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. </p>
-          <p>Participación mencionada en el 
-          <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
-            Informe Científico del CBMSO-CSIC 2021–2022</p>
-          </a>.
-        </span>
-        <span class="lang-en">
-          I have developed a strong foundation in molecular genetics and cytology, with expertise in genome structure and function, cell biology, embryology, and advanced laboratory techniques. Additionally, I have experience in gene structural characterization, genetic analysis in protists, and laboratory methods in pathological anatomy and cytology.</p>
-          <p>Bachelor's Thesis: Structural characterization of genes coding for ribosomal proteins in Leishmania. DOI: 
-          <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>.</p> 
-          <p>Participation mentioned in the 
-          <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
-            CBMSO-CSIC Scientific Report 2021–2022</p>
-          </a>.
-        </span>
-      
+        He adquirido una sólida base en genética molecular y citología, con conocimientos en estructura y función de los genomas, biología celular, embriología y técnicas avanzadas de laboratorio. Además, tengo experiencia en la caracterización estructural de genes, análisis genético en protistas y aplicación de métodos de laboratorio en anatomía patológica y citología.
+      </p>
+      <p>
+        TFG: Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania. DOI: 
+        <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>.
+      </p>
+      <p>
+        Participación mencionada en el 
+        <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
+          Informe Científico del CBMSO-CSIC 2021–2022
+        </a>.
+      </p>
     </div>
-  </div>**
+    
+    <!-- Versión en inglés -->
+    <div class="lang-en">
+      <p>
+        I have developed a strong foundation in molecular genetics and cytology, with expertise in genome structure and function, cell biology, embryology, and advanced laboratory techniques. Additionally, I have experience in gene structural characterization, genetic analysis in protists, and laboratory methods in pathological anatomy and cytology.
+      </p>
+      <p>
+        Bachelor's Thesis: Structural characterization of genes coding for ribosomal proteins in Leishmania. DOI: 
+        <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>.
+      </p>
+      <p>
+        Participation mentioned in the 
+        <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
+          CBMSO-CSIC Scientific Report 2021–2022
+        </a>.
+      </p>
+    </div>
+  </div>
+</div>
+
   
   <!-- Proyecto 4 -->
   <div class="project-container">
