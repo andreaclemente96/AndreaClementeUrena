@@ -276,7 +276,10 @@
     <p class="centrado"><strong>To see my projects, click on the images!</strong></p>
     <p>📍 Predoctoral researcher at the Polytechnic University of Madrid (UPM) and the Plant Genetic Resources Center (CRF-INIA-CSIC), within the project <strong>Digital Transformation of Plant Conservation and Breeding</strong>.</p>
   </div>
-
+<p>
+    <a href="#autorreflexion-section" class="lang-es">🧠 Leer sobre mi autorreflexión</a> | 
+    <a href="#autorreflexion-section" class="lang-en">🧠 Read about my self-reflection</a>
+</p>
 </section>
 
 <section class="direct-section">
@@ -614,6 +617,37 @@
     <li><span class="lang-es">🇬🇧 Inglés: Nivel C (APTIS - British Council)</span><span class="lang-en">🇬🇧 English: Level C (APTIS - British Council)</span></li>
     <li><span class="lang-es">🇫🇷 Francés: Nivel A2 (DELF)</span><span class="lang-en">🇫🇷 French: Level A2 (DELF)</span></li>
   </ul>
+</section>
+<!-- Sección: Autorreflexión -->
+<section id="autorreflexion-section" class="direct-section">
+  <h2 class="section-title">
+    <span class="lang-es">🧠 Autorreflexión sobre mi proceso de aprendizaje</span>
+    <span class="lang-en">🧠 Self-reflection on my learning process</span>
+  </h2>
+  <p>
+    <span class="lang-es">A lo largo de mi carrera académica y profesional, he tenido la oportunidad de integrar mis conocimientos en biología, bioinformática, robótica y visión computacional 3D. Esta combinación interdisciplinaria ha sido clave para mi desarrollo, tanto como investigadora predoctoral en la UPM y CRF-INIA-CSIC como en mis estudios anteriores en el grado de Biología y el máster en Bioinformática.</span>
+    <span class="lang-en">Throughout my academic and professional career, I have had the opportunity to integrate my knowledge in biology, bioinformatics, robotics, and 3D computer vision. This interdisciplinary combination has been key to my development, both as a predoctoral researcher at UPM and CRF-INIA-CSIC and in my previous studies in Biology and the master's degree in Bioinformatics.</span>
+  </p>
+  <p>
+    <span class="lang-es">Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la síntesis de bioplásticos a partir de la leche de vaca. Ese primer acercamiento a la ciencia me motivó a seguir explorando más en profundidad, y me permitió darme cuenta de lo fascinante que es la capacidad de hacer avanzar el conocimiento a través de la investigación. Desde entonces, cada paso en mi trayectoria ha sido una oportunidad de aprender y mejorar.</span>
+    <span class="lang-en">My first contact with research was in the first year of high school when I developed a project on the synthesis of bioplastics from cow's milk. This first approach to science motivated me to continue exploring more deeply and made me realize how fascinating it is to advance knowledge through research. Since then, every step in my journey has been an opportunity to learn and improve.</span>
+  </p>
+  <p>
+    <span class="lang-es">A medida que he ido avanzando en mis estudios y proyectos, he aprendido a integrar herramientas y enfoques de diferentes disciplinas. En mis investigaciones actuales, por ejemplo, he logrado combinar mis conocimientos en biología con las técnicas de visión computacional y robótica para resolver problemas complejos, como el fenotipado automatizado de cultivos. La programación en Python y R, así como el uso de técnicas de machine learning, han sido fundamentales para poder procesar y analizar grandes volúmenes de datos.</span>
+    <span class="lang-en">As I have progressed in my studies and projects, I have learned to integrate tools and approaches from different disciplines. In my current research, for example, I have been able to combine my knowledge of biology with computer vision and robotics techniques to solve complex problems, such as the automated phenotyping of crops. Programming in Python and R, as well as using machine learning techniques, have been essential for processing and analyzing large datasets.</span>
+  </p>
+  <p>
+    <span class="lang-es">Una de las cosas que he aprendido sobre mí misma es que soy capaz de abordar proyectos complejos y multidisciplinarios, pero también he identificado áreas en las que necesito mejorar. Por ejemplo, la gestión del tiempo sigue siendo un reto, sobre todo cuando estoy involucrada en varios proyectos a la vez. A veces es difícil equilibrar todas las tareas que tengo, y eso me ha llevado a buscar maneras de organizarme mejor y priorizar de manera más eficaz. También, aunque me siento cómoda usando herramientas estadísticas avanzadas, me gustaría mejorar mi capacidad para comunicar mis resultados de manera clara y comprensible, tanto para compañeros de mi campo como para aquellos ajenos a la ciencia.</span>
+    <span class="lang-en">One thing I have learned about myself is that I am capable of tackling complex and multidisciplinary projects, but I have also identified areas where I need to improve. For example, time management remains a challenge, especially when I am involved in several projects at once. It is sometimes difficult to balance all the tasks I have, and this has led me to look for better ways to organize myself and prioritize more effectively. Also, although I feel comfortable using advanced statistical tools, I would like to improve my ability to communicate my results clearly and understandably, both to peers in my field and to those outside of science.</span>
+  </p>
+  <p>
+    <span class="lang-es">Mirando hacia el futuro, mi objetivo es seguir desarrollando mis habilidades en áreas como la inteligencia artificial y la robótica, especialmente aplicadas a la biología y la agricultura. Además, quiero seguir reflexionando sobre mi proceso de aprendizaje para poder mejorar continuamente, ajustando mis métodos de trabajo y mis estrategias de estudio.</span>
+    <span class="lang-en">Looking ahead, my goal is to continue developing my skills in areas such as artificial intelligence and robotics, especially applied to biology and agriculture. In addition, I want to continue reflecting on my learning process to keep improving, adjusting my work methods and study strategies.</span>
+  </p>
+  <p>
+    <span class="lang-es">En resumen, este ejercicio de autorreflexión me ha permitido darme cuenta de cuánto he avanzado y de lo que todavía puedo mejorar. Creo que es fundamental seguir reflexionando sobre el aprendizaje para poder adaptarse a los desafíos que vienen, y estoy muy motivada para seguir creciendo profesional y personalmente.</span>
+    <span class="lang-en">In summary, this self-reflection exercise has allowed me to realize how much I have progressed and what I still need to improve. I believe it is essential to keep reflecting on learning in order to adapt to the challenges ahead, and I am very motivated to keep growing both professionally and personally.</span>
+  </p>
 </section>
 
 <!-- Sección: Contacto -->
