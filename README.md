@@ -225,6 +225,9 @@
       font-weight: bold;
       display: block;
     }
+    .centrado {
+      text-align: center;
+    }
   </style>
 </head>
 <body>
