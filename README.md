@@ -249,22 +249,30 @@
   </p>
 </header>
 
-<!-- Sección: Bienvenida -->
 <section id="bienvenida" class="direct-section">
   <h2 class="section-title">
     <span class="lang-es">¡Bienvenid@ a mi portfolio!</span>
     <span class="lang-en">Welcome to my portfolio!</span>
   </h2>
+  
   <img class="section-img" src="beautiful-landscape-with-rainbow-plants.jpg" alt="Bienvenida">
-  <p>
-    <span class="lang-es"><p>Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de cultivos</strong> y la <strong>caracterización de estructuras vegetales</strong>, aplicando aprendizaje automático y análisis de datos.</p> <p class="centrado"><strong>Para ver mis proyectos, ¡clicka en las imágenes!</strong></p></span>
-    <span class="lang-en"><p>This space brings together my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong> and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>crop phenotyping</strong> and <strong>plant structure characterization</strong> using machine learning and data analysis.</p> <p class="centrado"><strong>To see my projects, click on the images!</strong></p></span>
-  </p>
-  <p>
-    <span class="lang-es">📍 Investigadora predoctoral en la Universidad Politécnica de Madrid (UPM) y el Centro de Recursos Fitogenéticos (CRF-INIA-CSIC), dentro del proyecto <strong>Transformación digital de las actividades de conservación y mejora vegetal</strong>.</span>
-    <span class="lang-en">📍 Predoctoral researcher at the Polytechnic University of Madrid (UPM) and the Plant Genetic Resources Center (CRF-INIA-CSIC), within the project <strong>Digital Transformation of Plant Conservation and Improvement</strong>.</span>
-  </p>
+  
+  <!-- Español -->
+  <div class="lang-es">
+    <p>Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de cultivos</strong> y la <strong>caracterización de estructuras vegetales</strong>, aplicando aprendizaje automático y análisis de datos.</p>
+    <p class="centrado"><strong>Para ver mis proyectos, ¡clicka en las imágenes!</strong></p>
+    <p>📍 Investigadora predoctoral en la Universidad Politécnica de Madrid (UPM) y el Centro de Recursos Fitogenéticos (CRF-INIA-CSIC), dentro del proyecto <strong>Transformación digital de las actividades de conservación y mejora vegetal</strong>.</p>
+  </div>
+
+  <!-- Inglés -->
+  <div class="lang-en">
+    <p>This space brings together my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong>, and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>crop phenotyping</strong> and <strong>plant structure characterization</strong> using machine learning and data analysis.</p>
+    <p class="centrado"><strong>To see my projects, click on the images!</strong></p>
+    <p>📍 Predoctoral researcher at the Polytechnic University of Madrid (UPM) and the Plant Genetic Resources Center (CRF-INIA-CSIC), within the project <strong>Digital Transformation of Plant Conservation and Improvement</strong>.</p>
+  </div>
+
 </section>
+
 <section class="direct-section">
   <table class="nav-table">
     <tr>
