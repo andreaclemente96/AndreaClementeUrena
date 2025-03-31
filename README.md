@@ -255,8 +255,8 @@
   </h2>
   <img class="section-img" src="beautiful-landscape-with-rainbow-plants.jpg" alt="Bienvenida">
   <p>
-    <span class="lang-es"><p>Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de cultivos</strong> y la <strong>caracterización de estructuras vegetales</strong>, aplicando aprendizaje automático y análisis de datos.</p> <p>Para ver mis proyectos, ¡clicka en las imágenes!</p></span>
-    <span class="lang-en"><p>This space brings together my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong> and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>crop phenotyping</strong> and <strong>plant structure characterization</strong> using machine learning and data analysis.</p> <p>To see my projects, click on the images!</p></span>
+    <span class="lang-es"><p>Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de cultivos</strong> y la <strong>caracterización de estructuras vegetales</strong>, aplicando aprendizaje automático y análisis de datos.</p> <p><strong>Para ver mis proyectos, ¡clicka en las imágenes!</strong></p></span>
+    <span class="lang-en"><p>This space brings together my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong> and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>crop phenotyping</strong> and <strong>plant structure characterization</strong> using machine learning and data analysis.</p> <p><strong>To see my projects, click on the images!</strong></p></span>
   </p>
   <p>
     <span class="lang-es">📍 Investigadora predoctoral en la Universidad Politécnica de Madrid (UPM) y el Centro de Recursos Fitogenéticos (CRF-INIA-CSIC), dentro del proyecto <strong>Transformación digital de las actividades de conservación y mejora vegetal</strong>.</span>
@@ -386,8 +386,8 @@
       <p>
         <span class="lang-es">
           He trabajado con datos de transcriptómica, genómica y otras fuentes de alto rendimiento, aplicando modelos predictivos e inferencia estadística para extraer información relevante. Además, manejo software especializado para el análisis de datos biomédicos y técnicas de integración de datos ómicos.
-          TFM: Identificación y caracterización de tRFs sobreexpresados en enfermedad de Huntington. DOI: 
-          <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a>
+          <p>TFM: Identificación y caracterización de tRFs sobreexpresados en enfermedad de Huntington. DOI: 
+          <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></p>
         </span>
       </p>
       <p>
@@ -607,7 +607,7 @@
     <span class="lang-en">📫 Contact</span>
   </h2>
   <ul>
-    <li><span class="lang-es">✉️ ResearchGate:</span><span class="lang-en">✉️ ResearchGate:</span> <a href="https://www.researchgate.net/profile/Andrea-Clemente-Urena-2">Andrea-Clemente-Urena-2</a></li>
+    <li><span class="lang-es">📖 ResearchGate:</span><span class="lang-en">✉️ ResearchGate:</span> <a href="https://www.researchgate.net/profile/Andrea-Clemente-Urena-2">Andrea-Clemente-Urena-2</a></li>
     <li><span class="lang-es">🔗 LinkedIn:</span><span class="lang-en">🔗 LinkedIn:</span> <a href="https://www.linkedin.com/in/andreaclementeure%C3%B1a/" target="_blank">linkedin.com/in/andreaclementeureña</a></li>
     <li><span class="lang-es">💻 GitHub:</span><span class="lang-en">💻 GitHub:</span> <a href="https://github.com/andreaclemente96" target="_blank">andreaclemente96</a></li>
   </ul>
