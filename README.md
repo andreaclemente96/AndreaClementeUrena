@@ -368,7 +368,7 @@
     </div>
   </div>
   
-  <!-- Proyecto 2 -->
+<!-- Proyecto 2 -->
   <div class="project-container">
     <div class="project-title">
       <span class="lang-es">Bioinformática y análisis ómico</span>
@@ -379,19 +379,29 @@
     </div>
     <div class="project-description">
       <p>
-        <span class="lang-es"><p>He desarrollado una sólida formación en bioinformática y análisis de datos ómicos, combinando herramientas computacionales y métodos estadísticos avanzados. Mi experiencia incluye programación en R y Python, machine learning aplicado a datos biomédicos, análisis multivariante y modelado estadístico.
-
+        <span class="lang-es">
+          He desarrollado una sólida formación en bioinformática y análisis de datos ómicos, combinando herramientas computacionales y métodos estadísticos avanzados. Mi experiencia incluye programación en R y Python, machine learning aplicado a datos biomédicos, análisis multivariante y modelado estadístico.
+        </span>
+      </p>
+      <p>
+        <span class="lang-es">
           He trabajado con datos de transcriptómica, genómica y otras fuentes de alto rendimiento, aplicando modelos predictivos e inferencia estadística para extraer información relevante. Además, manejo software especializado para el análisis de datos biomédicos y técnicas de integración de datos ómicos.
-        </p>
-          TFM: Identificación y caracterización de tRFs sobreexpresados en enfermedad de Huntington. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
-        <span class="lang-en"><p>I have developed strong expertise in bioinformatics and omics data analysis, combining computational tools with advanced statistical methods. My experience includes programming in R and Python, machine learning applied to biomedical data, multivariate analysis, and statistical modeling.
-
-          I have worked with transcriptomics, genomics, and other high-throughput data, applying predictive models and statistical inference to extract meaningful insights. Additionally, I am proficient in specialized software for biomedical data analysis and omics data integration techniques.</p>
-        </p>
-          <p>Master's Thesis: Identification and characterization of overexpressed tRFs in Huntington's disease. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
+          TFM: Identificación y caracterización de tRFs sobreexpresados en enfermedad de Huntington. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a>
+        </span>
+      </p>
+    
+      <p>
+        <span class="lang-en">
+          I have developed strong expertise in bioinformatics and omics data analysis, combining computational tools with advanced statistical methods. My experience includes programming in R and Python, machine learning applied to biomedical data, multivariate analysis, and statistical modeling.
+        </span>
+      </p>
+      <p>
+        <span class="lang-en">
+          I have worked with transcriptomics, genomics, and other high-throughput data, applying predictive models and statistical inference to extract meaningful insights. Additionally, I am proficient in specialized software for biomedical data analysis and omics data integration techniques.
+          Master's Thesis: Identification and characterization of overexpressed tRFs in Huntington's disease. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a>
+        </span>
       </p>
     </div>
-  </div>
   
   <!-- Proyecto 3 -->
   <div class="project-container">
