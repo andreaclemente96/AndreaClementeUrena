@@ -324,8 +324,8 @@
   
   <div class="project-container">
     <div class="project-title">
-      <span class="lang-es">Síntesis de bioplásticos</span>
-      <span class="lang-en">Bioplastics Synthesis</span>
+      <span class="lang-es">Ejemplo de imagen de síntesis de bioplásticos</span>
+      <span class="lang-en">Example image for bioplastics Synthesis</span>
     </div>
     <div class="project-image">
       <img src="laboratory-samples-arrangement.jpg" alt="Síntesis de bioplásticos">
@@ -334,8 +334,8 @@
   
   <div class="project-container">
     <div class="project-title">
-      <span class="lang-es">Finde Científico</span>
-      <span class="lang-en">Science Weekend</span>
+      <span class="lang-es">Ejemplo de lo que hice en el Finde Científico</span>
+      <span class="lang-en">Example of what I did at the Science Weekend</span>
     </div>
     <div class="project-image">
       <img src="lab-glassware-with-colored-liquids-assortment.jpg" alt="Finde Científico">
@@ -361,8 +361,8 @@
     </div>
     <div class="project-description">
       <p>
-        <span class="lang-es">Fenotipado automatizado de cultivos con robótica y visión computacional. Diseño experimental y análisis de datos fenotípicos.</span>
-        <span class="lang-en">Automated crop phenotyping with robotics and computer vision. Experimental design and phenotypic data analysis.</span>
+        <span class="lang-es"> Mi tesis doctoral en proceso: Fenotipado automatizado de cultivos con robótica y visión computacional. Diseño experimental y análisis de datos fenotípicos. </span>
+        <span class="lang-en">My doctoral thesis in progress: Automated crop phenotyping with robotics and computer vision. Experimental design and phenotypic data analysis.</span>
       </p>
     </div>
   </div>
@@ -378,8 +378,16 @@
     </div>
     <div class="project-description">
       <p>
-        <span class="lang-es">TFM: Identificación y caracterización de tRFs sobreexpresados en enfermedad de Huntington. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
-        <span class="lang-en">Master's Thesis: Identification and characterization of overexpressed tRFs in Huntington's disease. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
+        <span class="lang-es">He desarrollado una sólida formación en bioinformática y análisis de datos ómicos, combinando herramientas computacionales y métodos estadísticos avanzados. Mi experiencia incluye programación en R y Python, machine learning aplicado a datos biomédicos, análisis multivariante y modelado estadístico.
+
+          He trabajado con datos de transcriptómica, genómica y otras fuentes de alto rendimiento, aplicando modelos predictivos e inferencia estadística para extraer información relevante. Además, manejo software especializado para el análisis de datos biomédicos y técnicas de integración de datos ómicos.
+          
+          TFM: Identificación y caracterización de tRFs sobreexpresados en enfermedad de Huntington. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
+        <span class="lang-en">I have developed strong expertise in bioinformatics and omics data analysis, combining computational tools with advanced statistical methods. My experience includes programming in R and Python, machine learning applied to biomedical data, multivariate analysis, and statistical modeling.
+
+          I have worked with transcriptomics, genomics, and other high-throughput data, applying predictive models and statistical inference to extract meaningful insights. Additionally, I am proficient in specialized software for biomedical data analysis and omics data integration techniques.
+          
+          Master's Thesis: Identification and characterization of overexpressed tRFs in Huntington's disease. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
       </p>
     </div>
   </div>
@@ -396,6 +404,7 @@
     <div class="project-description">
       <p>
         <span class="lang-es">
+          He adquirido una sólida base en genética molecular y citología, con conocimientos en estructura y función de los genomas, biología celular, embriología y técnicas avanzadas de laboratorio. Además, tengo experiencia en la caracterización estructural de genes, análisis genético en protistas y aplicación de métodos de laboratorio en anatomía patológica y citología.
           TFG: Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania. DOI: 
           <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. 
           Participación mencionada en el 
@@ -404,6 +413,7 @@
           </a>.
         </span>
         <span class="lang-en">
+          I have developed a strong foundation in molecular genetics and cytology, with expertise in genome structure and function, cell biology, embryology, and advanced laboratory techniques. Additionally, I have experience in gene structural characterization, genetic analysis in protists, and laboratory methods in pathological anatomy and cytology.
           Bachelor's Thesis: Structural characterization of genes coding for ribosomal proteins in Leishmania. DOI: 
           <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. 
           Participation mentioned in the 
@@ -426,8 +436,16 @@
     </div>
     <div class="project-description">
       <p>
-        <span class="lang-es">Proyecto sobre detección inmunohistoquímica de BRCA en cáncer de mama durante el FPII.</span>
-        <span class="lang-en">Project on immunohistochemical detection of BRCA in breast cancer during FPII.</span>
+        <span class="lang-es">Detección Inmunohistoquímica de BRCA en Cáncer de Mama
+
+          En este proyecto, realicé la detección inmunohistoquímica de los genes BRCA1 y BRCA2 en muestras de tejido mamario con sospecha de cáncer. Utilicé anticuerpos específicos para BRCA y otros marcadores como HER2, Ki-67, ER y PR. Tras aplicar los anticuerpos, se visualizó la expresión de BRCA en las células mediante un marcador cromogénico (DAB), que generó manchas marrones en las células positivas.
+          
+          Este proyecto me permitió desarrollar habilidades en técnicas de inmunohistoquímica, microscopía y la interpretación de marcadores tumorales en la investigación del cáncer de mama.</span>
+        <span class="lang-en">Immunohistochemical Detection of BRCA in Breast Cancer
+
+          In this project, I performed the immunohistochemical detection of BRCA1 and BRCA2 genes in breast tissue samples with suspected cancer. I used specific antibodies for BRCA, as well as other markers such as HER2, Ki-67, ER, and PR. After applying the antibodies, the expression of BRCA in the cells was visualized through a chromogenic marker (DAB), which produced brown spots in the positive cells.
+          
+          This project allowed me to develop skills in immunohistochemical techniques, microscopy, and tumor marker interpretation in breast cancer research.</span>
       </p>
     </div>
   </div>
