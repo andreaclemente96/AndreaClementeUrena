@@ -728,6 +728,13 @@
       enElements.forEach(el => el.style.display = 'inline');
     }
   }
+  document.querySelectorAll('.project-image').forEach(project => {
+  project.addEventListener('click', () => {
+    const description = project.closest('.project-container').querySelector('.project-description');
+    description.classList.toggle('active');
+  });
+});
+
 </script>
 </body>
 </html>
