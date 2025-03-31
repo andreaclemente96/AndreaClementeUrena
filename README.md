@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -190,7 +191,7 @@
       border-radius: 10px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
-    /* Ocultar elementos inglés */
+    /* Ocultar elementos inglés inicialmente */
     .lang-en { display: none; }
     @keyframes fadeIn {
       from { opacity: 0; }
@@ -254,10 +255,8 @@
   </h2>
   <img class="section-img" src="beautiful-landscape-with-rainbow-plants.jpg" alt="Bienvenida">
   <p>
-    <span class="lang-es">Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de cultivos</strong> y la <strong>caracterización de estructuras vegetales</strong>, aplicando aprendizaje automático y análisis de datos. 
-      Para ver mis proyectos, ¡clicka en las imágenes!</span>
-    <span class="lang-en">This space brings together my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong> and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>crop phenotyping</strong> and <strong>plant structure characterization</strong> using machine learning and data analysis. 
-      To see my projects, click on the images!</span>
+    <span class="lang-es"><p>Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de cultivos</strong> y la <strong>caracterización de estructuras vegetales</strong>, aplicando aprendizaje automático y análisis de datos.</p> <p>Para ver mis proyectos, ¡clicka en las imágenes!</p></span>
+    <span class="lang-en"><p>This space brings together my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong> and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>crop phenotyping</strong> and <strong>plant structure characterization</strong> using machine learning and data analysis.</p> <p>To see my projects, click on the images!</p></span>
   </p>
   <p>
     <span class="lang-es">📍 Investigadora predoctoral en la Universidad Politécnica de Madrid (UPM) y el Centro de Recursos Fitogenéticos (CRF-INIA-CSIC), dentro del proyecto <strong>Transformación digital de las actividades de conservación y mejora vegetal</strong>.</span>
@@ -380,16 +379,16 @@
     </div>
     <div class="project-description">
       <p>
-        <span class="lang-es">He desarrollado una sólida formación en bioinformática y análisis de datos ómicos, combinando herramientas computacionales y métodos estadísticos avanzados. Mi experiencia incluye programación en R y Python, machine learning aplicado a datos biomédicos, análisis multivariante y modelado estadístico.
+        <span class="lang-es"><p>He desarrollado una sólida formación en bioinformática y análisis de datos ómicos, combinando herramientas computacionales y métodos estadísticos avanzados. Mi experiencia incluye programación en R y Python, machine learning aplicado a datos biomédicos, análisis multivariante y modelado estadístico.
 
           He trabajado con datos de transcriptómica, genómica y otras fuentes de alto rendimiento, aplicando modelos predictivos e inferencia estadística para extraer información relevante. Además, manejo software especializado para el análisis de datos biomédicos y técnicas de integración de datos ómicos.
-          
+        </p>
           TFM: Identificación y caracterización de tRFs sobreexpresados en enfermedad de Huntington. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
-        <span class="lang-en">I have developed strong expertise in bioinformatics and omics data analysis, combining computational tools with advanced statistical methods. My experience includes programming in R and Python, machine learning applied to biomedical data, multivariate analysis, and statistical modeling.
+        <span class="lang-en"><p>I have developed strong expertise in bioinformatics and omics data analysis, combining computational tools with advanced statistical methods. My experience includes programming in R and Python, machine learning applied to biomedical data, multivariate analysis, and statistical modeling.
 
-          I have worked with transcriptomics, genomics, and other high-throughput data, applying predictive models and statistical inference to extract meaningful insights. Additionally, I am proficient in specialized software for biomedical data analysis and omics data integration techniques.
-          
-          Master's Thesis: Identification and characterization of overexpressed tRFs in Huntington's disease. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
+          I have worked with transcriptomics, genomics, and other high-throughput data, applying predictive models and statistical inference to extract meaningful insights. Additionally, I am proficient in specialized software for biomedical data analysis and omics data integration techniques.</p>
+        </p>
+          <p>Master's Thesis: Identification and characterization of overexpressed tRFs in Huntington's disease. DOI: <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></span>
       </p>
     </div>
   </div>
@@ -406,24 +405,24 @@
     <div class="project-description">
       <p>
         <span class="lang-es">
-          He adquirido una sólida base en genética molecular y citología, con conocimientos en estructura y función de los genomas, biología celular, embriología y técnicas avanzadas de laboratorio. Además, tengo experiencia en la caracterización estructural de genes, análisis genético en protistas y aplicación de métodos de laboratorio en anatomía patológica y citología.
-          TFG: Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania. DOI: 
-          <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. 
-          Participación mencionada en el 
+          He adquirido una sólida base en genética molecular y citología, con conocimientos en estructura y función de los genomas, biología celular, embriología y técnicas avanzadas de laboratorio. Además, tengo experiencia en la caracterización estructural de genes, análisis genético en protistas y aplicación de métodos de laboratorio en anatomía patológica y citología.</p>
+          <p>TFG: Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania. DOI: 
+          <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. </p>
+          <p>Participación mencionada en el 
           <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
-            Informe Científico del CBMSO-CSIC 2021–2022
+            Informe Científico del CBMSO-CSIC 2021–2022</p>
           </a>.
         </span>
         <span class="lang-en">
-          I have developed a strong foundation in molecular genetics and cytology, with expertise in genome structure and function, cell biology, embryology, and advanced laboratory techniques. Additionally, I have experience in gene structural characterization, genetic analysis in protists, and laboratory methods in pathological anatomy and cytology.
-          Bachelor's Thesis: Structural characterization of genes coding for ribosomal proteins in Leishmania. DOI: 
-          <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>. 
-          Participation mentioned in the 
+          I have developed a strong foundation in molecular genetics and cytology, with expertise in genome structure and function, cell biology, embryology, and advanced laboratory techniques. Additionally, I have experience in gene structural characterization, genetic analysis in protists, and laboratory methods in pathological anatomy and cytology.</p>
+          <p>Bachelor's Thesis: Structural characterization of genes coding for ribosomal proteins in Leishmania. DOI: 
+          <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>.</p> 
+          <p>Participation mentioned in the 
           <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
-            CBMSO-CSIC Scientific Report 2021–2022
+            CBMSO-CSIC Scientific Report 2021–2022</p>
           </a>.
         </span>
-      </p>
+      
     </div>
   </div>
   
