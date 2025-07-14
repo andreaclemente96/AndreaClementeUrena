@@ -253,24 +253,18 @@
     <span class="lang-es">Aquí comparto mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong> y en el desarrollo de sistemas de <strong>fenotipado de alto rendimiento</strong> mediante <strong>robótica</strong> e <strong>inteligencia artificial</strong>, con énfasis en <strong>visión computacional 3D</strong>.</span>
     <span class="lang-en">I share my background in <strong>biology</strong>, <strong>bioinformatics</strong>, and the development of <strong>high-throughput phenotyping</strong> systems using <strong>robotics</strong> and <strong>artificial intelligence</strong>, with a focus on <strong>3D computer vision</strong>.</span>
   </p>
-  <p>
-   <span class="lang-es">
-  <strong>Investigadora predoctoral</strong> en la <strong>Universidad Politécnica de Madrid (UPM)</strong> y el <strong>Centro de Recursos Fitogenéticos (CRF)</strong> del 
-  <strong>Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria (INIA)</strong>, parte del <strong>Consejo Superior de Investigaciones Científicas (CSIC)</strong>.
-</span>
-<p class="lang-es">
-  Proyecto: Transformación digital de las actividades de conservación y mejora vegetal mediante fenotipado de alto rendimiento (HTP).
-</p>
+<div class="lang-es">
+  <p><strong>Investigadora predoctoral</strong> en la <strong>Universidad Politécnica de Madrid (UPM)</strong> y el <strong>Centro de Recursos Fitogenéticos (CRF)</strong> del 
+  <strong>Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria (INIA)</strong>, parte del <strong>Consejo Superior de Investigaciones Científicas (CSIC)</strong>.</p>
+  <p>Proyecto: Transformación digital de las actividades de conservación y mejora vegetal mediante fenotipado de alto rendimiento (HTP).</p>
+</div>
 
-<span class="lang-en">
-  <strong>PhD researcher</strong> at the <strong>Technical University of Madrid (UPM)</strong> and the 
-  <strong>Center for Plant Genetic Resources (CRF)</strong> at the <strong>National Institute for Agricultural and Food Research and Technology (INIA)</strong>, which is part of the <strong>Spanish National Research Council (CSIC)</strong>.
-</span>
-<p class="lang-en">
-  Project: Digital transformation of plant genetic resource conservation and crop improvement activities through high-throughput phenotyping (HTP).
-</p>
+<div class="lang-en">
+  <p><strong>PhD researcher</strong> at the <strong>Technical University of Madrid (UPM)</strong> and the 
+  <strong>Center for Plant Genetic Resources (CRF)</strong> at the <strong>National Institute for Agricultural and Food Research and Technology (INIA)</strong>, which is part of the <strong>Spanish National Research Council (CSIC)</strong>.</p>
+  <p>Project: Digital transformation of plant genetic resource conservation and crop improvement activities through high-throughput phenotyping (HTP).</p>
+</div>
 
-  </p>
 </header>
 
 <section id="bienvenida" class="direct-section">
