@@ -250,12 +250,14 @@
     <span class="lang-en">👩‍🔬 Andrea Clemente-Ureña</span>
   </h1>
   <p>
-    <span class="lang-es">Aquí comparto mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong> y en el desarrollo de sistemas de <strong>fenotipado de alto rendimiento</strong> mediante <strong>robótica</strong> e <strong>inteligencia artificial</strong>, con énfasis en <strong>visión computacional 3D</strong>.</span>en el desarrollo de sistemas de fenotipado de alto rendimiento mediante robótica e inteligencia artificial, con énfasis en visión computacional 3D.</span>
+    <span class="lang-es">Aquí comparto mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong> y en el desarrollo de sistemas de <strong>fenotipado de alto rendimiento</strong> mediante <strong>robótica</strong> e <strong>inteligencia artificial</strong>, con énfasis en <strong>visión computacional 3D</strong>.</span>
     <span class="lang-en">I share my background in <strong>biology</strong>, <strong>bioinformatics</strong>, and the development of <strong>high-throughput phenotyping</strong> systems using <strong>robotics</strong> and <strong>artificial intelligence</strong>, with a focus on <strong>3D computer vision</strong>.</span>
   </p>
   <p>
-    <span class="lang-es"><strong>Investigadora predoctoral</strong> en UPM y CRF-INIA-CSIC | Proyecto: Transformación digital de la conservación y mejora vegetal</span>
-    <span class="lang-en"><strong>Predoctoral Researcher</strong> at UPM and CRF-INIA-CSIC | Project: Digital Transformation of Plant Conservation and Improvement</span>
+    <span class="lang-es"><strong>Investigadora predoctoral</strong> en la <strong>Universidad Politécnica de Madrid (UPM)</strong> y el <strong>Centro de Recursos Fitogenéticos (CRF)</strong> del 
+  <strong>Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria (INIA)</strong>, parte del <strong>Consejo Superior de Investigaciones Científicas (CSIC)</strong>. | Proyecto: Transformación digital de las actividades de conservación y mejora vegetal mediante fenotipado de alto rendimiento (HTP)</span>
+    <span class="lang-en"><strong>PhD researcher</strong> at the <strong>Technical University of Madrid (UPM)</strong> and the 
+  <strong>Center for Plant Genetic Resources (CRF)</strong> at the <strong>National Institute for Agricultural and Food Research and Technology (INIA)</strong>, which is part of the <strong>Spanish National Research Council (CSIC)</strong>.  | Project: Digital transformation of plant genetic resource conservation and crop improvement activities through high-throughput phenotyping (HTP)</span>
   </p>
 </header>
 
@@ -267,19 +269,20 @@
   
   <img class="section-img" src="beautiful-landscape-with-rainbow-plants.jpg" alt="Bienvenida">
   
-  <!-- Español -->
-  <div class="lang-es">
-    <p>Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de cultivos</strong> y la <strong>caracterización de estructuras vegetales</strong>, aplicando aprendizaje automático y análisis de datos.</p>
-    <p class="centrado"><strong>Para ver mis proyectos, ¡clicka en las imágenes!</strong></p>
-    <p>📍 Investigadora predoctoral en la Universidad Politécnica de Madrid (UPM) y el Centro de Recursos Fitogenéticos (CRF-INIA-CSIC), dentro del proyecto <strong>Transformación digital de las actividades de conservación y mejora vegetal</strong>.</p>
-  </div>
+<!-- Español -->
+<div class="lang-es">
+  <p>Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de alto rendimiento (HTP, por sus siglas en inglés)</strong> aplicado a <strong>cultivos</strong> y a la <strong>caracterización estructural de plantas</strong>, utilizando <strong>Deep Learning</strong> y <strong>análisis computacional de rasgos fenotípicos</strong>.</p>
+  <p class="centrado"><strong>¡Haz clic en las imágenes para ver mis proyectos!</strong></p>
+  <p>📍 Investigadora predoctoral en la <strong>Universidad Politécnica de Madrid (UPM)</strong> y el <strong>Centro de Recursos Fitogenéticos (CRF)</strong> del <strong>INIA-CSIC</strong>, dentro del proyecto <strong>Transformación digital de las actividades de conservación y mejora vegetal mediante HTP</strong>.</p>
+</div>
 
-  <!-- Inglés -->
-  <div class="lang-en">
-    <p>This space brings together my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong>, and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>crop phenotyping</strong> and <strong>plant structure characterization</strong> using machine learning and data analysis.</p>
-    <p class="centrado"><strong>To see my projects, click on the images!</strong></p>
-    <p>📍 Predoctoral researcher at the Polytechnic University of Madrid (UPM) and the Plant Genetic Resources Center (CRF-INIA-CSIC), within the project <strong>Digital Transformation of Plant Conservation and Breeding</strong>.</p>
-  </div>
+<!-- Inglés -->
+<div class="lang-en">
+  <p>This space showcases my background in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong>, and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>high-throughput phenotyping (HTP)</strong> applied to <strong>crop analysis</strong> and <strong>plant structural characterization</strong>, using <strong>Deep Learning</strong> and <strong>computational analysis of phenotypic traits</strong>.</p>
+  <p class="centrado"><strong>Click on the images to explore my projects!</strong></p>
+  <p>📍 PhD researcher at the <strong>Technical University of Madrid (UPM)</strong> and the <strong>Center for Plant Genetic Resources (CRF)</strong> at <strong>INIA-CSIC</strong>, working on the project <strong>Digital Transformation of Plant Conservation and Breeding through HTP</strong>.</p>
+</div>
+
 <p class="centered-link">
     <a href="#autorreflexion-section" class="lang-es">🧠 Leer sobre mi autorreflexión</a>  
     <a href="#autorreflexion-section" class="lang-en">🧠 Read about my self-reflection</a>
