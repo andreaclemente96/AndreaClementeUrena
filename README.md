@@ -250,8 +250,8 @@
     <span class="lang-en">👩‍🔬 Andrea Clemente-Ureña</span>
   </h1>
   <p>
-    <span class="lang-es">Aquí comparto mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>.</span>
-    <span class="lang-en">Here I share my journey in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong> and <strong>3D computer vision</strong>.</span>
+    <span class="lang-es">Aquí comparto mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong> y en el desarrollo de sistemas de <strong>fenotipado de alto rendimiento</strong> mediante <strong>robótica</strong> e <strong>inteligencia artificial</strong>, con énfasis en <strong>visión computacional 3D</strong>.</span>en el desarrollo de sistemas de fenotipado de alto rendimiento mediante robótica e inteligencia artificial, con énfasis en visión computacional 3D.</span>
+    <span class="lang-en">I share my background in <strong>biology</strong>, <strong>bioinformatics</strong>, and the development of <strong>high-throughput phenotyping</strong> systems using <strong>robotics</strong> and <strong>artificial intelligence</strong>, with a focus on <strong>3D computer vision</strong>.</span>
   </p>
   <p>
     <span class="lang-es"><strong>Investigadora predoctoral</strong> en UPM y CRF-INIA-CSIC | Proyecto: Transformación digital de la conservación y mejora vegetal</span>
