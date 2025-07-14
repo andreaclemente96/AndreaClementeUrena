@@ -277,16 +277,14 @@
   
 <!-- Español -->
 <div class="lang-es">
-  <p>Este espacio reúne mi trayectoria en <strong>biología</strong>, <strong>bioinformática</strong>, <strong>robótica</strong> y <strong>visión computacional 3D</strong>. Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de alto rendimiento (HTP, por sus siglas en inglés)</strong> aplicado a <strong>cultivos</strong> y a la <strong>caracterización estructural de plantas</strong>, utilizando <strong>Deep Learning</strong> y <strong>análisis computacional de rasgos fenotípicos</strong>.</p>
+  <p>Actualmente desarrollo herramientas avanzadas para el <strong>fenotipado de alto rendimiento (HTP)</strong> aplicado a <strong>cultivos</strong> y a la <strong>caracterización estructural de plantas</strong>, utilizando <strong>Deep Learning</strong> y <strong>análisis computacional de rasgos fenotípicos</strong>.</p>
   <p class="centrado"><strong>¡Haz clic en las imágenes para ver mis proyectos!</strong></p>
-  <p>📍 Investigadora predoctoral en la <strong>Universidad Politécnica de Madrid (UPM)</strong> y el <strong>Centro de Recursos Fitogenéticos (CRF)</strong> del <strong>INIA-CSIC</strong>, dentro del proyecto <strong>Transformación digital de las actividades de conservación y mejora vegetal mediante HTP</strong>.</p>
 </div>
 
 <!-- Inglés -->
 <div class="lang-en">
-  <p>This space showcases my background in <strong>biology</strong>, <strong>bioinformatics</strong>, <strong>robotics</strong>, and <strong>3D computer vision</strong>. I currently develop advanced tools for <strong>high-throughput phenotyping (HTP)</strong> applied to <strong>crop analysis</strong> and <strong>plant structural characterization</strong>, using <strong>Deep Learning</strong> and <strong>computational analysis of phenotypic traits</strong>.</p>
+  <p>I currently develop advanced tools for <strong>high-throughput phenotyping (HTP)</strong> applied to <strong>crop analysis</strong> and <strong>plant structural characterization</strong>, using <strong>Deep Learning</strong> and <strong>computational analysis of phenotypic traits</strong>.</p>
   <p class="centrado"><strong>Click on the images to explore my projects!</strong></p>
-  <p>📍 PhD researcher at the <strong>Technical University of Madrid (UPM)</strong> and the <strong>Center for Plant Genetic Resources (CRF)</strong> at <strong>INIA-CSIC</strong>, working on the project <strong>Digital Transformation of Plant Conservation and Breeding through HTP</strong>.</p>
 </div>
 
 <p class="centered-link">
@@ -351,8 +349,16 @@
     <span class="lang-en">💡 My first encounter with research</span>
   </h2>
   <p>
-    <span class="lang-es">Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la <em>síntesis de bioplásticos a partir de la leche de vaca</em> en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el <strong>Finde Científico</strong>, formando parte de un equipo que realizaba experimentos de química visual para la divulgación científica.</span>
-    <span class="lang-en">My initial experience with research was in the first year of upper secondary school when I developed a project on the <em>synthesis of bioplastics from cow's milk</em> in Biology and Experimental Techniques classes. That same year, I participated in the Science Weekend (Finde Científico), as part of a team performing visual chemistry experiments for science outreach.</span>
+    <span class="lang-es">
+  <span class="lang-es">
+  Mi primer contacto con la investigación fue en 1º de Bachillerato en el <strong>IES Alameda de Osuna</strong>, donde desarrollé un proyecto sobre la <em>síntesis de bioplásticos a partir de leche de vaca</em> en las asignaturas de Biología y Técnicas Experimentales en Ciencias. Ese mismo año participé en el <strong>Finde Científico</strong> con el proyecto <em>“De la magia del arco iris al modelo de Bohr”</em>, formando parte de un equipo dedicado a la divulgación científica mediante experimentos de química visual.  
+  <br>El Finde Científico es una feria organizada por la <strong>Fundación Española para la Ciencia y la Tecnología (FECYT)</strong> y el <strong>Museo Nacional de Ciencia y Tecnología (MUNCYT)</strong>, con la colaboración de <strong>Obra Social “la Caixa”</strong>.
+</span>
+
+<span class="lang-en">
+  My first experience with research took place during the first year of upper secondary school at <strong>IES Alameda de Osuna</strong>, where I developed a project on the <em>synthesis of bioplastics from cow’s milk</em> in Biology and Experimental Science Techniques. That same year, I took part in the <strong>Finde Científico</strong> with the project <em>“De la magia del arco iris al modelo de Bohr”</em>, as part of a team focused on science outreach through visual chemistry experiments.  
+  <br>The Finde Científico is a science fair organized by the <strong>Spanish Foundation for Science and Technology (FECYT)</strong> and the <strong>National Museum of Science and Technology (MUNCYT)</strong>, with support from <strong>Obra Social “la Caixa”</strong>.
+</span>
   </p>
   
   <div class="project-container">
@@ -368,7 +374,7 @@
   <div class="project-container">
     <div class="project-title">
       <span class="lang-es">Ejemplo de lo que hice en el Finde Científico</span>
-      <span class="lang-en">Example of what I did at the Science Weekend</span>
+      <span class="lang-en">Example of what I did at the "Finde Científico"</span>
     </div>
     <div class="project-image">
       <img src="lab-glassware-with-colored-liquids-assortment.jpg" alt="Finde Científico">
@@ -383,22 +389,47 @@
     <span class="lang-en">🚀 Featured Projects</span>
   </h2>
   
-  <!-- Proyecto 1 -->
-  <div class="project-container">
-    <div class="project-title">
-      <span class="lang-es">Fenotipado de alto rendimiento</span>
-      <span class="lang-en">High-throughput phenotyping</span>
-    </div>
-    <div class="project-image">
-      <img src="3461225.jpg" alt="Fenotipado de cultivos">
-    </div>
-    <div class="project-description">
-      <p>
-        <span class="lang-es">Mi tesis doctoral en proceso: Fenotipado automatizado de cultivos con robótica y visión computacional. Diseño experimental y análisis de datos fenotípicos.</span>
-        <span class="lang-en">My doctoral thesis in progress: Automated crop phenotyping with robotics and computer vision. Experimental design and phenotypic data analysis.</span>
+ <!-- Proyecto 1 -->
+<div class="project-container">
+  <div class="project-title">
+    <span class="lang-es">Fenotipado de alto rendimiento</span>
+    <span class="lang-en">High-throughput phenotyping</span>
+  </div>
+  <div class="project-image">
+    <img src="3461225.jpg" alt="Fenotipado de cultivos">
+  </div>
+  <div class="project-description">
+    <p>
+      <span class="lang-es">
+        Mi tesis doctoral se centra en el desarrollo de un sistema de <strong>fenotipado vegetal de alto rendimiento</strong> mediante robótica autónoma, <strong>visión computacional 3D</strong> e <strong>imagen hiperespectral</strong>. Trabajo con <strong>datos obtenidos de cámaras RGB e hiperespectrales</strong> para entrenar modelos de inteligencia artificial que permitan reconstrucciones 3D, segmentación de estructuras vegetales y detección de estrés.
+        <br><br>
+        Colaboro activamente con el <strong>Centro de Automática y Robótica (CAR, CSIC-UPM)</strong> y la empresa tecnológica <strong>INYCOM</strong> en el marco del contrato predoctoral <strong>MOMENTUM MMT24-PTI AGROFOR</strong>. También participo en el desarrollo del futuro servicio científico-técnico <strong>PTI AGRO4FOOD</strong>.
+        <br><br>
+        En 2025 participé en la escuela de verano de inteligencia artificial organizada por <strong>AIHUB-CSIC</strong> en Zaragoza, donde presenté el póster titulado <em>“IA y visión 3D hiperespectral para fenotipado de alto rendimiento”</em>.
+      </span>
+      <span class="lang-en">
+        My PhD thesis focuses on developing a <strong>high-throughput plant phenotyping</strong> system using autonomous robotics, <strong>3D computer vision</strong>, and <strong>hyperspectral imaging</strong>. I work with <strong>RGB and hyperspectral data</strong> to train AI models for 3D reconstruction, plant structure segmentation, and stress detection.
+        <br><br>
+        I actively collaborate with the <strong>Centre for Automation and Robotics (CAR, CSIC-UPM)</strong> and the tech company <strong>INYCOM</strong>, within the framework of the <strong>MOMENTUM MMT24-PTI AGROFOR</strong> predoctoral contract. The project is part of the future <strong>PTI AGRO4FOOD</strong> scientific-technical service.
+        <br><br>
+        In 2025, I participated in the summer school on artificial intelligence organized by <strong>AIHUB-CSIC</strong> in Zaragoza, where I presented the poster titled <em>“AI and 3D Hyperspectral Vision for High-Throughput Phenotyping”</em>.
+      </span>
+    </p>
+    
+    <!-- Póster interactivo -->
+    <div class="poster-section">
+      <a href="POSTER-definitivo.pdf" target="_blank">
+        <img src="poster-thumbnail.jpg" alt="Póster IA y visión 3D" style="width: 200px; border: 1px solid #ccc;">
+      </a>
+      <p class="poster-caption">
+        <span class="lang-es">Póster: <em>IA y visión 3D hiperespectral para fenotipado de alto rendimiento</em>. Pulsa sobre la imagen para ampliar.</span>
+        <span class="lang-en">Poster: <em>AI and 3D Hyperspectral Vision for High-Throughput Phenotyping</em>. Click the image to enlarge.</span>
       </p>
     </div>
   </div>
+</div>
+
+
   
   <!-- Proyecto 2 -->
   <div class="project-container">
