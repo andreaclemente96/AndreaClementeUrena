@@ -418,7 +418,7 @@
     
     <!-- Póster interactivo -->
     <div class="poster-section">
-      <a href="POSTER-definitivo.pdf" target="_blank">
+      <a href="https://github.com/andreaclemente96/AndreaClementeUrena/blob/andreaclemente96-portfolio/POSTER%20definitivo.pdf" target="_blank">
         <img src="poster-thumbnail.jpg" alt="Póster IA y visión 3D" style="width: 200px; border: 1px solid #ccc;">
       </a>
       <p class="poster-caption">
