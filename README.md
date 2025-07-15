@@ -817,15 +817,15 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
   <table>
     <tr>
       <td><strong><span class="lang-es">Lenguajes</span><span class="lang-en">Languages</span></strong></td>
-      <td>Python • R • SQL • BASH • HTML/CSS</td>
+      <td>Python • R • SQL • BASH • HTML/CSS • C#</td>
     </tr>
     <tr>
       <td><strong><span class="lang-es">Ciencia &amp; Bioinfo</span><span class="lang-en">Science &amp; Bioinformatics</span></strong></td>
-      <td>Bioconductor • SPSS • Galaxy • Novopath • Inferencia estadística</td>
+      <td>Bioconductor • SPSS • Galaxy • Novopath • BLAST • Alineamientos • Análisis genómicos</td>
     </tr>
     <tr>
       <td><strong><span class="lang-es">IA / Visión</span><span class="lang-en">AI / Vision</span></strong></td>
-      <td>OpenCV • PyTorch • TensorFlow • Scikit-learn • Visión 3D</td>
+      <td>TensorFlow • PyTorch • Scikit-learn • Keras • OpenCV • Pandas • NumPy • Matplotlib</td>
     </tr>
     <tr>
       <td><strong><span class="lang-es">Robótica</span><span class="lang-en">Robotics</span></strong></td>
@@ -833,10 +833,11 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     </tr>
     <tr>
       <td><strong><span class="lang-es">Entornos</span><span class="lang-en">Environments</span></strong></td>
-      <td>Linux • VS Code • Git • Office</td>
+      <td>Linux • VS Code • Unity • GitHub • Office</td>
     </tr>
   </table>
 </section>
+
 
 <!-- Sección: Experiencia profesional -->
 <section id="experiencia-section" class="direct-section">
@@ -873,11 +874,14 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <span class="lang-en">🌐 Languages</span>
   </h2>
   <ul>
-    <li><span class="lang-es">🇪🇸 Español: Nativo</span><span class="lang-en">🇪🇸 Spanish: Native</span></li>
-    <li><span class="lang-es">🇬🇧 Inglés: Nivel C (APTIS - British Council)</span><span class="lang-en">🇬🇧 English: Level C (APTIS - British Council)</span></li>
-    <li><span class="lang-es">🇫🇷 Francés: Nivel A2 (DELF)</span><span class="lang-en">🇫🇷 French: Level A2 (DELF)</span></li>
+    <li><span class="lang-es">Español: Nativo</span><span class="lang-en">Spanish: Native</span></li>
+    <li><span class="lang-es">Inglés: Nivel C (APTIS - British Council)</span><span class="lang-en">English: Level C (APTIS - British Council)</span></li>
+    <li><span class="lang-es">Francés: Nivel A2 (DELF)</span><span class="lang-en">French: Level A2 (DELF)</span></li>
+    <li><span class="lang-es">Alemán: Nivel básico</span><span class="lang-en">German: Basic level</span></li>
+    <li><span class="lang-es">Catalán: Nivel básico</span><span class="lang-en">Catalan: Basic level</span></li>
   </ul>
 </section>
+
 <!-- Sección: Autorreflexión -->
 <section id="autorreflexion-section" class="direct-section">
   <h2 class="section-title">
@@ -889,25 +893,50 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <span class="lang-en">Throughout my academic and professional career, I have had the opportunity to integrate my knowledge in biology, bioinformatics, robotics, and 3D computer vision. This interdisciplinary combination has been key to my development, both as a predoctoral researcher at UPM and CRF-INIA-CSIC and in my previous studies in Biology and the master's degree in Bioinformatics.</span>
   </p>
   <p>
-    <span class="lang-es">Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la síntesis de bioplásticos a partir de la leche de vaca. Ese primer acercamiento a la ciencia me motivó a seguir explorando más en profundidad, y me permitió darme cuenta de lo fascinante que es la capacidad de hacer avanzar el conocimiento a través de la investigación. Desde entonces, cada paso en mi trayectoria ha sido una oportunidad de aprender y mejorar.</span>
-    <span class="lang-en">My first contact with research was in the first year of high school when I developed a project on the synthesis of bioplastics from cow's milk. This first approach to science motivated me to continue exploring more deeply and made me realize how fascinating it is to advance knowledge through research. Since then, every step in my journey has been an opportunity to learn and improve.</span>
-  </p>
-  <p>
-    <span class="lang-es">A medida que he ido avanzando en mis estudios y proyectos, he aprendido a integrar herramientas y enfoques de diferentes disciplinas. En mis investigaciones actuales, por ejemplo, he logrado combinar mis conocimientos en biología con las técnicas de visión computacional y robótica para resolver problemas complejos, como el fenotipado automatizado de cultivos. La programación en Python y R, así como el uso de técnicas de machine learning, han sido fundamentales para poder procesar y analizar grandes volúmenes de datos.</span>
-    <span class="lang-en">As I have progressed in my studies and projects, I have learned to integrate tools and approaches from different disciplines. In my current research, for example, I have been able to combine my knowledge of biology with computer vision and robotics techniques to solve complex problems, such as the automated phenotyping of crops. Programming in Python and R, as well as using machine learning techniques, have been essential for processing and analyzing large datasets.</span>
-  </p>
-  <p>
-    <span class="lang-es">Una de las cosas que he aprendido sobre mí misma es que soy capaz de abordar proyectos complejos y multidisciplinarios, pero también he identificado áreas en las que necesito mejorar. Por ejemplo, la gestión del tiempo sigue siendo un reto, sobre todo cuando estoy involucrada en varios proyectos a la vez. A veces es difícil equilibrar todas las tareas que tengo, y eso me ha llevado a buscar maneras de organizarme mejor y priorizar de manera más eficaz. También, aunque me siento cómoda usando herramientas estadísticas avanzadas, me gustaría mejorar mi capacidad para comunicar mis resultados de manera clara y comprensible, tanto para compañeros de mi campo como para aquellos ajenos a la ciencia.</span>
-    <span class="lang-en">One thing I have learned about myself is that I am capable of tackling complex and multidisciplinary projects, but I have also identified areas where I need to improve. For example, time management remains a challenge, especially when I am involved in several projects at once. It is sometimes difficult to balance all the tasks I have, and this has led me to look for better ways to organize myself and prioritize more effectively. Also, although I feel comfortable using advanced statistical tools, I would like to improve my ability to communicate my results clearly and understandably, both to peers in my field and to those outside of science.</span>
-  </p>
-  <p>
-    <span class="lang-es">Mirando hacia el futuro, mi objetivo es seguir desarrollando mis habilidades en áreas como la inteligencia artificial y la robótica, especialmente aplicadas a la biología y la agricultura. Además, quiero seguir reflexionando sobre mi proceso de aprendizaje para poder mejorar continuamente, ajustando mis métodos de trabajo y mis estrategias de estudio.</span>
-    <span class="lang-en">Looking ahead, my goal is to continue developing my skills in areas such as artificial intelligence and robotics, especially applied to biology and agriculture. In addition, I want to continue reflecting on my learning process to keep improving, adjusting my work methods and study strategies.</span>
-  </p>
-  <p>
-    <span class="lang-es">En resumen, este ejercicio de autorreflexión me ha permitido darme cuenta de cuánto he avanzado y de lo que todavía puedo mejorar. Creo que es fundamental seguir reflexionando sobre el aprendizaje para poder adaptarse a los desafíos que vienen, y estoy muy motivada para seguir creciendo profesional y personalmente.</span>
-    <span class="lang-en">In summary, this self-reflection exercise has allowed me to realize how much I have progressed and what I still need to improve. I believe it is essential to keep reflecting on learning in order to adapt to the challenges ahead, and I am very motivated to keep growing both professionally and personally.</span>
-  </p>
+  <span class="lang-es">
+    Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la síntesis de bioplásticos a partir de leche de vaca. Aquel acercamiento despertó en mí una gran curiosidad científica y me hizo descubrir lo apasionante que es generar nuevo conocimiento. Desde entonces, he continuado profundizando en distintas áreas y cada experiencia ha reforzado mi interés por la ciencia aplicada y multidisciplinar.
+  </span>
+  <span class="lang-en">
+    My first contact with research was in the first year of high school, when I developed a project on the synthesis of bioplastics from cow's milk. That early exposure sparked a deep scientific curiosity and made me realize how exciting it is to generate new knowledge. Since then, I have continued exploring various fields, and each experience has reinforced my interest in applied and multidisciplinary science.
+  </span>
+</p>
+
+<p>
+  <span class="lang-es">
+    A medida que he avanzado en mis estudios y proyectos, he aprendido a integrar herramientas y enfoques de distintas disciplinas. Actualmente, combino conocimientos en biología, visión por computador y robótica para abordar retos como el fenotipado automatizado de cultivos. El uso de Python, R y técnicas de machine learning ha sido clave para analizar datos complejos y trabajar con imágenes, nubes de puntos y sensores en entornos reales.
+  </span>
+  <span class="lang-en">
+    As I have progressed in my studies and projects, I have learned to integrate tools and approaches from different disciplines. Currently, I combine knowledge in biology, computer vision, and robotics to address challenges such as the automated phenotyping of crops. Using Python, R, and machine learning techniques has been essential for analyzing complex data and working with images, point clouds, and sensors in real-world settings.
+  </span>
+</p>
+
+<p>
+  <span class="lang-es">
+    He mejorado significativamente en el trabajo en equipo, y durante la escuela de verano AIHub pude reforzar mis habilidades de comunicación, aprendiendo a transmitir mis ideas de forma más clara y efectiva. Aun así, sigo trabajando para optimizar la gestión del tiempo y seguir perfeccionando cómo presento mis resultados, tanto a audiencias técnicas como a personas sin formación científica.
+  </span>
+  <span class="lang-en">
+    I have significantly improved my teamwork skills, and during the AIHub summer school, I was able to strengthen my communication abilities, learning to convey my ideas more clearly and effectively. Still, I continue working to optimize time management and improve how I present my results, both to technical audiences and to people without a scientific background.
+  </span>
+</p>
+
+<p>
+  <span class="lang-es">
+    De cara al futuro, me motiva seguir formándome en inteligencia artificial, realidad aumentada y robótica, especialmente en contextos de biotecnología y agricultura de precisión. Estoy abierta a seguir colaborando en proyectos innovadores y a perfeccionar tanto mis capacidades técnicas como mis habilidades blandas, como la comunicación, la organización y el trabajo en equipo.
+  </span>
+  <span class="lang-en">
+    Looking ahead, I’m motivated to continue training in artificial intelligence, augmented reality, and robotics, especially within biotechnology and precision agriculture. I’m open to collaborating on innovative projects and improving both my technical skills and soft skills, such as communication, organization, and teamwork.
+  </span>
+</p>
+
+<p>
+  <span class="lang-es">
+    En resumen, esta reflexión me ha ayudado a tomar perspectiva sobre mi evolución reciente. Sigo comprometida con aprender, adaptarme y crecer personal y profesionalmente, con la convicción de que la investigación es una herramienta clave para impactar positivamente en el mundo.
+  </span>
+  <span class="lang-en">
+    In summary, this reflection has helped me gain perspective on my recent evolution. I remain committed to learning, adapting, and growing both personally and professionally, with the conviction that research is a key tool to positively impact the world.
+  </span>
+</p>
+
 </section>
 
 <!-- Sección: Contacto -->
