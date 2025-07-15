@@ -356,7 +356,7 @@
     </span>
 
     <span class="lang-en">
-      My first experience with research took place during the first year of upper secondary school at <strong>IES Alameda de Osuna</strong>, where I developed a project on the <em>synthesis of bioplastics from cow’s milk</em> in Biology and Experimental Science Techniques. That same year, I took part in the <strong>Finde Científico</strong> with the project <em>“De la magia del arco iris al modelo de Bohr”</em>, as part of a team focused on science outreach through visual chemistry experiments.  
+      My first experience with research took place during the first year of Bachillerato (upper secundary education) at <strong>IES Alameda de Osuna</strong>, where I developed a project on the <em>synthesis of bioplastics from cow’s milk</em> in Biology and Experimental Science Techniques. That same year, I took part in the <strong>Finde Científico</strong> with the project <em>“De la magia del arco iris al modelo de Bohr”</em>, as part of a team focused on science outreach through visual chemistry experiments.  
       <br>The Finde Científico is a science fair organized by the <strong>Spanish Foundation for Science and Technology (FECYT)</strong> and the <strong>National Museum of Science and Technology (MUNCYT)</strong>, with support from <strong>Obra Social “la Caixa”</strong>.
     </span>
   </p>
@@ -757,17 +757,20 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
   <figure style="max-width: 48%; margin: 0;">
     <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/La%20planta%20completa%20y%20la%20Jerarqu%C3%ADa%20.jpg" alt="Planta completa y jerarquía" style="width: 100%; height: auto; border-radius: 5px;" />
     <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.3rem; color: #555;">
-      Planta completa y jerarquía de zonas en el modelo 3D
+      <span class="lang-es">Planta completa y jerarquía de zonas en el modelo 3D</span>
+      <span class="lang-en">Complete plant and zone hierarchy in the 3D model</span>
     </figcaption>
   </figure>
 
   <figure style="max-width: 48%; margin: 0;">
     <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/Simulando%20click%20con%20el%20%C3%ADndice%20de%20la%20mano%20derecha%20en%20las%20hojas.jpg" alt="Simulación de click en hojas" style="width: 100%; height: auto; border-radius: 5px;" />
     <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.3rem; color: #555;">
-      Simulación de selección con dedo índice en las hojas
+      <span class="lang-es">Simulación de selección con dedo índice en las hojas</span>
+      <span class="lang-en">Simulation of index finger selection on leaves</span>
     </figcaption>
   </figure>
 </div>
+
 
     </p>
   </div>
@@ -889,24 +892,29 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <span class="lang-en">🧠 Self-reflection on my learning process</span>
   </h2>
   <p>
-    <span class="lang-es">A lo largo de mi carrera académica y profesional, he tenido la oportunidad de integrar mis conocimientos en biología, bioinformática, robótica y visión computacional 3D. Esta combinación interdisciplinaria ha sido clave para mi desarrollo, tanto como investigadora predoctoral en la UPM y CRF-INIA-CSIC como en mis estudios anteriores en el grado de Biología y el máster en Bioinformática.</span>
-    <span class="lang-en">Throughout my academic and professional career, I have had the opportunity to integrate my knowledge in biology, bioinformatics, robotics, and 3D computer vision. This interdisciplinary combination has been key to my development, both as a predoctoral researcher at UPM and CRF-INIA-CSIC and in my previous studies in Biology and the master's degree in Bioinformatics.</span>
-  </p>
-  <p>
   <span class="lang-es">
     Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la síntesis de bioplásticos a partir de leche de vaca. Aquel acercamiento despertó en mí una gran curiosidad científica y me hizo descubrir lo apasionante que es generar nuevo conocimiento. Desde entonces, he continuado profundizando en distintas áreas y cada experiencia ha reforzado mi interés por la ciencia aplicada y multidisciplinar.
   </span>
   <span class="lang-en">
-    My first contact with research was in the first year of high school, when I developed a project on the synthesis of bioplastics from cow's milk. That early exposure sparked a deep scientific curiosity and made me realize how exciting it is to generate new knowledge. Since then, I have continued exploring various fields, and each experience has reinforced my interest in applied and multidisciplinary science.
+    My first contact with research was in the first year of Bachillerato (upper secondary education), when I developed a project on the synthesis of bioplastics from cow's milk. That early exposure sparked a deep scientific curiosity and made me realize how exciting it is to generate new knowledge. Since then, I have continued exploring various fields, and each experience has reinforced my interest in applied and multidisciplinary science.
   </span>
 </p>
 
 <p>
   <span class="lang-es">
-    A medida que he avanzado en mis estudios y proyectos, he aprendido a integrar herramientas y enfoques de distintas disciplinas. Actualmente, combino conocimientos en biología, visión por computador y robótica para abordar retos como el fenotipado automatizado de cultivos. El uso de Python, R y técnicas de machine learning ha sido clave para analizar datos complejos y trabajar con imágenes, nubes de puntos y sensores en entornos reales.
+    Durante el máster, adquirí conocimientos sólidos en programación con Python y R, así como en técnicas de machine learning, que me han permitido procesar y analizar grandes volúmenes de datos, y abordar problemas complejos desde una perspectiva cuantitativa.
   </span>
   <span class="lang-en">
-    As I have progressed in my studies and projects, I have learned to integrate tools and approaches from different disciplines. Currently, I combine knowledge in biology, computer vision, and robotics to address challenges such as the automated phenotyping of crops. Using Python, R, and machine learning techniques has been essential for analyzing complex data and working with images, point clouds, and sensors in real-world settings.
+    During my master's, I gained solid knowledge in programming with Python and R, as well as in machine learning techniques, which have allowed me to process and analyze large volumes of data and tackle complex problems from a quantitative perspective.
+  </span>
+</p>
+
+<p>
+  <span class="lang-es">
+    Actualmente, en mis proyectos más recientes, combino estos conocimientos con técnicas de visión por computador, robótica e inteligencia artificial aplicadas a la biología y la agricultura de precisión. Esta combinación multidisciplinar me permite trabajar con sensores avanzados y desarrollar soluciones innovadoras para el fenotipado automatizado y otras aplicaciones.
+  </span>
+  <span class="lang-en">
+    Currently, in my more recent projects, I combine this knowledge with computer vision, robotics, and artificial intelligence techniques applied to biology and precision agriculture. This multidisciplinary combination allows me to work with advanced sensors and develop innovative solutions for automated phenotyping and other applications.
   </span>
 </p>
 
@@ -921,7 +929,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
 
 <p>
   <span class="lang-es">
-    De cara al futuro, me motiva seguir formándome en inteligencia artificial, realidad aumentada y robótica, especialmente en contextos de biotecnología y agricultura de precisión. Estoy abierta a seguir colaborando en proyectos innovadores y a perfeccionar tanto mis capacidades técnicas como mis habilidades blandas, como la comunicación, la organización y el trabajo en equipo.
+    De cara al futuro, me motiva seguir formándome en inteligencia artificial, realidad aumentada y robótica, especialmente dentro del ámbito de la biotecnología y la agricultura de precisión. Estoy abierta a seguir colaborando en proyectos innovadores y a perfeccionar tanto mis capacidades técnicas como mis habilidades blandas, como la comunicación, la organización y el trabajo en equipo.
   </span>
   <span class="lang-en">
     Looking ahead, I’m motivated to continue training in artificial intelligence, augmented reality, and robotics, especially within biotechnology and precision agriculture. I’m open to collaborating on innovative projects and improving both my technical skills and soft skills, such as communication, organization, and teamwork.
@@ -936,6 +944,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     In summary, this reflection has helped me gain perspective on my recent evolution. I remain committed to learning, adapting, and growing both personally and professionally, with the conviction that research is a key tool to positively impact the world.
   </span>
 </p>
+
 
 </section>
 
