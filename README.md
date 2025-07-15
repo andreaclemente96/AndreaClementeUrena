@@ -738,9 +738,20 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
         The project is in an early stage, with plans to progressively integrate artificial intelligence for real-time segmentation and labeling based on models derived from point clouds of real plants, enhancing accuracy and utility in agricultural environments.
       </span>
       <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap;">
-      <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/La%20planta%20completa%20y%20la%20Jerarqu%C3%ADa%20.jpg" alt="Planta completa y jerarquía"             style="max-width: 48%; height: auto; border-radius: 5px;" />
-      <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/Simulando%20click%20con%20el%20%C3%ADndice%20de%20la%20mano%20derecha%20en%20las%20hojas.jpg"          alt="Simulación de click en hojas" style="max-width: 48%; height: auto; border-radius: 5px;" />
-      </div>
+  <figure style="max-width: 48%; margin: 0;">
+    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/La%20planta%20completa%20y%20la%20Jerarqu%C3%ADa%20.jpg" alt="Planta completa y jerarquía" style="width: 100%; height: auto; border-radius: 5px;" />
+    <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.3rem; color: #555;">
+      Planta completa y jerarquía de zonas en el modelo 3D
+    </figcaption>
+  </figure>
+
+  <figure style="max-width: 48%; margin: 0;">
+    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/Simulando%20click%20con%20el%20%C3%ADndice%20de%20la%20mano%20derecha%20en%20las%20hojas.jpg" alt="Simulación de click en hojas" style="width: 100%; height: auto; border-radius: 5px;" />
+    <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.3rem; color: #555;">
+      Simulación de selección con dedo índice en las hojas
+    </figcaption>
+  </figure>
+</div>
     </p>
   </div>
 </div>
