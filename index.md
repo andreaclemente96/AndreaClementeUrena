@@ -240,19 +240,20 @@
 
     /* Tabla de navegación */
     .nav-table {
-    width: 100%;
-    margin: 2rem auto;
-    border-collapse: separate;
-    border-spacing: 1rem;
-    table-layout: fixed;
-    }
+  width: 100%;
+  margin: 2rem auto;
+  border-collapse: separate;
+  border-spacing: 1rem;
+  table-layout: fixed;
+}
 
 .nav-table td {
   padding: 1rem 0.8rem;
   text-align: center;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd; /* Borde gris suave */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
   transition: transform 0.2s ease, background-color 0.3s ease;
   vertical-align: middle;
   font-size: 1.1rem;
@@ -266,10 +267,11 @@
 
 .nav-table a {
   text-decoration: none;
-  color: var(--primary-color);
-  font-weight: bold;
+  color: #1b5e20; /* Verde oscuro tipo "bold" */
+  font-weight: 600;
   display: block;
 }
+
 
     .centrado {
       text-align: center;
