@@ -724,6 +724,9 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <span class="lang-es">Tecnologías inmersivas</span>
     <span class="lang-en">Immersive technologies</span>
   </div>
+  <div class="project-image">
+    <img src="3162813.jpg" alt="Tecnologías inmersivas" />
+  </div>
   <div class="project-description">
     <p>
       <span class="lang-es">
@@ -737,10 +740,11 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     </p>
   </div>
   <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap;">
-    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/La%20planta%20completa%20y%20la%20Jerarqu%C3%ADa%20.jpg" alt="Planta completa y jerarquía" style="max-width: 48%; height: auto; border-radius: 5px;">
-    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/Simulando%20click%20con%20el%20%C3%ADndice%20de%20la%20mano%20derecha%20en%20las%20hojas.jpg" alt="Simulación de click en hojas" style="max-width: 48%; height: auto; border-radius: 5px;">
+    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/La%20planta%20completa%20y%20la%20Jerarqu%C3%ADa%20.jpg" alt="Planta completa y jerarquía" style="max-width: 48%; height: auto; border-radius: 5px;" />
+    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/Simulando%20click%20con%20el%20%C3%ADndice%20de%20la%20mano%20derecha%20en%20las%20hojas.jpg" alt="Simulación de click en hojas" style="max-width: 48%; height: auto; border-radius: 5px;" />
   </div>
 </div>
+
 
 <!-- Sección: Formación académica -->
 <section id="formacion-section" class="direct-section">
