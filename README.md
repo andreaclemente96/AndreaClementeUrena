@@ -420,7 +420,7 @@
       <!-- Póster interactivo -->
       <div class="poster-section">
         <a href="https://github.com/andreaclemente96/AndreaClementeUrena/blob/andreaclemente96-portfolio/p%C3%B3ster%20hiperespectral.jpg" target="_blank">
-          <img src="poster-thumbnail.jpg" alt="Póster IA y visión 3D hiperespectral para fenotipado para alto rendimiento" style="width: 200px; border: 1px solid #ccc;">
+          <img src="p%C3%B3ster%20hiperespectral.jpg" alt="Póster IA y visión 3D hiperespectral para fenotipado para alto rendimiento" style="width: 600px; border: 1px solid #ccc;">
         </a>
         <p class="poster-caption">
           <span class="lang-es">Póster: <em>IA y visión 3D hiperespectral para fenotipado de alto rendimiento</em>. Pulsa sobre la imagen para ampliar.</span>
