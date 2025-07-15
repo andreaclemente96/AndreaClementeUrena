@@ -590,7 +590,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     content.style.display = content.style.display === "none" ? "block" : "none";
   }
 </script>
-</section>
+</div>
   
   <!-- Proyecto 2 -->
   <div class="project-container">
