@@ -593,131 +593,154 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
 </div>
   
   <!-- Proyecto 2 -->
-  <div class="project-container">
-    <div class="project-title">
-      <span class="lang-es">Bioinformática y análisis ómico</span>
-      <span class="lang-en">Bioinformatics and omic analysis</span>
-    </div>
-    <div class="project-image">
-      <img src="https://github.com/user-attachments/assets/8dfa2628-f892-4078-bde3-3915150bed34" alt="Bioinformática">
-    </div>
-    <div class="project-description">
-      <p>
-        <span class="lang-es">
-          He desarrollado una sólida formación en bioinformática y análisis de datos ómicos, combinando herramientas computacionales y métodos estadísticos avanzados. Mi experiencia incluye programación en R y Python, machine learning aplicado a datos biomédicos, análisis multivariante y modelado estadístico.
-        </span>
-      </p>
-      <p>
-        <span class="lang-es">
-          He trabajado con datos de transcriptómica, genómica y otras fuentes de alto rendimiento, aplicando modelos predictivos e inferencia estadística para extraer información relevante. Además, manejo software especializado para el análisis de datos biomédicos y técnicas de integración de datos ómicos.
-          <p>TFM: Identificación y caracterización de tRFs sobreexpresados en enfermedad de Huntington. DOI: 
-          <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a></p>
-        </span>
-      </p>
-      <p>
-        <span class="lang-en">
-          I have developed strong expertise in bioinformatics and omics data analysis, combining computational tools with advanced statistical methods. My experience includes programming in R and Python, machine learning applied to biomedical data, multivariate analysis, and statistical modeling.
-        </span>
-      </p>
-      <p>
-        <span class="lang-en">
-          I have worked with transcriptomics, genomics, and other high-throughput data, applying predictive models and statistical inference to extract meaningful insights. Additionally, I am proficient in specialized software for biomedical data analysis and omics data integration techniques.
-          Master's Thesis: Identification and characterization of overexpressed tRFs in Huntington's disease. DOI: 
-          <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a>
-        </span>
-      </p>
-    </div>
+<div class="project-container">
+  <div class="project-title">
+    <span class="lang-es">Bioinformática y análisis ómico</span>
+    <span class="lang-en">Bioinformatics and omics analysis</span>
   </div>
-  
-  <!-- Proyecto 3 -->
-  <div class="project-container">
-    <div class="project-title">
-      <span class="lang-es">Genética molecular y citología</span>
-      <span class="lang-en">Molecular genetics and cytology</span>
-    </div>
-    <div class="project-image">
-      <img src="https://github.com/user-attachments/assets/b740f460-1160-4a35-90c6-b3b2e5861f23" alt="Genética molecular">
-    </div>
-    <div class="project-description">
-      <!-- Versión en español -->
-      <div class="lang-es">
-        <p>
-          He adquirido una sólida base en genética molecular y citología, con conocimientos en estructura y función de los genomas, biología celular, embriología y técnicas avanzadas de laboratorio. Además, tengo experiencia en la caracterización estructural de genes, análisis genético en protistas y aplicación de métodos de laboratorio en anatomía patológica y citología.
-        </p>
-        <p>
-          TFG: Caracterización estructural de genes codificantes de proteínas ribosómicas en Leishmania. DOI: 
-          <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>.
-        </p>
-        <p>
-          Participación mencionada en el 
-          <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
-            Informe Científico del CBMSO-CSIC 2021–2022
-          </a>.
-        </p>
-      </div>
-      
-      <!-- Versión en inglés -->
-      <div class="lang-en">
-        <p>
-          I have developed a strong foundation in molecular genetics and cytology, with expertise in genome structure and function, cell biology, embryology, and advanced laboratory techniques. Additionally, I have experience in gene structural characterization, genetic analysis in protists, and laboratory methods in pathological anatomy and cytology.
-        </p>
-        <p>
-          Bachelor's Thesis: Structural characterization of genes coding for ribosomal proteins in Leishmania. DOI: 
-          <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>.
-        </p>
-        <p>
-          Participation mentioned in the 
-          <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
-            CBMSO-CSIC Scientific Report 2021–2022
-          </a>.
-        </p>
-      </div>
-    </div>
+  <div class="project-image">
+    <img src="https://github.com/user-attachments/assets/8dfa2628-f892-4078-bde3-3915150bed34" alt="Bioinformática">
   </div>
-  
-  <!-- Proyecto 4 -->
-  <div class="project-container">
-    <div class="project-title">
-      <span class="lang-es">Histología e inmunohistoquímica</span>
-      <span class="lang-en">Histology and immunohistochemistry</span>
-    </div>
-    <div class="project-image">
-      <img src="https://github.com/user-attachments/assets/73e74b49-a323-40f3-b055-1f3bfaf9750c" alt="Histología">
-    </div>
-    <div class="project-description">
-      <p>
-        <span class="lang-es">
-          Detección Inmunohistoquímica de BRCA en Cáncer de Mama<br><br>
-          En este proyecto, realicé la detección inmunohistoquímica de los genes BRCA1 y BRCA2 en muestras de tejido mamario con sospecha de cáncer. Utilicé anticuerpos específicos para BRCA y otros marcadores como HER2, Ki-67, ER y PR. Tras aplicar los anticuerpos, se visualizó la expresión de BRCA en las células mediante un marcador cromogénico (DAB), que generó manchas marrones en las células positivas.<br><br>
-          Este proyecto me permitió desarrollar habilidades en técnicas de inmunohistoquímica, microscopía y la interpretación de marcadores tumorales en la investigación del cáncer de mama.
-        </span>
-        <span class="lang-en">
-          Immunohistochemical Detection of BRCA in Breast Cancer<br><br>
-          In this project, I performed the immunohistochemical detection of BRCA1 and BRCA2 genes in breast tissue samples with suspected cancer. I used specific antibodies for BRCA, as well as other markers such as HER2, Ki-67, ER, and PR. After applying the antibodies, the expression of BRCA in the cells was visualized through a chromogenic marker (DAB), which produced brown spots in the positive cells.<br><br>
-          This project allowed me to develop skills in immunohistochemical techniques, microscopy, and tumor marker interpretation in breast cancer research.
-        </span>
-      </p>
-    </div>
-  </div>
-  
-  <!-- Proyecto 5 -->
-  <div class="project-container">
-    <div class="project-title">
-      <span class="lang-es">Tecnologías inmersivas</span>
-      <span class="lang-en">Immersive technologies</span>
-    </div>
-    <div class="project-image">
-      <img src="3162813.jpg" alt="Tecnologías inmersivas">
-    </div>
-    <div class="project-description">
-      <p>
-        <span class="lang-es">Colaboración con el Centro de Automática y Robótica (CAR-CSIC-UPM) para desarrollar soluciones con Microsoft HoloLens2 en aplicaciones agrícolas. (Proyecto en fase inicial)</span>
-        <span class="lang-en">Collaboration with the Center for Automation and Robotics (CAR-CSIC-UPM) to develop solutions with Microsoft HoloLens2 in agricultural applications. (Initial project)</span>
-      </p>
-    </div>
-  </div>
+  <div class="project-description">
+    <p>
+      <span class="lang-es">
+        He adquirido experiencia en el análisis computacional de datos ómicos, aplicando técnicas de bioinformática, estadística y programación con R y Python para interpretar información transcriptómica, genómica y epigenética. Utilizo métodos como análisis de expresión diferencial, clustering, enriquecimiento funcional y visualización de datos.
+      </span>
+    </p>
+    <p>
+      <span class="lang-es">
+        En mi Trabajo Final de Máster, realicé un estudio sobre la identificación y caracterización de fragmentos derivados de ARN de transferencia (tRFs) sobreexpresados en un modelo murino de la enfermedad de Huntington. Los tRFs son pequeñas moléculas de ARN emergentes con funciones regulatorias potenciales. Utilicé datasets reales de RNA-seq proporcionados por el grupo de investigación liderado por Eulàlia Martí y con la tutoría de la Dra. Georgina Escaramís (Universitat de Barcelona). Analicé datos transcriptómicos de tejido cerebral de ratón, aplicando pipelines bioinformáticos para detectar tRFs diferencialmente expresados, inferir su posible función y vincularlos con rutas biológicas relevantes en el contexto de Huntington. Este trabajo aporta información sobre posibles biomarcadores o mecanismos moleculares implicados en la progresión de la enfermedad.
+        <br>
+        <strong>TFM:</strong> <em>Identificación y caracterización de los tRFs sobreexpresados en la enfermedad de Huntington mediante herramientas bioinformáticas</em>. DOI: 
+        <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a>
+      </span>
+    </p>
 
+    <p>
+      <span class="lang-en">
+        I have developed experience in computational omics data analysis, applying bioinformatics, statistics, and programming in R and Python to interpret transcriptomic, genomic, and epigenetic data. I work with differential expression analysis, clustering, functional enrichment, and data visualization.
+      </span>
+    </p>
+    <p>
+      <span class="lang-en">
+        For my Master's Thesis, I conducted a study focused on identifying and characterizing transfer RNA-derived fragments (tRFs) overexpressed in a mouse model of Huntington’s disease. tRFs are small emerging RNA molecules with potential regulatory roles. I used real RNA-seq datasets provided by the research group led by Eulàlia Martí and supervised by Dr. Georgina Escaramís (University of Barcelona). I analyzed transcriptomic data from mouse brain tissue using bioinformatics pipelines to detect differentially expressed tRFs, assess their potential functions, and explore their involvement in biological pathways associated with Huntington’s disease. This work contributes to the understanding of tRFs as potential biomarkers or regulators of disease progression.
+        <br>
+        <strong>Master's Thesis:</strong> <em>Identification and characterization of overexpressed tRFs in Huntington's disease using bioinformatics tools</em>. DOI: 
+        <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a>
+      </span>
+    </p>
+  </div>
+</div>
 
+  
+<!-- Proyecto 3 -->
+<div class="project-container">
+  <div class="project-title">
+    <span class="lang-es">Genética molecular y citología</span>
+    <span class="lang-en">Molecular genetics and cytology</span>
+  </div>
+  <div class="project-image">
+    <img src="https://github.com/user-attachments/assets/b740f460-1160-4a35-90c6-b3b2e5861f23" alt="Genética molecular">
+  </div>
+  <div class="project-description">
+    <!-- Versión en español -->
+    <div class="lang-es">
+      <p>
+        Cuento con formación sólida en genética molecular, citología y biología celular, incluyendo técnicas avanzadas de laboratorio, embriología y análisis genético en organismos modelo y no modelo. He trabajado con herramientas bioinformáticas y bases de datos genómicas para estudiar la organización y evolución de genes.
+      </p>
+      <p>
+        En mi Trabajo de Fin de Grado realicé una caracterización estructural exhaustiva de los genes que codifican proteínas de la subunidad mayor del ribosoma en el protista parásito <em>Leishmania</em>. Este trabajo se centró en analizar la organización génica, intrones, regiones UTR y conservación entre especies, empleando análisis de secuencias, anotaciones funcionales y herramientas como MEME para el estudio de motivos conservados.
+      </p>
+      <p>
+        El estudio se llevó a cabo bajo la dirección del Dr. José Manuel Requena en el CBMSO (Centro de Biología Molecular Severo Ochoa, CSIC-UAM), y contribuyó a la comprensión funcional y evolutiva de la maquinaria ribosomal en kinetoplástidos, parásitos de gran relevancia biomédica.
+      </p>
+      <p>
+        <strong>TFG:</strong> <em>Caracterización estructural de los genes codificantes de proteínas de la subunidad mayor del ribosoma en el protista Leishmania</em>. DOI: 
+        <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>
+      </p>
+      <p>
+        Participación mencionada en el 
+        <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
+          Informe Científico del CBMSO-CSIC 2021–2022
+        </a>.
+      </p>
+    </div>
+
+    <!-- English version -->
+    <div class="lang-en">
+      <p>
+        I have a strong background in molecular genetics, cytology, and cell biology, including advanced laboratory techniques, embryology, and genetic analysis in both model and non-model organisms. I have used bioinformatics tools and genomic databases to study gene structure and evolution.
+      </p>
+      <p>
+        For my Bachelor's Thesis, I performed a comprehensive structural characterization of genes encoding large ribosomal subunit proteins in the parasitic protist <em>Leishmania</em>. The work focused on gene organization, introns, UTR regions, and interspecies conservation, employing sequence analysis, functional annotation, and tools such as MEME for conserved motif discovery.
+      </p>
+      <p>
+        This study was conducted under the supervision of Dr. José Manuel Requena at CBMSO (Centro de Biología Molecular Severo Ochoa, CSIC-UAM), contributing to the functional and evolutionary understanding of ribosomal machinery in kinetoplastid parasites, which hold significant biomedical relevance.
+      </p>
+      <p>
+        <strong>Bachelor's Thesis:</strong> <em>Structural characterization of genes encoding large ribosomal subunit proteins in the protist Leishmania</em>. DOI: 
+        <a href="https://doi.org/10.13140/RG.2.2.10192.21767" target="_blank">10.13140/RG.2.2.10192.21767</a>
+      </p>
+      <p>
+        Mentioned in the 
+        <a href="https://www.cbm.uam.es/wp-content/uploads/2024/07/CBM-Scientific-Report-2021-2022.pdf" target="_blank">
+          CBMSO-CSIC 2021–2022 Scientific Report
+        </a>.
+      </p>
+    </div>
+  </div>
+</div>
+
+  
+ <!-- Proyecto 4 -->
+<div class="project-container">
+  <div class="project-title">
+    <span class="lang-es">Histología e inmunohistoquímica</span>
+    <span class="lang-en">Histology and immunohistochemistry</span>
+  </div>
+  <div class="project-image">
+    <img src="https://github.com/user-attachments/assets/73e74b49-a323-40f3-b055-1f3bfaf9750c" alt="Histología">
+  </div>
+  <div class="project-description">
+    <p>
+      <span class="lang-es">
+        Detección Inmunohistoquímica de BRCA en Cáncer de Mama<br><br>
+        En este proyecto, realicé la detección inmunohistoquímica de los genes BRCA1 y BRCA2 en muestras de tejido mamario con sospecha de cáncer. Utilicé anticuerpos específicos para BRCA y otros marcadores como HER2, Ki-67, ER y PR. Tras aplicar los anticuerpos, se visualizó la expresión de BRCA en las células mediante un marcador cromogénico (DAB), que generó una coloración marrón característica en las células positivas.<br><br>
+        Este proyecto me permitió desarrollar habilidades en técnicas de inmunohistoquímica, microscopía y la interpretación de marcadores tumorales en la investigación del cáncer de mama.
+      </span>
+      <span class="lang-en">
+        Immunohistochemical Detection of BRCA in Breast Cancer<br><br>
+        In this project, I performed the immunohistochemical detection of BRCA1 and BRCA2 genes in breast tissue samples with suspected cancer. I used specific antibodies for BRCA, as well as other markers such as HER2, Ki-67, ER, and PR. After applying the antibodies, the expression of BRCA in the cells was visualized through a chromogenic marker (DAB), which produced a characteristic brown staining in the positive cells.<br><br>
+        This project allowed me to develop skills in immunohistochemical techniques, microscopy, and tumor marker interpretation in breast cancer research.
+      </span>
+    </p>
+  </div>
+</div>
+
+  
+<!-- Proyecto 5 -->
+<div class="project-container">
+  <div class="project-title">
+    <span class="lang-es">Tecnologías inmersivas</span>
+    <span class="lang-en">Immersive technologies</span>
+  </div>
+  <div class="project-description">
+    <p>
+      <span class="lang-es">
+        Colaboración con el Centro de Automática y Robótica (CAR-CSIC-UPM) para el desarrollo de soluciones inmersivas utilizando Microsoft HoloLens 2 en aplicaciones agrícolas. Actualmente, trabajo en un modelo 3D interactivo de una maceta virtual desarrollado en Unity con C#. Mediante la interacción manual en las gafas de realidad aumentada, el usuario puede seleccionar zonas específicas del modelo; las demás zonas desaparecen y aparece un cartel con el nombre de la zona seleccionada.<br><br>
+        El proyecto está en fase inicial, pero se prevé integrar progresivamente inteligencia artificial para realizar segmentación y etiquetado en tiempo real basados en modelos generados a partir de nubes de puntos de plantas reales, mejorando la precisión y utilidad en entornos agrícolas.
+      </span>
+      <span class="lang-en">
+        Collaboration with the Center for Automation and Robotics (CAR-CSIC-UPM) to develop immersive solutions using Microsoft HoloLens 2 for agricultural applications. Currently, I am working on an interactive 3D model of a virtual flowerpot developed in Unity with C#. Through hand interaction in the augmented reality headset, users can select specific zones of the model; the other zones disappear and a label with the selected zone's name appears.<br><br>
+        The project is in an early stage, with plans to progressively integrate artificial intelligence for real-time segmentation and labeling based on models derived from point clouds of real plants, enhancing accuracy and utility in agricultural environments.
+      </span>
+    </p>
+  </div>
+  <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap;">
+    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/La%20planta%20completa%20y%20la%20Jerarqu%C3%ADa%20.jpg" alt="Planta completa y jerarquía" style="max-width: 48%; height: auto; border-radius: 5px;">
+    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/Simulando%20click%20con%20el%20%C3%ADndice%20de%20la%20mano%20derecha%20en%20las%20hojas.jpg" alt="Simulación de click en hojas" style="max-width: 48%; height: auto; border-radius: 5px;">
+  </div>
+</div>
 
 <!-- Sección: Formación académica -->
 <section id="formacion-section" class="direct-section">
