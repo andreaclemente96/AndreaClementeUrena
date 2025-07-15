@@ -737,11 +737,11 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
         Collaboration with the Center for Automation and Robotics (CAR-CSIC-UPM) to develop immersive solutions using Microsoft HoloLens 2 for agricultural applications. Currently, I am working on an interactive 3D model of a virtual flowerpot developed in Unity with C#. Through hand interaction in the augmented reality headset, users can select specific zones of the model; the other zones disappear and a label with the selected zone's name appears.<br><br>
         The project is in an early stage, with plans to progressively integrate artificial intelligence for real-time segmentation and labeling based on models derived from point clouds of real plants, enhancing accuracy and utility in agricultural environments.
       </span>
+      <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap;">
+      <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/La%20planta%20completa%20y%20la%20Jerarqu%C3%ADa%20.jpg" alt="Planta completa y jerarquía"             style="max-width: 48%; height: auto; border-radius: 5px;" />
+      <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/Simulando%20click%20con%20el%20%C3%ADndice%20de%20la%20mano%20derecha%20en%20las%20hojas.jpg"          alt="Simulación de click en hojas" style="max-width: 48%; height: auto; border-radius: 5px;" />
+      </div>
     </p>
-  </div>
-  <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap;">
-    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/La%20planta%20completa%20y%20la%20Jerarqu%C3%ADa%20.jpg" alt="Planta completa y jerarquía" style="max-width: 48%; height: auto; border-radius: 5px;" />
-    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/Simulando%20click%20con%20el%20%C3%ADndice%20de%20la%20mano%20derecha%20en%20las%20hojas.jpg" alt="Simulación de click en hojas" style="max-width: 48%; height: auto; border-radius: 5px;" />
   </div>
 </div>
 
