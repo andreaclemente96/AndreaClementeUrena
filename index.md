@@ -115,21 +115,21 @@
       padding: 0.5rem 0;
     }
 
-.nav-flex a {
-  flex: 1 1 auto;
-  min-width: 140px; /* ancho mínimo para que no quede muy pequeño */
-  text-align: center;
-  padding: 0.4rem 0.6rem;
-  white-space: nowrap;
-  text-decoration: none;
-  color: inherit;
-  border-radius: 4px;
-  transition: background-color 0.3s;
-}
+    .nav-flex a {
+      flex: 1 1 auto;
+      min-width: 140px; /* ancho mínimo para que no quede muy pequeño */
+      text-align: center;
+      padding: 0.4rem 0.6rem;
+      white-space: nowrap;
+      text-decoration: none;
+      color: inherit;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
 
-.nav-flex a:hover {
-  background-color: #ddd;
-}
+    .nav-flex a:hover {
+      background-color: #ddd;
+    }
 
     /* Botón de idioma */
     #language-toggle {
