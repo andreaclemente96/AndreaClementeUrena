@@ -433,15 +433,21 @@
     <span class="lang-en">Poster: <em>AI and 3D Hyperspectral Vision for High-Throughput Phenotyping</em>. Click the image to enlarge.</span>
   </p>
 
-  <!-- Botón de despliegue -->
-  <div style="text-align: center; margin-bottom: 1rem;">
-    <button onclick="togglePosterText()" style="padding: 0.5rem 1rem; font-size: 1rem; cursor: pointer;">
-      Texto del póster / Poster text (haz clic para ver / click to view)
-    </button>
-  </div>
+ <!-- Botón de despliegue -->
+<div style="text-align: center; margin-bottom: 0.5rem;">
+  <!-- Español -->
+  <button class="lang-es" onclick="togglePosterText()" style="padding: 0.5rem 1rem; font-size: 1rem; cursor: pointer;">
+    Texto del póster (haz clic para ver)
+  </button>
+  
+  <!-- Inglés -->
+  <button class="lang-en" onclick="togglePosterText()" style="padding: 0.5rem 1rem; font-size: 1rem; cursor: pointer;">
+    Poster text (click to view)
+  </button>
+</div>
 
-  <!-- Texto del póster oculto por defecto -->
-  <div id="posterText" style="display: none; margin-top: 1.5rem; line-height: 1.6; white-space: pre-wrap;">
+<!-- Texto del póster oculto por defecto -->
+<div id="posterText" style="display: none; margin-top: 0.3rem; line-height: 1.6; white-space: pre-wrap;">
 
     <!-- TEXTO COMPLETO EN ESPAÑOL -->
     <span class="lang-es">
@@ -453,7 +459,7 @@ El fenotipado vegetal de alto rendimiento es clave para la mejora genética y la
 Solo funcionan en condiciones controladas.  
 Obtienen datos limitados (solo información 3D, solo información hiperespectral, etc.).
 
-¿Y si un solo robot pudiera hacerlo todo?
+<strong>¿Y si un solo robot pudiera hacerlo todo?</strong>
 
 - Autonomía (GNSS-RTK).  
 - Trabajo en campo.  
@@ -520,7 +526,7 @@ High-throughput plant phenotyping is key to genetic improvement and the conserva
 Only work under controlled conditions.  
 Gather limited data (only 3D or only hyperspectral info, etc.).
 
-What if a single robot could do it all?
+<strong>What if a single robot could do it all?</strong>
 
 - Autonomy (GNSS-RTK).  
 - Field operation.  
