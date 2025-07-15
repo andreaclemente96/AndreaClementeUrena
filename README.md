@@ -361,25 +361,41 @@
     </span>
   </p>
 
-  <div class="project-container">
-    <div class="project-title">
+ <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; align-items: flex-end; margin-top: 1rem;">
+  <figure style="max-width: 300px; margin: 0; text-align: center;">
+    <img src="laboratory-samples-arrangement.jpg" alt="Síntesis de bioplásticos" style="width: 100%; height: auto; border-radius: 5px;" />
+    <figcaption style="font-size: 0.8rem; color: #555; margin-top: 0.3rem;">
       <span class="lang-es">Ejemplo de imagen de síntesis de bioplásticos</span>
-      <span class="lang-en">Example image for bioplastics Synthesis</span>
-    </div>
-    <div class="project-image">
-      <img src="laboratory-samples-arrangement.jpg" alt="Síntesis de bioplásticos">
-    </div>
-  </div>
+      <span class="lang-en" style="display:none;">Example image for bioplastics Synthesis</span>
+    </figcaption>
+  </figure>
 
-  <div class="project-container">
-    <div class="project-title">
+  <figure style="max-width: 300px; margin: 0; text-align: center;">
+    <img src="lab-glassware-with-colored-liquids-assortment.jpg" alt="Finde Científico" style="width: 100%; height: auto; border-radius: 5px;" />
+    <figcaption style="font-size: 0.8rem; color: #555; margin-top: 0.3rem;">
       <span class="lang-es">Ejemplo de lo que hice en el Finde Científico</span>
-      <span class="lang-en">Example of what I did at the &quot;Finde Científico&quot;</span>
-    </div>
-    <div class="project-image">
-      <img src="lab-glassware-with-colored-liquids-assortment.jpg" alt="Finde Científico">
-    </div>
-  </div>
+      <span class="lang-en" style="display:none;">Example of what I did at the "Finde Científico"</span>
+    </figcaption>
+  </figure>
+</div>
+
+<script>
+  // Script para mostrar solo el idioma correspondiente
+  function updateLang() {
+    const userLang = document.documentElement.lang || navigator.language || 'es';
+    const esElems = document.querySelectorAll('span.lang-es');
+    const enElems = document.querySelectorAll('span.lang-en');
+    if (userLang.startsWith('en')) {
+      esElems.forEach(e => e.style.display = 'none');
+      enElems.forEach(e => e.style.display = 'inline');
+    } else {
+      esElems.forEach(e => e.style.display = 'inline');
+      enElems.forEach(e => e.style.display = 'none');
+    }
+  }
+  updateLang();
+</script>
+
 </section>
 
 <!-- Sección: Proyectos destacados -->
