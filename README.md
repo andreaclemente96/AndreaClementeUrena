@@ -716,7 +716,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
       </p>
     </div>
   </div>
-</section>
+
 
 
 <!-- Sección: Formación académica -->
