@@ -331,35 +331,35 @@
   </p>
 </section>
 
-<section class="direct-section">
-  <nav class="nav-flex">
-    <a href="#primer-contacto-section">
+<section class="direct-section" style="background: linear-gradient(145deg, #ffffff 0%, #f0f4f3 100%); border: 1px solid #a5d6a7; padding: 2rem; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin: 2rem 0;">
+  <nav class="nav-flex" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; max-width: 900px; margin: 0 auto;">
+    <a href="#primer-contacto-section" style="flex: 1 1 auto; min-width: 140px; text-align: center; padding: 0.6rem 1rem; white-space: nowrap; text-decoration: none; color: #1b5e20; font-weight: bold; border: 1px solid #ccc; border-radius: 6px; transition: background-color 0.3s, box-shadow 0.3s;">
       <span class="lang-es">Mi primer contacto con la investigación</span>
-      <span class="lang-en">My initial experience with research</span>
+      <span class="lang-en" style="display: none;">My initial experience with research</span>
     </a>
-    <a href="#proyectos-section">
+    <a href="#proyectos-section" style="flex: 1 1 auto; min-width: 140px; text-align: center; padding: 0.6rem 1rem; white-space: nowrap; text-decoration: none; color: #1b5e20; font-weight: bold; border: 1px solid #ccc; border-radius: 6px; transition: background-color 0.3s, box-shadow 0.3s;">
       <span class="lang-es">Proyectos destacados</span>
-      <span class="lang-en">Featured Projects</span>
+      <span class="lang-en" style="display: none;">Featured Projects</span>
     </a>
-    <a href="#formacion-section">
+    <a href="#formacion-section" style="flex: 1 1 auto; min-width: 140px; text-align: center; padding: 0.6rem 1rem; white-space: nowrap; text-decoration: none; color: #1b5e20; font-weight: bold; border: 1px solid #ccc; border-radius: 6px; transition: background-color 0.3s, box-shadow 0.3s;">
       <span class="lang-es">Formación académica</span>
-      <span class="lang-en">Academic Education</span>
+      <span class="lang-en" style="display: none;">Academic Education</span>
     </a>
-    <a href="#tecnologias-section">
+    <a href="#tecnologias-section" style="flex: 1 1 auto; min-width: 140px; text-align: center; padding: 0.6rem 1rem; white-space: nowrap; text-decoration: none; color: #1b5e20; font-weight: bold; border: 1px solid #ccc; border-radius: 6px; transition: background-color 0.3s, box-shadow 0.3s;">
       <span class="lang-es">Tecnologías y herramientas</span>
-      <span class="lang-en">Technologies &amp; Tools</span>
+      <span class="lang-en" style="display: none;">Technologies &amp; Tools</span>
     </a>
-    <a href="#experiencia-section">
+    <a href="#experiencia-section" style="flex: 1 1 auto; min-width: 140px; text-align: center; padding: 0.6rem 1rem; white-space: nowrap; text-decoration: none; color: #1b5e20; font-weight: bold; border: 1px solid #ccc; border-radius: 6px; transition: background-color 0.3s, box-shadow 0.3s;">
       <span class="lang-es">Experiencia Profesional</span>
-      <span class="lang-en">Professional Experience</span>
+      <span class="lang-en" style="display: none;">Professional Experience</span>
     </a>
-    <a href="#idiomas-section">
+    <a href="#idiomas-section" style="flex: 1 1 auto; min-width: 140px; text-align: center; padding: 0.6rem 1rem; white-space: nowrap; text-decoration: none; color: #1b5e20; font-weight: bold; border: 1px solid #ccc; border-radius: 6px; transition: background-color 0.3s, box-shadow 0.3s;">
       <span class="lang-es">Idiomas</span>
-      <span class="lang-en">Languages</span>
+      <span class="lang-en" style="display: none;">Languages</span>
     </a>
-    <a href="#contacto-section">
+    <a href="#contacto-section" style="flex: 1 1 auto; min-width: 140px; text-align: center; padding: 0.6rem 1rem; white-space: nowrap; text-decoration: none; color: #1b5e20; font-weight: bold; border: 1px solid #ccc; border-radius: 6px; transition: background-color 0.3s, box-shadow 0.3s;">
       <span class="lang-es">Contacto</span>
-      <span class="lang-en">Contact</span>
+      <span class="lang-en" style="display: none;">Contact</span>
     </a>
   </nav>
 </section>
