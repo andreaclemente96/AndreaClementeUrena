@@ -52,7 +52,7 @@
       text-align: center;
       margin: 3rem 0 1.5rem;
       color: var(--primary-color);
-      font-size: 2rem; /* Títulos de sección más grandes */
+      font-size: 2rem; 
       font-weight: bold;
     }
     /* Estilo para secciones que se muestran directamente */
