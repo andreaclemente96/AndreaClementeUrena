@@ -737,7 +737,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
         Collaboration with the Center for Automation and Robotics (CAR-CSIC-UPM) to develop immersive solutions using Microsoft HoloLens 2 for agricultural applications. Currently, I am working on an interactive 3D model of a virtual flowerpot developed in Unity with C#. Through hand interaction in the augmented reality headset, users can select specific zones of the model; the other zones disappear and a label with the selected zone's name appears.<br><br>
         The project is in an early stage, with plans to progressively integrate artificial intelligence for real-time segmentation and labeling based on models derived from point clouds of real plants, enhancing accuracy and utility in agricultural environments.
       </span>
-      <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap;">
+      <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; align-items: flex-end;">
   <figure style="max-width: 48%; margin: 0;">
     <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/La%20planta%20completa%20y%20la%20Jerarqu%C3%ADa%20.jpg" alt="Planta completa y jerarquía" style="width: 100%; height: auto; border-radius: 5px;" />
     <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.3rem; color: #555;">
@@ -752,6 +752,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     </figcaption>
   </figure>
 </div>
+
     </p>
   </div>
 </div>
