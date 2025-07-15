@@ -240,27 +240,37 @@
 
     /* Tabla de navegación */
     .nav-table {
-      width: 100%;
-      margin: 2rem 0;
-      border-collapse: collapse;
+    width: 100%;
+    margin: 2rem auto;
+    border-collapse: separate;
+    border-spacing: 1rem;
+    table-layout: fixed;
     }
-    .nav-table td {
-      padding: 1rem;
-      text-align: center;
-      border: 2px solid var(--accent-color);
-      transition: all 0.3s;
-    }
-    .nav-table td:hover {
-      background-color: var(--accent-color);
-      cursor: pointer;
-      transform: scale(1.05);
-    }
-    .nav-table a {
-      text-decoration: none;
-      color: var(--primary-color);
-      font-weight: bold;
-      display: block;
-    }
+
+.nav-table td {
+  padding: 1rem 0.8rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  vertical-align: middle;
+  font-size: 1.1rem;
+}
+
+.nav-table td:hover {
+  background-color: var(--accent-color);
+  transform: translateY(-3px) scale(1.03);
+  cursor: pointer;
+}
+
+.nav-table a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  display: block;
+}
+
     .centrado {
       text-align: center;
     }
