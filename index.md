@@ -105,6 +105,32 @@
       text-align: center;
       display: block;
     }
+    .nav-flex {
+      display: flex;
+      flex-wrap: wrap; /* para que baje a la siguiente línea si no cabe */
+      justify-content: center;
+      gap: 1rem; /* espacio entre enlaces */
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0.5rem 0;
+    }
+
+.nav-flex a {
+  flex: 1 1 auto;
+  min-width: 140px; /* ancho mínimo para que no quede muy pequeño */
+  text-align: center;
+  padding: 0.4rem 0.6rem;
+  white-space: nowrap;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-flex a:hover {
+  background-color: #ddd;
+}
+
     /* Botón de idioma */
     #language-toggle {
       position: fixed;
@@ -294,53 +320,39 @@
 </section>
 
 <section class="direct-section">
-  <table class="nav-table">
-    <tr>
-      <td>
-        <a href="#primer-contacto-section">
-          <span class="lang-es">Mi primer contacto con la investigación</span>
-          <span class="lang-en">My initial experience with research</span>
-        </a>
-      </td>
-      <td>
-        <a href="#proyectos-section">
-          <span class="lang-es">Proyectos destacados</span>
-          <span class="lang-en">Featured Projects</span>
-        </a>
-      </td>
-      <td>
-        <a href="#formacion-section">
-          <span class="lang-es">Formación académica</span>
-          <span class="lang-en">Academic Education</span>
-        </a>
-      </td>
-      <td>
-        <a href="#tecnologias-section">
-          <span class="lang-es">Tecnologías y herramientas</span>
-          <span class="lang-en">Technologies &amp; Tools</span>
-        </a>
-      </td>
-      <td>
-        <a href="#experiencia-section">
-          <span class="lang-es">Experiencia Profesional</span>
-          <span class="lang-en">Professional Experience</span>
-        </a>
-      </td>
-      <td>
-        <a href="#idiomas-section">
-          <span class="lang-es">Idiomas</span>
-          <span class="lang-en">Languages</span>
-        </a>
-      </td>
-      <td>
-        <a href="#contacto-section">
-          <span class="lang-es">Contacto</span>
-          <span class="lang-en">Contact</span>
-        </a>
-      </td>
-    </tr>
-  </table>
+  <nav class="nav-flex">
+    <a href="#primer-contacto-section">
+      <span class="lang-es">Mi primer contacto con la investigación</span>
+      <span class="lang-en">My initial experience with research</span>
+    </a>
+    <a href="#proyectos-section">
+      <span class="lang-es">Proyectos destacados</span>
+      <span class="lang-en">Featured Projects</span>
+    </a>
+    <a href="#formacion-section">
+      <span class="lang-es">Formación académica</span>
+      <span class="lang-en">Academic Education</span>
+    </a>
+    <a href="#tecnologias-section">
+      <span class="lang-es">Tecnologías y herramientas</span>
+      <span class="lang-en">Technologies &amp; Tools</span>
+    </a>
+    <a href="#experiencia-section">
+      <span class="lang-es">Experiencia Profesional</span>
+      <span class="lang-en">Professional Experience</span>
+    </a>
+    <a href="#idiomas-section">
+      <span class="lang-es">Idiomas</span>
+      <span class="lang-en">Languages</span>
+    </a>
+    <a href="#contacto-section">
+      <span class="lang-es">Contacto</span>
+      <span class="lang-en">Contact</span>
+    </a>
+  </nav>
 </section>
+
+
 
 <!-- Sección: Mi primer contacto con la investigación -->
 <section id="primer-contacto-section" class="direct-section">
