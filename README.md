@@ -420,16 +420,158 @@
       <!-- Póster interactivo -->
       <div class="poster-section">
         <a href="https://github.com/andreaclemente96/AndreaClementeUrena/blob/andreaclemente96-portfolio/p%C3%B3ster%20hiperespectral.jpg" target="_blank">
-          <img src="p%C3%B3ster%20hiperespectral.jpg" alt="Póster IA y visión 3D hiperespectral para fenotipado para alto rendimiento" style="width: 600px; border: 1px solid #ccc;">
+          <img src="p%C3%B3ster%20hiperespectral.jpg" alt="Póster IA y visión 3D hiperespectral para fenotipado para alto rendimiento" style="width: 1000px; border: 1px solid #ccc;">
         </a>
         <p class="poster-caption">
           <span class="lang-es">Póster: <em>IA y visión 3D hiperespectral para fenotipado de alto rendimiento</em>. Pulsa sobre la imagen para ampliar.</span>
+          <span class="lang-es">Texto del póster: <em>INTRODUCCIÓN
+El fenotipado vegetal de alto rendimiento es clave para la mejora genética y la conservación de recursos fitogenéticos. Sin embargo, la mayoría de los sistemas avanzados disponibles:
+
+Solo funcionan en condiciones controladas.
+
+Obtienen datos limitados (solo información 3D, solo información hiperespectral, etc.).
+
+¿Y si un solo robot pudiera hacerlo todo?
+
+Autonomía (GNSS-RTK).
+
+Trabajo en campo.
+
+Sensores 3D, cámaras RGB e hiperespectrales. Con 173 canales.
+
+Procesado mediante Inteligencia Artificial de imágenes 3D e hiperespectrales para reconstrucción, segmentación y posterior análisis de cultivos.
+
+OBJETIVO
+Desarrollar y validar una plataforma robótica autónoma con sensores múltiples para:
+
+Captar datos 3D (nubes de puntos) e información hiperespectral.
+
+Reconstruir modelos 3D detallados integrando la información hiperespectral en cada punto.
+
+Identificar estructuras vegetales (hojas, tallo, inflorescencias, etc.) y detectar signos de estrés.
+
+Todo ello sin contacto, sin destrucción, directamente en parcelas.
+
+METODOLOGÍA
+Plataforma robótica en campo
+Robot autónomo desarrollado por INYCOM, diseñado para desplazarse por parcelas y capturar datos, financiado por el componente 17.i2 del plan de recuperación, transformación y resiliencia perteneciente a los fondos de Next Generación UE.
+Sensores integrados de última generación:
+
+Captura de imágenes 3D
+La combinación de todos los sensores permite generar nubes de puntos detalladas para cada planta, integrando forma, textura y contenido hiperespectral en cada punto.
+
+Procesamiento y análisis con IA
+
+Reconstrucción de nubes de puntos 3D con información hiperespectral.
+
+Segmentación 2D y 3D de estructuras vegetales.
+
+Identificación y cálculo de parámetros morfológicos.
+
+Cálculo de índices de vegetación para monitorizar estrés.
+
+ANÁLISIS
+SfM + NeRF y variantes (reconstrucción 3D neuronal a partir de geometría previa).
+
+Mask R-CNN, SAM (segmentación en 2D para proyectar sobre el 3D).
+
+PointNet, PointGroup, Mask3D, SAM 3D (segmentación en nubes de puntos 3D).
+
+RESULTADOS ESPERADOS
+Se realizarán pruebas en parcelas experimentales para comprobar:
+
+Calidad y detalle de la reconstrucción 3D integrada con datos hiperespectrales.
+
+Precisión en la identificación automática de estructuras vegetales.
+
+Fiabilidad en la medición de parámetros morfológicos.
+
+Capacidad para detectar estrés mediante índices de vegetación.
+
+CONCLUSIÓN
+El robot está desarrollado y es funcional.
+Actualmente está en fase de integración y validación en campo. Se cuenta con un contrato predoctoral MOMENTUM MMT24-PTI AGROFOR para implementarlo.
+
+Enfoque innovador y escalable para el fenotipado vegetal de alto rendimiento de nueva generación.
+
+Este sistema estará disponible como servicio científico-técnico para usuarios de PTIAGRO4FOOD para determinaciones en sus propias explotaciones agrícolas.</em>.</span>
           <span class="lang-en">Poster: <em>AI and 3D Hyperspectral Vision for High-Throughput Phenotyping</em>. Click the image to enlarge.</span>
+          <span class="lang-es">Poster text: <em>INTRODUCTION
+High-throughput plant phenotyping is key to genetic improvement and the conservation of plant genetic resources. However, most advanced systems currently available:
+
+Only work under controlled conditions.
+
+Gather limited data (only 3D or only hyperspectral info, etc.).
+
+What if a single robot could do it all?
+
+Autonomy (GNSS-RTK).
+
+Field operation.
+
+3D sensors, RGB and hyperspectral cameras with 173 channels.
+
+Processing via Artificial Intelligence of 3D and hyperspectral images for crop reconstruction, segmentation, and analysis.
+
+OBJECTIVE
+Develop and validate an autonomous robotic platform with multiple sensors to:
+
+Capture 3D data (point clouds) and hyperspectral information.
+
+Reconstruct detailed 3D models integrating hyperspectral data per point.
+
+Identify plant structures (leaves, stem, inflorescences, etc.) and detect signs of stress.
+
+All non-invasively and directly in the field.
+
+METHODOLOGY
+Robotic platform in the field
+Autonomous robot developed by INYCOM, designed to move across plots and capture data. Funded by component 17.i2, Recovery, Transformation, and Resilience Plan (Next Generation EU funds).
+Integrated state-of-the-art sensors:
+
+3D image capture
+Sensor fusion allows generating detailed point clouds for each plant, integrating shape, texture, and hyperspectral content per point.
+
+Processing and analysis with AI
+
+Reconstruction of 3D point clouds with hyperspectral data.
+
+2D and 3D segmentation of plant structures.
+
+Identification and calculation of morphological parameters.
+
+Calculation of vegetation indices to monitor stress.
+
+ANALYSIS
+SfM + NeRF and variants (neural 3D reconstruction from prior geometry).
+
+Mask R-CNN, SAM (2D segmentation projected onto 3D).
+
+PointNet, PointGroup, Mask3D, SAM 3D (segmentation in 3D point clouds).
+
+EXPECTED RESULTS
+Field tests will be carried out in experimental plots to assess:
+
+Quality and detail of 3D reconstruction integrated with hyperspectral data.
+
+Accuracy in automatic identification of plant structures.
+
+Reliability in measuring morphological parameters.
+
+Capability to detect stress through vegetation indices.
+
+CONCLUSION
+The robot is developed and functional.
+It is currently in the integration and field validation phase, supported by a predoctoral contract (MOMENTUM MMT24-PTI AGROFOR) for implementation.
+
+An innovative and scalable approach to next-generation high-throughput plant phenotyping.
+
+This system will be available as a scientific-technical service for PTIAGRO4FOOD users for use in their own agricultural operations.</em>.</span>
         </p>
       </div>
     </div>
   </div>
-</section>
+
 
   
   <!-- Proyecto 2 -->
