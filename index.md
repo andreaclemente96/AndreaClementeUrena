@@ -649,7 +649,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     </p>
     <p>
       <span class="lang-es">
-        En mi Trabajo Final de Máster, realicé un estudio sobre la identificación y caracterización de fragmentos derivados de ARN de transferencia (tRFs) sobreexpresados en un modelo murino de la enfermedad de Huntington. Los tRFs son pequeñas moléculas de ARN emergentes con funciones regulatorias potenciales. Utilicé datasets reales de RNA-seq proporcionados por el grupo de investigación liderado por Eulàlia Martí y con la tutoría de la Dra. Georgina Escaramís (Universitat de Barcelona). Analicé datos transcriptómicos de tejido cerebral de ratón, aplicando pipelines bioinformáticos para detectar tRFs diferencialmente expresados, inferir su posible función y vincularlos con rutas biológicas relevantes en el contexto de Huntington. Este trabajo aporta información sobre posibles biomarcadores o mecanismos moleculares implicados en la progresión de la enfermedad.
+        En mi Trabajo Final de Máster, realicé un estudio sobre la identificación y caracterización de fragmentos derivados de ARN de transferencia (tRFs) sobreexpresados en un modelo murino de la enfermedad de Huntington. Los tRFs son pequeñas moléculas de ARN emergentes con funciones regulatorias potenciales. Utilicé datasets reales de RNA-seq proporcionados por el grupo de investigación liderado por Eulàlia Martí y con la tutoría de la Dra. Geòrgia Escaramís (Universitat de Barcelona). Analicé datos transcriptómicos de tejido cerebral de ratón, aplicando pipelines bioinformáticos para detectar tRFs diferencialmente expresados, inferir su posible función y vincularlos con rutas biológicas relevantes en el contexto de Huntington. Este trabajo aporta información sobre posibles biomarcadores o mecanismos moleculares implicados en la progresión de la enfermedad.
         <br>
         <strong>TFM:</strong> <em>Identificación y caracterización de los tRFs sobreexpresados en la enfermedad de Huntington mediante herramientas bioinformáticas</em>. DOI: 
         <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a>
@@ -663,7 +663,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     </p>
     <p>
       <span class="lang-en">
-        For my Master's Thesis, I conducted a study focused on identifying and characterizing transfer RNA-derived fragments (tRFs) overexpressed in a mouse model of Huntington’s disease. tRFs are small emerging RNA molecules with potential regulatory roles. I used real RNA-seq datasets provided by the research group led by Eulàlia Martí and supervised by Dr. Georgina Escaramís (University of Barcelona). I analyzed transcriptomic data from mouse brain tissue using bioinformatics pipelines to detect differentially expressed tRFs, assess their potential functions, and explore their involvement in biological pathways associated with Huntington’s disease. This work contributes to the understanding of tRFs as potential biomarkers or regulators of disease progression.
+        For my Master's Thesis, I conducted a study focused on identifying and characterizing transfer RNA-derived fragments (tRFs) overexpressed in a mouse model of Huntington’s disease. tRFs are small emerging RNA molecules with potential regulatory roles. I used real RNA-seq datasets provided by the research group led by Eulàlia Martí and supervised by Dr. Geòrgia Escaramís (University of Barcelona). I analyzed transcriptomic data from mouse brain tissue using bioinformatics pipelines to detect differentially expressed tRFs, assess their potential functions, and explore their involvement in biological pathways associated with Huntington’s disease. This work contributes to the understanding of tRFs as potential biomarkers or regulators of disease progression.
         <br>
         <strong>Master's Thesis:</strong> <em>Identification and characterization of overexpressed tRFs in Huntington's disease using bioinformatics tools</em>. DOI: 
         <a href="https://doi.org/10.13140/RG.2.2.33680.32001" target="_blank">10.13140/RG.2.2.33680.32001</a>
@@ -692,7 +692,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
         En mi Trabajo de Fin de Grado realicé una caracterización estructural exhaustiva de los genes que codifican proteínas de la subunidad mayor del ribosoma en el protista parásito <em>Leishmania</em>. Este trabajo se centró en analizar la organización génica, intrones, regiones UTR y conservación entre especies, empleando análisis de secuencias, anotaciones funcionales y herramientas como MEME para el estudio de motivos conservados.
       </p>
       <p>
-        El estudio se llevó a cabo bajo la dirección del Dr. José Manuel Requena en el CBMSO (Centro de Biología Molecular Severo Ochoa, CSIC-UAM), y contribuyó a la comprensión funcional y evolutiva de la maquinaria ribosomal en kinetoplástidos, parásitos de gran relevancia biomédica.
+        El estudio se llevó a cabo bajo la dirección del Dr. José María Requena en el CBMSO (Centro de Biología Molecular Severo Ochoa, CSIC-UAM), y contribuyó a la comprensión funcional y evolutiva de la maquinaria ribosomal en kinetoplástidos, parásitos de gran relevancia biomédica.
       </p>
       <p>
         <strong>TFG:</strong> <em>Caracterización estructural de los genes codificantes de proteínas de la subunidad mayor del ribosoma en el protista Leishmania</em>. DOI: 
@@ -715,7 +715,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
         For my Bachelor's Thesis, I performed a comprehensive structural characterization of genes encoding large ribosomal subunit proteins in the parasitic protist <em>Leishmania</em>. The work focused on gene organization, introns, UTR regions, and interspecies conservation, employing sequence analysis, functional annotation, and tools such as MEME for conserved motif discovery.
       </p>
       <p>
-        This study was conducted under the supervision of Dr. José Manuel Requena at CBMSO (Centro de Biología Molecular Severo Ochoa, CSIC-UAM), contributing to the functional and evolutionary understanding of ribosomal machinery in kinetoplastid parasites, which hold significant biomedical relevance.
+        This study was conducted under the supervision of Dr. José María Requena at CBMSO (Centro de Biología Molecular Severo Ochoa, CSIC-UAM), contributing to the functional and evolutionary understanding of ribosomal machinery in kinetoplastid parasites, which hold significant biomedical relevance.
       </p>
       <p>
         <strong>Bachelor's Thesis:</strong> <em>Structural characterization of genes encoding large ribosomal subunit proteins in the protist Leishmania</em>. DOI: 
@@ -745,12 +745,12 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <p>
       <span class="lang-es">
         Detección Inmunohistoquímica de BRCA en Cáncer de Mama<br><br>
-        En este proyecto, realicé la detección inmunohistoquímica de los genes BRCA1 y BRCA2 en muestras de tejido mamario con sospecha de cáncer. Utilicé anticuerpos específicos para BRCA y otros marcadores como HER2, Ki-67, ER y PR. Tras aplicar los anticuerpos, se visualizó la expresión de BRCA en las células mediante un marcador cromogénico (DAB), que generó una coloración marrón característica en las células positivas.<br><br>
+        En este proyecto llevado a cabo en el hospital HM de Sanchinarro, realicé la detección inmunohistoquímica de los genes BRCA1 y BRCA2 en muestras de tejido mamario con sospecha de cáncer. Utilicé anticuerpos específicos para BRCA y otros marcadores como HER2, Ki-67, ER y PR. Tras aplicar los anticuerpos, se visualizó la expresión de BRCA en las células mediante un marcador cromogénico (DAB), que generó una coloración marrón característica en las células positivas.<br><br>
         Este proyecto me permitió desarrollar habilidades en técnicas de inmunohistoquímica, microscopía y la interpretación de marcadores tumorales en la investigación del cáncer de mama.
       </span>
       <span class="lang-en">
         Immunohistochemical Detection of BRCA in Breast Cancer<br><br>
-        In this project, I performed the immunohistochemical detection of BRCA1 and BRCA2 genes in breast tissue samples with suspected cancer. I used specific antibodies for BRCA, as well as other markers such as HER2, Ki-67, ER, and PR. After applying the antibodies, the expression of BRCA in the cells was visualized through a chromogenic marker (DAB), which produced a characteristic brown staining in the positive cells.<br><br>
+        In this project carried out at the HM Hospital in Sanchinarro, I performed the immunohistochemical detection of BRCA1 and BRCA2 genes in breast tissue samples with suspected cancer. I used specific antibodies for BRCA, as well as other markers such as HER2, Ki-67, ER, and PR. After applying the antibodies, the expression of BRCA in the cells was visualized through a chromogenic marker (DAB), which produced a characteristic brown staining in the positive cells.<br><br>
         This project allowed me to develop skills in immunohistochemical techniques, microscopy, and tumor marker interpretation in breast cancer research.
       </span>
     </p>
