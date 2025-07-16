@@ -449,7 +449,7 @@
         </span>
 
         <span class="lang-en">
-          My PhD thesis focuses on developing a <strong>high-throughput plant phenotyping</strong> system using autonomous robotics, <strong>3D computer vision</strong>, and <strong>hyperspectral imaging</strong>. I work with <strong>RGB and hyperspectral data</strong> to train AI models for 3D reconstruction, plant structure segmentation, and stress detection.
+          My PhD research focuses on developing a <strong>high-throughput plant phenotyping</strong> system using autonomous robotics, <strong>3D computer vision</strong>, and <strong>hyperspectral imaging</strong>. I work with <strong>RGB and hyperspectral data</strong> to train AI models for 3D reconstruction, plant structure segmentation, and stress detection.
           <br><br>
           I actively collaborate with the <strong>Centre for Automation and Robotics (CAR, CSIC-UPM)</strong> and the tech company <strong>INYCOM</strong>, within the framework of the <strong>MOMENTUM MMT24-PTI AGROFOR</strong> predoctoral contract. 
           <br><br>
@@ -572,7 +572,7 @@ Gather limited data (only 3D or only hyperspectral info, etc.).
 - Field operation.  
 - 3D sensors, RGB and hyperspectral cameras with 173 channels.
 
-Processing via Artificial Intelligence of 3D and hyperspectral images for crop reconstruction, segmentation, and analysis.
+Processing 3D and hyperspectral images using artificial intelligence for crop reconstruction, segmentation, and analysis.
 
 OBJECTIVE  
 Develop and validate an autonomous robotic platform with multiple sensors to:
