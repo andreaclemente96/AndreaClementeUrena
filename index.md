@@ -852,7 +852,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
   <table>
     <tr>
       <td><strong><span class="lang-es">Lenguajes</span><span class="lang-en">Languages</span></strong></td>
-      <td>Python • R • SQL • BASH • HTML/CSS • C#</td>
+      <td>Python • R • SQL • BASH • HTML/CSS • JavaScript • C#</td>
     </tr>
     <tr>
       <td><strong><span class="lang-es">Ciencia &amp; Bioinfo</span><span class="lang-en">Science &amp; Bioinformatics</span></strong></td>
@@ -974,12 +974,12 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
       <span class="lang-en">📍 <strong>Invitation to the First Momentum Meeting, February 26</strong> – CFTMAT 2025 (Madrid)</span>
     </li>
     <li>
-      <span class="lang-es">🚀 <strong>Evento de presentación del programa Atracción y Talento – Iniciativa Generación D 2025</strong></span>
-      <span class="lang-en">🚀 <strong>Program Presentation Event: Attraction and Talent – Generation D Initiative 2025</strong></span>
+      <span class="lang-es">🚀 <strong>Evento de presentación del programa Atracción y Talento</strong> – Iniciativa Generación D 2025</span>
+      <span class="lang-en">🚀 <strong>Program Presentation Event: Attraction and Talent</strong> – Generation D Initiative 2025</span>
     </li>
     <li>
-      <span class="lang-es">🎓 <strong>Jornada Microcredenciales – CSIC 2025</strong></span>
-      <span class="lang-en">🎓 <strong>Microcredentials Workshop – CSIC 2025</strong></span>
+      <span class="lang-es">🎓 <strong>Jornada Microcredenciales</strong> – CSIC 2025</span>
+      <span class="lang-en">🎓 <strong>Microcredentials Workshop</strong> – CSIC 2025</span>
     </li>
   </ul>
 </section>
