@@ -357,6 +357,14 @@
       <span class="lang-es">Idiomas</span>
       <span class="lang-en" style="display: none;">Languages</span>
     </a>
+    <a href="#cursos-section" style="flex: 1 1 auto; min-width: 140px; text-align: center; padding: 0.6rem 1rem; white-space: nowrap; text-decoration: none; color: #1b5e20; font-weight: bold; border: 1px solid #ccc; border-radius: 6px; transition: background-color 0.3s, box-shadow 0.3s;">
+      <span class="lang-es">Cursos</span>
+      <span class="lang-en" style="display: none;">Courses</span>
+    </a>
+    <a href="#seminarios-section" style="flex: 1 1 auto; min-width: 140px; text-align: center; padding: 0.6rem 1rem; white-space: nowrap; text-decoration: none; color: #1b5e20; font-weight: bold; border: 1px solid #ccc; border-radius: 6px; transition: background-color 0.3s, box-shadow 0.3s;">
+      <span class="lang-es">Seminarios y jornadas</span>
+      <span class="lang-en" style="display: none;">Seminars and Workshops</span>
+    </a>
     <a href="#contacto-section" style="flex: 1 1 auto; min-width: 140px; text-align: center; padding: 0.6rem 1rem; white-space: nowrap; text-decoration: none; color: #1b5e20; font-weight: bold; border: 1px solid #ccc; border-radius: 6px; transition: background-color 0.3s, box-shadow 0.3s;">
       <span class="lang-es">Contacto</span>
       <span class="lang-en" style="display: none;">Contact</span>
@@ -906,6 +914,67 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <li><span class="lang-es">Francés: Nivel A2 (DELF)</span><span class="lang-en">French: Level A2 (DELF)</span></li>
     <li><span class="lang-es">Alemán: Nivel básico</span><span class="lang-en">German: Basic level</span></li>
     <li><span class="lang-es">Catalán: Nivel básico</span><span class="lang-en">Catalan: Basic level</span></li>
+  </ul>
+</section>
+
+<!-- Sección: Cursos -->
+<section id="cursos-section" class="direct-section">
+  <h2 class="section-title">
+    <span class="lang-es">🎓 Cursos</span>
+    <span class="lang-en">🎓 Courses</span>
+  </h2>
+  <ul>
+    <li>
+      <span class="lang-es">📘 <strong>Microcredencial Portfolio Digital</strong> (75 horas, 2025) – CSIC</span>
+      <span class="lang-en">📘 <strong>Digital Portfolio Microcredential</strong> (75 hours, 2025) – CSIC</span>
+    </li>
+    <li>
+      <span class="lang-es">📊 <strong>Statistics for Natural Resources</strong> (30 horas, 2025) – UPM</span>
+      <span class="lang-en">📊 <strong>Statistics for Natural Resources</strong> (30 hours, 2025) – UPM</span>
+    </li>
+    <li>
+      <span class="lang-es">🤖 <strong>Inteligencia Artificial y Software Development</strong> (13,5 horas, 2025) – IBM y UPM</span>
+      <span class="lang-en">🤖 <strong>Artificial Intelligence and Software Development</strong> (13.5 hours, 2025) – IBM &amp; UPM</span>
+    </li>
+    <li>
+      <span class="lang-es">🌐 <strong>Conecta y colabora de forma efectiva en entornos digitales</strong> (25 horas, 2025) – CSIC</span>
+      <span class="lang-en">🌐 <strong>Connect and Collaborate Effectively in Digital Environments</strong> (25 hours, 2025) – CSIC</span>
+    </li>
+    <li>
+      <span class="lang-es">💻 <strong>Microsoft Certified Solutions Developer (MCSD): Web Applications</strong> (240 horas, 2021)</span>
+      <span class="lang-en">💻 <strong>Microsoft Certified Solutions Developer (MCSD): Web Applications</strong> (240 hours, 2021)</span>
+    </li>
+  </ul>
+</section>
+
+
+<!-- Sección: Seminarios y Jornadas -->
+<section id="seminarios-section" class="direct-section">
+  <h2 class="section-title">
+    <span class="lang-es">🗓️ Seminarios y Jornadas</span>
+    <span class="lang-en">🗓️ Seminars and Workshops</span>
+  </h2>
+  <ul>
+    <li>
+      <span class="lang-es">🌱 <strong>Jornada Técnica sobre Recursos Genéticos de Leguminosas: Conservación y Utilización</strong> – INIA-CSIC 2025</span>
+      <span class="lang-en">🌱 <strong>Technical Workshop on Genetic Resources of Legumes: Conservation and Utilization</strong> – INIA-CSIC 2025</span>
+    </li>
+    <li>
+      <span class="lang-es">🤖 <strong>Escuela de Verano AIHUB: Retos de la IA – Zaragoza 2025</strong> – CSIC</span>
+      <span class="lang-en">🤖 <strong>AIHUB Summer School: Challenges of AI – Zaragoza 2025</strong> – CSIC</span>
+    </li>
+    <li>
+      <span class="lang-es">📍 <strong>Invitación I Encuentro Momentum, 26 febrero</strong> – CFTMAT (Madrid) 2025</span>
+      <span class="lang-en">📍 <strong>Invitation to the First Momentum Meeting, February 26</strong> – CFTMAT 2025 (Madrid)</span>
+    </li>
+    <li>
+      <span class="lang-es">🚀 <strong>Evento de presentación del programa Atracción y Talento – Iniciativa Generación D 2025</strong></span>
+      <span class="lang-en">🚀 <strong>Program Presentation Event: Attraction and Talent – Generation D Initiative 2025</strong></span>
+    </li>
+    <li>
+      <span class="lang-es">🎓 <strong>Jornada Microcredenciales – CSIC 2025</strong></span>
+      <span class="lang-en">🎓 <strong>Microcredentials Workshop – CSIC 2025</strong></span>
+    </li>
   </ul>
 </section>
 
