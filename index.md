@@ -453,7 +453,7 @@
           <br><br>
           Colaboro activamente con el <strong>Centro de Automática y Robótica (CAR, CSIC-UPM)</strong> y la empresa tecnológica <strong>INYCOM</strong> en el marco del contrato predoctoral <strong>MOMENTUM MMT24-PTI AGROFOR</strong>. 
           <br><br>
-          En 2025 participé en la escuela de verano de inteligencia artificial organizada por <strong>AIHUB-CSIC</strong> en Zaragoza, donde presenté el póster titulado <em>“IA y visión 3D hiperespectral para fenotipado de alto rendimiento”</em>.
+          En 2025 participé en la escuela de verano de inteligencia artificial organizada por <strong>AIHUB-CSIC</strong> en Zaragoza, donde presenté el póster titulado <em>“IA y visión 3D hiperespectral para fenotipado de alto rendimiento”</em> DOI: <a href="http://dx.doi.org/10.13140/RG.2.2.27077.77289" target="_blank">10.13140/RG.2.2.27077.77289</a>.
         </span>
 
         <span class="lang-en">
@@ -461,7 +461,7 @@
           <br><br>
           I actively collaborate with the <strong>Centre for Automation and Robotics (CAR, CSIC-UPM)</strong> and the tech company <strong>INYCOM</strong>, within the framework of the <strong>MOMENTUM MMT24-PTI AGROFOR</strong> predoctoral contract. 
           <br><br>
-          In 2025, I participated in the summer school on artificial intelligence organized by <strong>AIHUB-CSIC</strong> in Zaragoza, where I presented the poster titled <em>“AI and 3D Hyperspectral Vision for High-Throughput Phenotyping”</em>.
+          In 2025, I participated in the summer school on artificial intelligence organized by <strong>AIHUB-CSIC</strong> in Zaragoza, where I presented the poster titled <em>“AI and 3D Hyperspectral Vision for High-Throughput Phenotyping”</em> DOI: <a href="http://dx.doi.org/10.13140/RG.2.2.27077.77289" target="_blank">10.13140/RG.2.2.27077.77289</a>.
         </span>
       </p>
 
