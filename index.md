@@ -929,17 +929,17 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
       <span class="lang-en">📘 <strong>Digital Portfolio Microcredential</strong> (75 hours, 2025) – CSIC</span>
     </li>
     <li>
-      <span class="lang-es">📊 <strong>Statistics for Natural Resources -><a href="https://raw.githubusercontent.com/andreaclemente96/Courses/main/Exercise%20Statistics%20for%20Natural%20Resources%20-%20Andrea%20Clemente%20Ure%C3%B1a.Rmd">Ejercicio final</a></strong> (30 horas, 2025) – UPM</span>
-      <span class="lang-en">📊 <strong>Statistics for Natural Resources-><a href="https://raw.githubusercontent.com/andreaclemente96/Courses/main/Exercise%20Statistics%20for%20Natural%20Resources%20-%20Andrea%20Clemente%20Ure%C3%B1a.Rmd">Final exercise</a></strong> (30 hours, 2025) – UPM</span>
+      <span class="lang-es">📊 <strong>Statistics for Natural Resources -><a href="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/EL-ejercicio-de-estadistica-curso.docx">Ejercicio final</a></strong> (30 horas, 2025) – UPM</span>
+      <span class="lang-en">📊 <strong>Statistics for Natural Resources-><a href="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/EL-ejercicio-de-estadistica-curso.docx">Final exercise</a></strong> (30 hours, 2025) – UPM</span>
     </li>
     <li>
-      <span class="lang-es">🤖 <strong>Inteligencia Artificial y Software Development -><a href="https://raw.githubusercontent.com/andreaclemente96/Courses/main/classification_lab1.ipynb
-">Laboratorios</a></strong> (13,5 horas, 2025) – IBM y UPM</span>
-      <span class="lang-en">🤖 <strong>Artificial Intelligence and Software Development -><a href="https://raw.githubusercontent.com/andreaclemente96/Courses/main/classification_lab1.ipynb
-">Labs</a></strong> (13.5 hours, 2025) – IBM &amp; UPM</span>
-      <div style="margin-top: 8px;">
-       <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/IA.png" alt="Credential" style="width: 150px; height: auto; margin-right: 8px; border-radius: 8px;">
-       <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/AI.png" alt="Credential" style="width: 150px; height: auto; border-radius: 8px;">
+      <span class="lang-es">🤖 <strong>Inteligencia Artificial y Software Development -><a href="https://github.com/andreaclemente96/Courses/blob/main/classification_lab1.ipynb" target="_blank">Laboratorios</a></strong> (13,5 horas, 2025) – IBM y UPM</span>
+      <span class="lang-en">🤖 <strong>Artificial Intelligence and Software Development -><a href="https://github.com/andreaclemente96/Courses/blob/main/classification_lab1.ipynb" target="_blank">Labs</a></strong> (13.5 hours, 2025) – IBM &amp; UPM</span>
+      <div style="margin-top: 8px; display: flex; gap: 8px; align-items: center;">
+      <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/IA.png" 
+       alt="Credential" style="width: 150px; height: auto; border-radius: 8px;">
+      <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/AI.png" 
+       alt="Credential" style="width: 150px; height: auto; border-radius: 8px;">
       </div>
     </li>
     <li>
