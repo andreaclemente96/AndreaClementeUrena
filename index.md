@@ -412,7 +412,7 @@
 </div>
 
 <script>
-  // Script para mostrar solo el idioma correspondiente
+  
   function updateLang() {
     const userLang = document.documentElement.lang || navigator.language || 'es';
     const esElems = document.querySelectorAll('span.lang-es');
@@ -448,9 +448,8 @@
     </div>
     <div class="project-description">
       <p>
-        <span class="lang-es">
-          Mi tesis doctoral se centra en el desarrollo de un sistema de <strong>fenotipado vegetal de alto rendimiento</strong> mediante robótica autónoma, <strong>visión computacional 3D</strong> e <strong>imagen hiperespectral</strong>. Trabajo con <strong>datos obtenidos de cámaras RGB e hiperespectrales</strong> para entrenar modelos de inteligencia artificial que permitan reconstrucciones 3D, segmentación de estructuras vegetales y detección de estrés.
-          <br><br>
+        <span class="lang-es"> Mi tesis doctoral se centra en el desarrollo de un sistema de <strong>fenotipado vegetal de alto rendimiento</strong> mediante robótica autónoma, <strong>visión computacional 3D</strong> e <strong>imagen hiperespectral</strong>. Trabajo con <strong>datos obtenidos de cámaras RGB e hiperespectrales</strong> (VIS–NIR y SWIR) integrados en plataformas robóticas para entrenar modelos de inteligencia artificial orientados a <strong>reconstrucción 3D</strong>, <strong>segmentación de estructuras vegetales</strong> y <strong>detección temprana de estrés</strong>. Además, desarrollo pipelines de <strong>calibración radiométrica</strong>, extracción de <strong>índices vegetativos</strong> y fusión entre datos espectrales y geométricos para mejorar la caracterización del estado fisiológico de las plantas.
+<br><br>
           Colaboro activamente con el <strong>Centro de Automática y Robótica (CAR, CSIC-UPM)</strong> y la empresa tecnológica <strong>INYCOM</strong> en el marco del contrato predoctoral <strong>MOMENTUM MMT24-PTI AGROFOR</strong>. 
           <br><br>
           En 2025 participé en la escuela de verano de inteligencia artificial organizada por <strong>AIHUB-CSIC</strong> en Zaragoza, donde presenté el póster titulado <em>“IA y visión 3D hiperespectral para fenotipado de alto rendimiento”</em> DOI: <a href="http://dx.doi.org/10.13140/RG.2.2.27077.77289" target="_blank">10.13140/RG.2.2.27077.77289</a>.
