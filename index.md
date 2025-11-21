@@ -448,45 +448,88 @@
     </div>
     <div class="project-description">
       <p>
-        <span class="lang-es"> Mi tesis doctoral se centra en el desarrollo de un sistema de <strong>fenotipado vegetal de alto rendimiento</strong> mediante robótica autónoma, <strong>visión computacional 3D</strong> e <strong>imagen hiperespectral</strong>. Trabajo con <strong>datos obtenidos de cámaras RGB e hiperespectrales</strong> (VIS–NIR y SWIR) integrados en plataformas robóticas para entrenar modelos de inteligencia artificial orientados a <strong>reconstrucción 3D</strong>, <strong>segmentación de estructuras vegetales</strong> y <strong>detección temprana de estrés</strong>. Además, estoy trabajando en la fusión entre datos espectrales y geométricos para mejorar la caracterización del estado fisiológico de las plantas.
-<br><br>
-<!-- Cabezal sensorizado -->
-    <div class="item" style="display:flex; flex-direction:column;">
-      <img src="cabezal.png" alt="Cabezal sensorizado" style="width:100%; max-width:550px; border-radius:8px;">
-      <p style="margin-top:8px;">
-        La plataforma robótica integra un <strong>cabezal sensorizado</strong> con cámaras RGB, RGB-D, sensores hiperespectrales (VIS–NIR y SWIR), LiDAR y unidad inercial. Esta combinación permite capturar simultáneamente información <strong>geométrica, radiométrica y espectral</strong> para caracterizar el estado de la planta con alta precisión.
-      </p>
-    </div>
+<span class="lang-es">
 
-    <!-- Imagen SWIR de Vigna -->
-    <div class="item" style="display:flex; flex-direction:column;">
-      <img src="vigna.png" alt="Imagen SWIR de Vigna unguiculata" style="width:100%; max-width:550px; border-radius:8px;">
-      <p style="margin-top:8px;">
-        Ejemplo de captura en el rango <strong>SWIR (950–2500 nm)</strong> sobre plantas de <em>Vigna unguiculata</em>. La pseudocoloración destaca variaciones fisiológicas y estructurales no visibles en RGB, especialmente relacionadas con contenido hídrico y propiedades internas del tejido.
-      </p>
-    </div>
+  Mi tesis doctoral se centra en el desarrollo de un sistema de <strong>fenotipado vegetal de alto rendimiento</strong> mediante robótica autónoma, <strong>visión computacional 3D</strong> e <strong>imagen hiperespectral</strong>. Trabajo con <strong>datos obtenidos de cámaras RGB e hiperespectrales</strong> (VIS–NIR y SWIR) integrados en plataformas robóticas para entrenar modelos de inteligencia artificial orientados a <strong>reconstrucción 3D</strong>, <strong>segmentación de estructuras vegetales</strong> y <strong>detección temprana de estrés</strong>. Además, estoy trabajando en la fusión entre datos espectrales y geométricos para mejorar la caracterización del estado fisiológico de las plantas.
 
-    <!-- Curva de reflectancia -->
-    <div class="item" style="display:flex; flex-direction:column;">
-      <img src="curva.png" alt="Curva de reflectancia" style="width:100%; max-width:550px; border-radius:8px;">
-      <p style="margin-top:8px;">
-        Ejemplo de <strong>curva de reflectancia</strong> obtenida a partir de un píxel representativo de la planta. La reflectancia aumenta en el <strong>NIR</strong> por la estructura interna del mesófilo, mientras que en el <strong>SWIR</strong> aparecen variaciones asociadas al contenido de agua. Estas signaturas espectrales permiten calcular índices vegetativos e identificar indicadores tempranos de estrés.
-      </p>
-    </div>
+  <br><br>
 
+  <!-- Cabezal sensorizado -->
+  <div class="item" style="display:flex; flex-direction:column;">
+    <img src="cabezal.png" alt="Cabezal sensorizado" style="width:100%; max-width:550px; border-radius:8px;">
+    <p style="margin-top:8px;">
+      La plataforma robótica integra un <strong>cabezal sensorizado</strong> con cámaras RGB-D, sensores hiperespectrales (VIS–NIR y SWIR), cámara térmica (LWIR), sensor de profundidad (ToF), nubes de puntos 3D (LiDAR) y unidad inercial. Esta combinación permite capturar simultáneamente información <strong>geométrica, radiométrica y espectral</strong> para caracterizar el estado de la planta con alta precisión.
+    </p>
   </div>
-Colaboro activamente con el <strong>Centro de Automática y Robótica (CAR, CSIC-UPM)</strong> y la empresa tecnológica <strong>INYCOM</strong> en el marco del contrato predoctoral <strong>MOMENTUM MMT24-PTI AGROFOR</strong>. 
-          <br><br>
-          En 2025 participé en la escuela de verano de inteligencia artificial organizada por <strong>AIHUB-CSIC</strong> en Zaragoza, donde presenté el póster titulado <em>“IA y visión 3D hiperespectral para fenotipado de alto rendimiento”</em> DOI: <a href="http://dx.doi.org/10.13140/RG.2.2.27077.77289" target="_blank">10.13140/RG.2.2.27077.77289</a>.
-        </span>
 
-        <span class="lang-en">
-          My PhD research focuses on developing a <strong>high-throughput plant phenotyping</strong> system using autonomous robotics, <strong>3D computer vision</strong>, and <strong>hyperspectral imaging</strong>. I work with <strong>RGB and hyperspectral data</strong> to train AI models for 3D reconstruction, plant structure segmentation, and stress detection.
-          <br><br>
-          I actively collaborate with the <strong>Centre for Automation and Robotics (CAR, CSIC-UPM)</strong> and the tech company <strong>INYCOM</strong>, within the framework of the <strong>MOMENTUM MMT24-PTI AGROFOR</strong> predoctoral contract. 
-          <br><br>
-          In 2025, I participated in the summer school on artificial intelligence organized by <strong>AIHUB-CSIC</strong> in Zaragoza, where I presented the poster titled <em>“AI and 3D Hyperspectral Vision for High-Throughput Phenotyping”</em> DOI: <a href="http://dx.doi.org/10.13140/RG.2.2.27077.77289" target="_blank">10.13140/RG.2.2.27077.77289</a>.
-        </span>
+  <!-- Imagen SWIR de Vigna -->
+  <div class="item" style="display:flex; flex-direction:column;">
+    <img src="vigna.png" alt="Imagen SWIR de Vigna unguiculata" style="width:100%; max-width:550px; border-radius:8px;">
+    <p style="margin-top:8px;">
+      Ejemplo de captura en el rango <strong>SWIR (950–2500 nm)</strong> sobre plantas de <em>Vigna unguiculata</em>. La pseudocoloración destaca variaciones fisiológicas y estructurales no visibles en RGB, especialmente relacionadas con contenido hídrico y propiedades internas del tejido.
+    </p>
+  </div>
+
+  <!-- Curva de reflectancia -->
+  <div class="item" style="display:flex; flex-direction:column;">
+    <img src="curva.png" alt="Curva de reflectancia" style="width:100%; max-width:550px; border-radius:8px;">
+    <p style="margin-top:8px;">
+      Ejemplo de <strong>curva de reflectancia</strong> obtenida a partir de un píxel representativo de la planta. La reflectancia aumenta en el <strong>NIR</strong> debido a la estructura interna del mesófilo, mientras que en el <strong>SWIR</strong> aparecen variaciones asociadas al contenido de agua. Estas signaturas espectrales permiten calcular índices vegetativos e identificar indicadores tempranos de estrés.
+    </p>
+  </div>
+
+  <br>
+
+  Colaboro activamente con el <strong>Centro de Automática y Robótica (CAR, CSIC-UPM)</strong> y la empresa tecnológica <strong>INYCOM</strong> en el marco del contrato predoctoral <strong>MOMENTUM MMT24-PTI AGROFOR</strong>.
+  <br><br>
+  En 2025 participé en la escuela de verano de inteligencia artificial organizada por <strong>AIHUB-CSIC</strong> en Zaragoza, donde presenté el póster titulado <em>“IA y visión 3D hiperespectral para fenotipado de alto rendimiento”</em>. DOI: 
+  <a href="http://dx.doi.org/10.13140/RG.2.2.27077.77289" target="_blank">10.13140/RG.2.2.27077.77289</a>.
+
+</span>
+
+
+<!-- --------------------------------- ENGLISH VERSION --------------------------------- -->
+
+
+<span class="lang-en">
+
+  My PhD research focuses on the development of a <strong>high-throughput plant phenotyping</strong> system using autonomous robotics, <strong>3D computer vision</strong>, and <strong>hyperspectral imaging</strong>. I work with <strong>RGB and hyperspectral data</strong> (VIS–NIR and SWIR) integrated into robotic platforms to train AI models for <strong>3D reconstruction</strong>, <strong>plant structure segmentation</strong>, and <strong>early stress detection</strong>. I am also working on spectral–geometric data fusion to improve the characterization of plant physiological status.
+
+  <br><br>
+
+  <!-- Sensor head -->
+  <div class="item" style="display:flex; flex-direction:column;">
+    <img src="cabezal.png" alt="Sensor head" style="width:100%; max-width:550px; border-radius:8px;">
+    <p style="margin-top:8px;">
+      The robotic platform integrates a <strong>multimodal sensor head</strong> combining RGB-D cameras, hyperspectral sensors (VIS–NIR and SWIR), a thermal camera (LWIR), depth sensing (ToF), 3D point clouds (LiDAR), and an inertial measurement unit. This configuration enables simultaneous acquisition of <strong>geometric, radiometric, and spectral</strong> information for accurate plant characterization.
+    </p>
+  </div>
+
+  <!-- SWIR image of Vigna -->
+  <div class="item" style="display:flex; flex-direction:column;">
+    <img src="vigna.png" alt="SWIR image of Vigna unguiculata" style="width:100%; max-width:550px; border-radius:8px;">
+    <p style="margin-top:8px;">
+      Example of a capture in the <strong>SWIR range (950–2500 nm)</strong> of <em>Vigna unguiculata</em> plants. The pseudocolor visualization highlights physiological and structural variations not detectable in RGB images, especially those related to water content and internal tissue properties.
+    </p>
+  </div>
+
+  <!-- Reflectance curve -->
+  <div class="item" style="display:flex; flex-direction:column;">
+    <img src="curva.png" alt="Reflectance curve" style="width:100%; max-width:550px; border-radius:8px;">
+    <p style="margin-top:8px;">
+      Example of a <strong>reflectance curve</strong> extracted from a representative plant pixel. Reflectance increases in the <strong>NIR</strong> due to the internal structure of the mesophyll, while characteristic variations appear in the <strong>SWIR</strong> region associated with water content. These spectral signatures are essential for computing vegetation indices and identifying early stress indicators.
+    </p>
+  </div>
+
+  <br>
+
+  I actively collaborate with the <strong>Centre for Automation and Robotics (CAR, CSIC-UPM)</strong> and the tech company <strong>INYCOM</strong>, within the framework of the <strong>MOMENTUM MMT24-PTI AGROFOR</strong> predoctoral programme.
+  <br><br>
+  In 2025, I took part in the artificial intelligence summer school organized by <strong>AIHUB-CSIC</strong> in Zaragoza, where I presented the poster titled <em>“AI and 3D Hyperspectral Vision for High-Throughput Phenotyping”</em>. DOI:
+  <a href="http://dx.doi.org/10.13140/RG.2.2.27077.77289" target="_blank">10.13140/RG.2.2.27077.77289</a>.
+
+</span>
+
       </p>
 
       <!-- Póster interactivo -->
