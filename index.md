@@ -448,9 +448,34 @@
     </div>
     <div class="project-description">
       <p>
-        <span class="lang-es"> Mi tesis doctoral se centra en el desarrollo de un sistema de <strong>fenotipado vegetal de alto rendimiento</strong> mediante robótica autónoma, <strong>visión computacional 3D</strong> e <strong>imagen hiperespectral</strong>. Trabajo con <strong>datos obtenidos de cámaras RGB e hiperespectrales</strong> (VIS–NIR y SWIR) integrados en plataformas robóticas para entrenar modelos de inteligencia artificial orientados a <strong>reconstrucción 3D</strong>, <strong>segmentación de estructuras vegetales</strong> y <strong>detección temprana de estrés</strong>. Además, desarrollo pipelines de <strong>calibración radiométrica</strong>, extracción de <strong>índices vegetativos</strong> y fusión entre datos espectrales y geométricos para mejorar la caracterización del estado fisiológico de las plantas.
+        <span class="lang-es"> Mi tesis doctoral se centra en el desarrollo de un sistema de <strong>fenotipado vegetal de alto rendimiento</strong> mediante robótica autónoma, <strong>visión computacional 3D</strong> e <strong>imagen hiperespectral</strong>. Trabajo con <strong>datos obtenidos de cámaras RGB e hiperespectrales</strong> (VIS–NIR y SWIR) integrados en plataformas robóticas para entrenar modelos de inteligencia artificial orientados a <strong>reconstrucción 3D</strong>, <strong>segmentación de estructuras vegetales</strong> y <strong>detección temprana de estrés</strong>. Además, estoy trabajando en la fusión entre datos espectrales y geométricos para mejorar la caracterización del estado fisiológico de las plantas.
 <br><br>
-          Colaboro activamente con el <strong>Centro de Automática y Robótica (CAR, CSIC-UPM)</strong> y la empresa tecnológica <strong>INYCOM</strong> en el marco del contrato predoctoral <strong>MOMENTUM MMT24-PTI AGROFOR</strong>. 
+<!-- Cabezal sensorizado -->
+    <div class="item" style="display:flex; flex-direction:column;">
+      <img src="cabezal.png" alt="Cabezal sensorizado" style="width:100%; max-width:550px; border-radius:8px;">
+      <p style="margin-top:8px;">
+        La plataforma robótica integra un <strong>cabezal sensorizado</strong> con cámaras RGB, RGB-D, sensores hiperespectrales (VIS–NIR y SWIR), LiDAR y unidad inercial. Esta combinación permite capturar simultáneamente información <strong>geométrica, radiométrica y espectral</strong> para caracterizar el estado de la planta con alta precisión.
+      </p>
+    </div>
+
+    <!-- Imagen SWIR de Vigna -->
+    <div class="item" style="display:flex; flex-direction:column;">
+      <img src="vigna.png" alt="Imagen SWIR de Vigna unguiculata" style="width:100%; max-width:550px; border-radius:8px;">
+      <p style="margin-top:8px;">
+        Ejemplo de captura en el rango <strong>SWIR (950–2500 nm)</strong> sobre plantas de <em>Vigna unguiculata</em>. La pseudocoloración destaca variaciones fisiológicas y estructurales no visibles en RGB, especialmente relacionadas con contenido hídrico y propiedades internas del tejido.
+      </p>
+    </div>
+
+    <!-- Curva de reflectancia -->
+    <div class="item" style="display:flex; flex-direction:column;">
+      <img src="curva.png" alt="Curva de reflectancia" style="width:100%; max-width:550px; border-radius:8px;">
+      <p style="margin-top:8px;">
+        Ejemplo de <strong>curva de reflectancia</strong> obtenida a partir de un píxel representativo de la planta. La reflectancia aumenta en el <strong>NIR</strong> por la estructura interna del mesófilo, mientras que en el <strong>SWIR</strong> aparecen variaciones asociadas al contenido de agua. Estas signaturas espectrales permiten calcular índices vegetativos e identificar indicadores tempranos de estrés.
+      </p>
+    </div>
+
+  </div>
+Colaboro activamente con el <strong>Centro de Automática y Robótica (CAR, CSIC-UPM)</strong> y la empresa tecnológica <strong>INYCOM</strong> en el marco del contrato predoctoral <strong>MOMENTUM MMT24-PTI AGROFOR</strong>. 
           <br><br>
           En 2025 participé en la escuela de verano de inteligencia artificial organizada por <strong>AIHUB-CSIC</strong> en Zaragoza, donde presenté el póster titulado <em>“IA y visión 3D hiperespectral para fenotipado de alto rendimiento”</em> DOI: <a href="http://dx.doi.org/10.13140/RG.2.2.27077.77289" target="_blank">10.13140/RG.2.2.27077.77289</a>.
         </span>
