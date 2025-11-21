@@ -847,40 +847,60 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <span class="lang-es">Tecnologías inmersivas</span>
     <span class="lang-en">Immersive technologies</span>
   </div>
+
   <div class="project-image">
     <img src="3162813.jpg" alt="Tecnologías inmersivas" />
   </div>
+
   <div class="project-description">
     <p>
-      <span class="lang-es">
-        Colaboración con el Centro de Automática y Robótica (CAR-CSIC-UPM) para el desarrollo de soluciones inmersivas utilizando Microsoft HoloLens 2 en aplicaciones agrícolas. Actualmente, trabajo en un modelo 3D interactivo de una maceta virtual desarrollado en Unity con C#. Mediante la interacción manual en las gafas de realidad aumentada, el usuario puede seleccionar zonas específicas del modelo; las demás zonas desaparecen y aparece un cartel con el nombre de la zona seleccionada.<br><br>
-        El proyecto está en fase inicial, pero se prevé integrar progresivamente inteligencia artificial para realizar segmentación y etiquetado en tiempo real basados en modelos generados a partir de nubes de puntos de plantas reales, mejorando la precisión y utilidad en entornos agrícolas.
-      </span>
-      <span class="lang-en">
-        Collaboration with the Center for Automation and Robotics (CAR-CSIC-UPM) to develop immersive solutions using Microsoft HoloLens 2 for agricultural applications. Currently, I am working on an interactive 3D model of a virtual flowerpot developed in Unity with C#. Through hand interaction in the augmented reality headset, users can select specific zones of the model; the other zones disappear and a label with the selected zone's name appears.<br><br>
-        The project is in an early stage, with plans to progressively integrate artificial intelligence for real-time segmentation and labeling based on models derived from point clouds of real plants, enhancing accuracy and utility in agricultural environments.
-      </span>
-      <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; align-items: flex-end;">
-  <figure style="max-width: 48%; margin: 0;">
-    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/La%20planta%20completa%20y%20la%20Jerarqu%C3%ADa%20.jpg" alt="Planta completa y jerarquía" style="width: 100%; height: auto; border-radius: 5px;" />
+
+<!-- --------------------------- ESPAÑOL --------------------------- -->
+
+<span class="lang-es">
+  Desarrollo aplicaciones inmersivas para agricultura de precisión en colaboración con el <strong>Centro de Automática y Robótica (CAR-CSIC-UPM)</strong>, utilizando <strong>Microsoft HoloLens 2</strong>, <strong>Unity</strong> y <strong>C#</strong>.
+
+  Actualmente trabajo en un <strong>modelo 3D interactivo de planta</strong> generado a partir de <strong>nubes de puntos reales</strong>. En las HoloLens 2, el usuario puede seleccionar zonas específicas de la planta mediante gestos manuales: al seleccionar un órgano (hojas, tallos…), el resto desaparece y aparece un <strong>cartel informativo</strong> identificando ese elemento. Esto permite explorar la estructura vegetal de forma intuitiva y didáctica.
+
+  El sistema está implementado con <strong>MRTK</strong> y <strong>XR Interaction Toolkit</strong>, utilizando animaciones, lógica de visibilidad y gestión de interacciones. En fases futuras se integrará <strong>inteligencia artificial para segmentación y etiquetado automático en tiempo real</strong>.
+</span>
+
+<!-- --------------------------- ENGLISH --------------------------- -->
+
+<span class="lang-en">
+  I develop immersive applications for precision agriculture in collaboration with the <strong>Center for Automation and Robotics (CAR-CSIC-UPM)</strong>, using <strong>Microsoft HoloLens 2</strong>, <strong>Unity</strong>, and <strong>C#</strong>.
+
+  I am currently working on an <strong>interactive 3D plant model</strong> generated from <strong>real point clouds</strong>. In HoloLens 2, users can select specific plant regions using hand gestures: when an organ (leaves, stems…) is selected, the remaining parts disappear and an <strong>informative label</strong> appears. This enables intuitive and educational exploration of plant structure.
+
+  The system is built using <strong>MRTK</strong> and <strong>XR Interaction Toolkit</strong>, including animations, visibility control and interaction logic. Future stages will integrate <strong>AI-based real-time segmentation and automatic labeling</strong>.
+</span>
+
+<!-- ------------------ FIGURES / IMÁGENES ------------------ -->
+
+<div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.2rem; flex-wrap: wrap; align-items:flex-start;">
+
+  <!-- Nube de puntos -->
+  <figure style="max-width: 32%; margin: 0;">
+    <img src="nube_puntos.png" alt="Nube de puntos de la planta" style="width: 100%; border-radius: 5px;">
     <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.3rem; color: #555;">
-      <span class="lang-es">Planta completa y jerarquía de zonas en el modelo 3D</span>
-      <span class="lang-en">Complete plant and zone hierarchy in the 3D model</span>
+      <span class="lang-es">Nube de puntos original</span>
+      <span class="lang-en">Original point cloud</span>
     </figcaption>
   </figure>
 
-  <figure style="max-width: 48%; margin: 0;">
-    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/Simulando%20click%20con%20el%20%C3%ADndice%20de%20la%20mano%20derecha%20en%20las%20hojas.jpg" alt="Simulación de click en hojas" style="width: 100%; height: auto; border-radius: 5px;" />
+  <!-- Planta en HoloLens -->
+  <figure style="max-width: 32%; margin: 0;">
+    <img src="hololens_modelo.png" alt="Planta en HoloLens" style="width: 100%; border-radius: 5px;">
     <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.3rem; color: #555;">
-      <span class="lang-es">Simulación de selección con dedo índice en las hojas</span>
-      <span class="lang-en">Simulation of index finger selection on leaves</span>
+      <span class="lang-es">Modelo 3D dentro de HoloLens 2</span>
+      <span class="lang-en">3D model inside HoloLens 2</span>
     </figcaption>
   </figure>
-</div>
 
+  <!-- Selección con gesto (ya lo tienes si quieres mantenerlo) -->
+  <figure style="max-width: 32%; margin: 0;">
+    <img src="seleccion_gesto.png" alt="Interacción" style="width: 1_
 
-    </p>
-  </div>
 </div>
 
 
