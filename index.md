@@ -913,11 +913,11 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
          style="width: 90%; max-width: 1200px; border-radius: 8px;">
   </video>
   <p style="text-align: center; font-size: 0.95rem; color: #555; margin-top: 0.4rem;">
-    <span class="lang-es">Interacción en tiempo real</span>
+    <span class="lang-es">Interacción en tiempo real PRUEBA</span>
     <span class="lang-en">Real-time interaction</span>
   </p>
 </div>
-</section>
+
 
 
 <!-- Sección: Formación académica -->
