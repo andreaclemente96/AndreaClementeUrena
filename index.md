@@ -849,7 +849,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
   </div>
 
   <div class="project-image">
-    <img src="3162813.jpg" alt="Tecnologías inmersivas" />
+    <img src="nino.png" alt="Tecnologías inmersivas" />
   </div>
 
   <div class="project-description">
