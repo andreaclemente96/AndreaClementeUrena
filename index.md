@@ -855,24 +855,24 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
   <div class="project-description">
     <p>
 
-<!-- --------------------------- ESPAÑOL --------------------------- -->
+
 
 <span class="lang-es">
   Desarrollo aplicaciones inmersivas para agricultura de precisión en colaboración con el <strong>Centro de Automática y Robótica (CAR-CSIC-UPM)</strong>, utilizando <strong>Microsoft HoloLens 2</strong>, <strong>Unity</strong> y <strong>C#</strong>.
 
-  Actualmente trabajo en un <strong>modelo 3D interactivo de planta</strong> generado a partir de <strong>nubes de puntos reales</strong>. En las HoloLens 2, el usuario puede seleccionar zonas específicas de la planta mediante gestos manuales: al seleccionar un órgano (hojas, tallos…), el resto desaparece y aparece un <strong>cartel informativo</strong> identificando ese elemento. Esto permite explorar la estructura vegetal de forma intuitiva y didáctica.
+  Actualmente trabajo en un <strong>modelo 3D interactivo de planta</strong> generado a partir de <strong>nubes de puntos reales</strong>. En las HoloLens 2, el usuario puede seleccionar zonas específicas de la planta mediante gestos manuales: al seleccionar un órgano (hojas, tallo), el resto desaparece y aparece un <strong>cartel informativo</strong> identificando ese elemento. Esto permite explorar la estructura vegetal de forma intuitiva y didáctica.
 
-  El sistema está implementado con <strong>MRTK</strong> y <strong>XR Interaction Toolkit</strong>, utilizando animaciones, lógica de visibilidad y gestión de interacciones. En fases futuras se integrará <strong>inteligencia artificial para segmentación y etiquetado automático en tiempo real</strong>.
+  El sistema está implementado con <strong>MRTK</strong> y <strong>XR Interaction Toolkit</strong>, utilizando animaciones, lógica de visibilidad y gestión de interacciones. En fases futuras se integrará <strong>inteligencia artificial para la integración de la información hiperespectral en el objeto 3D</strong>.
 </span>
 
-<!-- --------------------------- ENGLISH --------------------------- -->
+
 
 <span class="lang-en">
   I develop immersive applications for precision agriculture in collaboration with the <strong>Center for Automation and Robotics (CAR-CSIC-UPM)</strong>, using <strong>Microsoft HoloLens 2</strong>, <strong>Unity</strong>, and <strong>C#</strong>.
 
   I am currently working on an <strong>interactive 3D plant model</strong> generated from <strong>real point clouds</strong>. In HoloLens 2, users can select specific plant regions using hand gestures: when an organ (leaves, stems…) is selected, the remaining parts disappear and an <strong>informative label</strong> appears. This enables intuitive and educational exploration of plant structure.
 
-  The system is built using <strong>MRTK</strong> and <strong>XR Interaction Toolkit</strong>, including animations, visibility control and interaction logic. Future stages will integrate <strong>AI-based real-time segmentation and automatic labeling</strong>.
+  The system is built using <strong>MRTK</strong> and <strong>XR Interaction Toolkit</strong>, including animations, visibility control and interaction logic. In future phases, <strong>artificial intelligence will be integrated for incorporating hyperspectral information into the 3D object</strong>.
 </span>
 
 <!-- ------------------ FIGURES / IMÁGENES ------------------ -->
@@ -881,26 +881,32 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
 
   <!-- Nube de puntos -->
   <figure style="max-width: 32%; margin: 0;">
-    <img src="nube_puntos.png" alt="Nube de puntos de la planta" style="width: 100%; border-radius: 5px;">
+    <img src="nube.png" alt="Nube de puntos de la planta segmentada" style="width: 100%; border-radius: 5px;">
     <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.3rem; color: #555;">
       <span class="lang-es">Nube de puntos original</span>
       <span class="lang-en">Original point cloud</span>
     </figcaption>
   </figure>
 
-  <!-- Planta en HoloLens -->
+  <!-- Planta en el Simulador HoloLens -->
   <figure style="max-width: 32%; margin: 0;">
-    <img src="hololens_modelo.png" alt="Planta en HoloLens" style="width: 100%; border-radius: 5px;">
+    <img src="holo.png" alt="Planta en el simulador de Unity para Hololens2" style="width: 100%; border-radius: 5px;">
     <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.3rem; color: #555;">
-      <span class="lang-es">Modelo 3D dentro de HoloLens 2</span>
-      <span class="lang-en">3D model inside HoloLens 2</span>
+      <span class="lang-es">Modelo 3D dentro del simulador de Unity</span>
+      <span class="lang-en">3D model inside Unity simulator</span>
     </figcaption>
   </figure>
 
-  <!-- Selección con gesto (ya lo tienes si quieres mantenerlo) -->
-  <figure style="max-width: 32%; margin: 0;">
-    <img src="seleccion_gesto.png" alt="Interacción" style="width: 1_
+  <!-- Vídeo dentro del grid -->
+<figure style="max-width: 32%; margin: 0;">
+  <video src="planta1.mp4" controls style="width: 100%; border-radius: 5px;"></video>
+  <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.3rem; color: #555;">
+    <span class="lang-es">Interacción en tiempo real</span>
+    <span class="lang-en">Real-time interaction</span>
+  </figcaption>
+</figure>
 
+ </div>
 </div>
 
 
