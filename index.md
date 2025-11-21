@@ -444,7 +444,7 @@
       <span class="lang-en">High-throughput phenotyping</span>
     </div>
     <div class="project-image">
-      <img src="3461225.jpg" alt="Fenotipado de cultivos">
+      <img src="robot.png" alt="Fenotipado de cultivos">
     </div>
     <div class="project-description">
       <p>
