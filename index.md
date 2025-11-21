@@ -917,7 +917,6 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <span class="lang-en">Real-time interaction</span>
   </p>
 </div>
-</div>
 </section>
 
 
