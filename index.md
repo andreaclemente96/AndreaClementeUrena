@@ -875,7 +875,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
   The system is built using <strong>MRTK</strong> and <strong>XR Interaction Toolkit</strong>, including animations, visibility control and interaction logic. In future phases, <strong>artificial intelligence will be integrated for incorporating hyperspectral information into the 3D object</strong>.
 </span>
 
-<!-- ------------------ FIGURES / IMÁGENES ------------------ -->
+
 
 <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.2rem; flex-wrap: wrap; align-items:flex-start;">
 
@@ -918,7 +918,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
   </p>
 </div>
 </div>
-
+</div>
 
 <!-- Sección: Formación académica -->
 <section id="formacion-section" class="direct-section">
