@@ -447,8 +447,7 @@
       <img src="robot.png" alt="Fenotipado de cultivos">
     </div>
     <div class="project-description">
-      <p>
-<span class="lang-es">
+<div class="lang-es">
 
   Mi tesis doctoral se centra en el desarrollo de un sistema de <strong>fenotipado vegetal de alto rendimiento</strong> mediante robótica autónoma, <strong>visión computacional 3D</strong> e <strong>imagen hiperespectral</strong>. Trabajo con <strong>datos obtenidos de cámaras RGB e hiperespectrales</strong> (VIS–NIR y SWIR) integrados en plataformas robóticas para entrenar modelos de inteligencia artificial orientados a <strong>reconstrucción 3D</strong>, <strong>segmentación de estructuras vegetales</strong> y <strong>detección temprana de estrés</strong>. Además, estoy trabajando en la fusión entre datos espectrales y geométricos para mejorar la caracterización del estado fisiológico de las plantas.
 
@@ -482,16 +481,17 @@
 
   Colaboro activamente con el <strong>Centro de Automática y Robótica (CAR, CSIC-UPM)</strong> y la empresa tecnológica <strong>INYCOM</strong> en el marco del contrato predoctoral <strong>MOMENTUM MMT24-PTI AGROFOR</strong>.
   <br><br>
-  En 2025 participé en la escuela de verano de inteligencia artificial organizada por <strong>AIHUB-CSIC</strong> en Zaragoza, donde presenté el póster titulado <em>“IA y visión 3D hiperespectral para fenotipado de alto rendimiento”</em>. DOI: 
-  <a href="http://dx.doi.org/10.13140/RG.2.2.27077.77289" target="_blank">10.13140/RG.2.2.27077.77289</a>.
 
-</span>
+  En 2025 participé en la escuela de verano de inteligencia artificial organizada por <strong>AIHUB-CSIC</strong> en Zaragoza, donde presenté el póster titulado <em>“IA y visión 3D hiperespectral para fenotipado de alto rendimiento”</em>.  
+  DOI: <a href="http://dx.doi.org/10.13140/RG.2.2.27077.77289" target="_blank">10.13140/RG.2.2.27077.77289</a>.
+
+</div>
 
 
 <!-- --------------------------------- ENGLISH VERSION --------------------------------- -->
 
 
-<span class="lang-en">
+<div class="lang-en">
 
   My PhD research focuses on the development of a <strong>high-throughput plant phenotyping</strong> system using autonomous robotics, <strong>3D computer vision</strong>, and <strong>hyperspectral imaging</strong>. I work with <strong>RGB and hyperspectral data</strong> (VIS–NIR and SWIR) integrated into robotic platforms to train AI models for <strong>3D reconstruction</strong>, <strong>plant structure segmentation</strong>, and <strong>early stress detection</strong>. I am also working on spectral–geometric data fusion to improve the characterization of plant physiological status.
 
@@ -525,12 +525,12 @@
 
   I actively collaborate with the <strong>Centre for Automation and Robotics (CAR, CSIC-UPM)</strong> and the tech company <strong>INYCOM</strong>, within the framework of the <strong>MOMENTUM MMT24-PTI AGROFOR</strong> predoctoral programme.
   <br><br>
-  In 2025, I took part in the artificial intelligence summer school organized by <strong>AIHUB-CSIC</strong> in Zaragoza, where I presented the poster titled <em>“AI and 3D Hyperspectral Vision for High-Throughput Phenotyping”</em>. DOI:
-  <a href="http://dx.doi.org/10.13140/RG.2.2.27077.77289" target="_blank">10.13140/RG.2.2.27077.77289</a>.
 
-</span>
+  In 2025, I took part in the artificial intelligence summer school organized by <strong>AIHUB-CSIC</strong> in Zaragoza, where I presented the poster titled <em>“AI and 3D Hyperspectral Vision for High-Throughput Phenotyping”</em>.  
+  DOI: <a href="http://dx.doi.org/10.13140/RG.2.2.27077.77289" target="_blank">10.13140/RG.2.2.27077.77289</a>.
 
-      </p>
+</div>
+
 
       <!-- Póster interactivo -->
 <div class="poster-section" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #ccc;">
