@@ -1034,35 +1034,90 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <span class="lang-es">🎓 Cursos</span>
     <span class="lang-en">🎓 Courses</span>
   </h2>
+
   <ul>
+
     <li>
       <span class="lang-es">📘 <strong>Microcredencial Portfolio Digital</strong> (75 horas, 2025) – CSIC</span>
       <span class="lang-en">📘 <strong>Digital Portfolio Microcredential</strong> (75 hours, 2025) – CSIC</span>
     </li>
+
     <li>
-      <span class="lang-es">📊 <strong>Statistics for Natural Resources -><a href="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/EL-ejercicio-de-estadistica-curso.docx">Ejercicio final</a></strong> (30 horas, 2025) – UPM</span>
-      <span class="lang-en">📊 <strong>Statistics for Natural Resources-><a href="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/EL-ejercicio-de-estadistica-curso.docx">Final exercise</a></strong> (30 hours, 2025) – UPM</span>
+      <span class="lang-es">📊 <strong>Statistics for Natural Resources → 
+        <a href="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/EL-ejercicio-de-estadistica-curso.docx" target="_blank">Ejercicio final</a></strong> 
+        (30 horas, 2025) – UPM
+      </span>
+      <span class="lang-en">📊 <strong>Statistics for Natural Resources → 
+        <a href="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente06-portfolio/EL-ejercicio-de-estadistica-curso.docx" target="_blank">Final exercise</a></strong> 
+        (30 hours, 2025) – UPM
+      </span>
     </li>
+
     <li>
-      <span class="lang-es">🤖 <strong>Inteligencia Artificial y Software Development -><a href="https://github.com/andreaclemente96/Courses/blob/main/classification_lab1.ipynb" target="_blank">Laboratorios</a></strong> (13,5 horas, 2025) – IBM y UPM</span>
-      <span class="lang-en">🤖 <strong>Artificial Intelligence and Software Development -><a href="https://github.com/andreaclemente96/Courses/blob/main/classification_lab1.ipynb" target="_blank">Labs</a></strong> (13.5 hours, 2025) – IBM &amp; UPM</span>
+      <span class="lang-es">🤖 <strong>Inteligencia Artificial y Software Development → 
+        <a href="https://github.com/andreaclemente96/Courses/blob/main/classification_lab1.ipynb" target="_blank">Laboratorios</a></strong> 
+        (13,5 horas, 2025) – IBM y UPM
+      </span>
+      <span class="lang-en">🤖 <strong>Artificial Intelligence and Software Development → 
+        <a href="https://github.com/andreaclemente96/Courses/blob/main/classification_lab1.ipynb" target="_blank">Labs</a></strong> 
+        (13.5 hours, 2025) – IBM & UPM
+      </span>
+
       <div style="margin-top: 8px; display: flex; gap: 8px; align-items: center;">
-      <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/IA.png" 
-       alt="Credential" style="width: 150px; height: auto; border-radius: 8px;">
-      <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/AI.png" 
-       alt="Credential" style="width: 150px; height: auto; border-radius: 8px;">
+        <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/IA.png" style="width:150px; border-radius:8px;">
+        <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/AI.png" style="width:150px; border-radius:8px;">
       </div>
     </li>
+
     <li>
       <span class="lang-es">🌐 <strong>Conecta y colabora de forma efectiva en entornos digitales</strong> (25 horas, 2025) – CSIC</span>
       <span class="lang-en">🌐 <strong>Connect and Collaborate Effectively in Digital Environments</strong> (25 hours, 2025) – CSIC</span>
     </li>
+
+
+    <li>
+      <span class="lang-es">📘 <strong>Fundamentos de la programación: Inteligencia Artificial</strong> (1h 51min, 2025) – LinkedIn Learning</span>
+      <span class="lang-en">📘 <strong>Programming Foundations: Artificial Intelligence</strong> (1h 51min, 2025) – LinkedIn Learning</span>
+    </li>
+
+    <li>
+      <span class="lang-es">🐍 <strong>Programación en Python aplicado al análisis de datos agronómicos (nivel intermedio)</strong> (22 horas, 2025) – CSIC</span>
+      <span class="lang-en">🐍 <strong>Python Programming for Agronomic Data Analysis (Intermediate Level)</strong> (22 hours, 2025) – CSIC</span>
+    </li>
+
+    <li>
+      <span class="lang-es">🔥 <strong>Get Started with AI</strong> (3 horas, 2025) – IBM SkillsBuild & Datahack</span>
+      <span class="lang-en">🔥 <strong>Get Started with AI</strong> (3 hours, 2025) – IBM SkillsBuild & Datahack</span>
+    </li>
+
+    <li>
+      <span class="lang-es">💬 <strong>Build Your First Chatbot</strong> (1 hora, 2025) – IBM SkillsBuild & Datahack</span>
+      <span class="lang-en">💬 <strong>Build Your First Chatbot</strong> (1 hour, 2025) – IBM SkillsBuild & Datahack</span>
+    </li>
+
+    <li>
+      <span class="lang-es">🧠 <strong>Classifying Data Using IBM Granite</strong> (1h 30min, 2025) – IBM SkillsBuild & Datahack</span>
+      <span class="lang-en">🧠 <strong>Classifying Data Using IBM Granite</strong> (1h 30min, 2025) – IBM SkillsBuild & Datahack</span>
+    </li>
+
+    <li>
+      <span class="lang-es">🤖 <strong>Python: Entrena redes neuronales</strong> (1h 05min, 2025) – LinkedIn Learning</span>
+      <span class="lang-en">🤖 <strong>Python: Train Neural Networks</strong> (1h 05min, 2025) – LinkedIn Learning</span>
+    </li>
+
+    <li>
+      <span class="lang-es">🧩 <strong>Python Avanzado Online</strong> (40 horas, 2025) – CSIC</span>
+      <span class="lang-en">🧩 <strong>Advanced Python Online</strong> (40 hours, 2025) – CSIC</span>
+    </li>
+
     <li>
       <span class="lang-es">💻 <strong>Microsoft Certified Solutions Developer (MCSD): Web Applications</strong> (240 horas, 2021)</span>
       <span class="lang-en">💻 <strong>Microsoft Certified Solutions Developer (MCSD): Web Applications</strong> (240 hours, 2021)</span>
     </li>
+
   </ul>
 </section>
+
 
 
 <!-- Sección: Seminarios y Jornadas -->
@@ -1071,29 +1126,46 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <span class="lang-es">🗓️ Seminarios y Jornadas</span>
     <span class="lang-en">🗓️ Seminars and Workshops</span>
   </h2>
+
   <ul>
     <li>
       <span class="lang-es">🌱 <strong>Jornada Técnica sobre Recursos Genéticos de Leguminosas: Conservación y Utilización</strong> – INIA-CSIC 2025</span>
       <span class="lang-en">🌱 <strong>Technical Workshop on Genetic Resources of Legumes: Conservation and Utilization</strong> – INIA-CSIC 2025</span>
     </li>
+
     <li>
-      <span class="lang-es">🤖 <strong>Escuela de Verano AIHUB: Retos de la IA – Zaragoza 2025</strong> – CSIC</span>
-      <span class="lang-en">🤖 <strong>AIHUB Summer School: Challenges of AI – Zaragoza 2025</strong> – CSIC</span>
+      <span class="lang-es">🤖 <strong>Escuela de Verano AIHUB: Retos de la IA – Zaragoza</strong> (2025) – CSIC</span>
+      <span class="lang-en">🤖 <strong>AIHUB Summer School: Challenges of AI – Zaragoza</strong> (2025) – CSIC</span>
     </li>
+
     <li>
-      <span class="lang-es">📍 <strong>Invitación I Encuentro Momentum, 26 febrero</strong> – CFTMAT (Madrid) 2025</span>
-      <span class="lang-en">📍 <strong>Invitation to the First Momentum Meeting, February 26</strong> – CFTMAT 2025 (Madrid)</span>
+      <span class="lang-es">📍 <strong>I Encuentro Momentum</strong> – CFTMAT Madrid, 26 febrero 2025</span>
+      <span class="lang-en">📍 <strong>First Momentum Meeting</strong> – CFTMAT Madrid, 26 February 2025</span>
     </li>
+
     <li>
-      <span class="lang-es">🚀 <strong>Evento de presentación del programa Atracción y Talento</strong> – Iniciativa Generación D 2025</span>
-      <span class="lang-en">🚀 <strong>Program Presentation Event: Attraction and Talent</strong> – Generation D Initiative 2025</span>
+      <span class="lang-es">🚀 <strong>Evento de presentación del programa Atracción y Talento</strong> – Generación D 2025</span>
+      <span class="lang-en">🚀 <strong>Program Presentation: Attraction and Talent</strong> – Generation D 2025</span>
     </li>
+
     <li>
       <span class="lang-es">🎓 <strong>Jornada Microcredenciales</strong> – CSIC 2025</span>
       <span class="lang-en">🎓 <strong>Microcredentials Workshop</strong> – CSIC 2025</span>
     </li>
+
+    <li>
+      <span class="lang-es">🏅 <strong>GALA MOMENTUM 2025</strong> – CSIC, 29 octubre 2025 (2h 30min)</span>
+      <span class="lang-en">🏅 <strong>MOMENTUM GALA 2025</strong> – CSIC, 29 October 2025 (2h 30min)</span>
+    </li>
+
+    <li>
+      <span class="lang-es">🔬 <strong>VII Jornada para Predoctorales del CSIC</strong> – 7 noviembre 2025 (5h 5min)</span>
+      <span class="lang-en">🔬 <strong>VII CSIC Doctoral Researchers Day</strong> – 7 November 2025 (5h 5min)</span>
+    </li>
+
   </ul>
 </section>
+
 
 <!-- Sección: Autorreflexión -->
 <section id="autorreflexion-section" class="direct-section">
@@ -1101,59 +1173,54 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <span class="lang-es">🧠 Autorreflexión sobre mi proceso de aprendizaje</span>
     <span class="lang-en">🧠 Self-reflection on my learning process</span>
   </h2>
+
+  <!-- Bloque 1 -->
   <p>
-  <span class="lang-es">
-    Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la síntesis de bioplásticos a partir de leche de vaca. Aquel acercamiento despertó en mí una gran curiosidad científica y me hizo descubrir lo apasionante que es generar nuevo conocimiento. Desde entonces, he continuado profundizando en distintas áreas y cada experiencia ha reforzado mi interés por la ciencia aplicada y multidisciplinar.
-  </span>
-  <span class="lang-en">
-    My first contact with research was in the first year of Bachillerato (upper secondary education), when I developed a project on the synthesis of bioplastics from cow's milk. That early exposure sparked a deep scientific curiosity and made me realize how exciting it is to generate new knowledge. Since then, I have continued exploring various fields, and each experience has reinforced my interest in applied and multidisciplinary science.
-  </span>
-</p>
+    <span class="lang-es">
+      Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la síntesis de bioplásticos a partir de leche. Ese pequeño punto de partida despertó en mí una curiosidad científica que ha ido creciendo con los años. Con el tiempo, he aprendido que la investigación no es solo generar conocimiento, sino también construir criterio, aprender a observar y mantener una actitud crítica y creativa ante los problemas.
+    </span>
+    <span class="lang-en">
+      My first contact with research came during my first year of upper secondary school, when I developed a small project on synthesising bioplastics from milk. That experience sparked a scientific curiosity that has only grown over the years. I have since learned that research is not only about generating knowledge, but also about building judgement, learning how to observe, and maintaining a critical and creative mindset toward problems.
+    </span>
+  </p>
 
-<p>
-  <span class="lang-es">
-    Durante el máster, adquirí conocimientos sólidos en programación con Python y R, así como en técnicas de machine learning, que me han permitido procesar y analizar grandes volúmenes de datos, y abordar problemas complejos desde una perspectiva cuantitativa.
-  </span>
-  <span class="lang-en">
-    During my master's, I gained solid knowledge in programming with Python and R, as well as in machine learning techniques, which have allowed me to process and analyze large volumes of data and tackle complex problems from a quantitative perspective.
-  </span>
-</p>
+  <!-- Bloque 2 -->
+  <p>
+    <span class="lang-es">
+      Durante el máster adquirí una base sólida en programación (Python, R), análisis de datos y machine learning, herramientas que ahora forman parte esencial de mi trabajo diario. Estas competencias me han permitido abordar problemas complejos y entender la importancia de un flujo de trabajo riguroso, reproducible y orientado a resultados.
+    </span>
+    <span class="lang-en">
+      During my master’s, I built a solid foundation in programming (Python, R), data analysis and machine learning—skills that are now essential in my daily work. These competencies have allowed me to tackle complex problems and understand the importance of rigorous, reproducible and goal-oriented workflows.
+    </span>
+  </p>
 
-<p>
-  <span class="lang-es">
-    Actualmente, en mis proyectos más recientes, combino estos conocimientos con técnicas de visión por computador, robótica e inteligencia artificial aplicadas a la biología y la agricultura de precisión. Esta combinación multidisciplinar me permite trabajar con sensores avanzados y desarrollar soluciones innovadoras para el fenotipado automatizado y otras aplicaciones.
-  </span>
-  <span class="lang-en">
-    Currently, in my more recent projects, I combine this knowledge with computer vision, robotics, and artificial intelligence techniques applied to biology and precision agriculture. This multidisciplinary combination allows me to work with advanced sensors and develop innovative solutions for automated phenotyping and other applications.
-  </span>
-</p>
+  <!-- Bloque 3 NUEVO: evolución en el proyecto -->
+  <p>
+    <span class="lang-es">
+      A lo largo de este primer año de doctorado, he experimentado una evolución significativa. He pasado de conocer los conceptos básicos del fenotipado vegetal a desenvolverme con soltura en proyectos que combinan sensores hiperespectrales, visión computacional 3D, robótica móvil y análisis avanzado de datos. He aprendido a trabajar con cámaras RGB-D, VIS–NIR y SWIR, a procesar cubos hiperespectrales, a generar reconstrucciones 3D precisas y a diseñar flujos de segmentación y detección temprana de estrés vegetal.
+    </span>
+    <span class="lang-en">
+      Throughout this first year of my PhD, I have experienced significant growth. I have gone from knowing only the basics of plant phenotyping to confidently working on projects that combine hyperspectral sensors, 3D computer vision, mobile robotics and advanced data analysis. I have learned to work with RGB-D, VIS–NIR and SWIR cameras, process hyperspectral cubes, generate accurate 3D reconstructions and design segmentation pipelines focused on early stress detection.
+    </span>
+  </p>
 
-<p>
-  <span class="lang-es">
-    He mejorado significativamente en el trabajo en equipo, y durante la escuela de verano AIHub pude reforzar mis habilidades de comunicación, aprendiendo a transmitir mis ideas de forma más clara y efectiva. Aun así, sigo trabajando para optimizar la gestión del tiempo y seguir perfeccionando cómo presento mis resultados, tanto a audiencias técnicas como a personas sin formación científica.
-  </span>
-  <span class="lang-en">
-    I have significantly improved my teamwork skills, and during the AIHub summer school, I was able to strengthen my communication abilities, learning to convey my ideas more clearly and effectively. Still, I continue working to optimize time management and improve how I present my results, both to technical audiences and to people without a scientific background.
-  </span>
-</p>
+  <!-- Bloque 4 NUEVO: proyecto HoloLens -->
+  <p>
+    <span class="lang-es">
+      Paralelamente, mi participación en el proyecto con HoloLens 2 me ha permitido adentrarme en el desarrollo de aplicaciones inmersivas y en la integración de modelos 3D en entornos interactivos. Este trabajo ha supuesto un reto completamente distinto al análisis de datos: he tenido que aprender a diseñar experiencias, pensar en la interacción del usuario y combinar Unity, C# y modelos 3D procedentes de nubes de puntos reales.
+    </span>
+    <span class="lang-en">
+      In parallel, my involvement in the HoloLens 2 project has introduced me to immersive technologies and the integration of 3D models into interactive environments. This has been a very different challenge compared to data analysis: I have learned to design user experiences, think about interaction workflows, and combine Unity, C# and 3D models derived from real point clouds.
+    </span>
+  </p>
 
-<p>
-  <span class="lang-es">
-    De cara al futuro, me motiva seguir formándome en inteligencia artificial, realidad aumentada y robótica, especialmente dentro del ámbito de la biotecnología y la agricultura de precisión. Estoy abierta a seguir colaborando en proyectos innovadores y a perfeccionar tanto mis capacidades técnicas como mis habilidades blandas, como la comunicación, la organización y el trabajo en equipo.
-  </span>
-  <span class="lang-en">
-    Looking ahead, I’m motivated to continue training in artificial intelligence, augmented reality, and robotics, especially within biotechnology and precision agriculture. I’m open to collaborating on innovative projects and improving both my technical skills and soft skills, such as communication, organization, and teamwork.
-  </span>
-</p>
-
-<p>
-  <span class="lang-es">
-    En resumen, esta reflexión me ha ayudado a tomar perspectiva sobre mi evolución reciente. Sigo comprometida con aprender, adaptarme y crecer personal y profesionalmente, con la convicción de que la investigación es una herramienta clave para impactar positivamente en el mundo.
-  </span>
-  <span class="lang-en">
-    In summary, this reflection has helped me gain perspective on my recent evolution. I remain committed to learning, adapting, and growing both personally and professionally, with the conviction that research is a key tool to positively impact the world.
-  </span>
-</p>
+  <!-- Bloque 5 NUEVO: presentación póster + defensa memoria -->
+  <p>
+    <span class="lang-es">
+      Un hito especialmente importante para mí ha sido presentar mi primer póster científico y defender mi memoria anual. Ambas experiencias han reforzado mi confianza, mi capacidad para comunicar resultados y mi habilidad para sintetizar procesos técnicos complejos de manera clara. Además, compartir mi trabajo con otros investigadores me ha permitido obtener nuevas perspectivas y valorar más el impacto de lo que estoy construyendo.
+    </span>
+    <span class="lang-en">
+      A particularly meaningful milestone has been presenting my first scientific poster and defending my annual report. Both experiences strengthened my confidence, improved my ability to communicate scientific results and helped me learn how to synthesise complex technical processes clearly. Sharing my work with other researchers also offered new perspectives and helped me appreciate the impact of what I am
 
 
 </section>
