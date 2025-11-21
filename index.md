@@ -906,7 +906,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
 
 </div>
 
-<!-- Vídeo debajo, más grande -->
+
 <div style="text-align: center; margin-top: 2rem;">
   <video src="planta1.mp4"
          controls
@@ -918,7 +918,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
   </p>
 </div>
 </div>
-</div>
+
 
 <!-- Sección: Formación académica -->
 <section id="formacion-section" class="direct-section">
@@ -1174,56 +1174,78 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <span class="lang-en">🧠 Self-reflection on my learning process</span>
   </h2>
 
-  <!-- Bloque 1 -->
+  <!-- Párrafo 1 -->
   <p>
     <span class="lang-es">
-      Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la síntesis de bioplásticos a partir de leche. Ese pequeño punto de partida despertó en mí una curiosidad científica que ha ido creciendo con los años. Con el tiempo, he aprendido que la investigación no es solo generar conocimiento, sino también construir criterio, aprender a observar y mantener una actitud crítica y creativa ante los problemas.
+      Mi primer contacto con la investigación fue en 1º de Bachillerato, cuando desarrollé un proyecto sobre la síntesis de bioplásticos. Aquel inicio despertó en mí una curiosidad científica que ha ido creciendo con los años. Con el tiempo he descubierto que investigar implica observar, cuestionar y aprender a construir soluciones de forma crítica y creativa.
     </span>
     <span class="lang-en">
-      My first contact with research came during my first year of upper secondary school, when I developed a small project on synthesising bioplastics from milk. That experience sparked a scientific curiosity that has only grown over the years. I have since learned that research is not only about generating knowledge, but also about building judgement, learning how to observe, and maintaining a critical and creative mindset toward problems.
+      My first contact with research came during my first year of upper secondary school, when I developed a small project on bioplastic synthesis. That experience sparked a scientific curiosity that has grown over the years. I have learned that research requires observing, questioning and building solutions with both critical thinking and creativity.
     </span>
   </p>
 
-  <!-- Bloque 2 -->
+  <!-- Párrafo 2 -->
   <p>
     <span class="lang-es">
-      Durante el máster adquirí una base sólida en programación (Python, R), análisis de datos y machine learning, herramientas que ahora forman parte esencial de mi trabajo diario. Estas competencias me han permitido abordar problemas complejos y entender la importancia de un flujo de trabajo riguroso, reproducible y orientado a resultados.
+      Durante el máster adquirí una base sólida en programación con Python y R, análisis de datos y técnicas de machine learning. Estas habilidades se han convertido en herramientas fundamentales en mi día a día y me han permitido abordar problemas desde una perspectiva cuantitativa y estructurada.
     </span>
     <span class="lang-en">
-      During my master’s, I built a solid foundation in programming (Python, R), data analysis and machine learning—skills that are now essential in my daily work. These competencies have allowed me to tackle complex problems and understand the importance of rigorous, reproducible and goal-oriented workflows.
+      During my master's, I built a solid foundation in programming (Python and R), data analysis and machine learning techniques. These skills have become essential tools in my daily work and allow me to approach problems from a quantitative and structured perspective.
     </span>
   </p>
 
-  <!-- Bloque 3 NUEVO: evolución en el proyecto -->
+  <!-- Párrafo 3: tu evolución real -->
   <p>
     <span class="lang-es">
-      A lo largo de este primer año de doctorado, he experimentado una evolución significativa. He pasado de conocer los conceptos básicos del fenotipado vegetal a desenvolverme con soltura en proyectos que combinan sensores hiperespectrales, visión computacional 3D, robótica móvil y análisis avanzado de datos. He aprendido a trabajar con cámaras RGB-D, VIS–NIR y SWIR, a procesar cubos hiperespectrales, a generar reconstrucciones 3D precisas y a diseñar flujos de segmentación y detección temprana de estrés vegetal.
+      Este primer año de doctorado ha supuesto un avance importante en mi formación. He aprendido a trabajar con sensores avanzados (RGB-D, hiperespectrales VIS–NIR y SWIR, cámaras térmicas y sensores de profundidad), a manejar flujos de datos complejos y a aplicar técnicas de deep learning y visión por computador 3D en el contexto del fenotipado vegetal. Aunque todavía estoy en una fase inicial, comprender mejor estos sistemas me ha permitido adquirir una visión más completa del proceso de captura, análisis e interpretación de información multimodal.
     </span>
     <span class="lang-en">
-      Throughout this first year of my PhD, I have experienced significant growth. I have gone from knowing only the basics of plant phenotyping to confidently working on projects that combine hyperspectral sensors, 3D computer vision, mobile robotics and advanced data analysis. I have learned to work with RGB-D, VIS–NIR and SWIR cameras, process hyperspectral cubes, generate accurate 3D reconstructions and design segmentation pipelines focused on early stress detection.
+      This first year of my PhD has marked an important step in my development. I have learned to work with advanced sensors (RGB-D, hyperspectral VIS–NIR and SWIR, thermal cameras and depth sensors), handle complex data flows and apply deep learning and 3D computer vision techniques in the context of plant phenotyping. Although I am still at an early stage, understanding these systems has given me a more complete view of how multimodal information is captured, analysed and interpreted.
     </span>
   </p>
 
-  <!-- Bloque 4 NUEVO: proyecto HoloLens -->
+  <!-- Párrafo 4: tu proyecto Hololens, tuyo -->
   <p>
     <span class="lang-es">
-      Paralelamente, mi participación en el proyecto con HoloLens 2 me ha permitido adentrarme en el desarrollo de aplicaciones inmersivas y en la integración de modelos 3D en entornos interactivos. Este trabajo ha supuesto un reto completamente distinto al análisis de datos: he tenido que aprender a diseñar experiencias, pensar en la interacción del usuario y combinar Unity, C# y modelos 3D procedentes de nubes de puntos reales.
+      Además, he iniciado mi propio proyecto de desarrollo con HoloLens 2, en el que estoy creando un modelo 3D interactivo en Unity y C#. Este trabajo me está permitiendo explorar la realidad aumentada desde cero, diseñar interacciones, integrar modelos y comprender cómo estas tecnologías pueden complementar los sistemas de fenotipado y la interpretación visual de datos.
     </span>
     <span class="lang-en">
-      In parallel, my involvement in the HoloLens 2 project has introduced me to immersive technologies and the integration of 3D models into interactive environments. This has been a very different challenge compared to data analysis: I have learned to design user experiences, think about interaction workflows, and combine Unity, C# and 3D models derived from real point clouds.
+      I have also started my own development project using HoloLens 2, where I am creating an interactive 3D model in Unity and C#. This work is allowing me to explore augmented reality from the ground up, design interactions, integrate models and understand how these technologies can complement phenotyping systems and the visual interpretation of data.
     </span>
   </p>
 
-  <!-- Bloque 5 NUEVO: presentación póster + defensa memoria -->
+  <!-- Párrafo 5: póster + memoria -->
   <p>
     <span class="lang-es">
-      Un hito especialmente importante para mí ha sido presentar mi primer póster científico y defender mi memoria anual. Ambas experiencias han reforzado mi confianza, mi capacidad para comunicar resultados y mi habilidad para sintetizar procesos técnicos complejos de manera clara. Además, compartir mi trabajo con otros investigadores me ha permitido obtener nuevas perspectivas y valorar más el impacto de lo que estoy construyendo.
+      Presentar mi primer póster científico y defender mi memoria anual han sido hitos importantes para mí. Ambas experiencias han reforzado mi capacidad de síntesis y mi seguridad al comunicar resultados, además de ayudarme a poner en perspectiva todo lo que he aprendido en estos meses.
     </span>
     <span class="lang-en">
-      A particularly meaningful milestone has been presenting my first scientific poster and defending my annual report. Both experiences strengthened my confidence, improved my ability to communicate scientific results and helped me learn how to synthesise complex technical processes clearly. Sharing my work with other researchers also offered new perspectives and helped me appreciate the impact of what I am
+      Presenting my first scientific poster and defending my annual report have been meaningful milestones. Both experiences strengthened my ability to synthesise information and boosted my confidence when communicating results, while helping me reflect on everything I have learned so far.
+    </span>
+  </p>
 
+  <!-- Párrafo 6: soft skills -->
+  <p>
+    <span class="lang-es">
+      A nivel personal siento que he mejorado en organización, gestión del tiempo, autonomía y comunicación. Colaborar con distintos equipos del CSIC y participar en formaciones y jornadas me ha permitido crecer en un entorno multidisciplinar en el que cada día aparece algo nuevo que aprender.
+    </span>
+    <span class="lang-en">
+      On a personal level, I feel I have improved in organisation, time management, autonomy and communication. Collaborating with different CSIC teams and participating in workshops and training sessions has allowed me to grow within a multidisciplinary environment where there is always something new to learn.
+    </span>
+  </p>
+
+  <!-- Párrafo 7: cierre -->
+  <p>
+    <span class="lang-es">
+      De cara al futuro, quiero seguir profundizando en inteligencia artificial, visión 3D, análisis espectral y tecnologías inmersivas, y seguir desarrollándome como investigadora. Me motiva avanzar paso a paso, con constancia y curiosidad, y construir soluciones que aporten valor dentro de la agricultura de precisión y la biotecnología.
+    </span>
+    <span class="lang-en">
+      Looking ahead, I want to continue deepening my knowledge of artificial intelligence, 3D vision, spectral analysis and immersive technologies, and to keep developing as a researcher. I am motivated by progressing step by step, with consistency and curiosity, and by contributing solutions that bring value to precision agriculture and biotechnology.
+    </span>
+  </p>
 
 </section>
+
 
 <!-- Sección: Contacto -->
 <section id="contacto-section" class="direct-section">
