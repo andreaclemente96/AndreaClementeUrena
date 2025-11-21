@@ -448,10 +448,6 @@
     </div>
 <div class="project-description">
 
-<!-- ---------------------------------------------------- -->
-<!-- ***********************  ESPAÑOL  ******************* -->
-<!-- ---------------------------------------------------- -->
-
 <div class="lang-es">
 
   <p>
@@ -472,7 +468,7 @@
   <div class="item" style="display:flex; flex-direction:column;">
     <img src="vigna.png" alt="Imagen SWIR de Vigna unguiculata" style="width:100%; max-width:550px; border-radius:8px;">
     <p style="margin-top:8px;">
-      Ejemplo de captura en el rango <strong>SWIR (950–2500 nm)</strong> sobre plantas de <em>Vigna unguiculata</em>. La pseudocoloración destaca variaciones fisiológicas y estructurales no visibles en RGB, especialmente relacionadas con contenido hídrico y propiedades internas del tejido.
+      Ejemplo de captura en el rango <strong>SWIR (950–2500 nm)</strong> sobre plantas de <em>Vigna unguiculata</em>. En estas longitudes de onda se pueden observar varios parámetros, especialmente relacionadas con contenido hídrico y propiedades internas del tejido.
     </p>
   </div>
 
@@ -480,7 +476,7 @@
   <div class="item" style="display:flex; flex-direction:column;">
     <img src="curva.png" alt="Curva de reflectancia" style="width:100%; max-width:550px; border-radius:8px;">
     <p style="margin-top:8px;">
-      Ejemplo de <strong>curva de reflectancia</strong> obtenida a partir de un píxel representativo de la planta. La reflectancia aumenta en el <strong>NIR</strong> debido a la estructura interna del mesófilo, mientras que en el <strong>SWIR</strong> aparecen variaciones asociadas al contenido de agua. Estas signaturas espectrales permiten calcular índices vegetativos e identificar indicadores tempranos de estrés.
+      Ejemplo de <strong>curva de reflectancia</strong> obtenida a partir de un píxel representativo de la planta. La reflectancia aumenta en el <strong>NIR</strong> debido a la estructura interna del mesófilo, mientras que en el <strong>SWIR</strong> aparecen variaciones asociadas al contenido de agua. Estas reflectancias permiten calcular índices vegetativos e identificar indicadores tempranos de estrés.
     </p>
   </div>
 
@@ -497,13 +493,6 @@
   </p>
 
 </div>
-
-
-
-
-<!-- ---------------------------------------------------- -->
-<!-- ***********************  ENGLISH  ******************* -->
-<!-- ---------------------------------------------------- -->
 
 <div class="lang-en">
 
@@ -525,7 +514,7 @@
   <div class="item" style="display:flex; flex-direction:column;">
     <img src="vigna.png" alt="SWIR image of Vigna unguiculata" style="width:100%; max-width:550px; border-radius:8px;">
     <p style="margin-top:8px;">
-      Example of a capture in the <strong>SWIR range (950–2500 nm)</strong> of <em>Vigna unguiculata</em> plants. The pseudocolor visualization highlights physiological and structural variations not detectable in RGB images, especially those related to water content and internal tissue properties.
+      Example of a capture in the <strong>SWIR range (950–2500 nm)</strong> of <em>Vigna unguiculata</em> plants. TIn these wavelengths, several parameters can be observed, especially those related to water content and internal tissue properties.
     </p>
   </div>
 
@@ -533,7 +522,7 @@
   <div class="item" style="display:flex; flex-direction:column;">
     <img src="curva.png" alt="Reflectance curve" style="width:100%; max-width:550px; border-radius:8px;">
     <p style="margin-top:8px;">
-      Example of a <strong>reflectance curve</strong> extracted from a representative plant pixel. Reflectance increases in the <strong>NIR</strong> due to the internal structure of the mesophyll, while characteristic variations appear in the <strong>SWIR</strong> region associated with water content. These spectral signatures are essential for computing vegetation indices and identifying early stress indicators.
+      Example of a <strong>reflectance curve</strong> extracted from a representative plant pixel. Reflectance increases in the <strong>NIR</strong> due to the internal structure of the mesophyll, while characteristic variations appear in the <strong>SWIR</strong> region associated with water content. These reflectances are essential for computing vegetation indices and identifying early stress indicators.
     </p>
   </div>
 
@@ -550,10 +539,6 @@
   </p>
 
 </div>
-
-</div>
-
-
 
       <!-- Póster interactivo -->
 <div class="poster-section" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #ccc;">
@@ -729,7 +714,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
   }
 </script>
 </div>
-  
+</div>
   <!-- Proyecto 2 -->
 <div class="project-container">
   <div class="project-title">
