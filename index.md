@@ -918,6 +918,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
   </p>
 </div>
 </div>
+</section>
 
 
 <!-- Sección: Formación académica -->
@@ -1204,15 +1205,16 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     </span>
   </p>
 
-  <!-- Párrafo 4: tu proyecto Hololens, tuyo -->
-  <p>
-    <span class="lang-es">
-      Además, he iniciado mi propio proyecto de desarrollo con HoloLens 2, en el que estoy creando un modelo 3D interactivo en Unity y C#. Este trabajo me está permitiendo explorar la realidad aumentada desde cero, diseñar interacciones, integrar modelos y comprender cómo estas tecnologías pueden complementar los sistemas de fenotipado y la interpretación visual de datos.
-    </span>
-    <span class="lang-en">
-      I have also started my own development project using HoloLens 2, where I am creating an interactive 3D model in Unity and C#. This work is allowing me to explore augmented reality from the ground up, design interactions, integrate models and understand how these technologies can complement phenotyping systems and the visual interpretation of data.
-    </span>
-  </p>
+<p>
+  <span class="lang-es">
+    Además, he avanzado en mi propio proyecto de desarrollo con HoloLens 2, donde estoy creando un modelo 3D interactivo utilizando Unity con C#. Este trabajo me está permitiendo aprender a diseñar interacciones en realidad aumentada, estructurar interfaces espaciales y adaptar modelos 3D a un entorno inmersivo. Paralelamente, utilizo Python y modelos de inteligencia artificial ya entrenados para realizar procesos de segmentación y análisis previos, que después preparo para su visualización o integración dentro de la experiencia en HoloLens2.
+  </span>
+
+  <span class="lang-en">
+    I have also progressed in my own development project with HoloLens 2, where I am creating an interactive 3D model using Unity with C#. This work is helping me learn how to design augmented reality interactions, structure spatial interfaces and adapt 3D models to an immersive environment. In parallel, I use Python and pre-trained AI models to perform segmentation and preliminary analysis, which I then prepare for visualization or integration within the HoloLens2 experience.
+  </span>
+</p>
+
 
   <!-- Párrafo 5: póster + memoria -->
   <p>
