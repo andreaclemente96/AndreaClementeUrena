@@ -858,7 +858,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
 
 
 <span class="lang-es">
-  Desarrollo aplicaciones inmersivas para agricultura de precisión en colaboración con el <strong>Centro de Automática y Robótica (CAR-CSIC-UPM)</strong>, utilizando <strong>Microsoft HoloLens 2</strong>, <strong>Unity</strong> y <strong>C#</strong>.
+  Desarrollo aplicaciones inmersivas para agricultura de precisión en colaboración con el <strong>Centro de Automática y Robótica (CAR-CSIC-UPM)</strong>, utilizando <strong>Microsoft HoloLens 2</strong>, <strong>Unity</strong>, <strong>Python</strong> y <strong>C#</strong>.
 
   Actualmente trabajo en un <strong>modelo 3D interactivo de planta</strong> generado a partir de <strong>nubes de puntos reales</strong>. En las HoloLens 2, el usuario puede seleccionar zonas específicas de la planta mediante gestos manuales: al seleccionar un órgano (hojas, tallo), el resto desaparece y aparece un <strong>cartel informativo</strong> identificando ese elemento. Esto permite explorar la estructura vegetal de forma intuitiva y didáctica.
 
@@ -868,7 +868,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
 
 
 <span class="lang-en">
-  I develop immersive applications for precision agriculture in collaboration with the <strong>Center for Automation and Robotics (CAR-CSIC-UPM)</strong>, using <strong>Microsoft HoloLens 2</strong>, <strong>Unity</strong>, and <strong>C#</strong>.
+  I develop immersive applications for precision agriculture in collaboration with the <strong>Center for Automation and Robotics (CAR-CSIC-UPM)</strong>, using <strong>Microsoft HoloLens 2</strong>, <strong>Unity</strong>, <strong>Python</strong> and <strong>C#</strong>.
 
   I am currently working on an <strong>interactive 3D plant model</strong> generated from <strong>real point clouds</strong>. In HoloLens 2, users can select specific plant regions using hand gestures: when an organ (leaves, stems…) is selected, the remaining parts disappear and an <strong>informative label</strong> appears. This enables intuitive and educational exploration of plant structure.
 
@@ -879,34 +879,44 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
 
 <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.2rem; flex-wrap: wrap; align-items:flex-start;">
 
+  <!-- Contenedor de imágenes -->
+<div style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 1.5rem; flex-wrap: wrap;">
+
   <!-- Nube de puntos -->
-  <figure style="max-width: 32%; margin: 0;">
-    <img src="nube.png" alt="Nube de puntos de la planta segmentada" style="width: 100%; border-radius: 5px;">
-    <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.3rem; color: #555;">
+  <figure style="width: 48%; margin: 0;">
+    <img src="nube.png"
+         alt="Nube de puntos de la planta segmentada"
+         style="width: 100%; height: 320px; object-fit: cover; border-radius: 6px;">
+    <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.4rem; color: #555;">
       <span class="lang-es">Nube de puntos original</span>
       <span class="lang-en">Original point cloud</span>
     </figcaption>
   </figure>
 
-  <!-- Planta en el Simulador HoloLens -->
-  <figure style="max-width: 32%; margin: 0;">
-    <img src="holo.png" alt="Planta en el simulador de Unity para Hololens2" style="width: 100%; border-radius: 5px;">
-    <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.3rem; color: #555;">
+  <!-- Planta en HoloLens (Unity Simulator) -->
+  <figure style="width: 48%; margin: 0;">
+    <img src="holo.png"
+         alt="Planta en el simulador de Unity para HoloLens 2"
+         style="width: 100%; height: 320px; object-fit: cover; border-radius: 6px;">
+    <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.4rem; color: #555;">
       <span class="lang-es">Modelo 3D dentro del simulador de Unity</span>
       <span class="lang-en">3D model inside Unity simulator</span>
     </figcaption>
   </figure>
 
-  <!-- Vídeo dentro del grid -->
-<figure style="max-width: 32%; margin: 0;">
-  <video src="planta1.mp4" controls style="width: 100%; border-radius: 5px;"></video>
-  <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.3rem; color: #555;">
+</div>
+
+<!-- Vídeo debajo, más grande -->
+<div style="text-align: center; margin-top: 2rem;">
+  <video src="planta1.mp4"
+         controls
+         style="width: 90%; max-width: 1200px; border-radius: 8px;">
+  </video>
+  <p style="text-align: center; font-size: 0.95rem; color: #555; margin-top: 0.4rem;">
     <span class="lang-es">Interacción en tiempo real</span>
     <span class="lang-en">Real-time interaction</span>
-  </figcaption>
-</figure>
-
- </div>
+  </p>
+</div>
 </div>
 
 
