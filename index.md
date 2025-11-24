@@ -917,7 +917,9 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <span class="lang-en">Real-time interaction</span>
   </p>
 </div>  <!-- cierre del div de imágenes -->
-</div>  <!-- cierre del div de descripción del proyecto -->
+</div>  <!-- cierre del div de descripción del proyecto (EL QUE FALTA) -->
+</div>  <!-- cierre del project-container (también te falta este) -->
+</section>  <!-- cierre de la sección del proyecto 5 -->
 
 
 
