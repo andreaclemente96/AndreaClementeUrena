@@ -1284,9 +1284,6 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
          </div>
         </div>
        </p>
-      </div>
-     </div>
-    </section>
      <!-- Proyecto 2 -->
      <div class="project-container">
       <div class="project-title">
@@ -1467,7 +1464,9 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
        </p>
       </div>
      </div>
-     
+    </div>
+   </div>
+ </section>
     <!-- Sección: Formación académica -->
     <section class="direct-section" id="formacion-section">
      <h2 class="section-title">
