@@ -905,13 +905,6 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
 
 </div>
 
-
-<div style="text-align: center; margin-top: 2rem;">
-  <video src="planta1.mp4"
-         controls
-         style="width: 90%; max-width: 1200px; border-radius: 8px;">
-  </video>
-
 <div style="text-align: center; margin-top: 2rem;">
   <video src="planta1.mp4"
          controls
@@ -925,11 +918,6 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
 
 </div> <!-- /.project-description -->
 </div> <!-- /.project-container -->
-
-</section>
-
-
-
 
 <!-- Sección: Formación académica -->
 <section id="formacion-section" class="direct-section">
