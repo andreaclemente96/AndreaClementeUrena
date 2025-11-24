@@ -129,8 +129,7 @@
 
     .nav-flex a:hover {
       background-color: #ddd;
-    }
-
+  bienvenida
     /* Botón de idioma */
     #language-toggle {
       position: fixed;
@@ -912,14 +911,22 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
          controls
          style="width: 90%; max-width: 1200px; border-radius: 8px;">
   </video>
+
+<div style="text-align: center; margin-top: 2rem;">
+  <video src="planta1.mp4"
+         controls
+         style="width: 90%; max-width: 1200px; border-radius: 8px;">
+  </video>
   <p style="text-align: center; font-size: 0.95rem; color: #555; margin-top: 0.4rem;">
     <span class="lang-es">Interacción en tiempo real PRUE</span>
     <span class="lang-en">Real-time interaction</span>
   </p>
-</div>  <!-- cierre del div de imágenes -->
-</div>  <!-- cierre del div de descripción del proyecto (EL QUE FALTA) -->
-</div>  <!-- cierre del project-container (también te falta este) -->
-</section>  <!-- cierre de la sección del proyecto 5 -->
+</div>
+
+</div> <!-- /.project-description -->
+</div> <!-- /.project-container -->
+
+</section>
 
 
 
