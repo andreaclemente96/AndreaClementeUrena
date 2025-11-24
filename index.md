@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
  <head>
   <meta charset="utf-8"/>
@@ -660,7 +659,6 @@
           Example image for bioplastics Synthesis
          </span>
         </figcaption>
-       </img>
       </figure>
       <figure style="max-width: 300px; margin: 0; text-align: center;">
        <img alt="Finde Científico" src="lab-glassware-with-colored-liquids-assortment.jpg" style="width: 100%; height: auto; border-radius: 5px;"/>
@@ -1320,7 +1318,6 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
       </div>
       <div class="project-image">
        <img alt="Tecnologías inmersivas" src="nino.png">
-       </img>
       </div>
       <div class="project-description">
        <p>
