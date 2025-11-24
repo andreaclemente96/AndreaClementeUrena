@@ -1242,6 +1242,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
          </strong>
          .
         </span>
+        </p>
         <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.2rem; flex-wrap: wrap; align-items:flex-start;">
          <!-- Contenedor de imágenes -->
          <div style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 1.5rem; flex-wrap: wrap;">
@@ -1281,8 +1282,8 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
             Real-time interaction
            </span>
           </p>
-         </div>
         </div>
+       </div>
      <!-- Proyecto 2 -->
      <div class="project-container">
       <div class="project-title">
