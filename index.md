@@ -86,7 +86,7 @@
   <meta property="og:description" content="PhD researcher en inteligencia artificial, fenotipado vegetal, robótica y análisis de datos.">
   <meta property="og:url" content="https://andreaclemente96.github.io/AndreaClementeUrena/">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://andreaclemente96.github.io/AndreaClementeUrena/nino.png">
+  <meta property="og:image" content="https://andreaclemente96.github.io/AndreaClementeUrena/robot.png">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
@@ -382,8 +382,29 @@
   display: block;
 }
 
+header { position: relative; }
 
-    .centrado {
+.profile-photo{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 72px;       
+  height: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  border: 2px solid rgba(255,255,255,0.85);
+  background: #fff;
+}
+
+/* imagen centrada y recortada a círculo */
+.profile-photo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.centrado {
       text-align: center;
     }
      </style>
@@ -400,6 +421,9 @@
       <span class="lang-en">
        👩‍🔬 Andrea Clemente-Ureña
       </span>
+      <div class="profile-photo">
+  <img src="yo.jpg" alt="Andrea Clemente Ureña" />
+</div>
      </h1>
      <p>
       <span class="lang-es">
