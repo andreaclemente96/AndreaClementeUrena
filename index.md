@@ -918,7 +918,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
   </p>
 </div>  <!-- cierre del div de imágenes -->
 </div>  <!-- cierre del div de descripción del proyecto -->
-</section>  <!-- cierre de la sección del proyecto 5 -->
+
 
 
 
