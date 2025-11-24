@@ -287,7 +287,6 @@
       text-align: center;
     }
      </style>
-    </meta>
    </head>
    <body>
     <button id="language-toggle" onclick="toggleLanguage()">
