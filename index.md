@@ -1467,8 +1467,6 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
        </p>
       </div>
      </div>
-    </div>
-   </div>
  </section>
     <!-- Sección: Formación académica -->
     <section class="direct-section" id="formacion-section">
@@ -1980,6 +1978,22 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
         (40 hours, 2025) – CSIC
        </span>
       </li>
+      <li>
+  <span class="lang-es">
+    🤖
+    <strong>
+      Experto en Inteligencia Artificial y Big Data
+    </strong>
+    (150 horas, 2025) – Bejob  
+  </span>
+  <span class="lang-en">
+    🤖
+    <strong>
+      Expert in Artificial Intelligence and Big Data
+    </strong>
+    (150 hours, 2025) – Bejob  
+  </span>
+</li>
       <li>
        <span class="lang-es">
         💻
