@@ -368,6 +368,21 @@
   vertical-align: middle;
   font-size: 1.1rem;
 }
+.photo-centered {
+  margin: 1rem auto 1.5rem;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.photo-centered img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .nav-table td:hover {
   background-color: var(--accent-color);
@@ -382,28 +397,7 @@
   display: block;
 }
 
-header { position: relative; }
 
-.profile-photo{
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  width: 72px;       
-  height: 72px;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-  border: 2px solid rgba(255,255,255,0.85);
-  background: #fff;
-}
-
-/* imagen centrada y recortada a círculo */
-.profile-photo img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
 .centrado {
       text-align: center;
     }
@@ -421,10 +415,11 @@ header { position: relative; }
       <span class="lang-en">
        👩‍🔬 Andrea Clemente-Ureña
       </span>
-      <div class="profile-photo">
-  <img src="yo.jpg" alt="Andrea Clemente Ureña" />
-</div>
      </h1>
+     <div class="photo-centered">
+     <img src="yo.jpg" alt="Andrea Clemente Ureña">
+    </div>
+
      <p>
       <span class="lang-es">
        Aquí comparto mi trayectoria en
