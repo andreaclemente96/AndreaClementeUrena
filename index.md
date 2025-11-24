@@ -1,10 +1,110 @@
 <html lang="es">
  <head>
-  <meta charset="utf-8"/>
-  <title>
-   Portfolio
-  </title>
- </head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Andrea Clemente Ureña – Portfolio</title>
+
+  <!-- SEO básico -->
+  <meta name="description" content="Portfolio de Andrea Clemente Ureña. Investigadora predoctoral (PhD) en inteligencia artificial, fenotipado vegetal, bioinformática, análisis de datos, visión por computador y robótica. Experiencia en INIA, CSIC, CRF, CAR-CSIC-UPM y proyectos de investigación.">
+
+  <meta name="keywords" content="
+    Andrea Clemente, 
+    Andrea Clemente Ureña, 
+    Andrea Clemente Urena, 
+    Andrea C. Ureña,
+    portfolio,
+
+    inteligencia artificial, 
+    artificial intelligence, 
+    IA, AI,
+    machine learning, 
+    deep learning, 
+    visión por computador,
+    computer vision,
+    fenotipado,
+    fenotipado de alto rendimiento,
+    high-throughput phenotyping,
+    plant phenotyping,
+    análisis de datos,
+    data analysis,
+    bioinformática,
+    bioinformatics,
+    Python,
+    data science,
+    robotics,
+    robótica,
+
+    predoctoral,
+    investigadora predoctoral,
+    doctoranda,
+    doctoral researcher,
+    PhD student,
+    PhD researcher,
+
+    INIA,
+    Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria,
+    INIA-CSIC,
+    Centro Nacional Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria,
+    CSIC,
+    Consejo Superior de Investigaciones Científicas,
+
+    CRF,
+    Centro de Recursos Fitogenéticos,
+    CRF-INIA,
+    CRF-INIA-CSIC,
+
+    CAR,
+    CAR-CSIC-UPM,
+    Centro de Automática y Robótica,
+    Centro de Automática y Robótica CSIC-UPM,
+
+    UPM,
+    Universidad Politécnica de Madrid,
+
+    AIHub,
+    AIHub-CSIC,
+    IAHub,
+
+    HPC,
+    hyperspectral,
+    hiperespectral,
+    point clouds,
+    nubes de puntos,
+    HoloLens,
+    XR,
+    realidad aumentada,
+    augmented reality,
+    Unity,
+    MRTK
+  ">
+
+  <meta name="author" content="Andrea Clemente Ureña">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Andrea Clemente Ureña – Portfolio">
+  <meta property="og:description" content="PhD researcher en inteligencia artificial, fenotipado vegetal, robótica y análisis de datos.">
+  <meta property="og:url" content="https://andreaclemente96.github.io/AndreaClementeUrena/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://andreaclemente96.github.io/AndreaClementeUrena/nino.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Andrea Clemente Ureña – Portfolio">
+  <meta name="twitter:description" content="Investigadora predoctoral en IA, visión por computador y fenotipado vegetal.">
+  <meta name="twitter:image" content="https://andreaclemente96.github.io/AndreaClementeUrena/nino.png">
+
+  <!-- Estilos -->
+  <style>
+    :root {
+      --primary-color: #2e7d32;
+      --secondary-color: #388e3c;
+      --accent-color: #a5d6a7;
+      --background: #f0f4f3;
+    }
+  </style>
+</head>
+
  <body>
   <html lang="es">
    <head>
