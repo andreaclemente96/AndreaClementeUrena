@@ -916,11 +916,10 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <span class="lang-es">Interacción en tiempo real PRUE</span>
     <span class="lang-en">Real-time interaction</span>
   </p>
-</div> <!-- cierre del div del video -->
-</div> <!-- cierre del div de imágenes -->
-</div> <!-- cierre del div de descripción del proyecto -->
-</div> <!-- cierre del project-container-->
-</section> <!-- cierre de la sección del proyecto 5 -->
+</div>  <!-- cierre del div de imágenes -->
+</div>  <!-- cierre del div de descripción del proyecto -->
+</section>  <!-- cierre de la sección del proyecto 5 -->
+
 
 
 <!-- Sección: Formación académica -->
