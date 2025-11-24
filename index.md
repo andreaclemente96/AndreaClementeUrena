@@ -614,7 +614,7 @@
        .
       </span>
       <span class="lang-en">
-       My first experience with research took place during the first year of Bachillerato (upper secundary education) at
+       My first experience with research took place during the first year of Bachillerato (upper secondary education) at
        <strong>
         IES Alameda de Osuna
        </strong>
@@ -622,7 +622,7 @@
        <em>
         synthesis of bioplastics from cow’s milk
        </em>
-       in Biology and Experimental Science Techniques. That same year, I took part in the
+       in Biology and Experimental Science Techniques. That same year, I participated in
        <strong>
         Finde Científico
        </strong>
@@ -886,7 +886,7 @@
           <em>
            Vigna unguiculata
           </em>
-          plants. TIn these wavelengths, several parameters can be observed, especially those related to water content and internal tissue properties.
+          plants. In these wavelengths, several parameters can be observed, especially those related to water content and internal tissue properties.
          </p>
         </div>
         <!-- Reflectance curve -->
@@ -1125,6 +1125,168 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
        </script>
       </div>
      </div>
+     <!-- Proyecto 5 -->
+     <div class="project-container">
+      <div class="project-title">
+       <span class="lang-es">
+        Tecnologías inmersivas
+       </span>
+       <span class="lang-en">
+        Immersive technologies
+       </span>
+      </div>
+      <div class="project-image">
+       <img alt="Tecnologías inmersivas" src="nino.png">
+      </div>
+      <div class="project-description">
+       <p>
+        <span class="lang-es">
+         Desarrollo aplicaciones inmersivas para agricultura de precisión en colaboración con el
+         <strong>
+          Centro de Automática y Robótica (CAR-CSIC-UPM)
+         </strong>
+         , utilizando
+         <strong>
+          Microsoft HoloLens 2
+         </strong>
+         ,
+         <strong>
+          Unity
+         </strong>
+         ,
+         <strong>
+          Python
+         </strong>
+         y
+         <strong>
+          C#
+         </strong>
+         .
+
+  Actualmente trabajo en un
+         <strong>
+          modelo 3D interactivo de planta
+         </strong>
+         generado a partir de
+         <strong>
+          nubes de puntos reales
+         </strong>
+         . En las HoloLens 2, el usuario puede seleccionar zonas específicas de la planta mediante gestos manuales: al seleccionar un órgano (hojas, tallo), el resto desaparece y aparece un
+         <strong>
+          cartel informativo
+         </strong>
+         identificando ese elemento. Esto permite explorar la estructura vegetal de forma intuitiva y didáctica.
+
+  El sistema está implementado con
+         <strong>
+          MRTK
+         </strong>
+         y
+         <strong>
+          XR Interaction Toolkit
+         </strong>
+         , utilizando animaciones, lógica de visibilidad y gestión de interacciones. En fases futuras se integrará
+         <strong>
+          inteligencia artificial para la integración de la información hiperespectral en el objeto 3D
+         </strong>
+         .
+        </span>
+        <span class="lang-en">
+         I develop immersive applications for precision agriculture in collaboration with the
+         <strong>
+          Center for Automation and Robotics (CAR-CSIC-UPM)
+         </strong>
+         , using
+         <strong>
+          Microsoft HoloLens 2
+         </strong>
+         ,
+         <strong>
+          Unity
+         </strong>
+         ,
+         <strong>
+          Python
+         </strong>
+         and
+         <strong>
+          C#
+         </strong>
+         .
+
+  I am currently working on an
+         <strong>
+          interactive 3D plant model
+         </strong>
+         generated from
+         <strong>
+          real point clouds
+         </strong>
+         . In HoloLens 2, users can select specific plant regions using hand gestures: when an organ (leaves, stems…) is selected, the remaining parts disappear and an
+         <strong>
+          informative label
+         </strong>
+         appears. This enables intuitive and educational exploration of plant structure.
+
+  The system is built using
+         <strong>
+          MRTK
+         </strong>
+         and
+         <strong>
+          XR Interaction Toolkit
+         </strong>
+         , including animations, visibility control and interaction logic. In future phases,
+         <strong>
+          artificial intelligence will be integrated to incorporate hyperspectral information into the 3D model
+         </strong>
+         .
+        </span>
+        <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.2rem; flex-wrap: wrap; align-items:flex-start;">
+         <!-- Contenedor de imágenes -->
+         <div style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 1.5rem; flex-wrap: wrap;">
+          <!-- Nube de puntos -->
+          <figure style="width: 48%; margin: 0;">
+           <img alt="Nube de puntos de la planta segmentada" src="nube.png" style="width: 100%; height: 320px; object-fit: cover; border-radius: 6px;"/>
+           <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.4rem; color: #555;">
+            <span class="lang-es">
+             Nube de puntos original
+            </span>
+            <span class="lang-en">
+             Original point cloud
+            </span>
+           </figcaption>
+          </figure>
+          <!-- Planta en HoloLens (Unity Simulator) -->
+          <figure style="width: 48%; margin: 0;">
+           <img alt="Planta en el simulador de Unity para HoloLens 2" src="holo.png" style="width: 100%; height: 320px; object-fit: cover; border-radius: 6px;"/>
+           <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.4rem; color: #555;">
+            <span class="lang-es">
+             Modelo 3D dentro del simulador de Unity
+            </span>
+            <span class="lang-en">
+             3D model inside Unity simulator
+            </span>
+           </figcaption>
+          </figure>
+         </div>
+         <div style="text-align: center; margin-top: 2rem;">
+          <video controls="" src="planta1.mp4" style="width: 90%; max-width: 1200px; border-radius: 8px;">
+          </video>
+          <p style="text-align: center; font-size: 0.95rem; color: #555; margin-top: 0.4rem;">
+           <span class="lang-es">
+            Interacción en tiempo real
+           </span>
+           <span class="lang-en">
+            Real-time interaction
+           </span>
+          </p>
+         </div>
+        </div>
+       </p>
+      </div>
+     </div>
+    </section>
      <!-- Proyecto 2 -->
      <div class="project-container">
       <div class="project-title">
@@ -1245,7 +1407,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
          . The work focused on gene organization, introns, UTR regions, and interspecies conservation, employing sequence analysis, functional annotation, and tools such as MEME for conserved motif discovery.
         </p>
         <p>
-         This study was conducted under the supervision of Dr. José María Requena at CBMSO (Centro de Biología Molecular Severo Ochoa, CSIC-UAM), contributing to the functional and evolutionary understanding of ribosomal machinery in kinetoplastid parasites, which hold significant biomedical relevance.
+         This study was conducted under the supervision of Dr. José María Requena at CBMSO (Centro de Biología Molecular Severo Ochoa, CSIC-UAM), contributing to the functional and evolutionary understanding of ribosomal machinery in kinetoplastid parasites, which are of significant biomedical relevance.
         </p>
         <p>
          <strong>
@@ -1305,168 +1467,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
        </p>
       </div>
      </div>
-     <!-- Proyecto 5 -->
-     <div class="project-container">
-      <div class="project-title">
-       <span class="lang-es">
-        Tecnologías inmersivas
-       </span>
-       <span class="lang-en">
-        Immersive technologies
-       </span>
-      </div>
-      <div class="project-image">
-       <img alt="Tecnologías inmersivas" src="nino.png">
-      </div>
-      <div class="project-description">
-       <p>
-        <span class="lang-es">
-         Desarrollo aplicaciones inmersivas para agricultura de precisión en colaboración con el
-         <strong>
-          Centro de Automática y Robótica (CAR-CSIC-UPM)
-         </strong>
-         , utilizando
-         <strong>
-          Microsoft HoloLens 2
-         </strong>
-         ,
-         <strong>
-          Unity
-         </strong>
-         ,
-         <strong>
-          Python
-         </strong>
-         y
-         <strong>
-          C#
-         </strong>
-         .
-
-  Actualmente trabajo en un
-         <strong>
-          modelo 3D interactivo de planta
-         </strong>
-         generado a partir de
-         <strong>
-          nubes de puntos reales
-         </strong>
-         . En las HoloLens 2, el usuario puede seleccionar zonas específicas de la planta mediante gestos manuales: al seleccionar un órgano (hojas, tallo), el resto desaparece y aparece un
-         <strong>
-          cartel informativo
-         </strong>
-         identificando ese elemento. Esto permite explorar la estructura vegetal de forma intuitiva y didáctica.
-
-  El sistema está implementado con
-         <strong>
-          MRTK
-         </strong>
-         y
-         <strong>
-          XR Interaction Toolkit
-         </strong>
-         , utilizando animaciones, lógica de visibilidad y gestión de interacciones. En fases futuras se integrará
-         <strong>
-          inteligencia artificial para la integración de la información hiperespectral en el objeto 3D
-         </strong>
-         .
-        </span>
-        <span class="lang-en">
-         I develop immersive applications for precision agriculture in collaboration with the
-         <strong>
-          Center for Automation and Robotics (CAR-CSIC-UPM)
-         </strong>
-         , using
-         <strong>
-          Microsoft HoloLens 2
-         </strong>
-         ,
-         <strong>
-          Unity
-         </strong>
-         ,
-         <strong>
-          Python
-         </strong>
-         and
-         <strong>
-          C#
-         </strong>
-         .
-
-  I am currently working on an
-         <strong>
-          interactive 3D plant model
-         </strong>
-         generated from
-         <strong>
-          real point clouds
-         </strong>
-         . In HoloLens 2, users can select specific plant regions using hand gestures: when an organ (leaves, stems…) is selected, the remaining parts disappear and an
-         <strong>
-          informative label
-         </strong>
-         appears. This enables intuitive and educational exploration of plant structure.
-
-  The system is built using
-         <strong>
-          MRTK
-         </strong>
-         and
-         <strong>
-          XR Interaction Toolkit
-         </strong>
-         , including animations, visibility control and interaction logic. In future phases,
-         <strong>
-          artificial intelligence will be integrated for incorporating hyperspectral information into the 3D object
-         </strong>
-         .
-        </span>
-        <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.2rem; flex-wrap: wrap; align-items:flex-start;">
-         <!-- Contenedor de imágenes -->
-         <div style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 1.5rem; flex-wrap: wrap;">
-          <!-- Nube de puntos -->
-          <figure style="width: 48%; margin: 0;">
-           <img alt="Nube de puntos de la planta segmentada" src="nube.png" style="width: 100%; height: 320px; object-fit: cover; border-radius: 6px;"/>
-           <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.4rem; color: #555;">
-            <span class="lang-es">
-             Nube de puntos original
-            </span>
-            <span class="lang-en">
-             Original point cloud
-            </span>
-           </figcaption>
-          </figure>
-          <!-- Planta en HoloLens (Unity Simulator) -->
-          <figure style="width: 48%; margin: 0;">
-           <img alt="Planta en el simulador de Unity para HoloLens 2" src="holo.png" style="width: 100%; height: 320px; object-fit: cover; border-radius: 6px;"/>
-           <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.4rem; color: #555;">
-            <span class="lang-es">
-             Modelo 3D dentro del simulador de Unity
-            </span>
-            <span class="lang-en">
-             3D model inside Unity simulator
-            </span>
-           </figcaption>
-          </figure>
-         </div>
-         <div style="text-align: center; margin-top: 2rem;">
-          <video controls="" src="planta1.mp4" style="width: 90%; max-width: 1200px; border-radius: 8px;">
-          </video>
-          <p style="text-align: center; font-size: 0.95rem; color: #555; margin-top: 0.4rem;">
-           <span class="lang-es">
-            Interacción en tiempo real PRUE
-           </span>
-           <span class="lang-en">
-            Real-time interaction
-           </span>
-          </p>
-         </div>
-        </div>
-       </p>
-      </div>
-     </div>
-    </section>
+     
     <!-- Sección: Formación académica -->
     <section class="direct-section" id="formacion-section">
      <h2 class="section-title">
