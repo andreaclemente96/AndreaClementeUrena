@@ -1283,7 +1283,6 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
           </p>
          </div>
         </div>
-       </p>
      <!-- Proyecto 2 -->
      <div class="project-container">
       <div class="project-title">
