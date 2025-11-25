@@ -479,6 +479,46 @@
     padding: 0.5rem 0;
   }
 }
+@media (max-width: 900px) {
+
+  /* 1. Secciones blancas  */
+  section {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* 2. Contenedores que siguen usando flex horizontal */
+  .project-container > div {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  /* 3. Figuras dentro de Tecnologías Inmersivas */
+  .project-container figure {
+    width: 100% !important;
+  }
+
+
+  .project-image img,
+  .project-container img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+  }
+
+  /* 5. El video pequeño */
+  .project-container video {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  
+  .project-container {
+    padding: 0.5rem 0 !important;
+  }
+}
+
 </style>
     
    </head>
