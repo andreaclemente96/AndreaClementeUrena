@@ -2524,7 +2524,7 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
     <!-- Formulario de contacto -->
     <form
   id="contact-form"
-  action="https://formsubmit.co/TU_EMAIL"
+  action="https://formsubmit.co/andeande.ac@gmail.com"
   method="POST"
 >
   <h2>
