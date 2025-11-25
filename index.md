@@ -2522,44 +2522,45 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
      </ul>
     </section>
     <!-- Formulario de contacto -->
-    <form id="contact-form">
-     <h2>
-      <span class="lang-es">
-       Formulario de Contacto
-      </span>
-      <span class="lang-en">
-       Contact Form
-      </span>
-     </h2>
-     <label for="name">
-      <span class="lang-es">
-       Nombre
-      </span>
-      <span class="lang-en">
-       Name
-      </span>
-     </label>
-     <input id="name" name="name" required="" type="text"/>
-     <label for="email">
-      <span class="lang-es">
-       Correo electrónico
-      </span>
-      <span class="lang-en">
-       Email
-      </span>
-     </label>
-     <input id="email" name="email" required="" type="email"/>
-     <label for="message">
-      <span class="lang-es">
-       Mensaje
-      </span>
-      <span class="lang-en">
-       Message
-      </span>
-     </label>
-     <textarea id="message" name="message" required="" rows="6"></textarea>
-     <input type="submit" value="Enviar"/>
-    </form>
+    <form
+  id="contact-form"
+  action="https://formsubmit.co/TU_EMAIL"
+  method="POST"
+>
+  <h2>
+    <span class="lang-es">Formulario de Contacto</span>
+    <span class="lang-en">Contact Form</span>
+  </h2>
+
+  <label for="name">
+    <span class="lang-es">Nombre</span>
+    <span class="lang-en">Name</span>
+  </label>
+  <input id="name" name="name" required type="text"/>
+
+  <label for="email">
+    <span class="lang-es">Correo electrónico</span>
+    <span class="lang-en">Email</span>
+  </label>
+  <input id="email" name="email" required type="email"/>
+
+  <label for="message">
+    <span class="lang-es">Mensaje</span>
+    <span class="lang-en">Message</span>
+  </label>
+  <textarea id="message" name="message" required rows="6"></textarea>
+
+  <!-- Opciones invisibles -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_subject" value="Nuevo mensaje desde tu portfolio">
+  <input type="hidden" name="_autoresponse" value="Gracias por tu mensaje. Te responderé pronto.">
+
+  <!-- Si quieres redirigir a página personalizada -->
+  <!-- <input type="hidden" name="_next" value="https://andreaclemente96.github.io/AndreaClementeUrena/gracias.html"> -->
+
+  <input type="submit" value="Enviar"/>
+</form>
     <footer>
      <p>
       <span class="lang-es">
