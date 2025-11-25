@@ -370,18 +370,20 @@
 }
 .photo-centered {
   margin: 1rem auto 1.5rem;
-  width: 130px;
-  height: 130px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid white;
   box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  
 }
 
 .photo-centered img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 50% 35%;
 }
 
 .nav-table td:hover {
