@@ -403,6 +403,91 @@
 .centrado {
       text-align: center;
     }
+  <!-- Estilos -->
+  <style>
+    :root {
+      --primary-color: #2e7d32;
+      --secondary-color: #388e3c;
+      --accent-color: #a5d6a7;
+      --background: #f0f4f3;
+    }
+   /* movil */
+@media (max-width: 900px) {
+  img {
+    max-width: 100%;
+    height: auto !important;
+    margin: 0.8rem auto !important;
+  }
+
+  
+  .photo-centered img {
+    max-width: 100%;
+    height: auto !important;
+    margin: 0 !important;
+  }
+
+  .photo-centered {
+    width: 140px !important;
+    margin-top: 1rem;
+  }
+
+  
+  figure {
+    width: 100% !important;
+    margin: 1rem 0 !important;
+  }
+
+  
+  div[style*="flex"] {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  
+  .project-container img {
+    height: auto !important;
+  }
+
+  
+  video {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  
+  .project-description p {
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+
+  header h1 {
+    font-size: 1.7rem;
+  }
+
+  header p {
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+}
+
+
+@media (max-height: 500px) {
+
+  img {
+    max-height: 55vh;
+    object-fit: contain !important;
+  }
+
+  .photo-centered {
+    width: 110px !important;
+  }
+
+  header {
+    padding: 0.5rem 0;
+  }
+}
+
+  </style>
      </style>
    </head>
    <body>
