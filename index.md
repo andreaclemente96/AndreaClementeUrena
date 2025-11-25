@@ -2587,55 +2587,64 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
       </span>
      </div>
     </footer>
-    <script>
-    // Detectar el idioma del navegador 
-    const browserLanguage = navigator.language || navigator.userLanguage;
-    const html = document.documentElement;
-    if (browserLanguage.startsWith('es')) {
-      html.lang = 'es';
-      document.getElementById("language-toggle").innerText = "English";
-    } else {
-      html.lang = 'en';
-      document.getElementById("language-toggle").innerText = "Español";
-    }
+<script>
+// Ejecutar todo después de cargar el DOM
+document.addEventListener('DOMContentLoaded', function() {
 
-    // Mostrar los elementos según el idioma establecido
-    const esElements = document.querySelectorAll('.lang-es');
-    const enElements = document.querySelectorAll('.lang-en');
-    if (html.lang === 'es') {
-      esElements.forEach(el => el.style.display = 'inline');
-      enElements.forEach(el => el.style.display = 'none');
-    } else {
-      esElements.forEach(el => el.style.display = 'none');
-      enElements.forEach(el => el.style.display = 'inline');
-    }
-  });
+  // Detectar idioma
+  const browserLanguage = navigator.language || navigator.userLanguage;
+  const html = document.documentElement;
 
-  // Función para cambiar de idioma (al hacer clic en el botón)
-  function toggleLanguage() {
-    const html = document.documentElement;
-    const isEnglish = html.lang === 'en';
-    html.lang = isEnglish ? 'es' : 'en';
-    document.getElementById("language-toggle").innerText = isEnglish ? "English" : "Español";
-    
-    const esElements = document.querySelectorAll('.lang-es');
-    const enElements = document.querySelectorAll('.lang-en');
-    if (html.lang === 'es') {
-      esElements.forEach(el => el.style.display = 'inline');
-      enElements.forEach(el => el.style.display = 'none');
-    } else {
-      esElements.forEach(el => el.style.display = 'none');
-      enElements.forEach(el => el.style.display = 'inline');
-    }
+  if (browserLanguage.startsWith('es')) {
+    html.lang = 'es';
+    document.getElementById("language-toggle").innerText = "English";
+  } else {
+    html.lang = 'en';
+    document.getElementById("language-toggle").innerText = "Español";
   }
 
+  // Mostrar elementos según idioma
+  const esElements = document.querySelectorAll('.lang-es');
+  const enElements = document.querySelectorAll('.lang-en');
+
+  if (html.lang === 'es') {
+    esElements.forEach(el => el.style.display = 'inline');
+    enElements.forEach(el => el.style.display = 'none');
+  } else {
+    esElements.forEach(el => el.style.display = 'none');
+    enElements.forEach(el => el.style.display = 'inline');
+  }
+
+  // Activar descripción al hacer clic en imágenes de proyectos
   document.querySelectorAll('.project-image').forEach(project => {
     project.addEventListener('click', () => {
       const description = project.closest('.project-container').querySelector('.project-description');
       description.classList.toggle('active');
     });
   });
-    </script>
+
+}); 
+
+// Botón de idioma
+function toggleLanguage() {
+  const html = document.documentElement;
+  const isEnglish = html.lang === 'en';
+  html.lang = isEnglish ? 'es' : 'en';
+  document.getElementById("language-toggle").innerText = isEnglish ? "English" : "Español";
+
+  const esElements = document.querySelectorAll('.lang-es');
+  const enElements = document.querySelectorAll('.lang-en');
+
+  if (html.lang === 'es') {
+    esElements.forEach(el => el.style.display = 'inline');
+    enElements.forEach(el => el.style.display = 'none');
+  } else {
+    esElements.forEach(el => el.style.display = 'none');
+    enElements.forEach(el => el.style.display = 'inline');
+  }
+}
+</script>
+
    </body>
   </html>
  </body>
