@@ -519,43 +519,32 @@
   }
 }
 /* =======================================
-   FIX COMPLETO PARA EVITAR SECCIONES ESTRECHAS
+   FIX DEFINITIVO - ANCHOS ESTRECHOS EN MÓVIL
    ======================================= */
 @media (max-width: 900px) {
 
-  /* Quitar padding excesivo */
-  .direct-section {
-    padding: 1rem !important;
-  }
-
-  /* Hacer que las cajas ocupen casi todo el ancho */
+  /* Corrige los contenedores que limitan el ancho */
   .direct-section,
   .nav-table,
   .project-container,
-  .project-image {
+  .project-image,
+  section,
+  div[style*="max-width"],
+  div[style*="width: 900px"] {
     width: 100% !important;
     max-width: 100% !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
 
-  /* Todo lo que esté dentro quepa bien */
-  .project-image img {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  /* Videos a ancho completo */
-  video {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  /* Tablas sin margen lateral ni tamaño reducido */
-  table {
-    width: 100% !important;
+  /* Suaviza padding para que no coma espacio */
+  section,
+  .direct-section {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
 }
+
 
 </style>
     
