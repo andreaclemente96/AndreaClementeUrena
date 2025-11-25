@@ -518,7 +518,38 @@
     padding: 0.5rem 0 !important;
   }
 }
+/* =======================================
+   TARJETAS BLANCAS MÁS ANCHAS EN MÓVIL
+   ======================================= */
+@media (max-width: 900px) {
 
+  /* Hace que las tarjetas ocupen bien el ancho */
+  section,
+  .project-container,
+  .content-block {   /* por si usas otro contenedor similar */
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 1rem 1.2rem !important; /* reduce padding lateral */
+  }
+
+  /* Ajusta el interior de las tarjetas */
+  .project-container {
+    border-radius: 12px !important; /* menos caja, más fluido */
+  }
+
+  /* Títulos dentro de tarjetas */
+  .project-container h3,
+  .project-container h2 {
+    margin-top: 0.3rem !important;
+  }
+
+  /* Listas que se ven muy pegadas */
+  .project-container li {
+    line-height: 1.4 !important;
+  }
+}
 </style>
     
    </head>
