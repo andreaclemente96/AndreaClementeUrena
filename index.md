@@ -95,14 +95,14 @@
   <meta name="twitter:image" content="https://andreaclemente96.github.io/AndreaClementeUrena/nino.png">
 
   <!-- Estilos -->
-  <style>
+<style>
     :root {
       --primary-color: #2e7d32;
       --secondary-color: #388e3c;
       --accent-color: #a5d6a7;
       --background: #f0f4f3;
-    }
-  </style>
+    } 
+</style>
 </head>
 
  <body>
@@ -343,7 +343,7 @@
       to { opacity: 1; }
     }
 
-    /* Fix para toggle de idioma */
+   
     .lang-en { display: none !important; }
     [lang="en"] .lang-en { display: inline !important; }
     [lang="en"] .lang-es { display: none !important; }
@@ -404,14 +404,7 @@
       text-align: center;
     }
   <!-- Estilos -->
-  <style>
-    :root {
-      --primary-color: #2e7d32;
-      --secondary-color: #388e3c;
-      --accent-color: #a5d6a7;
-      --background: #f0f4f3;
-    }
-   /* movil */
+/* movil */
 @media (max-width: 900px) {
   img {
     max-width: 100%;
@@ -486,9 +479,8 @@
     padding: 0.5rem 0;
   }
 }
-
-  </style>
-     </style>
+</style>
+    
    </head>
    <body>
     <button id="language-toggle" onclick="toggleLanguage()">
