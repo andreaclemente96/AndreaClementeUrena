@@ -519,37 +519,44 @@
   }
 }
 /* =======================================
-   TARJETAS BLANCAS MÁS ANCHAS EN MÓVIL
+   FIX COMPLETO PARA EVITAR SECCIONES ESTRECHAS
    ======================================= */
 @media (max-width: 900px) {
 
-  /* Hace que las tarjetas ocupen bien el ancho */
-  section,
+  /* Quitar padding excesivo */
+  .direct-section {
+    padding: 1rem !important;
+  }
+
+  /* Hacer que las cajas ocupen casi todo el ancho */
+  .direct-section,
+  .nav-table,
   .project-container,
-  .content-block {   /* por si usas otro contenedor similar */
+  .project-image {
     width: 100% !important;
     max-width: 100% !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    padding: 1rem 1.2rem !important; /* reduce padding lateral */
   }
 
-  /* Ajusta el interior de las tarjetas */
-  .project-container {
-    border-radius: 12px !important; /* menos caja, más fluido */
+  /* Todo lo que esté dentro quepa bien */
+  .project-image img {
+    width: 100% !important;
+    height: auto !important;
   }
 
-  /* Títulos dentro de tarjetas */
-  .project-container h3,
-  .project-container h2 {
-    margin-top: 0.3rem !important;
+  /* Videos a ancho completo */
+  video {
+    width: 100% !important;
+    height: auto !important;
   }
 
-  /* Listas que se ven muy pegadas */
-  .project-container li {
-    line-height: 1.4 !important;
+  /* Tablas sin margen lateral ni tamaño reducido */
+  table {
+    width: 100% !important;
   }
 }
+
 </style>
     
    </head>
