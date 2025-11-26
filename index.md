@@ -2089,32 +2089,34 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
         (30 hours, 2025) – UPM
        </span>
       </li>
-      <li>
-       <span class="lang-es">
-        🤖
-        <strong>
-         Inteligencia Artificial y Software Development →
-         <a href="https://github.com/andreaclemente96/Courses/blob/main/classification_lab1.ipynb" target="_blank">
-          Laboratorios
-         </a>
-        </strong>
-        (13,5 horas, 2025) – IBM y UPM
-       </span>
-       <span class="lang-en">
-        🤖
-        <strong>
-         Artificial Intelligence and Software Development →
-         <a href="https://github.com/andreaclemente96/Courses/blob/main/classification_lab1.ipynb" target="_blank">
-          Labs
-         </a>
-        </strong>
-        (13.5 hours, 2025) – IBM &amp; UPM
-       </span>
-       <div style="margin-top: 8px; display: flex; gap: 8px; align-items: center;">
-        <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/IA.png" style="width:150px; border-radius:8px;"/>
-        <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/AI.png" style="width:150px; border-radius:8px;"/>
-       </div>
-      </li>
+     <li>
+  <span class="lang-es">
+    🤖
+    <strong>
+      Inteligencia Artificial y Software Development →
+      <a href="https://github.com/andreaclemente96/Courses/blob/main/classification_lab1.ipynb" target="_blank">
+        Laboratorios
+      </a>
+    </strong>
+    (5,5 horas, 2025) – IBM y UPM
+  </span>
+  <span class="lang-en">
+    🤖
+    <strong>
+      Artificial Intelligence and Software Development →
+      <a href="https://github.com/andreaclemente96/Courses/blob/main/classification_lab1.ipynb" target="_blank">
+        Labs
+      </a>
+    </strong>
+    (5.5 hours, 2025) – IBM & UPM
+  </span>
+
+  <div style="margin-top: 8px; display: flex; gap: 8px; align-items: center;">
+    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/IA.png" style="width:150px; border-radius:8px;"/>
+    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/AI.png" style="width:150px; border-radius:8px;"/>
+    <img src="https://raw.githubusercontent.com/andreaclemente96/AndreaClementeUrena/andreaclemente96-portfolio/ae.png" style="width:150px; border-radius:8px;"/>
+  </div>
+</li>
       <li>
        <span class="lang-es">
         🌐
@@ -2164,53 +2166,21 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
        </span>
       </li>
       <li>
-       <span class="lang-es">
-        🔥
-        <strong>
-         Get Started with AI
-        </strong>
-        (3 horas, 2025) – IBM SkillsBuild &amp; Datahack
-       </span>
-       <span class="lang-en">
-        🔥
-        <strong>
-         Get Started with AI
-        </strong>
-        (3 hours, 2025) – IBM SkillsBuild &amp; Datahack
-       </span>
-      </li>
-      <li>
-       <span class="lang-es">
-        💬
-        <strong>
-         Build Your First Chatbot
-        </strong>
-        (1 hora, 2025) – IBM SkillsBuild &amp; Datahack
-       </span>
-       <span class="lang-en">
-        💬
-        <strong>
-         Build Your First Chatbot
-        </strong>
-        (1 hour, 2025) – IBM SkillsBuild &amp; Datahack
-       </span>
-      </li>
-      <li>
-       <span class="lang-es">
-        🧠
-        <strong>
-         Classifying Data Using IBM Granite
-        </strong>
-        (1h 30min, 2025) – IBM SkillsBuild &amp; Datahack
-       </span>
-       <span class="lang-en">
-        🧠
-        <strong>
-         Classifying Data Using IBM Granite
-        </strong>
-        (1h 30min, 2025) – IBM SkillsBuild &amp; Datahack
-       </span>
-      </li>
+  <span class="lang-es">
+    ⚙️
+    <strong>
+      Domina Python: TensorFlow
+    </strong>
+    (1 hora 32 minutos, 2025) – LinkedIn Learning
+  </span>
+  <span class="lang-en">
+    ⚙️
+    <strong>
+      Master Python: TensorFlow
+    </strong>
+    (1 hour 32 minutes, 2025) – LinkedIn Learning
+  </span>
+</li>
       <li>
        <span class="lang-es">
         🤖
