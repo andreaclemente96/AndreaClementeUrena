@@ -792,6 +792,14 @@
         Technologies &amp; Tools
        </span>
       </a>
+      <a href="#presentar-section" style="flex: 1 1 auto; min-width: 140px; text-align: center; padding: 0.6rem 1rem; white-space: nowrap; text-decoration: none; color: #1b5e20; font-weight: bold; border: 1px solid #ccc; border-radius: 6px; transition: background-color 0.3s, box-shadow 0.3s;">
+       <span class="lang-es">
+        Difusión y Presentaciones
+       </span>
+       <span class="lang-en" style="display: none;">
+        Outreach & Presentations
+       </span>
+      </a>
       <a href="#experiencia-section" style="flex: 1 1 auto; min-width: 140px; text-align: center; padding: 0.6rem 1rem; white-space: nowrap; text-decoration: none; color: #1b5e20; font-weight: bold; border: 1px solid #ccc; border-radius: 6px; transition: background-color 0.3s, box-shadow 0.3s;">
        <span class="lang-es">
         Experiencia Profesional
@@ -1914,10 +1922,45 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
       </tr>
      </table>
     </section>
+    <!-- Sección: Presentaciones y difusión -->
+<section class="direct-section" id="presentar-section">
+  <h2 class="section-title">
+    <span class="lang-es">
+      📢 Presentaciones y difusión
+    </span>
+    <span class="lang-en">
+      📢 Outreach & Presentations
+    </span>
+  </h2>
+  <ul>
+    <li>
+      <span class="lang-es">
+        📝
+        <strong>
+          Defensa de Memoria Anual
+        </strong>
+        | INIA-CSIC (18 de noviembre de 2025)
+        <br/>
+        Presentación de la primera memoria anual del programa Momentum, mostrando avances en fenotipado automatizado, reconstrucción 3D y análisis de datos experimentales.
+      </span>
+      <span class="lang-en">
+        📝
+        <strong>
+          Annual Report Defense
+        </strong>
+        | INIA-CSIC (November 18, 2025)
+        <br/>
+        Presentation of the first annual report for the Momentum program, showcasing progress in automated phenotyping, 3D reconstruction, and experimental data analysis.
+      </span>
+    </li>
+  </ul>
+</section>
+
     <!-- Sección: Experiencia profesional -->
     <section class="direct-section" id="experiencia-section">
      <h2 class="section-title">
       <span class="lang-es">
+     
        📚 Experiencia profesional
       </span>
       <span class="lang-en">
