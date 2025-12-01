@@ -794,7 +794,7 @@
       </a>
       <a href="#presentar-section" style="flex: 1 1 auto; min-width: 140px; text-align: center; padding: 0.6rem 1rem; white-space: nowrap; text-decoration: none; color: #1b5e20; font-weight: bold; border: 1px solid #ccc; border-radius: 6px; transition: background-color 0.3s, box-shadow 0.3s;">
        <span class="lang-es">
-        Difusión y Presentaciones
+        Presentaciones y Difusión
        </span>
        <span class="lang-en" style="display: none;">
         Outreach & Presentations
