@@ -1516,6 +1516,50 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
          .
         </span>
         </p>
+        <p>
+  <span class="lang-es">
+    En enero de 2026 participé en la
+    <strong>
+      escuela de invierno de inteligencia artificial Momentum
+    </strong>
+    , organizada por
+    <strong>
+      MOMENTUM-CSIC
+    </strong>
+    en Madrid, donde presenté el póster titulado
+    <em>
+      “PLANT3D: INTEGRACIÓN DE MODELOS 3D Y REALIDAD AUMENTADA PARA ANÁLISIS FENOTÍPICO”
+    </em>
+    .  
+    DOI:
+    <a href="http://dx.doi.org/10.13140/RG.2.2.21693.93922" target="_blank">
+      10.13140/RG.2.2.21693.93922
+    </a>
+    .
+  </span>
+
+  <span class="lang-en">
+    In January 2026, I took part in the
+    <strong>
+      Momentum artificial intelligence winter school
+    </strong>
+    , organized by
+    <strong>
+      MOMENTUM-CSIC
+    </strong>
+    in Madrid, where I presented the poster entitled
+    <em>
+      “PLANT3D: Integration of 3D Models and Augmented Reality for Phenotypic Analysis”
+    </em>
+    .  
+     DOI:
+    <a href="http://dx.doi.org/10.13140/RG.2.2.21693.93922" target="_blank">
+      10.13140/RG.2.2.21693.93922
+    </a>
+    .
+  </span>
+</p>
+
         <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.2rem; flex-wrap: wrap; align-items:flex-start;">
          <!-- Contenedor de imágenes -->
          <div style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 1.5rem; flex-wrap: wrap;">
@@ -1531,6 +1575,146 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
             </span>
            </figcaption>
           </figure>
+          <!-- Poster PLANT3D -->
+<p style="margin-top: 2rem;">
+  <span class="lang-es">
+    <em>
+      PLANT3D: Integración de modelos 3D y realidad aumentada para análisis fenotípico
+    </em>
+    . Haz clic para ver el texto completo.
+  </span>
+  <span class="lang-en">
+    <em>
+      PLANT3D: Integration of 3D models and augmented reality for phenotypic analysis
+    </em>
+    . Click to view full poster text.
+  </span>
+</p>
+
+<!-- Botón de despliegue -->
+<div style="text-align: center; margin-bottom: 0.5rem;">
+  <!-- Español -->
+  <button class="lang-es" onclick="togglePosterTextPlant3D()" style="padding: 0.5rem 1rem; font-size: 1rem; cursor: pointer;">
+    Texto del póster (haz clic para ver)
+  </button>
+  <!-- Inglés -->
+  <button class="lang-en" onclick="togglePosterTextPlant3D()" style="padding: 0.5rem 1rem; font-size: 1rem; cursor: pointer;">
+    Poster text (click to view)
+  </button>
+</div>
+
+<!-- Texto del póster oculto por defecto -->
+<div id="posterTextPlant3D" style="display: none; margin-top: 0.3rem; line-height: 1.6; white-space: pre-wrap;">
+
+  <!-- TEXTO COMPLETO EN ESPAÑOL -->
+  <span class="lang-es">
+    <strong>Texto del póster:</strong>
+    <em>
+INTRODUCCIÓN  
+La caracterización fenotípica de plantas genera grandes volúmenes de datos 3D e hiperespectrales difíciles de interpretar en pantallas convencionales.
+
+Las HoloLens 2 son unas gafas de realidad aumentada que permiten la visualización de modelos 3D y datos digitales en el entorno real, ofreciendo un marco para una visualización intuitiva y espacial de la información, con potencial para mejorar la comprensión de la estructura vegetal.
+
+OBJETIVO  
+Desarrollar un flujo de trabajo para reconstruir, segmentar, anotar e interactuar con modelos 3D junto con información hiperespectral de plantas en HoloLens 2.
+
+METODOLOGÍA  
+
+Segmentación semántica  
+Modelo de IA PSegNet (actualmente).  
+Cada punto es clasificado y etiquetado como tallo, hojas y/u otros órganos.
+
+Mallas 3D  
+Cada órgano se transforma en una malla independiente.
+
+Algoritmo según densidad  
+- Tallo → Ball Pivoting.  
+- Hojas → Alpha-shape + suavizado.
+
+Nube de puntos  
+Datos 3D de plantas (.TXT / .PLY).  
+Origen: dataset público PSegNet y, en fases futuras, robot PTIAGRO4FOOD.
+
+Realidad aumentada  
+Importación a Unity + MRTK.  
+Interacción en HoloLens 2: mover, seleccionar y visualizar información.  
+Interfaz siempre visible.
+
+RESULTADOS  
+- Inmersión en la estructura vegetal externa mediante realidad aumentada, con observación desde cualquier ángulo.  
+- Identificación y anotado automático de órganos segmentados (tallo y hojas).  
+- Interacción directa con el modelo 3D como gemelo digital mediante gestos o comandos de voz sencillos.
+
+CONCLUSIÓN  
+Se confirma la factibilidad de la visualización e interacción en tiempo real de plantas 3D en HoloLens 2.
+
+El sistema presenta una arquitectura modular:  
+Procesado de imágenes del robot → aplicación de modelos de IA y generación de mallas en Python → integración y visualización en HoloLens 2.
+
+Este trabajo sienta las bases para la futura integración de nubes de puntos y datos hiperespectrales procedentes del robot PTIAGRO4FOOD.
+    </em>
+  </span>
+
+  <br/><br/>
+
+  <!-- TEXTO COMPLETO EN INGLÉS -->
+  <span class="lang-en">
+    <strong>Poster text:</strong>
+    <em>
+INTRODUCTION  
+Plant phenotypic characterization generates large volumes of 3D and hyperspectral data that are difficult to interpret on conventional screens.
+
+HoloLens 2 is an augmented reality headset that enables visualization of 3D models and digital data within the real environment, providing an intuitive and spatial framework to improve understanding of plant structure.
+
+OBJECTIVE  
+To develop a workflow for reconstructing, segmenting, annotating, and interacting with 3D plant models combined with hyperspectral information on HoloLens 2.
+
+METHODOLOGY  
+
+Semantic segmentation  
+PSegNet AI model (currently).  
+Each point is classified and labeled as stem, leaf, and/or other organs.
+
+3D meshes  
+Each organ is converted into an independent mesh.
+
+Density-based algorithms  
+- Stem → Ball Pivoting.  
+- Leaves → Alpha-shape + smoothing.
+
+Point cloud  
+3D plant data (.TXT / .PLY).  
+Source: public PSegNet dataset and, in future stages, the PTIAGRO4FOOD robot.
+
+Augmented reality  
+Import into Unity + MRTK.  
+Interaction in HoloLens 2: move, select, and visualize information.  
+Interface always visible.
+
+RESULTS  
+- Immersive visualization of external plant structure using augmented reality from any angle.  
+- Automatic identification and annotation of segmented organs (stem and leaves).  
+- Direct interaction with the 3D model as a digital twin through simple gestures or voice commands.
+
+CONCLUSION  
+The feasibility of real-time visualization and interaction with 3D plant models on HoloLens 2 is confirmed.
+
+The system follows a modular architecture:  
+Robot image processing → AI model application and mesh generation in Python → integration and visualization in HoloLens 2.
+
+This work provides the foundation for future integration of point clouds and hyperspectral data captured by the PTIAGRO4FOOD robot.
+    </em>
+  </span>
+
+</div>
+
+<!-- Script para desplegar texto -->
+<script>
+  function togglePosterTextPlant3D() {
+    const content = document.getElementById("posterTextPlant3D");
+    content.style.display = content.style.display === "none" ? "block" : "none";
+  }
+</script>
           <!-- Planta en HoloLens (Unity Simulator) -->
           <figure style="width: 48%; margin: 0;">
            <img alt="Planta en el simulador de Unity para HoloLens 2" src="holo.png" style="width: 100%; height: 320px; object-fit: cover; border-radius: 6px;"/>
