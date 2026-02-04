@@ -1542,20 +1542,80 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
         <span class="lang-es">
 <strong>Texto del póster:</strong>
 <em>
-INTRODUCCIÓN  
-Visualización e interacción con modelos 3D de plantas en realidad aumentada mediante HoloLens 2.
+INTRODUCCIÓN
 
-OBJETIVO  
-Integrar reconstrucción 3D, segmentación semántica y realidad aumentada para análisis fenotípico.
+La caracterización fenotípica de plantas genera grandes volúmenes de datos 3D e hiperespectrales difíciles de interpretar en pantallas convencionales.
 
-METODOLOGÍA  
-PSegNet + generación de mallas por órgano + Unity + MRTK.
+Las HoloLens 2 son unas gafas de realidad aumentada que permiten la visualización de modelos 3D y datos digitales en el entorno real, ofreciendo un marco para una visualización intuitiva y espacial de la información, con potencial para mejorar la comprensión de la estructura vegetal.
 
-RESULTADOS  
-Interacción gestual y anotación automática de órganos.
+OBJETIVO
 
-CONCLUSIÓN  
-La realidad aumentada es viable como herramienta de análisis fenotípico 3D.
+Desarrollar un flujo de trabajo para reconstruir, segmentar, anotar e interactuar con modelos 3D junto con información hiperespectral de plantas en HoloLens 2.
+
+METODOLOGÍA
+
+Segmentación semántica
+Modelo de IA PSegNet (actualmente).
+
+Cada punto es clasificado y etiquetado como tallo, hojas y/u otros órganos.
+
+Mallas 3D
+Cada órgano se transforma en una malla independiente.
+
+Algoritmo según densidad
+
+Tallo → Ball Pivoting
+
+Hojas → Alpha-shape + suavizado
+
+Nube de puntos
+Datos 3D de plantas (.TXT / .PLY).
+Origen: público (dataset PSegNet) o cualquier otro.
+Futuro: robot PTIAGRO4FOOD.
+
+Realidad aumentada
+Importación a Unity + MRTK.
+Interacción en HoloLens 2: mover, seleccionar y ver información.
+Interfaz siempre visible.
+
+RESULTADOS
+
+Inmersión en la estructura vegetal externa mediante realidad aumentada, con observación desde cualquier ángulo.
+
+Identificación y anotado automático de órganos segmentados (tallo y hojas).
+
+Interacción directa con el modelo 3D como gemelo digital mediante gestos o comandos de voz sencillos.
+
+CONCLUSIÓN
+
+Se confirma la factibilidad de la visualización e interacción en tiempo real de plantas 3D en HoloLens 2.
+
+El sistema es modular:
+Procesado de imágenes del robot → aplicación de modelos de IA y generación de mallas en Python → integración y visualización en HoloLens 2.
+
+Sirve como base para integrar nubes de puntos y datos hiperespectrales procedentes de sets de imágenes del robot PTIAGRO4FOOD.
+
+FIGURAS
+
+Imagen 1 – Ejemplo de la nube de puntos (1), la nube de puntos segmentada (2) y la nube transformada a mallas 3D (3).
+
+Imagen 2 – Simulador de Unity donde se observa la interfaz y la planta.
+
+Imagen 3 – Mallas 3D visualizadas en HoloLens 2:
+(1) visualización e interacción con la planta completa;
+(2) selección e identificación de hojas;
+(3) selección e identificación del tallo.
+
+REFERENCIAS
+
+LI, D., LI, J., XIANG, S., & PAN, A. (2022). PSEGNET: Simultaneous semantic and instance segmentation for point clouds of plants. Plant Phenomics, 2022, Article ID 9787643.
+https://doi.org/10.34133/2022/9787643
+
+Microsoft Learn (2025). MRTK2-Unity Developer Documentation.
+https://learn.microsoft.com/es-es/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05
+
+Microsoft. (2019). HoloLens 2 [Dispositivo de realidad mixta].
+https://www.microsoft.com/hololens
 </em>
         </span>
 
@@ -1564,20 +1624,80 @@ La realidad aumentada es viable como herramienta de análisis fenotípico 3D.
         <span class="lang-en">
 <strong>Poster text:</strong>
 <em>
-INTRODUCTION  
-Visualization and interaction with 3D plant models using augmented reality and HoloLens 2.
+INTRODUCTION
 
-OBJECTIVE  
-To integrate 3D reconstruction, semantic segmentation, and AR for phenotypic analysis.
+Plant phenotypic characterization generates large volumes of 3D and hyperspectral data that are difficult to interpret on conventional screens.
 
-METHODOLOGY  
-PSegNet + organ-level mesh generation + Unity + MRTK.
+HoloLens 2 is an augmented reality headset that enables the visualization of 3D models and digital data within the real environment, providing an intuitive and spatial framework for data visualization with the potential to improve understanding of plant structure.
 
-RESULTS  
-Gesture-based interaction and automatic organ annotation.
+OBJECTIVE
 
-CONCLUSION  
-Augmented reality is a viable tool for 3D plant phenotyping.
+To develop a workflow for reconstructing, segmenting, annotating, and interacting with 3D plant models combined with hyperspectral information on HoloLens 2.
+
+METHODOLOGY
+
+Semantic segmentation
+PSegNet AI model (currently).
+
+Each point is classified and labeled as stem, leaf, and/or other organs.
+
+3D meshes
+Each organ is converted into an independent mesh.
+
+Density-based algorithms
+
+Stem → Ball Pivoting
+
+Leaves → Alpha-shape + smoothing
+
+Point cloud
+3D plant data (.TXT / .PLY).
+Source: public datasets (PSegNet) or others.
+Future source: PTIAGRO4FOOD robot.
+
+Augmented reality
+Import into Unity + MRTK.
+Interaction in HoloLens 2: move, select, and visualize information.
+Interface always visible.
+
+RESULTS
+
+Immersive visualization of the external plant structure using augmented reality, viewable from any angle.
+
+Automatic identification and annotation of segmented organs (stem and leaves).
+
+Direct interaction with the 3D model as a digital twin using simple gestures or voice commands.
+
+CONCLUSION
+
+The feasibility of real-time visualization and interaction with 3D plant models on HoloLens 2 is confirmed.
+
+The system is modular:
+Robot image processing → AI model application and mesh generation in Python → integration and visualization in HoloLens 2.
+
+This work provides a basis for integrating point clouds and hyperspectral data derived from image sets captured by the PTIAGRO4FOOD robot.
+
+FIGURES
+
+Figure 1 – Example of the point cloud (1), segmented point cloud (2), and point cloud transformed into 3D meshes (3).
+
+Figure 2 – Unity simulator showing the interface and the plant model.
+
+Figure 3 – 3D meshes visualized in HoloLens 2:
+(1) visualization and interaction with the complete plant;
+(2) selection and identification of leaves;
+(3) selection and identification of the stem.
+
+REFERENCES
+
+LI, D., LI, J., XIANG, S., & PAN, A. (2022). PSEGNET: Simultaneous semantic and instance segmentation for point clouds of plants. Plant Phenomics, 2022, Article ID 9787643.
+https://doi.org/10.34133/2022/9787643
+
+Microsoft Learn (2025). MRTK2-Unity Developer Documentation.
+https://learn.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05
+
+Microsoft. (2019). HoloLens 2 [Mixed Reality Device].
+https://www.microsoft.com/hololens
 </em>
         </span>
 
