@@ -2568,6 +2568,22 @@ https://www.microsoft.com/hololens
         – 7 November 2025 (5h 5min)
        </span>
       </li>
+      <li>
+       <span class="lang-es">
+        🤖
+        <strong>
+         Escuela de invierno Momentum – Madrid
+        </strong>
+        (2026) – CSIC
+       </span>
+       <span class="lang-en">
+        🤖
+        <strong>
+         Momentum Winter School – Madrid
+        </strong>
+        (2026) – CSIC
+       </span>
+      </li>
      </ul>
     </section>
     <!-- Sección: Autorreflexión -->
