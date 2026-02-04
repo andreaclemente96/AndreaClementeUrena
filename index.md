@@ -1399,350 +1399,201 @@ This system will be available as a scientific-technical service for PTIAGRO4FOOD
       </div>
      </div>
      <!-- Proyecto 5 -->
-     <div class="project-container">
-      <div class="project-title">
-       <span class="lang-es">
-        Tecnologías inmersivas
-       </span>
-       <span class="lang-en">
-        Immersive technologies
-       </span>
+<div class="project-container">
+
+  <div class="project-title">
+    <span class="lang-es">Tecnologías inmersivas</span>
+    <span class="lang-en">Immersive technologies</span>
+  </div>
+
+  <div class="project-image">
+    <img alt="Tecnologías inmersivas" src="nino.png"/>
+  </div>
+
+  <div class="project-description">
+
+    <!-- TEXTO PRINCIPAL -->
+    <p>
+      <span class="lang-es">
+        Desarrollo aplicaciones inmersivas para agricultura de precisión en colaboración con el
+        <strong>Centro de Automática y Robótica (CAR-CSIC-UPM)</strong>, utilizando
+        <strong>Microsoft HoloLens 2</strong>, <strong>Unity</strong>, <strong>Python</strong> y <strong>C#</strong>.
+        <br/><br/>
+        Actualmente trabajo en un <strong>modelo 3D interactivo de planta</strong> generado a partir de
+        <strong>nubes de puntos reales</strong>. En HoloLens 2, el usuario puede seleccionar órganos
+        (hojas, tallo) mediante gestos; al hacerlo, el resto desaparece y se muestra un
+        <strong>cartel informativo</strong>. Esto permite explorar la estructura vegetal de forma intuitiva.
+        <br/><br/>
+        El sistema está implementado con <strong>MRTK</strong> y <strong>XR Interaction Toolkit</strong>.
+        En fases futuras se integrará <strong>inteligencia artificial para incorporar información hiperespectral</strong>
+        en el objeto 3D.
+      </span>
+
+      <span class="lang-en">
+        I develop immersive applications for precision agriculture in collaboration with the
+        <strong>Center for Automation and Robotics (CAR-CSIC-UPM)</strong>, using
+        <strong>Microsoft HoloLens 2</strong>, <strong>Unity</strong>, <strong>Python</strong>, and <strong>C#</strong>.
+        <br/><br/>
+        I am currently working on an <strong>interactive 3D plant model</strong> generated from
+        <strong>real point clouds</strong>. In HoloLens 2, users can select plant organs
+        (leaves, stem) using hand gestures; the remaining parts disappear and an
+        <strong>informative label</strong> appears, enabling intuitive exploration of plant structure.
+        <br/><br/>
+        The system is built using <strong>MRTK</strong> and <strong>XR Interaction Toolkit</strong>.
+        In future phases, <strong>artificial intelligence will be integrated to include hyperspectral data</strong>
+        in the 3D model.
+      </span>
+    </p>
+
+    <!-- ESCUELA DE INVIERNO + DOI -->
+    <p>
+      <span class="lang-es">
+        En enero de 2026 participé en la
+        <strong>escuela de invierno de inteligencia artificial Momentum</strong>,
+        organizada por <strong>MOMENTUM-CSIC</strong> en Madrid, donde presenté el póster
+        <em>“PLANT3D: Integración de modelos 3D y realidad aumentada para análisis fenotípico”</em>.
+        <br/>
+        DOI:
+        <a href="http://dx.doi.org/10.13140/RG.2.2.21693.93922" target="_blank">
+          10.13140/RG.2.2.21693.93922
+        </a>
+      </span>
+
+      <span class="lang-en">
+        In January 2026, I took part in the
+        <strong>Momentum artificial intelligence winter school</strong>,
+        organized by <strong>MOMENTUM-CSIC</strong> in Madrid, where I presented the poster
+        <em>“PLANT3D: Integration of 3D Models and Augmented Reality for Phenotypic Analysis”</em>.
+        <br/>
+        DOI:
+        <a href="http://dx.doi.org/10.13140/RG.2.2.21693.93922" target="_blank">
+          10.13140/RG.2.2.21693.93922
+        </a>
+      </span>
+    </p>
+
+    <!-- IMÁGENES -->
+    <div style="display:flex; justify-content:center; gap:1.5rem; flex-wrap:wrap; margin-top:1.5rem;">
+
+      <figure style="width:48%; margin:0;">
+        <img src="nube.png" alt="Nube de puntos"
+             style="width:100%; height:320px; object-fit:cover; border-radius:6px;"/>
+        <figcaption style="text-align:center; font-size:0.9rem; color:#555;">
+          <span class="lang-es">Nube de puntos original</span>
+          <span class="lang-en">Original point cloud</span>
+        </figcaption>
+      </figure>
+
+      <figure style="width:48%; margin:0;">
+        <img src="holo.png" alt="Modelo 3D en Unity"
+             style="width:100%; height:320px; object-fit:cover; border-radius:6px;"/>
+        <figcaption style="text-align:center; font-size:0.9rem; color:#555;">
+          <span class="lang-es">Modelo 3D en el simulador de Unity</span>
+          <span class="lang-en">3D model in Unity simulator</span>
+        </figcaption>
+      </figure>
+
+    </div>
+
+    <!-- VIDEO -->
+    <div style="text-align:center; margin-top:2rem;">
+      <video controls src="planta1.mp4"
+             style="width:90%; max-width:1200px; border-radius:8px;"></video>
+      <p style="font-size:0.95rem; color:#555;">
+        <span class="lang-es">Interacción en tiempo real</span>
+        <span class="lang-en">Real-time interaction</span>
+      </p>
+    </div>
+
+    <!-- ================== PÓSTER (MISMO FORMATO QUE PROYECTO 1) ================== -->
+    <div class="poster-section" style="margin-top:3rem; padding-top:2rem; border-top:1px solid #ccc;">
+
+      <div style="text-align:center; margin-bottom:1rem;">
+        <a href="poster_plant3d.jpg" target="_blank">
+          <img src="poster_plant3d.jpg"
+               alt="Poster PLANT3D"
+               style="max-width:100%; border:1px solid #ccc;"/>
+        </a>
       </div>
-      <div class="project-image">
-       <img alt="Tecnologías inmersivas" src="nino.png">
-      </div>
-      <div class="project-description">
-       <p>
+
+      <p style="text-align:center; font-style:italic; color:#555; margin-bottom:2rem;">
         <span class="lang-es">
-         Desarrollo aplicaciones inmersivas para agricultura de precisión en colaboración con el
-         <strong>
-          Centro de Automática y Robótica (CAR-CSIC-UPM)
-         </strong>
-         , utilizando
-         <strong>
-          Microsoft HoloLens 2
-         </strong>
-         ,
-         <strong>
-          Unity
-         </strong>
-         ,
-         <strong>
-          Python
-         </strong>
-         y
-         <strong>
-          C#
-         </strong>
-         .
-
-  Actualmente trabajo en un
-         <strong>
-          modelo 3D interactivo de planta
-         </strong>
-         generado a partir de
-         <strong>
-          nubes de puntos reales
-         </strong>
-         . En las HoloLens 2, el usuario puede seleccionar zonas específicas de la planta mediante gestos manuales: al seleccionar un órgano (hojas, tallo), el resto desaparece y aparece un
-         <strong>
-          cartel informativo
-         </strong>
-         identificando ese elemento. Esto permite explorar la estructura vegetal de forma intuitiva y didáctica.
-
-  El sistema está implementado con
-         <strong>
-          MRTK
-         </strong>
-         y
-         <strong>
-          XR Interaction Toolkit
-         </strong>
-         , utilizando animaciones, lógica de visibilidad y gestión de interacciones. En fases futuras se integrará
-         <strong>
-          inteligencia artificial para la integración de la información hiperespectral en el objeto 3D
-         </strong>
-         .
-        </span>
+          Póster: <em>PLANT3D: Integración de modelos 3D y realidad aumentada para análisis fenotípico</em>.
+          Pulsa para ampliar.
+        </span><br/>
         <span class="lang-en">
-         I develop immersive applications for precision agriculture in collaboration with the
-         <strong>
-          Center for Automation and Robotics (CAR-CSIC-UPM)
-         </strong>
-         , using
-         <strong>
-          Microsoft HoloLens 2
-         </strong>
-         ,
-         <strong>
-          Unity
-         </strong>
-         ,
-         <strong>
-          Python
-         </strong>
-         and
-         <strong>
-          C#
-         </strong>
-         .
-
-  I am currently working on an
-         <strong>
-          interactive 3D plant model
-         </strong>
-         generated from
-         <strong>
-          real point clouds
-         </strong>
-         . In HoloLens 2, users can select specific plant regions using hand gestures: when an organ (leaves, stems…) is selected, the remaining parts disappear and an
-         <strong>
-          informative label
-         </strong>
-         appears. This enables intuitive and educational exploration of plant structure.
-
-  The system is built using
-         <strong>
-          MRTK
-         </strong>
-         and
-         <strong>
-          XR Interaction Toolkit
-         </strong>
-         , including animations, visibility control and interaction logic. In future phases,
-         <strong>
-          artificial intelligence will be integrated to incorporate hyperspectral information into the 3D model
-         </strong>
-         .
+          Poster: <em>PLANT3D: Integration of 3D Models and Augmented Reality for Phenotypic Analysis</em>.
+          Click to enlarge.
         </span>
-        </p>
-        <p>
-  <span class="lang-es">
-    En enero de 2026 participé en la
-    <strong>
-      escuela de invierno de inteligencia artificial Momentum
-    </strong>
-    , organizada por
-    <strong>
-      MOMENTUM-CSIC
-    </strong>
-    en Madrid, donde presenté el póster titulado
-    <em>
-      “PLANT3D: INTEGRACIÓN DE MODELOS 3D Y REALIDAD AUMENTADA PARA ANÁLISIS FENOTÍPICO”
-    </em>
-    .  
-    DOI:
-    <a href="http://dx.doi.org/10.13140/RG.2.2.21693.93922" target="_blank">
-      10.13140/RG.2.2.21693.93922
-    </a>
-    .
-  </span>
+      </p>
 
-  <span class="lang-en">
-    In January 2026, I took part in the
-    <strong>
-      Momentum artificial intelligence winter school
-    </strong>
-    , organized by
-    <strong>
-      MOMENTUM-CSIC
-    </strong>
-    in Madrid, where I presented the poster entitled
-    <em>
-      “PLANT3D: Integration of 3D Models and Augmented Reality for Phenotypic Analysis”
-    </em>
-    .  
-     DOI:
-    <a href="http://dx.doi.org/10.13140/RG.2.2.21693.93922" target="_blank">
-      10.13140/RG.2.2.21693.93922
-    </a>
-    .
-  </span>
-</p>
+      <div style="text-align:center; margin-bottom:0.5rem;">
+        <button class="lang-es" onclick="togglePosterTextPlant3D()" style="padding:0.5rem 1rem;">
+          Texto del póster
+        </button>
+        <button class="lang-en" onclick="togglePosterTextPlant3D()" style="padding:0.5rem 1rem;">
+          Poster text
+        </button>
+      </div>
 
-        <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.2rem; flex-wrap: wrap; align-items:flex-start;">
-         <!-- Contenedor de imágenes -->
-         <div style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 1.5rem; flex-wrap: wrap;">
-          <!-- Nube de puntos -->
-          <figure style="width: 48%; margin: 0;">
-           <img alt="Nube de puntos de la planta segmentada" src="nube.png" style="width: 100%; height: 320px; object-fit: cover; border-radius: 6px;"/>
-           <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.4rem; color: #555;">
-            <span class="lang-es">
-             Nube de puntos original
-            </span>
-            <span class="lang-en">
-             Original point cloud
-            </span>
-           </figcaption>
-          </figure>
-          <!-- Poster PLANT3D -->
-<p style="margin-top: 2rem;">
-  <span class="lang-es">
-    <em>
-      PLANT3D: Integración de modelos 3D y realidad aumentada para análisis fenotípico
-    </em>
-    . Haz clic para ver el texto completo.
-  </span>
-  <span class="lang-en">
-    <em>
-      PLANT3D: Integration of 3D models and augmented reality for phenotypic analysis
-    </em>
-    . Click to view full poster text.
-  </span>
-</p>
+      <div id="posterTextPlant3D"
+           style="display:none; line-height:1.6; white-space:pre-wrap;">
 
-<!-- Botón de despliegue -->
-<div style="text-align: center; margin-bottom: 0.5rem;">
-  <!-- Español -->
-  <button class="lang-es" onclick="togglePosterTextPlant3D()" style="padding: 0.5rem 1rem; font-size: 1rem; cursor: pointer;">
-    Texto del póster (haz clic para ver)
-  </button>
-  <!-- Inglés -->
-  <button class="lang-en" onclick="togglePosterTextPlant3D()" style="padding: 0.5rem 1rem; font-size: 1rem; cursor: pointer;">
-    Poster text (click to view)
-  </button>
-</div>
-
-<!-- Texto del póster oculto por defecto -->
-<div id="posterTextPlant3D" style="display: none; margin-top: 0.3rem; line-height: 1.6; white-space: pre-wrap;">
-
-  <!-- TEXTO COMPLETO EN ESPAÑOL -->
-  <span class="lang-es">
-    <strong>Texto del póster:</strong>
-    <em>
+        <span class="lang-es">
+<strong>Texto del póster:</strong>
+<em>
 INTRODUCCIÓN  
-La caracterización fenotípica de plantas genera grandes volúmenes de datos 3D e hiperespectrales difíciles de interpretar en pantallas convencionales.
-
-Las HoloLens 2 son unas gafas de realidad aumentada que permiten la visualización de modelos 3D y datos digitales en el entorno real, ofreciendo un marco para una visualización intuitiva y espacial de la información, con potencial para mejorar la comprensión de la estructura vegetal.
+Visualización e interacción con modelos 3D de plantas en realidad aumentada mediante HoloLens 2.
 
 OBJETIVO  
-Desarrollar un flujo de trabajo para reconstruir, segmentar, anotar e interactuar con modelos 3D junto con información hiperespectral de plantas en HoloLens 2.
+Integrar reconstrucción 3D, segmentación semántica y realidad aumentada para análisis fenotípico.
 
 METODOLOGÍA  
-
-Segmentación semántica  
-Modelo de IA PSegNet (actualmente).  
-Cada punto es clasificado y etiquetado como tallo, hojas y/u otros órganos.
-
-Mallas 3D  
-Cada órgano se transforma en una malla independiente.
-
-Algoritmo según densidad  
-- Tallo → Ball Pivoting.  
-- Hojas → Alpha-shape + suavizado.
-
-Nube de puntos  
-Datos 3D de plantas (.TXT / .PLY).  
-Origen: dataset público PSegNet y, en fases futuras, robot PTIAGRO4FOOD.
-
-Realidad aumentada  
-Importación a Unity + MRTK.  
-Interacción en HoloLens 2: mover, seleccionar y visualizar información.  
-Interfaz siempre visible.
+PSegNet + generación de mallas por órgano + Unity + MRTK.
 
 RESULTADOS  
-- Inmersión en la estructura vegetal externa mediante realidad aumentada, con observación desde cualquier ángulo.  
-- Identificación y anotado automático de órganos segmentados (tallo y hojas).  
-- Interacción directa con el modelo 3D como gemelo digital mediante gestos o comandos de voz sencillos.
+Interacción gestual y anotación automática de órganos.
 
 CONCLUSIÓN  
-Se confirma la factibilidad de la visualización e interacción en tiempo real de plantas 3D en HoloLens 2.
+La realidad aumentada es viable como herramienta de análisis fenotípico 3D.
+</em>
+        </span>
 
-El sistema presenta una arquitectura modular:  
-Procesado de imágenes del robot → aplicación de modelos de IA y generación de mallas en Python → integración y visualización en HoloLens 2.
+        <br/><br/>
 
-Este trabajo sienta las bases para la futura integración de nubes de puntos y datos hiperespectrales procedentes del robot PTIAGRO4FOOD.
-    </em>
-  </span>
-
-  <br/><br/>
-
-  <!-- TEXTO COMPLETO EN INGLÉS -->
-  <span class="lang-en">
-    <strong>Poster text:</strong>
-    <em>
+        <span class="lang-en">
+<strong>Poster text:</strong>
+<em>
 INTRODUCTION  
-Plant phenotypic characterization generates large volumes of 3D and hyperspectral data that are difficult to interpret on conventional screens.
-
-HoloLens 2 is an augmented reality headset that enables visualization of 3D models and digital data within the real environment, providing an intuitive and spatial framework to improve understanding of plant structure.
+Visualization and interaction with 3D plant models using augmented reality and HoloLens 2.
 
 OBJECTIVE  
-To develop a workflow for reconstructing, segmenting, annotating, and interacting with 3D plant models combined with hyperspectral information on HoloLens 2.
+To integrate 3D reconstruction, semantic segmentation, and AR for phenotypic analysis.
 
 METHODOLOGY  
-
-Semantic segmentation  
-PSegNet AI model (currently).  
-Each point is classified and labeled as stem, leaf, and/or other organs.
-
-3D meshes  
-Each organ is converted into an independent mesh.
-
-Density-based algorithms  
-- Stem → Ball Pivoting.  
-- Leaves → Alpha-shape + smoothing.
-
-Point cloud  
-3D plant data (.TXT / .PLY).  
-Source: public PSegNet dataset and, in future stages, the PTIAGRO4FOOD robot.
-
-Augmented reality  
-Import into Unity + MRTK.  
-Interaction in HoloLens 2: move, select, and visualize information.  
-Interface always visible.
+PSegNet + organ-level mesh generation + Unity + MRTK.
 
 RESULTS  
-- Immersive visualization of external plant structure using augmented reality from any angle.  
-- Automatic identification and annotation of segmented organs (stem and leaves).  
-- Direct interaction with the 3D model as a digital twin through simple gestures or voice commands.
+Gesture-based interaction and automatic organ annotation.
 
 CONCLUSION  
-The feasibility of real-time visualization and interaction with 3D plant models on HoloLens 2 is confirmed.
+Augmented reality is a viable tool for 3D plant phenotyping.
+</em>
+        </span>
 
-The system follows a modular architecture:  
-Robot image processing → AI model application and mesh generation in Python → integration and visualization in HoloLens 2.
+      </div>
+    </div>
 
-This work provides the foundation for future integration of point clouds and hyperspectral data captured by the PTIAGRO4FOOD robot.
-    </em>
-  </span>
-
+  </div>
 </div>
 
-<!-- Script para desplegar texto -->
 <script>
   function togglePosterTextPlant3D() {
-    const content = document.getElementById("posterTextPlant3D");
-    content.style.display = content.style.display === "none" ? "block" : "none";
+    const el = document.getElementById("posterTextPlant3D");
+    el.style.display = el.style.display === "none" ? "block" : "none";
   }
 </script>
-          <!-- Planta en HoloLens (Unity Simulator) -->
-          <figure style="width: 48%; margin: 0;">
-           <img alt="Planta en el simulador de Unity para HoloLens 2" src="holo.png" style="width: 100%; height: 320px; object-fit: cover; border-radius: 6px;"/>
-           <figcaption style="text-align: center; font-size: 0.9rem; margin-top: 0.4rem; color: #555;">
-            <span class="lang-es">
-             Modelo 3D dentro del simulador de Unity
-            </span>
-            <span class="lang-en">
-             3D model inside Unity simulator
-            </span>
-           </figcaption>
-          </figure>
-         </div>
-         <div style="text-align: center; margin-top: 2rem;">
-          <video controls="" src="planta1.mp4" style="width: 90%; max-width: 1200px; border-radius: 8px;">
-          </video>
-          <p style="text-align: center; font-size: 0.95rem; color: #555; margin-top: 0.4rem;">
-           <span class="lang-es">
-            Interacción en tiempo real
-           </span>
-           <span class="lang-en">
-            Real-time interaction
-           </span>
-          </p>
-         </div> <!-- cierre del contenedor del vídeo -->
-       </div>   <!-- cierre del wrap de imágenes y vídeo -->
-     </div>     <!-- cierre de project-description -->
-   </div>       <!-- cierre de project-container -->
+
 
      <!-- Proyecto 2 -->
      <div class="project-container">
