@@ -2222,10 +2222,10 @@ https://www.microsoft.com/hololens
       </li>
       <li>
        <span class="lang-es">
-        Alemán: Nivel básico
+        Alemán: A1 (curso CSIC)
        </span>
        <span class="lang-en">
-        German: Basic level
+        German: A1 (CSIC course)
        </span>
       </li>
       <li>
@@ -2425,6 +2425,83 @@ https://www.microsoft.com/hololens
       Expert in Artificial Intelligence and Big Data
     </strong>
     (150 hours, 2025) – Bejob  
+  </span>
+</li>
+<li>
+  <span class="lang-es">
+    💻
+    <strong>Taller de Computación Cuántica IBM</strong>
+    (4 horas) – IBM
+  </span>
+  <span class="lang-en">
+    💻
+    <strong>IBM Quantum Computing Workshop</strong>
+    (4 hours) – IBM
+  </span>
+</li>
+
+<li>
+  <span class="lang-es">
+    ❄️
+    <strong>Escuela de Invierno Momentum en Ciencia de Datos e Inteligencia Artificial</strong>
+    (2 ECTS) – Momentum
+  </span>
+  <span class="lang-en">
+    ❄️
+    <strong>Momentum Winter School on Data Science and Artificial Intelligence</strong>
+    (2 ECTS) – Momentum
+  </span>
+</li>
+
+<li>
+  <span class="lang-es">
+    📚
+    <strong>Seminario sobre Recursos de Apoyo a la Investigación</strong>
+    (40 horas)
+  </span>
+  <span class="lang-en">
+    📚
+    <strong>Seminar on Research Support Resources</strong>
+    (40 hours)
+  </span>
+</li>
+
+<li>
+  <span class="lang-es">
+    🛰️
+    <strong>Introducción a la Teledetección en Ecología</strong>
+    (30 horas)
+  </span>
+  <span class="lang-en">
+    🛰️
+    <strong>Introduction to Remote Sensing in Ecology</strong>
+    (30 hours)
+  </span>
+</li>
+
+<li>
+  <span class="lang-es">
+    📈
+    <strong>Análisis y Visualización de Datos con Python</strong>
+    (20 horas)
+  </span>
+  <span class="lang-en">
+    📈
+    <strong>Data Analysis and Visualization with Python</strong>
+    (20 hours)
+  </span>
+</li>
+
+<li>
+  <span class="lang-es">
+    ☁️
+    <strong>AWS Agentic AI Foundations</strong>
+    orientado a investigadores (3 horas) – AWS
+  </span>
+  <span class="lang-en">
+    ☁️
+    <strong>AWS Agentic AI Foundations</strong>
+    for Researchers (3 hours) – AWS
   </span>
 </li>
       <li>
