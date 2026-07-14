@@ -2442,27 +2442,14 @@ https://www.microsoft.com/hololens
 
 <li>
   <span class="lang-es">
-    ❄️
-    <strong>Escuela de Invierno Momentum en Ciencia de Datos e Inteligencia Artificial</strong>
-    (2 ECTS) – Momentum
-  </span>
-  <span class="lang-en">
-    ❄️
-    <strong>Momentum Winter School on Data Science and Artificial Intelligence</strong>
-    (2 ECTS) – Momentum
-  </span>
-</li>
-
-<li>
-  <span class="lang-es">
     📚
     <strong>Seminario sobre Recursos de Apoyo a la Investigación</strong>
-    (40 horas)
+    (40 horas) – UPM
   </span>
   <span class="lang-en">
     📚
     <strong>Seminar on Research Support Resources</strong>
-    (40 hours)
+    (40 hours) – UPM
   </span>
 </li>
 
@@ -2470,12 +2457,12 @@ https://www.microsoft.com/hololens
   <span class="lang-es">
     🛰️
     <strong>Introducción a la Teledetección en Ecología</strong>
-    (30 horas)
+    (30 horas) – CSIC
   </span>
   <span class="lang-en">
     🛰️
     <strong>Introduction to Remote Sensing in Ecology</strong>
-    (30 hours)
+    (30 hours) – CSIC
   </span>
 </li>
 
@@ -2483,12 +2470,12 @@ https://www.microsoft.com/hololens
   <span class="lang-es">
     📈
     <strong>Análisis y Visualización de Datos con Python</strong>
-    (20 horas)
+    (20 horas) – CSIC
   </span>
   <span class="lang-en">
     📈
     <strong>Data Analysis and Visualization with Python</strong>
-    (20 hours)
+    (20 hours) – CSIC
   </span>
 </li>
 
